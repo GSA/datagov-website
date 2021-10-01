@@ -1,0 +1,6904 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Project Open Data Dashboard</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="https://labs.data.gov/dashboard/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://labs.data.gov/dashboard/css/bootstrap-theme.min.css">
+
+        <link rel="stylesheet" href="https://labs.data.gov/dashboard/css/main.css">
+        <link rel="shortcut icon" href="https://labs.data.gov/dashboard/favicon.ico" />
+
+        <script src="https://labs.data.gov/dashboard/js/vendor/modernizr.min.js"></script>
+        <link href="https://labs.data.gov/dashboard/css/font-awesome.min.css" rel="stylesheet">
+
+        <script src="https://labs.data.gov/dashboard/js/vendor/jquery-3.5.1.min.js"></script>
+        <script src="https://labs.data.gov/dashboard/js/vendor/bootstrap.min.js"></script>
+        <script src="https://labs.data.gov/dashboard/js/vendor/moment.min.js"></script>
+        <script src="https://labs.data.gov/dashboard/js/main.js"></script>
+
+</head>
+<body>
+    <!--[if lt IE 7]>
+        <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <![endif]-->
+
+
+
+<!-- Digital Analytics Program roll-up, see https://analytics.usa.gov for data -->
+
+<script id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=GSA&subagency=TTS"></script>
+
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="container ">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://labs.data.gov/dashboard/">Project Open Data Dashboard</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+
+
+        <li><a href="metrics.html">Agencies</a></li>
+        <li><a href="https://labs.data.gov/dashboard/validate">Validator</a></li>
+
+        <li class="dropdown">
+          <a href="metrics.html#" class="dropdown-toggle" data-toggle="dropdown">Converters <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="https://labs.data.gov/dashboard/export">Export API</a></li>
+            <li><a href="https://labs.data.gov/dashboard/upgrade-schema">Schema Converter</a></li>
+            <li><a href="https://labs.data.gov/dashboard/merge">Data.json Merger</a></li>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a href="metrics.html#" class="dropdown-toggle" data-toggle="dropdown">Help <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="https://labs.data.gov/dashboard/docs">Documentation</a></li>
+            <li><a href="https://github.com/GSA/project-open-data-dashboard/issues">Feedback</a></li>
+          </ul>
+        </li>
+
+        <li><a href="https://labs.data.gov/dashboard/docs/about">About</a></li>
+
+
+      </ul>
+
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div id="main-container">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container ">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div>
+
+          <p class="intro-blurb">This is a public dashboard showing how Federal agencies are performing on the Open Data Policy. <a href="https://labs.data.gov/dashboard/docs">Learn more</a></p>
+
+                           <p class="form-flash text-danger bg-danger"><strong>Current Milestone:</strong> The milestone selected is still in progress. The status of each field will be updated as frequently as possible, but won't be final until the milestone has passed</p>
+            
+
+           
+           
+           
+            <ul class="milestone-selector nav nav-pills">
+                <li class="dropdown active">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="metrics.html#">
+                      Selected: Evidence Act Milestone 10 - December 31st 2021 <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                                                    <li><a href="https://labs.data.gov/dashboard/offices/2013-11-30/qa">M-13-13 Milestone 1 - November 30th 2013</a></li>
+                                                    <li><a href="https://labs.data.gov/dashboard/offices/2014-02-28/qa">M-13-13 Milestone 2 - February 28th 2014</a></li>
+                                                    <li><a href="https://labs.data.gov/dashboard/offices/2014-05-31/qa">M-13-13 Milestone 3 - May 31st 2014</a></li>
+                                                    <li><a href="https://labs.data.gov/dashboard/offices/2014-08-31/qa">M-13-13 Milestone 4 - August 31st 2014</a></li>
+                                                    <li><a href="https://labs.data.gov/dashboard/offices/2014-11-30/qa">M-13-13 Milestone 5 - November 30th 2014</a></li>
+                                                    <li><a href="https://labs.data.gov/dashboard/offices/2015-02-28/qa">M-13-13 Milestone 6 - February 28th 2015</a></li>
+                                                    <li><a href="https://labs.data.gov/dashboard/offices/2015-05-31/qa">M-13-13 Milestone 7 - May 31st 2015</a></li>
+                                                    <li><a href="https://labs.data.gov/dashboard/offices/2015-08-31/qa">M-13-13 Milestone 8 - August 31st 2015</a></li>
+                                                    <li><a href="https://labs.data.gov/dashboard/offices/2015-11-30/qa">M-13-13 Milestone 9 - November 30th 2015</a></li>
+                                                    <li><a href="https://labs.data.gov/dashboard/offices/2016-02-29/qa">M-13-13 Milestone 10 - February 29th 2016</a></li>
+                                                    <li><a href="https://labs.data.gov/dashboard/offices/2016-05-31/qa">M-13-13 Milestone 11 - May 31st 2016</a></li>
+                                                    <li><a href="https://labs.data.gov/dashboard/offices/2016-08-31/qa">M-13-13 Milestone 12 - August 31st 2016</a></li>
+                                                    <li><a href="https://labs.data.gov/dashboard/offices/2016-11-30/qa">M-13-13 Milestone 13 - November 30th 2016</a></li>
+                                                    <li><a href="https://labs.data.gov/dashboard/offices/2017-02-28/qa">M-13-13 Milestone 14 - February 28th 2017</a></li>
+                                                    <li><a href="https://labs.data.gov/dashboard/offices/2017-05-31/qa">M-13-13 Milestone 15 - May 31st 2017</a></li>
+                                                    <li><a href="https://labs.data.gov/dashboard/offices/2017-08-31/qa">M-13-13 Milestone 16 - August 31st 2017</a></li>
+                                                    <li><a href="https://labs.data.gov/dashboard/offices/2017-11-30/qa">M-13-13 Milestone 17 - November 30th 2017</a></li>
+                                                    <li><a href="https://labs.data.gov/dashboard/offices/2018-02-28/qa">M-13-13 Milestone 18 - February 28th 2018</a></li>
+                                                    <li><a href="https://labs.data.gov/dashboard/offices/2018-05-31/qa">M-13-13 Milestone 19 - May 31st 2018</a></li>
+                                                    <li><a href="https://labs.data.gov/dashboard/offices/2018-08-31/qa">M-13-13 Milestone 20 - August 31st 2018</a></li>
+                                                    <li><a href="https://labs.data.gov/dashboard/offices/2018-11-30/qa">M-13-13 Milestone 21 - November 30th 2018</a></li>
+                                                    <li><a href="https://labs.data.gov/dashboard/offices/2019-02-28/qa">M-13-13 Milestone 22 - February 28th 2019</a></li>
+                                                    <li><a href="https://labs.data.gov/dashboard/offices/2019-05-31/qa">M-13-13 Milestone 23 - May 31st 2019</a></li>
+                                                    <li><a href="https://labs.data.gov/dashboard/offices/2019-08-31/qa">M-13-13 Milestone 24 - August 31st 2019</a></li>
+                                                    <li><a href="https://labs.data.gov/dashboard/offices/2019-09-30/qa">Evidence Act Milestone 1 - September 30th 2019</a></li>
+                                                    <li><a href="https://labs.data.gov/dashboard/offices/2019-12-31/qa">Evidence Act Milestone 2 - December 31st 2019</a></li>
+                                                    <li><a href="https://labs.data.gov/dashboard/offices/2020-03-31/qa">Evidence Act Milestone 3 - March 31st 2020</a></li>
+                                                    <li><a href="https://labs.data.gov/dashboard/offices/2020-06-30/qa">Evidence Act Milestone 4 - June 30th 2020</a></li>
+                                                    <li><a href="https://labs.data.gov/dashboard/offices/2020-09-30/qa">Evidence Act Milestone 5 - September 30th 2020</a></li>
+                                                    <li><a href="https://labs.data.gov/dashboard/offices/2020-12-31/qa">Evidence Act Milestone 6 - December 31st 2020</a></li>
+                                                    <li><a href="https://labs.data.gov/dashboard/offices/2021-03-31/qa">Evidence Act Milestone 7 - March 31st 2021</a></li>
+                                                    <li><a href="https://labs.data.gov/dashboard/offices/2021-06-30/qa">Evidence Act Milestone 8 - June 30th 2021</a></li>
+                                                    <li><a href="https://labs.data.gov/dashboard/offices/2021-09-30/qa">Evidence Act Milestone 9 - September 30th 2021</a></li>
+                                                    <li><a href="https://labs.data.gov/dashboard/offices/2021-12-31/qa">Evidence Act Milestone 10 - December 31st 2021</a></li>
+                                            </ul>
+                </li>
+            </ul>
+
+			
+	<table class="dashboard table table-striped table-hover table-bordered qa-table">
+
+		<tr class="dashboard-meta-heading">
+			<td>CFO Act Agencies</td>
+			<td colspan="16">
+				Crawl Summary
+			</td>
+		</tr>
+		<tr class="dashboard-heading">
+			<th class="col-sm-3">		<div class="sr-only">Agency			</div></th>
+
+
+							<th class="vertical-heading"><div>Last Crawl</div></th>
+							<th class="vertical-heading"><div>Last Modified</div></th>
+							<th class="vertical-heading"><div>Public Datasets</div></th>
+							<th class="vertical-heading"><div>Valid Metadata</div></th>
+							<th class="vertical-heading"><div>Programs</div></th>
+							<th class="vertical-heading"><div>Bureaus</div></th>
+							<th class="vertical-heading"><div>Public Datasets</div></th>
+							<th class="vertical-heading"><div>Restricted Datasets</div></th>
+							<th class="vertical-heading"><div>Non-public Datasets</div></th>
+							<th class="vertical-heading"><div>Datasets with downloads</div></th>
+							<th class="vertical-heading"><div>Total Download URLs</div></th>
+							<th class="vertical-heading"><div>Working Download URLs</div></th>
+							<th class="vertical-heading"><div>Correct Format</div></th>
+							<th class="vertical-heading"><div>HTML Downloads</div></th>
+							<th class="vertical-heading"><div>PDF Downloads</div></th>
+			
+
+		</tr>
+
+		
+
+
+		
+		
+		<tr>
+			<th><a href="https://labs.data.gov/dashboard/offices/detail/49015/2021-12-31">Department of Agriculture</a></th>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49015/2021-12-31#metrics_last_crawl">
+						<span>
+							01-Oct-2021 02:47:22 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49015/2021-12-31#metrics_last_modified">
+						<span>
+							31-Aug-2021 14:56:46 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49015/2021-12-31#metrics_total_records">
+						<span>
+							2217						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : hsl(120, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49015/2021-12-31#metrics_valid_count">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49015/2021-12-31#metrics_programs">
+						<span>
+							32						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49015/2021-12-31#metrics_bureaus">
+						<span>
+							17						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49015/2021-12-31#metrics_accessLevel_public">
+						<span>
+							88.4%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49015/2021-12-31#metrics_accessLevel_nonpublic">
+						<span>
+							11.5%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49015/2021-12-31#metrics_accessLevel_restricted">
+						<span>
+							0.1%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49015/2021-12-31#metrics_accessURL_present">
+						<span>
+							89.6%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49015/2021-12-31#metrics_accessURL_total">
+						<span>
+							4820						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : hsl(0, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49015/2021-12-31#metrics_accessURL_working">
+						<span>
+							69.3%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(0, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49015/2021-12-31#metrics_accessURL_format">
+						<span>
+							75.5%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(29, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49015/2021-12-31#metrics_accessURL_html">
+						<span>
+							46.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(48, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49015/2021-12-31#metrics_accessURL_pdf">
+						<span>
+							3.2%						</span>
+					</a>
+				</td>
+
+			
+		</tr>
+		
+		
+		<tr>
+			<th><a href="https://labs.data.gov/dashboard/offices/detail/49229/2021-12-31">Department of Defense</a></th>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49229/2021-12-31#metrics_last_crawl">
+						<span>
+							01-Oct-2021 04:07:14 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49229/2021-12-31#metrics_last_modified">
+						<span>
+							26-Sep-2018 13:19:43 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49229/2021-12-31#metrics_total_records">
+						<span>
+							177						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : hsl(120, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49229/2021-12-31#metrics_valid_count">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49229/2021-12-31#metrics_programs">
+						<span>
+							6						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49229/2021-12-31#metrics_bureaus">
+						<span>
+							9						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49229/2021-12-31#metrics_accessLevel_public">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49229/2021-12-31#metrics_accessLevel_nonpublic">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49229/2021-12-31#metrics_accessLevel_restricted">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49229/2021-12-31#metrics_accessURL_present">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49229/2021-12-31#metrics_accessURL_total">
+						<span>
+							188						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : hsl(0, 80%, 80%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49229/2021-12-31#metrics_accessURL_working">
+						<span>
+							3.7%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(120, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49229/2021-12-31#metrics_accessURL_format">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(120, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49229/2021-12-31#metrics_accessURL_html">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(30, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49229/2021-12-31#metrics_accessURL_pdf">
+						<span>
+							14.3%						</span>
+					</a>
+				</td>
+
+			
+		</tr>
+		
+		
+		<tr>
+			<th><a href="https://labs.data.gov/dashboard/offices/detail/49018/2021-12-31">Department of Education</a></th>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49018/2021-12-31#metrics_last_crawl">
+						<span>
+							01-Oct-2021 03:51:45 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49018/2021-12-31#metrics_last_modified">
+						<span>
+							29-Sep-2021 12:00:07 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49018/2021-12-31#metrics_total_records">
+						<span>
+							619						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : hsl(120, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49018/2021-12-31#metrics_valid_count">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49018/2021-12-31#metrics_programs">
+						<span>
+							3						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49018/2021-12-31#metrics_bureaus">
+						<span>
+							10						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49018/2021-12-31#metrics_accessLevel_public">
+						<span>
+							94.7%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49018/2021-12-31#metrics_accessLevel_nonpublic">
+						<span>
+							0.3%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49018/2021-12-31#metrics_accessLevel_restricted">
+						<span>
+							5.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49018/2021-12-31#metrics_accessURL_present">
+						<span>
+							85.8%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49018/2021-12-31#metrics_accessURL_total">
+						<span>
+							2606						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : hsl(1, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49018/2021-12-31#metrics_accessURL_working">
+						<span>
+							83.5%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(0, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49018/2021-12-31#metrics_accessURL_format">
+						<span>
+							74.3%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(71, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49018/2021-12-31#metrics_accessURL_html">
+						<span>
+							7.7%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(64, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49018/2021-12-31#metrics_accessURL_pdf">
+						<span>
+							0.6%						</span>
+					</a>
+				</td>
+
+			
+		</tr>
+		
+		
+		<tr>
+			<th><a href="https://labs.data.gov/dashboard/offices/detail/49019/2021-12-31">Department of Energy</a></th>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49019/2021-12-31#metrics_last_crawl">
+						<span>
+							01-Oct-2021 03:53:05 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49019/2021-12-31#metrics_last_modified">
+						<span>
+							07-Sep-2021 10:00:27 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49019/2021-12-31#metrics_total_records">
+						<span>
+							450						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : hsl(120, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49019/2021-12-31#metrics_valid_count">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49019/2021-12-31#metrics_programs">
+						<span>
+							12						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49019/2021-12-31#metrics_bureaus">
+						<span>
+							5						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49019/2021-12-31#metrics_accessLevel_public">
+						<span>
+							58.2%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49019/2021-12-31#metrics_accessLevel_nonpublic">
+						<span>
+							1.3%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49019/2021-12-31#metrics_accessLevel_restricted">
+						<span>
+							40.4%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49019/2021-12-31#metrics_accessURL_present">
+						<span>
+							93.6%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49019/2021-12-31#metrics_accessURL_total">
+						<span>
+							718						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : hsl(0, 80%, 80%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49019/2021-12-31#metrics_accessURL_working">
+						<span>
+							12.8%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(0, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49019/2021-12-31#metrics_accessURL_format">
+						<span>
+							70.7%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(67, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49019/2021-12-31#metrics_accessURL_html">
+						<span>
+							9.8%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(120, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49019/2021-12-31#metrics_accessURL_pdf">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+		</tr>
+		
+		
+		<tr>
+			<th><a href="https://labs.data.gov/dashboard/offices/detail/49021/2021-12-31">Department of Health and Human Services</a></th>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49021/2021-12-31#metrics_last_crawl">
+						<span>
+							01-Oct-2021 03:18:14 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49021/2021-12-31#metrics_last_modified">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49021/2021-12-31#metrics_total_records">
+						<span>
+							1568						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : hsl(0, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49021/2021-12-31#metrics_valid_count">
+						<span>
+							90.2%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49021/2021-12-31#metrics_programs">
+						<span>
+							75						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49021/2021-12-31#metrics_bureaus">
+						<span>
+							16						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49021/2021-12-31#metrics_accessLevel_public">
+						<span>
+							98.6%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49021/2021-12-31#metrics_accessLevel_nonpublic">
+						<span>
+							0.8%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49021/2021-12-31#metrics_accessLevel_restricted">
+						<span>
+							0.6%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49021/2021-12-31#metrics_accessURL_present">
+						<span>
+							89.8%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49021/2021-12-31#metrics_accessURL_total">
+						<span>
+							4679						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : hsl(0, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49021/2021-12-31#metrics_accessURL_working">
+						<span>
+							74.3%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(0, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49021/2021-12-31#metrics_accessURL_format">
+						<span>
+							73.2%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(75, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49021/2021-12-31#metrics_accessURL_html">
+						<span>
+							6.2%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(120, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49021/2021-12-31#metrics_accessURL_pdf">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+		</tr>
+		
+		
+		<tr>
+			<th><a href="https://labs.data.gov/dashboard/offices/detail/49022/2021-12-31">Department of Homeland Security</a></th>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49022/2021-12-31#metrics_last_crawl">
+						<span>
+							01-Oct-2021 03:55:56 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49022/2021-12-31#metrics_last_modified">
+						<span>
+							01-Sep-2021 12:33:49 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49022/2021-12-31#metrics_total_records">
+						<span>
+							2994						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : hsl(120, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49022/2021-12-31#metrics_valid_count">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49022/2021-12-31#metrics_programs">
+						<span>
+							1						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49022/2021-12-31#metrics_bureaus">
+						<span>
+							10						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49022/2021-12-31#metrics_accessLevel_public">
+						<span>
+							8.8%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49022/2021-12-31#metrics_accessLevel_nonpublic">
+						<span>
+							33.7%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49022/2021-12-31#metrics_accessLevel_restricted">
+						<span>
+							57.5%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49022/2021-12-31#metrics_accessURL_present">
+						<span>
+							24.2%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49022/2021-12-31#metrics_accessURL_total">
+						<span>
+							726						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : hsl(0, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49022/2021-12-31#metrics_accessURL_working">
+						<span>
+							73.7%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(120, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49022/2021-12-31#metrics_accessURL_format">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(120, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49022/2021-12-31#metrics_accessURL_html">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(39, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49022/2021-12-31#metrics_accessURL_pdf">
+						<span>
+							7.1%						</span>
+					</a>
+				</td>
+
+			
+		</tr>
+		
+		
+		<tr>
+			<th><a href="https://labs.data.gov/dashboard/offices/detail/49023/2021-12-31">Department of Housing and Urban Development</a></th>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49023/2021-12-31#metrics_last_crawl">
+						<span>
+							01-Oct-2021 03:56:59 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49023/2021-12-31#metrics_last_modified">
+						<span>
+							31-Jul-2021 00:00:20 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49023/2021-12-31#metrics_total_records">
+						<span>
+							171						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : hsl(120, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49023/2021-12-31#metrics_valid_count">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49023/2021-12-31#metrics_programs">
+						<span>
+							28						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49023/2021-12-31#metrics_bureaus">
+						<span>
+							8						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49023/2021-12-31#metrics_accessLevel_public">
+						<span>
+							71.9%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49023/2021-12-31#metrics_accessLevel_nonpublic">
+						<span>
+							15.2%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49023/2021-12-31#metrics_accessLevel_restricted">
+						<span>
+							12.9%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49023/2021-12-31#metrics_accessURL_present">
+						<span>
+							83.6%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49023/2021-12-31#metrics_accessURL_total">
+						<span>
+							172						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : hsl(0, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49023/2021-12-31#metrics_accessURL_working">
+						<span>
+							51.2%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(96, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49023/2021-12-31#metrics_accessURL_format">
+						<span>
+							98.9%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(42, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49023/2021-12-31#metrics_accessURL_html">
+						<span>
+							29.5%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(120, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49023/2021-12-31#metrics_accessURL_pdf">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+		</tr>
+		
+		
+		<tr>
+			<th><a href="https://labs.data.gov/dashboard/offices/detail/52686/2021-12-31">Department of Justice</a></th>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52686/2021-12-31#metrics_last_crawl">
+						<span>
+							01-Oct-2021 04:13:20 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52686/2021-12-31#metrics_last_modified">
+						<span>
+							18-Aug-2021 10:14:17 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52686/2021-12-31#metrics_total_records">
+						<span>
+							3316						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : hsl(120, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52686/2021-12-31#metrics_valid_count">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52686/2021-12-31#metrics_programs">
+						<span>
+							11						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52686/2021-12-31#metrics_bureaus">
+						<span>
+							8						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52686/2021-12-31#metrics_accessLevel_public">
+						<span>
+							57.8%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52686/2021-12-31#metrics_accessLevel_nonpublic">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52686/2021-12-31#metrics_accessLevel_restricted">
+						<span>
+							42.2%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52686/2021-12-31#metrics_accessURL_present">
+						<span>
+							95.3%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52686/2021-12-31#metrics_accessURL_total">
+						<span>
+							3215						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : hsl(0, 80%, 80%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52686/2021-12-31#metrics_accessURL_working">
+						<span>
+							6.7%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(5, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52686/2021-12-31#metrics_accessURL_format">
+						<span>
+							85.6%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(33, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52686/2021-12-31#metrics_accessURL_html">
+						<span>
+							39.4%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(45, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52686/2021-12-31#metrics_accessURL_pdf">
+						<span>
+							4.2%						</span>
+					</a>
+				</td>
+
+			
+		</tr>
+		
+		
+		<tr>
+			<th><a href="https://labs.data.gov/dashboard/offices/detail/49030/2021-12-31">Department of State</a></th>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49030/2021-12-31#metrics_last_crawl">
+						<span>
+							01-Oct-2021 04:00:45 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49030/2021-12-31#metrics_last_modified">
+						<span>
+							30-Mar-2021 11:25:02 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49030/2021-12-31#metrics_total_records">
+						<span>
+							380						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : hsl(120, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49030/2021-12-31#metrics_valid_count">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49030/2021-12-31#metrics_programs">
+						<span>
+							5						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49030/2021-12-31#metrics_bureaus">
+						<span>
+							1						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49030/2021-12-31#metrics_accessLevel_public">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49030/2021-12-31#metrics_accessLevel_nonpublic">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49030/2021-12-31#metrics_accessLevel_restricted">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49030/2021-12-31#metrics_accessURL_present">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49030/2021-12-31#metrics_accessURL_total">
+						<span>
+							758						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : hsl(0, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49030/2021-12-31#metrics_accessURL_working">
+						<span>
+							71.1%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(111, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49030/2021-12-31#metrics_accessURL_format">
+						<span>
+							99.6%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(33, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49030/2021-12-31#metrics_accessURL_html">
+						<span>
+							40.3%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(31, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49030/2021-12-31#metrics_accessURL_pdf">
+						<span>
+							13.7%						</span>
+					</a>
+				</td>
+
+			
+		</tr>
+		
+		
+		<tr>
+			<th><a href="https://labs.data.gov/dashboard/offices/detail/49034/2021-12-31">Department of the Treasury</a></th>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49034/2021-12-31#metrics_last_crawl">
+						<span>
+							01-Oct-2021 04:02:01 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49034/2021-12-31#metrics_last_modified">
+						<span>
+							08-Mar-2021 08:20:25 EST						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49034/2021-12-31#metrics_total_records">
+						<span>
+							239						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : hsl(120, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49034/2021-12-31#metrics_valid_count">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49034/2021-12-31#metrics_programs">
+						<span>
+							18						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49034/2021-12-31#metrics_bureaus">
+						<span>
+							10						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49034/2021-12-31#metrics_accessLevel_public">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49034/2021-12-31#metrics_accessLevel_nonpublic">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49034/2021-12-31#metrics_accessLevel_restricted">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49034/2021-12-31#metrics_accessURL_present">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49034/2021-12-31#metrics_accessURL_total">
+						<span>
+							631						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : hsl(0, 80%, 80%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49034/2021-12-31#metrics_accessURL_working">
+						<span>
+							39.9%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(1, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49034/2021-12-31#metrics_accessURL_format">
+						<span>
+							80.2%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(6, 80%, 80%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49034/2021-12-31#metrics_accessURL_html">
+						<span>
+							86.9%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(43, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49034/2021-12-31#metrics_accessURL_pdf">
+						<span>
+							5.2%						</span>
+					</a>
+				</td>
+
+			
+		</tr>
+		
+		
+		<tr>
+			<th><a href="https://labs.data.gov/dashboard/offices/detail/48027/2021-12-31">Department of Veterans Affairs</a></th>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/48027/2021-12-31#metrics_last_crawl">
+						<span>
+							01-Oct-2021 01:48:47 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/48027/2021-12-31#metrics_last_modified">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/48027/2021-12-31#metrics_total_records">
+						<span>
+							1965						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : hsl(112, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/48027/2021-12-31#metrics_valid_count">
+						<span>
+							99.9%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/48027/2021-12-31#metrics_programs">
+						<span>
+							35						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/48027/2021-12-31#metrics_bureaus">
+						<span>
+							4						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/48027/2021-12-31#metrics_accessLevel_public">
+						<span>
+							85.4%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/48027/2021-12-31#metrics_accessLevel_nonpublic">
+						<span>
+							13.3%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/48027/2021-12-31#metrics_accessLevel_restricted">
+						<span>
+							1.3%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/48027/2021-12-31#metrics_accessURL_present">
+						<span>
+							81.6%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/48027/2021-12-31#metrics_accessURL_total">
+						<span>
+							2632						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : hsl(0, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/48027/2021-12-31#metrics_accessURL_working">
+						<span>
+							68.3%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(1, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/48027/2021-12-31#metrics_accessURL_format">
+						<span>
+							77.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(81, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/48027/2021-12-31#metrics_accessURL_html">
+						<span>
+							4.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(26, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/48027/2021-12-31#metrics_accessURL_pdf">
+						<span>
+							19.0%						</span>
+					</a>
+				</td>
+
+			
+		</tr>
+		
+		
+		<tr>
+			<th><a href="https://labs.data.gov/dashboard/offices/detail/49048/2021-12-31">General Services Administration</a></th>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49048/2021-12-31#metrics_last_crawl">
+						<span>
+							01-Oct-2021 04:02:46 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49048/2021-12-31#metrics_last_modified">
+						<span>
+							29-Sep-2021 12:34:11 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49048/2021-12-31#metrics_total_records">
+						<span>
+							306						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : hsl(120, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49048/2021-12-31#metrics_valid_count">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49048/2021-12-31#metrics_programs">
+						<span>
+							19						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49048/2021-12-31#metrics_bureaus">
+						<span>
+							6						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49048/2021-12-31#metrics_accessLevel_public">
+						<span>
+							88.9%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49048/2021-12-31#metrics_accessLevel_nonpublic">
+						<span>
+							10.8%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49048/2021-12-31#metrics_accessLevel_restricted">
+						<span>
+							0.3%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49048/2021-12-31#metrics_accessURL_present">
+						<span>
+							91.5%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49048/2021-12-31#metrics_accessURL_total">
+						<span>
+							415						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : hsl(0, 80%, 80%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49048/2021-12-31#metrics_accessURL_working">
+						<span>
+							13.5%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(58, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49048/2021-12-31#metrics_accessURL_format">
+						<span>
+							96.4%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(83, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49048/2021-12-31#metrics_accessURL_html">
+						<span>
+							3.6%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(120, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49048/2021-12-31#metrics_accessURL_pdf">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+		</tr>
+		
+		
+		<tr>
+			<th><a href="https://labs.data.gov/dashboard/offices/detail/52640/2021-12-31">National Science Foundation</a></th>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52640/2021-12-31#metrics_last_crawl">
+						<span>
+							01-Oct-2021 04:09:22 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52640/2021-12-31#metrics_last_modified">
+						<span>
+							29-Sep-2021 11:24:44 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52640/2021-12-31#metrics_total_records">
+						<span>
+							119						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : hsl(120, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52640/2021-12-31#metrics_valid_count">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52640/2021-12-31#metrics_programs">
+						<span>
+							2						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52640/2021-12-31#metrics_bureaus">
+						<span>
+							2						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52640/2021-12-31#metrics_accessLevel_public">
+						<span>
+							98.3%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52640/2021-12-31#metrics_accessLevel_nonpublic">
+						<span>
+							0.8%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52640/2021-12-31#metrics_accessLevel_restricted">
+						<span>
+							0.8%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52640/2021-12-31#metrics_accessURL_present">
+						<span>
+							90.8%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52640/2021-12-31#metrics_accessURL_total">
+						<span>
+							128						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : hsl(0, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52640/2021-12-31#metrics_accessURL_working">
+						<span>
+							82.8%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(20, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52640/2021-12-31#metrics_accessURL_format">
+						<span>
+							91.5%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(74, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52640/2021-12-31#metrics_accessURL_html">
+						<span>
+							6.6%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(40, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52640/2021-12-31#metrics_accessURL_pdf">
+						<span>
+							6.6%						</span>
+					</a>
+				</td>
+
+			
+		</tr>
+		
+		
+		<tr>
+			<th><a href="https://labs.data.gov/dashboard/offices/detail/52645/2021-12-31">Nuclear Regulatory Commission</a></th>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52645/2021-12-31#metrics_last_crawl">
+						<span>
+							01-Oct-2021 04:09:28 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52645/2021-12-31#metrics_last_modified">
+						<span>
+							30-Sep-2021 09:49:06 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52645/2021-12-31#metrics_total_records">
+						<span>
+							45						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : hsl(120, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52645/2021-12-31#metrics_valid_count">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52645/2021-12-31#metrics_programs">
+						<span>
+							1						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52645/2021-12-31#metrics_bureaus">
+						<span>
+							1						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52645/2021-12-31#metrics_accessLevel_public">
+						<span>
+							93.3%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52645/2021-12-31#metrics_accessLevel_nonpublic">
+						<span>
+							6.7%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52645/2021-12-31#metrics_accessLevel_restricted">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52645/2021-12-31#metrics_accessURL_present">
+						<span>
+							93.3%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52645/2021-12-31#metrics_accessURL_total">
+						<span>
+							42						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : hsl(0, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52645/2021-12-31#metrics_accessURL_working">
+						<span>
+							81.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(1, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52645/2021-12-31#metrics_accessURL_format">
+						<span>
+							79.4%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(85, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52645/2021-12-31#metrics_accessURL_html">
+						<span>
+							2.9%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(120, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52645/2021-12-31#metrics_accessURL_pdf">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+		</tr>
+		
+		
+		<tr>
+			<th><a href="https://labs.data.gov/dashboard/offices/detail/48139/2021-12-31">Small Business Administration</a></th>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/48139/2021-12-31#metrics_last_crawl">
+						<span>
+							01-Oct-2021 01:50:25 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/48139/2021-12-31#metrics_last_modified">
+						<span>
+							31-Aug-2021 15:33:49 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/48139/2021-12-31#metrics_total_records">
+						<span>
+							1145						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : hsl(120, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/48139/2021-12-31#metrics_valid_count">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/48139/2021-12-31#metrics_programs">
+						<span>
+							9						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/48139/2021-12-31#metrics_bureaus">
+						<span>
+							2						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/48139/2021-12-31#metrics_accessLevel_public">
+						<span>
+							97.4%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/48139/2021-12-31#metrics_accessLevel_nonpublic">
+						<span>
+							2.5%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/48139/2021-12-31#metrics_accessLevel_restricted">
+						<span>
+							0.1%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/48139/2021-12-31#metrics_accessURL_present">
+						<span>
+							99.2%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/48139/2021-12-31#metrics_accessURL_total">
+						<span>
+							1153						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : hsl(0, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/48139/2021-12-31#metrics_accessURL_working">
+						<span>
+							81.5%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(104, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/48139/2021-12-31#metrics_accessURL_format">
+						<span>
+							99.3%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(104, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/48139/2021-12-31#metrics_accessURL_html">
+						<span>
+							0.3%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(1, 80%, 80%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/48139/2021-12-31#metrics_accessURL_pdf">
+						<span>
+							92.7%						</span>
+					</a>
+				</td>
+
+			
+		</tr>
+		
+		
+		<tr>
+			<th><a href="https://labs.data.gov/dashboard/offices/detail/49057/2021-12-31">Social Security Administration</a></th>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49057/2021-12-31#metrics_last_crawl">
+						<span>
+							01-Oct-2021 04:06:45 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49057/2021-12-31#metrics_last_modified">
+						<span>
+							27-Sep-2021 13:14:41 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49057/2021-12-31#metrics_total_records">
+						<span>
+							2106						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : hsl(120, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49057/2021-12-31#metrics_valid_count">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49057/2021-12-31#metrics_programs">
+						<span>
+							1						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49057/2021-12-31#metrics_bureaus">
+						<span>
+							1						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49057/2021-12-31#metrics_accessLevel_public">
+						<span>
+							72.6%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49057/2021-12-31#metrics_accessLevel_nonpublic">
+						<span>
+							22.6%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49057/2021-12-31#metrics_accessLevel_restricted">
+						<span>
+							4.7%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49057/2021-12-31#metrics_accessURL_present">
+						<span>
+							68.2%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49057/2021-12-31#metrics_accessURL_total">
+						<span>
+							1916						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : hsl(94, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49057/2021-12-31#metrics_accessURL_working">
+						<span>
+							99.2%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(115, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49057/2021-12-31#metrics_accessURL_format">
+						<span>
+							99.8%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(64, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49057/2021-12-31#metrics_accessURL_html">
+						<span>
+							11.1%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(35, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49057/2021-12-31#metrics_accessURL_pdf">
+						<span>
+							9.8%						</span>
+					</a>
+				</td>
+
+			
+		</tr>
+			</table>
+	
+
+
+	<table class="dashboard table table-striped table-hover table-bordered qa-table">
+
+		<tr class="dashboard-meta-heading">
+			<td>Other Agencies</td>
+			<td colspan="16">
+				Crawl Summary
+			</td>
+		</tr>
+		<tr class="dashboard-heading">
+			<th class="col-sm-3">		<div class="sr-only">Agency			</div></th>
+
+
+							<th class="vertical-heading"><div>Last Crawl</div></th>
+							<th class="vertical-heading"><div>Last Modified</div></th>
+							<th class="vertical-heading"><div>Public Datasets</div></th>
+							<th class="vertical-heading"><div>Valid Metadata</div></th>
+							<th class="vertical-heading"><div>Programs</div></th>
+							<th class="vertical-heading"><div>Bureaus</div></th>
+							<th class="vertical-heading"><div>Public Datasets</div></th>
+							<th class="vertical-heading"><div>Restricted Datasets</div></th>
+							<th class="vertical-heading"><div>Non-public Datasets</div></th>
+							<th class="vertical-heading"><div>Datasets with downloads</div></th>
+							<th class="vertical-heading"><div>Total Download URLs</div></th>
+							<th class="vertical-heading"><div>Working Download URLs</div></th>
+							<th class="vertical-heading"><div>Correct Format</div></th>
+							<th class="vertical-heading"><div>HTML Downloads</div></th>
+							<th class="vertical-heading"><div>PDF Downloads</div></th>
+			
+
+		</tr>
+
+		
+
+
+		
+		
+		<tr>
+			<th><a href="https://labs.data.gov/dashboard/offices/detail/49113/2021-12-31">Consumer Financial Protection Bureau</a></th>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49113/2021-12-31#metrics_last_crawl">
+						<span>
+							01-Oct-2021 04:06:54 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49113/2021-12-31#metrics_last_modified">
+						<span>
+							28-Sep-2021 13:43:09 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49113/2021-12-31#metrics_total_records">
+						<span>
+							7						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : hsl(120, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49113/2021-12-31#metrics_valid_count">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49113/2021-12-31#metrics_programs">
+						<span>
+							1						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49113/2021-12-31#metrics_bureaus">
+						<span>
+							1						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49113/2021-12-31#metrics_accessLevel_public">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49113/2021-12-31#metrics_accessLevel_nonpublic">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49113/2021-12-31#metrics_accessLevel_restricted">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49113/2021-12-31#metrics_accessURL_present">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49113/2021-12-31#metrics_accessURL_total">
+						<span>
+							68						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : hsl(0, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49113/2021-12-31#metrics_accessURL_working">
+						<span>
+							76.5%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(0, 80%, 80%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49113/2021-12-31#metrics_accessURL_format">
+						<span>
+							1.9%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(82, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49113/2021-12-31#metrics_accessURL_html">
+						<span>
+							3.8%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(120, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49113/2021-12-31#metrics_accessURL_pdf">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+		</tr>
+		
+		
+		<tr>
+			<th><a href="https://labs.data.gov/dashboard/offices/detail/49013/2021-12-31">Consumer Product Safety Commission</a></th>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49013/2021-12-31#metrics_last_crawl">
+						<span>
+							01-Oct-2021 01:50:29 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49013/2021-12-31#metrics_last_modified">
+						<span>
+							26-Jul-2021 12:04:59 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49013/2021-12-31#metrics_total_records">
+						<span>
+							8						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : hsl(0, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49013/2021-12-31#metrics_valid_count">
+						<span>
+							87.5%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49013/2021-12-31#metrics_programs">
+						<span>
+							1						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49013/2021-12-31#metrics_bureaus">
+						<span>
+							1						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49013/2021-12-31#metrics_accessLevel_public">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49013/2021-12-31#metrics_accessLevel_nonpublic">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49013/2021-12-31#metrics_accessLevel_restricted">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49013/2021-12-31#metrics_accessURL_present">
+						<span>
+							87.5%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49013/2021-12-31#metrics_accessURL_total">
+						<span>
+							7						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : hsl(0, 80%, 80%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49013/2021-12-31#metrics_accessURL_working">
+						<span>
+							14.3%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(0, 80%, 80%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49013/2021-12-31#metrics_accessURL_format">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(0, 80%, 80%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49013/2021-12-31#metrics_accessURL_html">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(120, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49013/2021-12-31#metrics_accessURL_pdf">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+		</tr>
+		
+		
+		<tr>
+			<th><a href="https://labs.data.gov/dashboard/offices/detail/48032/2021-12-31">Equal Employment Opportunity Commission</a></th>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/48032/2021-12-31#metrics_last_crawl">
+						<span>
+							01-Oct-2021 01:49:22 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/48032/2021-12-31#metrics_last_modified">
+						<span>
+							27-Apr-2020 19:57:02 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/48032/2021-12-31#metrics_total_records">
+						<span>
+							136						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : hsl(120, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/48032/2021-12-31#metrics_valid_count">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/48032/2021-12-31#metrics_programs">
+						<span>
+							1						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/48032/2021-12-31#metrics_bureaus">
+						<span>
+							1						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/48032/2021-12-31#metrics_accessLevel_public">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/48032/2021-12-31#metrics_accessLevel_nonpublic">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/48032/2021-12-31#metrics_accessLevel_restricted">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/48032/2021-12-31#metrics_accessURL_present">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/48032/2021-12-31#metrics_accessURL_total">
+						<span>
+							141						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : hsl(0, 80%, 80%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/48032/2021-12-31#metrics_accessURL_working">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(0, 80%, 80%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/48032/2021-12-31#metrics_accessURL_format">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(120, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/48032/2021-12-31#metrics_accessURL_html">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(120, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/48032/2021-12-31#metrics_accessURL_pdf">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+		</tr>
+		
+		
+		<tr>
+			<th><a href="https://labs.data.gov/dashboard/offices/detail/49041/2021-12-31">Federal Communications Commission</a></th>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49041/2021-12-31#metrics_last_crawl">
+						<span>
+							01-Oct-2021 04:02:06 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49041/2021-12-31#metrics_last_modified">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49041/2021-12-31#metrics_total_records">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49041/2021-12-31#metrics_valid_count">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49041/2021-12-31#metrics_programs">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49041/2021-12-31#metrics_bureaus">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49041/2021-12-31#metrics_accessLevel_public">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49041/2021-12-31#metrics_accessLevel_nonpublic">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49041/2021-12-31#metrics_accessLevel_restricted">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49041/2021-12-31#metrics_accessURL_present">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49041/2021-12-31#metrics_accessURL_total">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49041/2021-12-31#metrics_accessURL_working">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49041/2021-12-31#metrics_accessURL_format">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49041/2021-12-31#metrics_accessURL_html">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49041/2021-12-31#metrics_accessURL_pdf">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+		</tr>
+		
+		
+		<tr>
+			<th><a href="https://labs.data.gov/dashboard/offices/detail/49043/2021-12-31">Federal Deposit Insurance Corporation</a></th>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49043/2021-12-31#metrics_last_crawl">
+						<span>
+							01-Oct-2021 04:02:13 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49043/2021-12-31#metrics_last_modified">
+						<span>
+							27-Apr-2021 19:12:03 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49043/2021-12-31#metrics_total_records">
+						<span>
+							9						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : hsl(120, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49043/2021-12-31#metrics_valid_count">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49043/2021-12-31#metrics_programs">
+						<span>
+							1						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49043/2021-12-31#metrics_bureaus">
+						<span>
+							1						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49043/2021-12-31#metrics_accessLevel_public">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49043/2021-12-31#metrics_accessLevel_nonpublic">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49043/2021-12-31#metrics_accessLevel_restricted">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49043/2021-12-31#metrics_accessURL_present">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49043/2021-12-31#metrics_accessURL_total">
+						<span>
+							20						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : hsl(0, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49043/2021-12-31#metrics_accessURL_working">
+						<span>
+							80.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(0, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49043/2021-12-31#metrics_accessURL_format">
+						<span>
+							75.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(35, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49043/2021-12-31#metrics_accessURL_html">
+						<span>
+							37.5%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(120, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49043/2021-12-31#metrics_accessURL_pdf">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+		</tr>
+		
+		
+		<tr>
+			<th><a href="https://labs.data.gov/dashboard/offices/detail/52611/2021-12-31">Federal Housing Finance Agency</a></th>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52611/2021-12-31#metrics_last_crawl">
+						<span>
+							01-Oct-2021 04:08:47 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52611/2021-12-31#metrics_last_modified">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52611/2021-12-31#metrics_total_records">
+						<span>
+							2						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : hsl(120, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52611/2021-12-31#metrics_valid_count">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52611/2021-12-31#metrics_programs">
+						<span>
+							1						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52611/2021-12-31#metrics_bureaus">
+						<span>
+							1						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52611/2021-12-31#metrics_accessLevel_public">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52611/2021-12-31#metrics_accessLevel_nonpublic">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52611/2021-12-31#metrics_accessLevel_restricted">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52611/2021-12-31#metrics_accessURL_present">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52611/2021-12-31#metrics_accessURL_total">
+						<span>
+							6						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : hsl(0, 80%, 80%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52611/2021-12-31#metrics_accessURL_working">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(0, 80%, 80%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52611/2021-12-31#metrics_accessURL_format">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(120, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52611/2021-12-31#metrics_accessURL_html">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(120, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52611/2021-12-31#metrics_accessURL_pdf">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+		</tr>
+		
+		
+		<tr>
+			<th><a href="https://labs.data.gov/dashboard/offices/detail/49320/2021-12-31">Federal Retirement Thrift Investment Board</a></th>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49320/2021-12-31#metrics_last_crawl">
+						<span>
+							01-Oct-2021 04:07:23 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49320/2021-12-31#metrics_last_modified">
+						<span>
+							08-Apr-2021 16:33:28 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49320/2021-12-31#metrics_total_records">
+						<span>
+							6						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : hsl(120, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49320/2021-12-31#metrics_valid_count">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49320/2021-12-31#metrics_programs">
+						<span>
+							2						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49320/2021-12-31#metrics_bureaus">
+						<span>
+							2						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49320/2021-12-31#metrics_accessLevel_public">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49320/2021-12-31#metrics_accessLevel_nonpublic">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49320/2021-12-31#metrics_accessLevel_restricted">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49320/2021-12-31#metrics_accessURL_present">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49320/2021-12-31#metrics_accessURL_total">
+						<span>
+							14						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : hsl(120, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49320/2021-12-31#metrics_accessURL_working">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(120, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49320/2021-12-31#metrics_accessURL_format">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(120, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49320/2021-12-31#metrics_accessURL_html">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(4, 80%, 80%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49320/2021-12-31#metrics_accessURL_pdf">
+						<span>
+							78.6%						</span>
+					</a>
+				</td>
+
+			
+		</tr>
+		
+		
+		<tr>
+			<th><a href="https://labs.data.gov/dashboard/offices/detail/49047/2021-12-31">Federal Trade Commission</a></th>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49047/2021-12-31#metrics_last_crawl">
+						<span>
+							01-Oct-2021 04:02:24 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49047/2021-12-31#metrics_last_modified">
+						<span>
+							16-Apr-2020 19:09:10 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49047/2021-12-31#metrics_total_records">
+						<span>
+							95						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : hsl(120, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49047/2021-12-31#metrics_valid_count">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49047/2021-12-31#metrics_programs">
+						<span>
+							1						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49047/2021-12-31#metrics_bureaus">
+						<span>
+							1						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49047/2021-12-31#metrics_accessLevel_public">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49047/2021-12-31#metrics_accessLevel_nonpublic">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49047/2021-12-31#metrics_accessLevel_restricted">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49047/2021-12-31#metrics_accessURL_present">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49047/2021-12-31#metrics_accessURL_total">
+						<span>
+							112						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : hsl(1, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49047/2021-12-31#metrics_accessURL_working">
+						<span>
+							85.7%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(120, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49047/2021-12-31#metrics_accessURL_format">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(120, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49047/2021-12-31#metrics_accessURL_html">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(120, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49047/2021-12-31#metrics_accessURL_pdf">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+		</tr>
+		
+		
+		<tr>
+			<th><a href="https://labs.data.gov/dashboard/offices/detail/52630/2021-12-31">Merit Systems Protection Board</a></th>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52630/2021-12-31#metrics_last_crawl">
+						<span>
+							01-Oct-2021 04:08:59 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52630/2021-12-31#metrics_last_modified">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52630/2021-12-31#metrics_total_records">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52630/2021-12-31#metrics_valid_count">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52630/2021-12-31#metrics_programs">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52630/2021-12-31#metrics_bureaus">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52630/2021-12-31#metrics_accessLevel_public">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52630/2021-12-31#metrics_accessLevel_nonpublic">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52630/2021-12-31#metrics_accessLevel_restricted">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52630/2021-12-31#metrics_accessURL_present">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52630/2021-12-31#metrics_accessURL_total">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52630/2021-12-31#metrics_accessURL_working">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52630/2021-12-31#metrics_accessURL_format">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52630/2021-12-31#metrics_accessURL_html">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52630/2021-12-31#metrics_accessURL_pdf">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+		</tr>
+		
+		
+		<tr>
+			<th><a href="https://labs.data.gov/dashboard/offices/detail/49473/2021-12-31">Morris K. Udall and Stewart L. Udall Foundation</a></th>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49473/2021-12-31#metrics_last_crawl">
+						<span>
+							01-Oct-2021 04:07:31 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49473/2021-12-31#metrics_last_modified">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49473/2021-12-31#metrics_total_records">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49473/2021-12-31#metrics_valid_count">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49473/2021-12-31#metrics_programs">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49473/2021-12-31#metrics_bureaus">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49473/2021-12-31#metrics_accessLevel_public">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49473/2021-12-31#metrics_accessLevel_nonpublic">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49473/2021-12-31#metrics_accessLevel_restricted">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49473/2021-12-31#metrics_accessURL_present">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49473/2021-12-31#metrics_accessURL_total">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49473/2021-12-31#metrics_accessURL_working">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49473/2021-12-31#metrics_accessURL_format">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49473/2021-12-31#metrics_accessURL_html">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49473/2021-12-31#metrics_accessURL_pdf">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+		</tr>
+		
+		
+		<tr>
+			<th><a href="https://labs.data.gov/dashboard/offices/detail/49050/2021-12-31">National Credit Union Administration</a></th>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49050/2021-12-31#metrics_last_crawl">
+						<span>
+							01-Oct-2021 04:03:16 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49050/2021-12-31#metrics_last_modified">
+						<span>
+							30-Sep-2021 14:51:22 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49050/2021-12-31#metrics_total_records">
+						<span>
+							1						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : hsl(120, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49050/2021-12-31#metrics_valid_count">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49050/2021-12-31#metrics_programs">
+						<span>
+							1						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49050/2021-12-31#metrics_bureaus">
+						<span>
+							1						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49050/2021-12-31#metrics_accessLevel_public">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49050/2021-12-31#metrics_accessLevel_nonpublic">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49050/2021-12-31#metrics_accessLevel_restricted">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49050/2021-12-31#metrics_accessURL_present">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49050/2021-12-31#metrics_accessURL_total">
+						<span>
+							1						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : hsl(120, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49050/2021-12-31#metrics_accessURL_working">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(120, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49050/2021-12-31#metrics_accessURL_format">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(120, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49050/2021-12-31#metrics_accessURL_html">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(120, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49050/2021-12-31#metrics_accessURL_pdf">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+		</tr>
+		
+		
+		<tr>
+			<th><a href="https://labs.data.gov/dashboard/offices/detail/52634/2021-12-31">National Endowment for the Arts</a></th>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52634/2021-12-31#metrics_last_crawl">
+						<span>
+							01-Oct-2021 04:09:01 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52634/2021-12-31#metrics_last_modified">
+						<span>
+							29-Mar-2021 13:52:11 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52634/2021-12-31#metrics_total_records">
+						<span>
+							39						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : hsl(120, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52634/2021-12-31#metrics_valid_count">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52634/2021-12-31#metrics_programs">
+						<span>
+							1						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52634/2021-12-31#metrics_bureaus">
+						<span>
+							1						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52634/2021-12-31#metrics_accessLevel_public">
+						<span>
+							20.5%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52634/2021-12-31#metrics_accessLevel_nonpublic">
+						<span>
+							79.5%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52634/2021-12-31#metrics_accessLevel_restricted">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52634/2021-12-31#metrics_accessURL_present">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52634/2021-12-31#metrics_accessURL_total">
+						<span>
+							0						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52634/2021-12-31#metrics_accessURL_working">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52634/2021-12-31#metrics_accessURL_format">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52634/2021-12-31#metrics_accessURL_html">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52634/2021-12-31#metrics_accessURL_pdf">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+		</tr>
+		
+		
+		<tr>
+			<th><a href="https://labs.data.gov/dashboard/offices/detail/52636/2021-12-31">National Endowment for the Humanities</a></th>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52636/2021-12-31#metrics_last_crawl">
+						<span>
+							01-Oct-2021 04:09:06 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52636/2021-12-31#metrics_last_modified">
+						<span>
+							01-Sep-2021 10:33:45 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52636/2021-12-31#metrics_total_records">
+						<span>
+							47						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : hsl(120, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52636/2021-12-31#metrics_valid_count">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52636/2021-12-31#metrics_programs">
+						<span>
+							1						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52636/2021-12-31#metrics_bureaus">
+						<span>
+							1						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52636/2021-12-31#metrics_accessLevel_public">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52636/2021-12-31#metrics_accessLevel_nonpublic">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52636/2021-12-31#metrics_accessLevel_restricted">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52636/2021-12-31#metrics_accessURL_present">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52636/2021-12-31#metrics_accessURL_total">
+						<span>
+							68						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : hsl(120, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52636/2021-12-31#metrics_accessURL_working">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(0, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52636/2021-12-31#metrics_accessURL_format">
+						<span>
+							57.4%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(40, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52636/2021-12-31#metrics_accessURL_html">
+						<span>
+							30.9%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(120, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52636/2021-12-31#metrics_accessURL_pdf">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+		</tr>
+		
+		
+		<tr>
+			<th><a href="https://labs.data.gov/dashboard/offices/detail/52641/2021-12-31">National Transportation Safety Board</a></th>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52641/2021-12-31#metrics_last_crawl">
+						<span>
+							01-Oct-2021 04:09:24 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52641/2021-12-31#metrics_last_modified">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52641/2021-12-31#metrics_total_records">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52641/2021-12-31#metrics_valid_count">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52641/2021-12-31#metrics_programs">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52641/2021-12-31#metrics_bureaus">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52641/2021-12-31#metrics_accessLevel_public">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52641/2021-12-31#metrics_accessLevel_nonpublic">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52641/2021-12-31#metrics_accessLevel_restricted">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52641/2021-12-31#metrics_accessURL_present">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52641/2021-12-31#metrics_accessURL_total">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52641/2021-12-31#metrics_accessURL_working">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52641/2021-12-31#metrics_accessURL_format">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52641/2021-12-31#metrics_accessURL_html">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="">
+					<a href="https://labs.data.gov/dashboard/offices/detail/52641/2021-12-31#metrics_accessURL_pdf">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+		</tr>
+		
+		
+		<tr>
+			<th><a href="https://labs.data.gov/dashboard/offices/detail/49593/2021-12-31">Office of Special Counsel</a></th>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49593/2021-12-31#metrics_last_crawl">
+						<span>
+							01-Oct-2021 04:07:38 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49593/2021-12-31#metrics_last_modified">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49593/2021-12-31#metrics_total_records">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49593/2021-12-31#metrics_valid_count">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49593/2021-12-31#metrics_programs">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49593/2021-12-31#metrics_bureaus">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49593/2021-12-31#metrics_accessLevel_public">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49593/2021-12-31#metrics_accessLevel_nonpublic">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49593/2021-12-31#metrics_accessLevel_restricted">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49593/2021-12-31#metrics_accessURL_present">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49593/2021-12-31#metrics_accessURL_total">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49593/2021-12-31#metrics_accessURL_working">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49593/2021-12-31#metrics_accessURL_format">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49593/2021-12-31#metrics_accessURL_html">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49593/2021-12-31#metrics_accessURL_pdf">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+		</tr>
+		
+		
+		<tr>
+			<th><a href="https://labs.data.gov/dashboard/offices/detail/49052/2021-12-31">Pension Benefit Guaranty Corporation</a></th>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49052/2021-12-31#metrics_last_crawl">
+						<span>
+							01-Oct-2021 04:03:19 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49052/2021-12-31#metrics_last_modified">
+						<span>
+							31-May-2021 00:34:26 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49052/2021-12-31#metrics_total_records">
+						<span>
+							10						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : hsl(120, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49052/2021-12-31#metrics_valid_count">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49052/2021-12-31#metrics_programs">
+						<span>
+							1						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49052/2021-12-31#metrics_bureaus">
+						<span>
+							1						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49052/2021-12-31#metrics_accessLevel_public">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49052/2021-12-31#metrics_accessLevel_nonpublic">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49052/2021-12-31#metrics_accessLevel_restricted">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49052/2021-12-31#metrics_accessURL_present">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49052/2021-12-31#metrics_accessURL_total">
+						<span>
+							10						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : hsl(0, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49052/2021-12-31#metrics_accessURL_working">
+						<span>
+							50.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(1, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49052/2021-12-31#metrics_accessURL_format">
+						<span>
+							80.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(20, 80%, 80%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49052/2021-12-31#metrics_accessURL_html">
+						<span>
+							60.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(120, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49052/2021-12-31#metrics_accessURL_pdf">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+		</tr>
+		
+		
+		<tr>
+			<th><a href="https://labs.data.gov/dashboard/offices/detail/49625/2021-12-31">Presidio Trust</a></th>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49625/2021-12-31#metrics_last_crawl">
+						<span>
+							01-Oct-2021 04:07:42 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49625/2021-12-31#metrics_last_modified">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49625/2021-12-31#metrics_total_records">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49625/2021-12-31#metrics_valid_count">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49625/2021-12-31#metrics_programs">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49625/2021-12-31#metrics_bureaus">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49625/2021-12-31#metrics_accessLevel_public">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49625/2021-12-31#metrics_accessLevel_nonpublic">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49625/2021-12-31#metrics_accessLevel_restricted">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49625/2021-12-31#metrics_accessURL_present">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49625/2021-12-31#metrics_accessURL_total">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49625/2021-12-31#metrics_accessURL_working">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49625/2021-12-31#metrics_accessURL_format">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49625/2021-12-31#metrics_accessURL_html">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49625/2021-12-31#metrics_accessURL_pdf">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+		</tr>
+		
+		
+		<tr>
+			<th><a href="https://labs.data.gov/dashboard/offices/detail/80001/2021-12-31">Public Defender Service of the District of Columbia</a></th>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/80001/2021-12-31#metrics_last_crawl">
+						<span>
+							01-Oct-2021 04:13:25 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/80001/2021-12-31#metrics_last_modified">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/80001/2021-12-31#metrics_total_records">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/80001/2021-12-31#metrics_valid_count">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/80001/2021-12-31#metrics_programs">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/80001/2021-12-31#metrics_bureaus">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/80001/2021-12-31#metrics_accessLevel_public">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/80001/2021-12-31#metrics_accessLevel_nonpublic">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/80001/2021-12-31#metrics_accessLevel_restricted">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/80001/2021-12-31#metrics_accessURL_present">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/80001/2021-12-31#metrics_accessURL_total">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/80001/2021-12-31#metrics_accessURL_working">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="">
+					<a href="https://labs.data.gov/dashboard/offices/detail/80001/2021-12-31#metrics_accessURL_format">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="">
+					<a href="https://labs.data.gov/dashboard/offices/detail/80001/2021-12-31#metrics_accessURL_html">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="">
+					<a href="https://labs.data.gov/dashboard/offices/detail/80001/2021-12-31#metrics_accessURL_pdf">
+						<span>
+													</span>
+					</a>
+				</td>
+
+			
+		</tr>
+		
+		
+		<tr>
+			<th><a href="https://labs.data.gov/dashboard/offices/detail/49054/2021-12-31">Securities and Exchange Commission</a></th>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49054/2021-12-31#metrics_last_crawl">
+						<span>
+							01-Oct-2021 04:05:12 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49054/2021-12-31#metrics_last_modified">
+						<span>
+							01-Oct-2021 04:03:19 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49054/2021-12-31#metrics_total_records">
+						<span>
+							33						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : hsl(14, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49054/2021-12-31#metrics_valid_count">
+						<span>
+							97.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49054/2021-12-31#metrics_programs">
+						<span>
+							1						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49054/2021-12-31#metrics_bureaus">
+						<span>
+							1						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49054/2021-12-31#metrics_accessLevel_public">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49054/2021-12-31#metrics_accessLevel_nonpublic">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49054/2021-12-31#metrics_accessLevel_restricted">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49054/2021-12-31#metrics_accessURL_present">
+						<span>
+							97.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49054/2021-12-31#metrics_accessURL_total">
+						<span>
+							1760						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : hsl(120, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49054/2021-12-31#metrics_accessURL_working">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(0, 80%, 80%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49054/2021-12-31#metrics_accessURL_format">
+						<span>
+							1.4%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(120, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49054/2021-12-31#metrics_accessURL_html">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(73, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49054/2021-12-31#metrics_accessURL_pdf">
+						<span>
+							0.2%						</span>
+					</a>
+				</td>
+
+			
+		</tr>
+		
+		
+		<tr>
+			<th><a href="https://labs.data.gov/dashboard/offices/detail/49712/2021-12-31">U.S. International Trade Commission</a></th>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49712/2021-12-31#metrics_last_crawl">
+						<span>
+							01-Oct-2021 04:08:29 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49712/2021-12-31#metrics_last_modified">
+						<span>
+							30-Aug-2021 12:50:50 EDT						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49712/2021-12-31#metrics_total_records">
+						<span>
+							88						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : hsl(120, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49712/2021-12-31#metrics_valid_count">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49712/2021-12-31#metrics_programs">
+						<span>
+							1						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49712/2021-12-31#metrics_bureaus">
+						<span>
+							1						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49712/2021-12-31#metrics_accessLevel_public">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49712/2021-12-31#metrics_accessLevel_nonpublic">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49712/2021-12-31#metrics_accessLevel_restricted">
+						<span>
+							0.0%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49712/2021-12-31#metrics_accessURL_present">
+						<span>
+							100%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : ">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49712/2021-12-31#metrics_accessURL_total">
+						<span>
+							290						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="normal-color" style="background-color : hsl(0, 80%, 80%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49712/2021-12-31#metrics_accessURL_working">
+						<span>
+							42.1%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(87, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49712/2021-12-31#metrics_accessURL_format">
+						<span>
+							98.4%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(92, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49712/2021-12-31#metrics_accessURL_html">
+						<span>
+							1.6%						</span>
+					</a>
+				</td>
+
+			
+
+				
+
+				<td class="hidden-color" data-color="hsl(40, 75%, 85%)">
+					<a href="https://labs.data.gov/dashboard/offices/detail/49712/2021-12-31#metrics_accessURL_pdf">
+						<span>
+							6.6%						</span>
+					</a>
+				</td>
+
+			
+		</tr>
+			</table>
+	
+
+
+
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseGraph" aria-expanded="false" aria-controls="collapseGraph">
+          Advanced
+        </button>
+        <div class="collapse" id="collapseGraph">
+          <div class="well">
+          <h3>Percentage Weighting</h3>
+
+<div class="show-graph"><h4 style="margin-top:2em">Working Download URLs</h4><table><tr><td>0%</td>            <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(1, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(1, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(1, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(2, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(3, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(4, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(5, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(7, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(10, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(14, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(19, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(26, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(35, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(48, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(65, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(89, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(120, 75%, 85%); width:1%"></td>
+          <td> 100%</td></tr></table></div><div class="hide-graph"><h4 style="margin-top:2em">Correct Format</h4><table><tr><td>0%</td>            <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(0, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(1, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(1, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(1, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(1, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(2, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(2, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(3, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(4, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(5, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(6, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(7, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(9, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(12, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(15, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(18, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(23, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(28, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(35, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(43, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(53, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(65, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(80, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(98, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(120, 75%, 85%); width:1%"></td>
+          <td> 100%</td></tr></table></div><div class="hide-graph"><h4 style="margin-top:2em">HTML Downloads</h4><table><tr><td>0%</td>            <td style="background-color : hsl(120, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(96, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(89, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(85, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(81, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(78, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(75, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(73, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(70, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(68, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(66, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(65, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(63, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(61, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(60, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(58, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(57, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(55, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(54, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(53, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(52, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(51, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(49, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(48, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(47, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(46, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(45, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(44, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(43, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(42, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(41, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(40, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(39, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(39, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(38, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(37, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(36, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(35, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(34, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(34, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(33, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(32, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(31, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(31, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(30, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(29, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(29, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(28, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(27, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(27, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(26, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(25, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(25, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(24, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(23, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(23, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(22, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(21, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(21, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(20, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(20, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(19, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(18, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(18, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(17, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(17, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(16, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(16, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(15, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(15, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(14, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(14, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(13, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(13, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(12, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(11, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(11, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(10, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(10, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(10, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(9, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(9, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(8, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(8, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(7, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(7, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(6, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(6, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(5, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(5, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(4, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(4, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(3, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(3, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(3, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(2, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(2, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(1, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(1, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+          <td> 100%</td></tr></table></div><div class="hide-graph"><h4 style="margin-top:2em">PDF Downloads</h4><table><tr><td>0%</td>            <td style="background-color : hsl(120, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(60, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(53, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(49, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(46, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(43, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(41, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(39, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(38, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(36, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(35, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(34, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(33, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(32, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(31, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(30, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(29, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(28, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(27, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(26, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(26, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(25, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(24, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(24, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(23, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(23, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(22, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(21, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(21, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(20, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(20, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(19, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(19, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(18, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(18, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(17, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(17, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(17, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(16, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(16, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(15, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(15, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(15, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(14, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(14, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(14, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(13, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(13, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(13, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(12, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(12, 75%, 85%); width:1%"></td>
+                      <td style="background-color : hsl(12, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(11, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(11, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(11, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(10, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(10, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(10, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(9, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(9, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(9, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(9, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(8, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(8, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(8, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(8, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(7, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(7, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(7, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(6, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(6, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(6, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(6, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(6, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(5, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(5, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(5, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(5, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(4, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(4, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(4, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(4, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(4, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(3, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(3, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(3, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(3, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(2, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(2, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(2, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(2, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(2, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(1, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(1, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(1, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(1, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(1, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(1, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+                      <td style="background-color : hsl(0, 80%, 80%); width:1%"></td>
+          <td> 100%</td></tr></table></div>
+       <button style="margin-top : 1em" id="showcolors">Show all colors</button>
+
+       <script>
+          $('#showcolors').on('click', function() {
+            $('.hidden-color').each(function(index) {
+              $(this).css('background-color', $(this).data('color'));
+            });
+            $('.hide-graph').each(function(index) {
+              $(this).css('display', 'block');
+            });
+          });
+       </script>
+     </div>
+   </div>
+
+      
+
+        </div>
+      </div>
+
+</div> <!-- /#main-container -->
+
+<hr>
+      <footer class="footer">
+        <div class="container ">
+          <div class="pull-left"><a href="https://github.com/GSA/project-open-data-dashboard/issues">Fork me on Github</a></div>
+        </div>
+        <div class="modal" id="secondsRemaining" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Session Expiration Warning</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>You've been inactive for a while. For your security, we'll log you out automatically. Click "Stay Online" to continue your session. </p>
+                        <p>Your session will expire in <span class="bold" id="sessionSecondsRemaining">60</span> seconds.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button id="extendSession" type="button" class="btn btn-default btn-success" data-dismiss="modal">Stay Online</button>
+                        <button id="logoutSession" type="button" class="btn btn-default" data-dismiss="modal">Logout</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal" id="mdlLoggedOut" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">You have been logged out</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Your session has expired.</p>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+      </footer>
+    </div> <!-- /container -->
+
+    </body>
+</html>

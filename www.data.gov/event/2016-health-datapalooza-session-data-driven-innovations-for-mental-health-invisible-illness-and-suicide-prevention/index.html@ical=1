@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Data.gov - ECPv5.9.1//NONSGML v1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Data.gov
+X-ORIGINAL-URL:https://www.data.gov
+X-WR-CALDESC:Events for Data.gov
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:20160313T070000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:20161106T060000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20160510T130000
+DTEND;TZID=America/New_York:20160510T143000
+DTSTAMP:20211001T185214
+CREATED:20160216T161411Z
+LAST-MODIFIED:20160216T161411Z
+UID:20876542-1462885200-1462890600@www.data.gov
+SUMMARY:2016 Health Datapalooza session: Data-Driven Innovations for Mental Health\, Invisible Illness\, and Suicide Prevention
+DESCRIPTION:New solutions are emerging from big data\, open data\, and data-driven innovations to address mental health\, invisible illness\, and suicide prevention. Nonetheless\, Americans still suffer undiagnosed\, undertreated\, or untreated mental-health challenges and invisible illnesses (e.g.\, traumatic brain injuries\, chronic pain\, rheumatoid arthritis\, chronic fatigue\, fibromyalgia\, Lyme disease) that can lead to depression and increase risk for suicide. To combat this\, The White House Office of Science and Technology Policy (OSTP) and the U.S. Department of Veterans Affairs (VA) will showcase government open datasets and APIs being used to strengthen awareness of mental illness\, identify new opportunities for treatment\, and strengthen communities for improved patient outcomes. Data scientists\, designers\, and innovators from across the country are co-creating human-centered design focused tools with mental health professionals and medical practitioners. This session will include next-gen technology demos by: Crisis Text Line\, New York\, NY; Bayes Impact\, San Francisco\, CA; and Harvard University collaboration with MIT Media Lab\, Cambridge\, MA. Session concludes with panel discussion\, connecting innovators with suicide-prevention experts. By working together with open minds\, data\, medical treatment\, and innovations\, we can promote mental health and save lives. \n Speakers: \n\nDr. Kristen Honey\, PhD\, Policy Advisor\, OSTP\, The White House Executive Office of the President\nAndrea Ippolito\, Innovators Network Lead\, Department of Veterans Affairs Center for Innovation\, VA\n\nWith three lightening talks (3-min each) to showcase #MentalHealthHackathon and 2016 health-related hackathon tools/products/innovations: \n\nBob Filbin\, Crisis Text Line\, New York\, NY\nEric Liu\, Bayes Impact\, San Francisco\, CA\nDr. Nevena Zubcevik\, D.O.\, Harvard University and MIT Media Lab\, Cambridge\, MA
+URL:https://www.data.gov/event/2016-health-datapalooza-session-data-driven-innovations-for-mental-health-invisible-illness-and-suicide-prevention/
+ORGANIZER;CN="Kristen%20Honey":MAILTO:khoney@ostp.eop.gov
+END:VEVENT
+END:VCALENDAR
