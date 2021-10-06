@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Data.gov - ECPv5.9.1//NONSGML v1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Data.gov
+X-ORIGINAL-URL:https://www.data.gov
+X-WR-CALDESC:Events for Data.gov
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:20180311T070000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:20181104T060000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20180501T123000
+DTEND;TZID=America/New_York:20180501T170000
+DTSTAMP:20211001T184339
+CREATED:20180409T175734Z
+LAST-MODIFIED:20180409T175734Z
+UID:25148218-1525177800-1525194000@www.data.gov
+SUMMARY:2018 PIO/CFO Summit
+DESCRIPTION:What are the costs of federal programs and policies? What results do we get for that spending? These two questions are fundamental to understanding public value and cost effectiveness — and to strengthening both for the benefit of citizens and taxpayers. Yet issues of cost\, performance and impact too often exist in silos. \nThe goal of the 2018 Performance Improvement Officer (PIO) / Chief Financial Officer (CFO) summit\, co-sponsored by the AGA and the American Evaluation Association\, is to strengthen collaboration and understanding between different federal communities\, including financial management (the focus of CFOs)\, performance (the traditional focus of PIOs) and evidence (the focus of Chief Evaluation Officers or other data and research experts within agencies). Through a series of fast-paced afternoon panel discussions\, the summit will explore and illustrate how issues of cost\, performance and evidence overlap and intersect. \nTarget audience: Federal PIOs\, CFOs\, and other federal officials\, managers and analysts interested in issues of cost\, performance and evidence.
+URL:https://www.data.gov/event/2018-pio-cfo-summit/
+ATTACH;FMTTYPE=image/png:https://bsp-ocsit-prod-east-appdata.s3.us-east-1.amazonaws.com/datagov/wordpress/2018/04/PIOCFO-Summit-Sponsorship-Header-03.png
+END:VEVENT
+END:VCALENDAR

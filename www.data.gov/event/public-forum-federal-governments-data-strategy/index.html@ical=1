@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Data.gov - ECPv5.9.1//NONSGML v1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Data.gov
+X-ORIGINAL-URL:https://www.data.gov
+X-WR-CALDESC:Events for Data.gov
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:20180311T070000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:20181104T060000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20180730T130000
+DTEND;TZID=America/New_York:20180730T160000
+DTSTAMP:20211001T184354
+CREATED:20180726T175136Z
+LAST-MODIFIED:20180726T175136Z
+UID:25312311-1532955600-1532966400@www.data.gov
+SUMMARY:Public Forum on the Federal Government’s Data Strategy
+DESCRIPTION:In March 2018\, the President’s Management Agenda established a new goal of leveraging data as a strategic asset\, recognizing the vast benefits government data can have for the American public. This formal goal commits senior executive branch leaders to develop a written Federal Data Strategy by April 2019\, along with a plan for agencies to implement the strategy. To ensure the Federal Data Strategy is comprehensive and actionable\, individuals with knowledge\, experience\, and perspectives about government data that could inform the next upcoming phase of the plan’s development are invited to provide direct input. \nOn Monday\, July 30\, the Bipartisan Policy Center will host an Open Forum on the Federal Data Strategy\, providing a public opportunity to highlight best practices for the strategic use of government data. During the forum\, individuals will have the opportunity to directly provide input on best practices to inform the upcoming phase of work for federal staff developing the strategy\, including leaders focused on the four areas of: (1) Enterprise Data Governance; (2) Access\, Use\, and Augmentation; (3) Decision-Making and Accountability; and (4) Commercialization\, Innovation\, and Public Use. Additional details and additional opportunities to provide feedback on other aspects of the strategy are available at strategy.data.gov. \nSpeakers must register in advance to participate no later than 4:00 p.m. on Friday\, July 27\, and other attendees are invited to RSVP. Each speaker will be allocated a short amount of time (approximately 10 minutes) to speak during the forum with federal government staff developing the data strategy\, and may also provide a supplemental written statement.
+URL:https://www.data.gov/event/public-forum-federal-governments-data-strategy/
+LOCATION:Bipartisan Policy Center\, 1225 Eye Street NW\, Suite 1000\, Washington\, DC\, 20005\, United States
+ATTACH;FMTTYPE=image/jpeg:https://bsp-ocsit-prod-east-appdata.s3.us-east-1.amazonaws.com/datagov/wordpress/2018/07/WhiteHouse-Faded-1387x720.jpg
+END:VEVENT
+END:VCALENDAR
