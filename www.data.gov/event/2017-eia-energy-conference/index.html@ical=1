@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Data.gov - ECPv5.9.1//NONSGML v1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Data.gov
+X-ORIGINAL-URL:https://www.data.gov
+X-WR-CALDESC:Events for Data.gov
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:20170312T070000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:20171105T060000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20170626T080000
+DTEND;TZID=America/New_York:20170627T170000
+DTSTAMP:20211108T122619
+CREATED:20170612T111504Z
+LAST-MODIFIED:20170612T111727Z
+UID:24623750-1498464000-1498582800@www.data.gov
+SUMMARY:2017 EIA Energy Conference
+DESCRIPTION:The U.S. Energy Information Administration’s 2017 Energy Conference will be held June 26–27 at the Washington Hilton Hotel at 1919 Connecticut Avenue\, NW\, Washington DC. I want to make sure you don’t miss this opportunity to learn firsthand about the current trends and key developments affecting energy at the state\, national\, and global level. \nSession topics include: \n\nThe future of U.S. nuclear power\nPetroleum exports: Competing in the global market\nCoal–natural gas competition: The current state of play\nGlobal transportation\, electric vehicles\, and fuel demand\nGasoline fuel quality: The looming octane shortage\nRenewable project financing: Current and future\nThe energy-water nexus and induced seismicity\nNatural gas infrastructure to serve growing markets\nHuman behavior and energy use in buildings\nElectrification in developing countries\n“Big Data” and energy information\nEnergy data transparency\n\nKeynote speakers include: \n\nGreg Walden\, Chairman of the U.S. House Energy and Commerce Committee\nAlex Laskey\, President and Founder\, Opower\nScott Sheffield\, Executive Chairman of the Board at Pioneer Natural Resources\nDr. Sun Xiansheng\, Secretary General\, International Energy Forum\n\nRegister today at: https://www.eia.gov/conference/2017/ \nOnline registration closes at noon EDT on Friday\, June 23. \nFor questions email: tina@fbcinc.com
+URL:https://www.data.gov/event/2017-eia-energy-conference/
+LOCATION:Washington Hilton\, 1919 Connecticut Ave NW\, Washington\, DC\, 20009\, United States
+ATTACH;FMTTYPE=image/jpeg:https://bsp-ocsit-prod-east-appdata.s3.us-east-1.amazonaws.com/datagov/wordpress/2017/06/unnamed.jpg
+END:VEVENT
+END:VCALENDAR

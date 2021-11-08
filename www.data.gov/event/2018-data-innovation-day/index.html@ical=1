@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Data.gov - ECPv5.9.1//NONSGML v1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Data.gov
+X-ORIGINAL-URL:https://www.data.gov
+X-WR-CALDESC:Events for Data.gov
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:20180311T070000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:20181104T060000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20180322T083000
+DTEND;TZID=America/New_York:20180322T130000
+DTSTAMP:20211108T122520
+CREATED:20180302T182311Z
+LAST-MODIFIED:20180323T183830Z
+UID:25090471-1521707400-1521723600@www.data.gov
+SUMMARY:2018 Data Innovation Day
+DESCRIPTION:National Technical Information Service (NTIS) 2018 Data Innovation Day – Addressing National Priorities through Data Insights \nFrom The NTIS Team:\nPlease join the Commerce Department’s NTIS for 2018 Data Innovation Day!\nParticipate in a lively discussion of how agencies are tackling national priorities\, deriving data insights\, and accelerating mission outcomes! See how federal agencies are leveraging NTIS’s joint venture authority to improve operational effectiveness and enhance citizen services. Hear how federal agencies are using evidence-based tools from data collection through analysis and application. Discover a compelling data innovation model that empowers agencies to accelerate their data-driven priorities\, while transforming data from being a mere commodity to becoming a fully-realized strategic data asset. \nWe hope that you’re able to join the conversation involving data science innovation across the federal government! \nCheers\, \nThe NTIS Team \nWho should attend:  Federal agency officials responsible for implementing data strategies\, including Chief Data Officers and Chief Information Officers\, as well as policymakers with an interest in using data as a strategic asset to enable operational excellence in government. \nPlease note:  Registration requires a federal government or military email address. This invitation is open only to federal government employees.  A government ID with a picture is required to enter the building. For questions\, please contact ntisevents@ntis.gov.  \nMarch 22\, 2018 \n08:30am – Registration \n09:00am – Welcome \nGreg Capella\nDeputy Director of National Technical Information Service\n09:10am – Opening Keynote \nThe Honorable Dr. Walter G. Copan\nUnder Secretary of Commerce for Standards and Technology and NIST Director\n09:25am – NTIS Innovative Data Services \nAvi Bender\nDirector of the National Technical Information Service\n09:40am – Panel Discussion – How Federal Agencies Can Leverage Data as a Strategic Asset \nDr. Caryl Brzymialkiewicz\, HHS OIG\, Chief Data Officer\nDr. Henry “Skip” Francis\, FDA\, Deputy Director\, Office of Surveillance and Epidemiology\,\nCenter for Drug Evaluation and Research\nMarcel Jemio\, OPM Data Management and Federal Solutions\, Acting Chief and Chief\nData Architect\nMichelle Earley\, OPM Program Manager\, USAJobs\n10:25am – Lightning Talks – Joint Venture Partners Ongoing Data Collaborations involving HHS\, FDA\, OPM Projects \n11:00am – Closing Keynote \nEliana Zavala\nOffice of Federal Procurement Policy\nOffice of Management and Budget\n11:15am – Demonstrations & Networking \n01:00pm – Adjourn
+URL:https://www.data.gov/event/2018-data-innovation-day/
+LOCATION:U.S. Department of Commerce\, 1401 Constitution Ave.\, N.W. \, Washington\, DC\, 20230\, United States
+ATTACH;FMTTYPE=image/png:https://bsp-ocsit-prod-east-appdata.s3.us-east-1.amazonaws.com/datagov/wordpress/2018/03/https_2F2Fcdn.evbuc_.com2Fimages2F414083742F1970166085532F12Foriginal.png
+END:VEVENT
+END:VCALENDAR

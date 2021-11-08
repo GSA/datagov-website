@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Data.gov - ECPv5.9.1//NONSGML v1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Data.gov
+X-ORIGINAL-URL:https://www.data.gov
+X-WR-CALDESC:Events for Data.gov
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:20180311T070000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:20181104T060000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20180303T130000
+DTEND;TZID=America/New_York:20180303T160000
+DTSTAMP:20211108T122518
+CREATED:20180228T212010Z
+LAST-MODIFIED:20180228T212010Z
+UID:25088561-1520082000-1520092800@www.data.gov
+SUMMARY:Open Data Day 2018:
+DESCRIPTION:Open Data Day 2018: Help complete the 2018 U.S. City Open Data Census \nData from city governments can inform conversations about equity\, police violence\, public spending\, traffic collisions\, and neighborhood changes. These conversations are only possible\, however\, if that city data is open and publicly available online. \nThe U.S. City Open Data Census benchmarks which datasets cities make open\, and on Open Data Day 2018 we need your help. The Census currently includes 213 cities across the country\, and we’re setting out to create a complete set of information about open data in each of them. \nJoin the Sunlight Foundation’s Open Cities team on Open Data Day 2018 to help assess open data in American cities. We’ll give you an easy tutorial on how to search for open datasets and how to add that information to the Census. Then you’ll pick a city to focus on and complete its entry on the Census. Once you’re done\, stick around for food and drinks and to talk with some of DC’s open data experts. \nWe’ll be getting together in person at Open Gov Hub in Washington DC. We’ll have light snacks and laptops to share. If you have a laptop of your own\, please bring it.  \nNo previous experience with open data is required to join this event. City open data is supposed to be accessible for all residents\, so we welcome anyone interested to join us\, whether you’re a data beginner or a data expert.
+URL:https://www.data.gov/event/open-data-day-2018/
+LOCATION:OpenGovHub\, 110 Vermont Ave\, Washington\, DC\, United States
+ATTACH;FMTTYPE=image/png:https://bsp-ocsit-prod-east-appdata.s3.us-east-1.amazonaws.com/datagov/wordpress/2018/02/https_2F2Fcdn.evbuc_.com2Fimages2F411655612F2441073070382F12Foriginal.png
+END:VEVENT
+END:VCALENDAR
