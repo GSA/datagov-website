@@ -2,6 +2,11 @@
 #DIR=www.data.gov
 DIR=_test_garbage
 
+# stupid mac stuff
+SED=sed
+if [[ "$OSTYPE" == "darwin"* ]]; then
+    SED=gsed
+fi
 
 # count www.data.gov references for baseline reference
 echo Total occurrences of 'www.data.gov'
@@ -10,7 +15,7 @@ grep -r $DIR -e 'www.data.gov' | wc -l
 # replace type <a href="http://www.data.gov/energy-infrastructure"> 
 echo Converting \<a\> hrefs...
 find $DIR -type f -exec \
-    sed --regexp-extended --in-place \
+    $SED -E --in-place \
     's#a href="https://www.data.gov/#a href="#g' {} ';'
 
 # replace type <link rel="stylesheet" href="http://www.data.gov/chosen.min.css?ver=1.0.0">
