@@ -6,8 +6,8 @@ all: crawl convert
 convert: 
 	./convert.sh
 
-# warning: can take a lot of time as it triggers new crawl
-# explanation: crawl.md#2-crawl
+# warning: can take a lot of time as it triggers new crawl and will likely get your IP rate limited unless whitelisted
+# explanation doc: crawl.md#2-crawl
 crawl: 
 	wget -e robots=off -U mozilla --recursive --page-requisites --html-extension --domains www.data.gov,data.gov --no-parent --level=inf --convert-links --restrict-file-names=windows www.data.gov
 
