@@ -18,7 +18,7 @@ echo    Total files to rename:
 find . -iname "*@ver=*" | wc -l 
 find . -iname "*@ver=*" | 
     while read fname; do 
-    echo "$fname --> ${fname%@*}"; 
+    # echo "$fname --> ${fname%@*}"; 
     mv $fname ${fname%@*}; 
     done
 
@@ -38,17 +38,17 @@ find $DIR -type f -exec \
 
 # replace type:
 # wp-emoji-release.min.js?ver=5.5.6
-echo Converting wp-emoji-release.min.js?ver=x.x.x
+echo Converting type wp-emoji-release.min.js?ver=x.x.x
 find $DIR -type f -exec \
     $SED -E --in-place \
     's#(wp-emoji-release.min.js)(.ver=.....)#\1#gp' {} ';'
 
 # replace type:
 # ( 'fetch' in window ) || document.write( '<script src="wp/wp-includes/js/dist/vendor/wp-polyfill-fetch.min.js@ver=3.0.0"></scr' + 'ipt>' );( document.contains ) || document.write( '<script src="wp/wp-includes/js/dist/vendor/wp-polyfill-node-contains.min.js@ver=3.42.0"></scr' + 'ipt>' );( window.DOMRect ) || document.write( '<script src="wp/wp-includes/js/dist/vendor/wp-polyfill-dom-rect.min.js@ver=2.0.2"></scr' + 'ipt>' );
-echo Converting wp-polyfill-fetch.min.js@ver=3.0.0\">\</scr\' + \'ipt>\'
+echo Converting type wp-polyfill-fetch.min.js@ver=3.0.0\"\>\<\/scr\' \+ \'ipt\>\'
 find $DIR -type f -exec \
     $SED -E --in-place \
-    's#(src=".*?.js)(.ver=.*?")#\1#gp' {} ';'
+    's#(src=".*?\.js)(.ver=.*?")#\1#gp' {} ';'
 
 # replace type <a href="http://www.data.gov/energy-infrastructure"> 
 echo Converting \<a\> hrefs...
