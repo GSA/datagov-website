@@ -14,6 +14,6 @@
   "homepage": "https://github.com/GSA/datagov-website#readme",
   "description": "",
   "scripts": {
-    "federalist": "rm -rf _site && mv www.data.gov _site"
+    "federalist": "echo ok"
   }
 }
