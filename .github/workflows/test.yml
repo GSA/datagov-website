@@ -10,5 +10,7 @@ jobs:
       - uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true
+      - name: jekyll
+        run: bundle exec jekyll build
       - name: htmlproofer
         run: bundle exec htmlproofer _site
