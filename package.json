@@ -14,6 +14,9 @@
   "homepage": "https://github.com/GSA/datagov-website#readme",
   "description": "",
   "scripts": {
-    "federalist": "jekyll build --production"
+    "build:jekyll": "bundle exec jekyll build",
+    "federalist": "npm run build:jekyll",
+    "lint": "bundle exec htmlproofer --disable-external _site",
+    "setup": "bundle install"
   }
 }

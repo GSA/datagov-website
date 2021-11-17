@@ -11,18 +11,23 @@ A static version of www.data.gov.
 
 - [Ruby](https://www.ruby-lang.org/en/) 2.7
 - [Bundler](https://bundler.io/)
+- Node.js
 
 
 ### Setup
 
 Install the dependencies.
 
-    $ bundle install
+    $ npm run setup
 
 Build the Jekyll site.
 
-    $ bundle exec jekyll build
+    $ npm run build:jekyll
 
 Serve the site locally.
 
-    $ iundle exec jekyll serve
+    $ npm start
+
+Run some checks.
+
+    $ npm run lint

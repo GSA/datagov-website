@@ -1,4 +1,6 @@
 ---
+name: lint
+
 on: push
 
 jobs:
@@ -11,6 +13,6 @@ jobs:
         with:
           bundler-cache: true
       - name: jekyll
-        run: bundle exec jekyll build
+        run: npm run build:jekyll
       - name: htmlproofer
-        run: bundle exec htmlproofer _site
+        run: npm run lint
