@@ -1,6 +1,6 @@
 ---
 title: Contact
-layout: contact
+layout: legacy-contact
 ---
 
 {% comment %}
