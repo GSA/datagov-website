@@ -1,0 +1,19 @@
+{
+  "name": "datagov-website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GSA/datagov-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GSA/datagov-website/issues"
+  },
+  "homepage": "https://github.com/GSA/datagov-website#readme",
+  "description": "",
+  "scripts": {
+    "federalist": "rm -rf _site && mv www.data.gov _site"
+  }
+}
