@@ -28,6 +28,8 @@ Serve the site locally.
 
     $ npm start
 
+Open your web browser to [localhost:4000](http://localhost:4000/).
+
 Run some checks.
 
     $ npm run lint
