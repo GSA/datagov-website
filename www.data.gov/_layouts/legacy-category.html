@@ -28,7 +28,7 @@ layout: legacy-default
 <!-- adding parameter to url which passes the term slug for the cross site navigation-->
 <script type="text/javascript">
     jQuery(function ($) {
-        var comm = 'topic={{ layout.slug }}_navigation';
+        var comm = '#topic={{ layout.slug }}_navigation';
 
         $('#main a[href*="catalog.data.gov"]').add('#main a[href*="fe-data.reisys.com"]').not('#main a[href*="#topic"]').each(function () {
           var newHref = $(this).attr('href') + comm;
