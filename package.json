@@ -16,7 +16,7 @@
   "scripts": {
     "build:jekyll": "bundle exec jekyll build",
     "federalist": "echo ok",
-    "lint": "bundle exec htmlproofer --disable-external _site",
+    "lint": "bin/lint.sh",
     "setup": "bundle install",
     "start": "bundle exec jekyll serve"
   }

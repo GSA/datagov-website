@@ -1,2 +1,23 @@
 ---
+title: www.data.gov
+email: datagov@gsa.gov
+description: >-
+  The home of the U.S. Government’s open data. Here you will find data, tools,
+  and resources to conduct research, develop web and mobile applications,
+  design data visualizations, and more. For information regarding the
+  Coronavirus/COVID-19, please visit Coronavirus.gov.
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: usdatagov
+github_username: GSA
+dap_agency: GSA
+dap_subagency: TTS
+url: https://www.data.gov
+#searchgov_affiliate: datagov-resources
+
+# Build settings
+markdown: kramdown
+permalink: pretty
 source: www.data.gov
+plugins:
+  - jekyll-feed
+  - jekyll-redirect-from

@@ -2,9 +2,11 @@ source "https://rubygems.org"
 
 gem "jekyll", "~> 4.2.1"
 gem "html-proofer"
+gem "jekyll-redirect-from"
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-redirect-from"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
