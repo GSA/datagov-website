@@ -14,6 +14,10 @@
   "homepage": "https://github.com/GSA/datagov-website#readme",
   "description": "",
   "scripts": {
-    "federalist": "rm -rf _site && mv www.data.gov _site"
+    "build:jekyll": "bundle exec jekyll build",
+    "federalist": "echo ok"
+    "lint": "bundle exec htmlproofer --disable-external _site",
+    "setup": "bundle install",
+    "start": "bundle exec jekyll serve"
   }
 }

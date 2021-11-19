@@ -1,4 +1,6 @@
 .DS_Store
-/todo.txt
+.jekyll-cache
+_site/
 .syncthing*
 _test_garbage/
+/todo.txt
