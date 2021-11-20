@@ -3,7 +3,6 @@ title: Contact
 layout: legacy-page
 scripts:
   - src: https://touchpoints.app.cloud.gov/touchpoints/1327b00b.js
-    integrity: sha256-7jQGhPOgRymVj225p6tIJtBht0oBEnXkx+ihO4oTDZk=
 ---
 
 {% comment %}
