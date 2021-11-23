@@ -1,0 +1,11 @@
+---
+applications:
+  - name: ((app_name))
+    path: redirects
+    instances: ((instances))
+    memory: ((memory))
+    buildpacks:
+      - https://github.com/cloudfoundry/nginx-buildpack.git
+    routes: ((routes))
+    env:
+      TARGET_DOMAIN: www.data.gov
