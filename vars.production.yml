@@ -3,3 +3,11 @@ instances: 2
 memory: 64M
 routes:
   - route: www-redirects-prod-datagov.app.cloud.gov
+  - route: agriculture.data.gov
+  - route: climate.data.gov
+  - route: developer.data.gov
+  - route: energy.data.gov
+  - route: food.data.gov
+  - route: highlights.data.gov
+  - route: labs.data.gov
+  - route: ocean.data.gov
