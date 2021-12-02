@@ -42,7 +42,16 @@ www.data.gov.
 
 ### Services
 
-These services are required.
+These services are required for www-redirects.
+
+Service | Type | Plan | Description
+------- | ---- | ---- | -----------
+www-redirects-domains | external-domain | domain | Routes \*.data.gov domains to the application 
+
+
+#### External domain service
+
+The [external domain service](https://cloud.gov/docs/services/external-domain-service/) provides the domain routes and TLS for \*.data.gov. 
 
     $ cf create-service external-domain domain www-redirects-domains -c '{"domains": "agriculture.data.gov,climate.data.gov,developer.data.gov,energy.data.gov,food.data.gov,highlights.data.gov,labs.data.gov,ocean.data.gov"}'
     
