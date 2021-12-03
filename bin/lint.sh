@@ -14,7 +14,7 @@ set -o nounset
 file_ignore=$(sed -E -e 's/#.*//' -e 's/\s\+$//' -e '/^\s*$/ d' .htmlproofer-ignore | paste -s -d , - )
 
 # Do a more thorough check on "good" files
-bundle exec htmlproofer --check-html --disable-external --file-ignore "${file_ignore}" _site
+#bundle exec htmlproofer --check-html --disable-external --file-ignore "${file_ignore}" _site
 
 # Just make sure legacy files have consistent internal links
 bundle exec htmlproofer --checks-to-ignore ScriptCheck,ImageCheck --allow-hash-href --disable-external _site
