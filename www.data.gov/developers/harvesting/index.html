@@ -63,7 +63,7 @@ img.emoji {
 <script type='text/javascript' src='../../app/themes/roots-nextdatagov/assets/js/ext-link-handler.js'></script>
 <script type='text/javascript' id="_fed_an_ua_tag" src='https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=GSA&amp;subagency=TTS' id='Federated-Analytics-js'></script>
 <script type='text/javascript' src='../../app/plugins/google-analyticator/external-tracking.min.js'></script>
-<meta name="tec-api-version" content="v1"><meta name="tec-api-origin" content="https://www.data.gov"><link rel="https://theeventscalendar.com/" href="../../wp-json/tribe/events/v1/index.html" /><!-- Google Analytics Tracking by Google Analyticator 6.5.5 -->
+<meta name="tec-api-version" content="v1"><meta name="tec-api-origin" content="https://www.data.gov"><link rel="https://theeventscalendar.com/" href="../../wp-json/tribe/events/v1/" /><!-- Google Analytics Tracking by Google Analyticator 6.5.5 -->
 <script type="text/javascript">
     var analyticsFileTypes = [''];
     var analyticsSnippet = 'enabled';
@@ -102,7 +102,7 @@ Click the help icon above to learn more.
 
 .twitter-feed h2 {display:none;}		</style>
 		
-  <link rel="alternate" type="application/rss+xml" title="Data.gov Feed" href="../../feed/index.html">
+  <link rel="alternate" type="application/rss+xml" title="Data.gov Feed" href="../../feed/">
   <link href="../../app/themes/roots-nextdatagov/assets/img/favicon.ico" rel="shortcut icon" />
   <link rel="icon" type="image/png" href="../../app/themes/roots-nextdatagov/assets/img/favicon-120.png" sizes="120x120" />
     <!--[if IE]>
@@ -165,12 +165,12 @@ Click the help icon above to learn more.
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="../../index.html" alt="Data.gov" class="local-link"><h1 class="navbar-brand">Data.gov</h1></a>
+            <a href="../../" alt="Data.gov" class="local-link"><h1 class="navbar-brand">Data.gov</h1></a>
         </div>
 
         <nav class="collapse navbar-collapse" role="navigation">
             <ul id="menu-primary-navigation" class="nav navbar-nav navbar-right"><li class="menu-data"><a href="http://catalog.data.gov/dataset" class="local-link">Data</a></li>
-<li class="dropdown yamm-fw menu-topics"><a class="dropdown-toggle local-link" data-toggle="dropdown" data-target="#" href="../../communities/index.html">Topics <b class="caret"></b></a>
+<li class="dropdown yamm-fw menu-topics"><a class="dropdown-toggle local-link" data-toggle="dropdown" data-target="#" href="../../communities/">Topics <b class="caret"></b></a>
 <ul class="dropdown-menu topics">
 	<li class="menu-agriculture topic-food"><a href="../../food.html" class="local-link"><i></i><span>Agriculture</span></a></li>
 	<li class="menu-climate topic-climate"><a href="../../climate/" class="local-link"><i></i><span>Climate</span></a></li>
@@ -183,8 +183,8 @@ Click the help icon above to learn more.
 </li>
 <li class="menu-resources"><a href="https://resources.data.gov" class="local-link">Resources</a></li>
 <li class="menu-strategy"><a href="https://strategy.data.gov" class="local-link">Strategy</a></li>
-<li class="menu-developers"><a href="../index.html" class="local-link">Developers</a></li>
-<li class="menu-contact"><a href="../../request/index.html" class="local-link">Contact</a></li>
+<li class="menu-developers"><a href="../" class="local-link">Developers</a></li>
+<li class="menu-contact"><a href="../../request/" class="local-link">Contact</a></li>
 </ul>        </nav>
 
   </div>
@@ -204,7 +204,7 @@ Click the help icon above to learn more.
 
 
                                 <h1>
-                    <span class="category-header topic-developers"><a href="../index.html" class="local-link"><div><i></i></div><span>Developers</span></a></span>                </h1>
+                    <span class="category-header topic-developers"><a href="../" class="local-link"><div><i></i></div><span>Developers</span></a></span>                </h1>
 
             </div>
         </div>
@@ -229,7 +229,7 @@ Click the help icon above to learn more.
                 <nav class="topic-subnav" role="navigation">
                     <ul id="menu-developers" class="nav navbar-nav"><li class="menu-open-source"><a href="../../developers/open-source">Open Source</a></li>
 <li class="active menu-data-harvesting"><a href="index.html" aria-current="page">Data Harvesting</a></li>
-<li class="menu-apis"><a href="../apis/index.html">APIs</a></li>
+<li class="menu-apis"><a href="../apis/">APIs</a></li>
 <li class="menu-challenges"><a target="_blank" rel="noopener noreferrer external" href="https://www.challenge.gov/" class="external ext-link" onclick="this.target=&#039;_blank&#039;;">Challenges</a></li>
 </ul>                </nav>
             </div>
@@ -261,9 +261,9 @@ Click the help icon above to learn more.
 		<p>Data.gov is organized around metadata published by government offices. This metadata is harvested from external websites and aggregated on Data.gov so that it&#8217;s easier to browse and search. However, some applications may want to consume this metadata programatically and there are two ways of doing this explained below.</p>
 <div class="text-danger"><strong>Disclaimer:</strong> <em>Data.gov also syndicates data from state and local governments. However, non-federal data sources are governed by different terms of service and often different licenses than Federal data. When using or harvesting data from Data.gov, please note this distinction. When harvesting large volumes of data or metadata through Data.gov, we recommend you <a href="https://github.com/GSA/data.gov/issues/315#issuecomment-275747388" class="local-link">filter</a> for Federal sources and separate non-federal sources to avoid comingling metadata without making this distinction.</em></div>
 <h3>Option 1: Harvest Aggregate Metadata</h3>
-<p>The simplest option is to access metadata in aggregate as it exists on catalog.data.gov. This can be done via our <a title="APIs" href="../apis/index.html" class="local-link">CKAN API</a> or our <a href="https://catalog.data.gov/csw" class="local-link">CSW endpoint</a>. We do not currently provide a single aggregate file of all metadata, but we hope to provide this in the future. Until then, you can follow this <a href="https://github.com/GSA/data.gov/issues/315#issuecomment-275747388" class="local-link">GitHub issue</a> for instructions on using the CKAN API to crawl or filter metadata.</p>
+<p>The simplest option is to access metadata in aggregate as it exists on catalog.data.gov. This can be done via our <a title="APIs" href="../apis/" class="local-link">CKAN API</a> or our <a href="https://catalog.data.gov/csw" class="local-link">CSW endpoint</a>. We do not currently provide a single aggregate file of all metadata, but we hope to provide this in the future. Until then, you can follow this <a href="https://github.com/GSA/data.gov/issues/315#issuecomment-275747388" class="local-link">GitHub issue</a> for instructions on using the CKAN API to crawl or filter metadata.</p>
 <h3>Option 2: Harvest From Upstream Harvest Sources</h3>
-<p>Another option is to go directly to the metadata source. Every harvested source of metadata is listed at <a href="https://catalog.data.gov/harvest" class="local-link">https://catalog.data.gov/harvest</a> and via our <a href="../apis/index.html" class="local-link">CKAN API</a> using this <a href="https://catalog.data.gov/api/3/action/package_search?q=type:harvest" class="local-link">filter</a>. As part of <a href="https://project-open-data.cio.gov" class="external ext-link" rel="external" onclick="this.target=&#039;_blank&#039;;">Project Open Data</a> most government offices have transitioned to make all of their metadata available via a <a href="https://project-open-data.cio.gov/v1.1/schema/" class="external ext-link" rel="external" onclick="this.target=&#039;_blank&#039;;">standard schema</a> packaged as a data.json file. These are treated just as any other harvest source and you can use the CKAN API to <a href="https://catalog.data.gov/api/3/action/package_search?q=type%3Aharvest+AND+source_type%3Adatajson" class="local-link">filter</a> for only these harvest sources.</p>
+<p>Another option is to go directly to the metadata source. Every harvested source of metadata is listed at <a href="https://catalog.data.gov/harvest" class="local-link">https://catalog.data.gov/harvest</a> and via our <a href="../apis/" class="local-link">CKAN API</a> using this <a href="https://catalog.data.gov/api/3/action/package_search?q=type:harvest" class="local-link">filter</a>. As part of <a href="https://project-open-data.cio.gov" class="external ext-link" rel="external" onclick="this.target=&#039;_blank&#039;;">Project Open Data</a> most government offices have transitioned to make all of their metadata available via a <a href="https://project-open-data.cio.gov/v1.1/schema/" class="external ext-link" rel="external" onclick="this.target=&#039;_blank&#039;;">standard schema</a> packaged as a data.json file. These are treated just as any other harvest source and you can use the CKAN API to <a href="https://catalog.data.gov/api/3/action/package_search?q=type%3Aharvest+AND+source_type%3Adatajson" class="local-link">filter</a> for only these harvest sources.</p>
 
 <div style="display: block !important; margin:0 !important; padding: 0 !important" id="wpp_popup_post_end_element"></div>			</div>
         </main>
@@ -293,7 +293,7 @@ Click the help icon above to learn more.
 
             <div class="col-md-6 col-lg-6">
                 <div class="footer-logo">
-                    <a class="logo-brand local-link" href="../../index.html" alt="Data.gov">Data.gov</a>
+                    <a class="logo-brand local-link" href="../../" alt="Data.gov">Data.gov</a>
                 </div>
                 <ul id="menu-footer2" class="nav"><li class="menu-privacy-and-website-policies"><a href="../../privacy-policy.html" class="local-link">Privacy and Website Policies</a></li>
 <li class="menu-usa-gov"><a href="https://www.usa.gov/" class="external ext-link" rel="external" onclick="this.target=&#039;_blank&#039;;">USA.GOV</a></li>
@@ -301,11 +301,11 @@ Click the help icon above to learn more.
 </ul>            </div>
 
                             <nav class="col-md-3 col-lg-3" role="navigation">
-                    <ul id="menu-footer" class="nav"><li class="menu-about"><a href="../../about/index.html" class="local-link">About</a></li>
+                    <ul id="menu-footer" class="nav"><li class="menu-about"><a href="../../about/" class="local-link">About</a></li>
 <li class="menu-open-government"><a href="../../open-gov/" class="local-link">Open Government</a></li>
 <li class="menu-blog"><a href="../../meta.html" class="local-link">Blog</a></li>
 <li class="menu-metrics"><a href="../../metrics.html" class="local-link">Metrics</a></li>
-<li class="menu-events"><a href="../../events/index.html">Events</a></li>
+<li class="menu-events"><a href="../../events/">Events</a></li>
 </ul>                </nav>
 
             
