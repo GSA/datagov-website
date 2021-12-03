@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html class="no-js" dir="ltr" lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>A Primer on Machine Readability for Online Documents and Data - Data.gov</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+	<!-- This site is optimized with the Yoast SEO plugin v17.5 - https://yoast.com/wordpress/plugins/seo/ -->
+	<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+	<link rel="canonical" href="blog/primer-machine-readability-online-documents-and-data/index.html" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="A Primer on Machine Readability for Online Documents and Data - Data.gov" />
+	<meta property="og:description" content="&nbsp;" />
+	<meta property="og:url" content="https://www.data.gov/developers/blog/primer-machine-readability-online-documents-and-data/" />
+	<meta property="og:site_name" content="Data.gov" />
+	<meta property="article:published_time" content="2012-09-24T16:35:25+00:00" />
+	<meta property="article:modified_time" content="2017-10-02T22:18:21+00:00" />
+	<meta name="twitter:label1" content="Written by" />
+	<meta name="twitter:data1" content="admin" />
+	<meta name="twitter:label2" content="Est. reading time" />
+	<meta name="twitter:data2" content="13 minutes" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.data.gov/#website","url":"https://www.data.gov/","name":"Data.gov","description":"The home of the U.S. Government\u2019s open data","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.data.gov/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"WebPage","@id":"https://www.data.gov/developers/blog/primer-machine-readability-online-documents-and-data/#webpage","url":"https://www.data.gov/developers/blog/primer-machine-readability-online-documents-and-data/","name":"A Primer on Machine Readability for Online Documents and Data - Data.gov","isPartOf":{"@id":"https://www.data.gov/#website"},"datePublished":"2012-09-24T16:35:25+00:00","dateModified":"2017-10-02T22:18:21+00:00","author":{"@id":"https://www.data.gov/#/schema/person/c799b338fede4b0faa9e001bfbcbae16"},"breadcrumb":{"@id":"https://www.data.gov/developers/blog/primer-machine-readability-online-documents-and-data/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.data.gov/developers/blog/primer-machine-readability-online-documents-and-data/"]}]},{"@type":"BreadcrumbList","@id":"https://www.data.gov/developers/blog/primer-machine-readability-online-documents-and-data/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.data.gov/"},{"@type":"ListItem","position":2,"name":"A Primer on Machine Readability for Online Documents and Data"}]},{"@type":"Person","@id":"https://www.data.gov/#/schema/person/c799b338fede4b0faa9e001bfbcbae16","name":"admin","image":{"@type":"ImageObject","@id":"https://www.data.gov/#personlogo","inLanguage":"en-US","url":"https://secure.gravatar.com/avatar/7bce1d793b2d5992eddacf157be524a3?s=96&d=mm&r=g","contentUrl":"https://secure.gravatar.com/avatar/7bce1d793b2d5992eddacf157be524a3?s=96&d=mm&r=g","caption":"admin"},"url":"https://www.data.gov/author/admin/"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='https://code.jquery.com/' />
+<link rel='dns-prefetch' href='https://dap.digitalgov.gov/' />
+<link rel='dns-prefetch' href='https://fonts.googleapis.com/' />
+<link rel='dns-prefetch' href='https://s.w.org/' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"\/wp\/wp-includes\/js\/wp-emoji-release.min.js"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel="stylesheet" href="../../app/plugins/simple-tooltips/zebra_tooltips.css">
+<link rel="stylesheet" href="../../wp/wp-includes/css/dist/block-library/style.min.css">
+<link rel="stylesheet" href="../../app/plugins/contact-form-7/includes/css/styles.css">
+<link rel="stylesheet" href="../../app/plugins/m-wp-popup/css/colorbox/colorbox.css">
+<link rel="stylesheet" href="../../app/plugins/wp-open311/public/assets/css/chosen.min.css">
+<link rel="stylesheet" href="../../app/plugins/wp-open311/public/assets/css/public.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abel%7CLato%3A100%2C300%2C400%2C700&amp;ver=5.5.7">
+<link rel="stylesheet" href="../../app/themes/roots-nextdatagov/assets/css/main.min.css">
+<link rel="stylesheet" href="../../app/themes/roots-nextdatagov/assets/css/rei.css">
+<script type='text/javascript' src='https://code.jquery.com/jquery-3.5.1.min.js' id='jquery-js'></script>
+<script type='text/javascript' src='../app/plugins/m-wp-popup/js/wpp-popup-frontend.js'></script>
+<script type='text/javascript' src='../app/plugins/wp-open311/public/assets/js/chosen.jquery.min.js'></script>
+<script type='text/javascript' src='../app/plugins/wp-open311/public/assets/js/public.js'></script>
+<script type='text/javascript' src='../app/themes/roots-nextdatagov/assets/js/vendor/respond.min.js' defer='defer' id='respond-js'></script>
+<script type='text/javascript' src='../app/themes/roots-nextdatagov/assets/js/vendor/modernizr.min.js' defer='defer' id='modernizr-js'></script>
+<script type='text/javascript' src='../app/themes/roots-nextdatagov/assets/js/ext-link-handler.js'></script>
+<script type='text/javascript' id="_fed_an_ua_tag" src='https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=GSA&amp;subagency=TTS' id='Federated-Analytics-js'></script>
+<script type='text/javascript' src='../app/plugins/google-analyticator/external-tracking.min.js'></script>
+<meta name="tec-api-version" content="v1"><meta name="tec-api-origin" content="https://www.data.gov"><link rel="https://theeventscalendar.com/" href="../../wp-json/tribe/events/v1/index.html" /><!-- Google Analytics Tracking by Google Analyticator 6.5.5 -->
+<script type="text/javascript">
+    var analyticsFileTypes = [''];
+    var analyticsSnippet = 'enabled';
+    var analyticsEventTracking = 'enabled';
+</script>
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+  
+	_gaq.push(['_setAccount', 'UA-17367410-17']);
+    _gaq.push(['_addDevId', 'i9k95']); // Google Analyticator App ID with Google
+    _gaq.push(['_gat._anonymizeIp']);
+	_gaq.push(['_trackPageview']);
+	<!-- tracking for UA-42145528-2  start -->
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-42145528-2', 'auto');
+  ga('set', 'anonymizeIp', true);
+  ga('send', 'pageview');
+<!-- tracking for UA-42145528-2  end -->
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+		<style type="text/css" id="wp-custom-css">
+			/*
+You can add your own CSS here.
+
+Click the help icon above to learn more.
+*/
+
+.twitter-feed h2 {display:none;}		</style>
+		
+  <link rel="alternate" type="application/rss+xml" title="Data.gov Feed" href="../../feed/index.html">
+  <link href="../../app/themes/roots-nextdatagov/assets/img/favicon.ico" rel="shortcut icon" />
+  <link rel="icon" type="image/png" href="../../app/themes/roots-nextdatagov/assets/img/favicon-120.png" sizes="120x120" />
+    <!--[if IE]>
+    <style type="text/css">
+        #cboxClose{
+            top:-8px !important;
+            right:-8px !important;
+        }
+    </style>
+    <![endif]-->
+</head>
+<body class="post-template-default single single-post postid-5150 single-format-standard tribe-no-js primer-machine-readability-online-documents-and-data">
+<!--div class="banner disclaimer">
+<center>This is a demonstration site exploring the future of Data.gov. <span id="stop-disclaimer"> Give us your feedback on <a href="https://twitter.com/usdatagov" class="local-link">Twitter</a>, <a href="http://quora.com" class="external ext-link" rel="external" onclick="this.target=&#039;_blank&#039;;">Quora</a></span>, <a href="https://github.com/GSA/datagov-design/" class="local-link">Github</a>, or <a href="/contact-engage">contact us</a></center>
+
+
+<!--div class="banner disclaimer"><center>Updates to Data.gov will be temporarily suspended between December 13, 9 PM EST and approximately December 27. <a href="/migration-notification">Learn More</a>.</center>
+<!--[if lt IE 8]>
+<div class="alert alert-warning">
+    You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="external ext-link" rel="external" onclick="this.target=&#039;_blank&#039;;">upgrade your
+    browser</a> to improve your experience.</div>
+<![endif]-->
+
+<header>
+<div class="banner navbar navbar-default navbar-static-top yamm" role="banner">
+  <div class="container">
+
+        <div class="searchbox-row skip-navigation">
+            <div class="sr-only skip-link">
+                <a href="blog/primer-machine-readability-online-documents-and-data/index.html#main">Jump to Content</a>
+            </div>
+
+
+            <div>
+                                <form role="search" method="get" class="search-form form-inline navbar-right navbar-nav  col-sm-6 col-md-6 col-lg-6"
+      action="https://catalog.data.gov/dataset">
+    <div class="input-group">
+                    <label for="search-header" class="sr-only">Search for:</label>
+        
+        
+        <input type="search" id="search-header" title="Example searches: Monthly House Price Indexes, Health Care Provider Charge Data, Credit Card Complaints, Manufacturing &amp; Trade Inventories &amp; Sales, Federal Student Loan Program Data"
+               data-strings='{"targets":["Monthly House Price Indexes","Health Care Provider Charge Data","Credit Card Complaints","Manufacturing &amp; Trade Inventories &amp; Sales","Federal Student Loan Program Data"]}' value="" name="q" class="search-field form-control"
+               placeholder="Search Data.gov">
+        <input type="hidden" name="sort" value="score desc, name asc">
+      <span class="input-group-btn">
+      <button type="submit" class="search-submit btn btn-default">
+          <i class="fa fa-search"></i>
+          <span class="sr-only">Search</span>
+      </button>
+    </span>
+    </div>
+<input type="hidden" name="as_sfid" value="AAAAAAWC4NbZKtgUvWegyShngGWS4PyKFjuyEO_3w19sxMMXXxMEfXTTC9vKRD-8oNPFV6Z2oOX2naSZhLRlGn-7Q0lR00ijzsJoN4jlJxQTJhaXS4NuxwiwgT8taAaeRxT-UmI=" /><input type="hidden" name="as_fid" value="7e818e1873cdeb79c1abbba0ba93a3422251482d" /></form>
+                            </div>
+        </div>
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="../../index.html" alt="Data.gov" class="local-link"><h1 class="navbar-brand">Data.gov</h1></a>
+        </div>
+
+        <nav class="collapse navbar-collapse" role="navigation">
+            <ul id="menu-primary-navigation" class="nav navbar-nav navbar-right"><li class="menu-data"><a href="http://catalog.data.gov/dataset" class="local-link">Data</a></li>
+<li class="dropdown yamm-fw menu-topics"><a class="dropdown-toggle local-link" data-toggle="dropdown" data-target="#" href="../../communities/index.html">Topics <b class="caret"></b></a>
+<ul class="dropdown-menu topics">
+	<li class="menu-agriculture topic-food"><a href="../../food.html" class="local-link"><i></i><span>Agriculture</span></a></li>
+	<li class="menu-climate topic-climate"><a href="../../climate/" class="local-link"><i></i><span>Climate</span></a></li>
+	<li class="menu-energy topic-energy"><a href="../../energy.html" class="local-link"><i></i><span>Energy</span></a></li>
+	<li class="menu-local-government topic-local"><a href="../../local.html" class="local-link"><i></i><span>Local Government</span></a></li>
+	<li class="menu-maritime topic-maritime"><a href="../../maritime.html" class="local-link"><i></i><span>Maritime</span></a></li>
+	<li class="menu-ocean topic-ocean"><a href="../../ocean.html" class="local-link"><i></i><span>Ocean</span></a></li>
+	<li class="menu-older-adults-health topic-groupolder-adults-health-data"><a href="https://catalog.data.gov/group/older-adults-health-data" class="local-link"><i></i><span>Older Adults Health</span></a></li>
+</ul>
+</li>
+<li class="menu-resources"><a href="https://resources.data.gov" class="local-link">Resources</a></li>
+<li class="menu-strategy"><a href="https://strategy.data.gov" class="local-link">Strategy</a></li>
+<li class="current-post-ancestor active current-post-parent menu-developers"><a href="index.html" class="local-link">Developers</a></li>
+<li class="menu-contact"><a href="../../request/index.html" class="local-link">Contact</a></li>
+</ul>        </nav>
+
+  </div>
+    <div id="external_disclaimer" class="tooltip" role="tooltip" aria-hidden="true">This link will direct you to an external website that may have different content and privacy policies from Data.gov.
+    </div>
+</div>
+
+<div class="container hidden print-logo">
+    <img src="../../app/themes/roots-nextdatagov/assets/img/logo.svg" />
+</div>
+
+
+
+        <div class="header banner page-heading">
+        <div class="container">
+            <div class="page-header">
+
+
+                                <h1>
+                    <span class="category-header topic-developers"><a href="index.html" class="local-link"><div><i></i></div><span>Developers</span></a></span> &nbsp; &mdash; &nbsp; <span class="category-header topic-"><a href="../../developers/blog" class="local-link"><div><i></i></div><span>blog</span></a></span>                </h1>
+
+            </div>
+        </div>
+    </div>
+    
+
+</header>
+
+
+
+<div role="document">
+    <div class="content">
+        <main class="main" role="main" id="main">
+            
+
+    
+
+    
+
+        <div class="subnav banner">
+            <div class="container">
+                <nav class="topic-subnav" role="navigation">
+                    <ul id="menu-developers" class="nav navbar-nav"><li class="menu-open-source"><a href="../../developers/open-source">Open Source</a></li>
+<li class="menu-data-harvesting"><a href="harvesting/index.html">Data Harvesting</a></li>
+<li class="menu-apis"><a href="apis/index.html">APIs</a></li>
+<li class="menu-challenges"><a target="_blank" rel="noopener noreferrer external" href="https://www.challenge.gov/" class="external ext-link" onclick="this.target=&#039;_blank&#039;;">Challenges</a></li>
+</ul>                </nav>
+            </div>
+        </div>
+
+    
+
+<!-- adding parameter to url which passes the term slug for the cross site navigation-->
+<script type="text/javascript">
+    jQuery(function ($) {
+        var comm = 'topic=developers_navigation';
+
+        $('#main a[href*="catalog.data.gov"]').add('#main a[href*="fe-data.reisys.com"]').not('#main a[href*="#topic"]').each(function () {
+            var newHref = $(this).attr('href') + '#topic=developers_navigation';
+            $(this).attr('href', newHref);
+        });
+    });
+</script>
+
+<div class="wrap container">
+  <article class="post-5150 post type-post status-publish format-standard hentry category-developers legacy_datacomm_tags-extensibility-180 legacy_datacomm_tags-format-180 legacy_datacomm_tags-glossary-180 legacy_datacomm_tags-machine_readable-180 legacy_datacomm_tags-readability-180 legacy_datacomm_tags-syndication-180">
+    <header>
+      <h1 class="entry-title">A Primer on Machine Readability for Online Documents and Data</h1>
+      <div class="entry-meta" xmlns="//www.w3.org/1999/html">
+    <time class="published" datetime="2012-09-24T12:35:25-04:00">September 24, 2012&nbsp;&nbsp;<i>By admin</i></time>
+</div>
+
+
+    </header>
+
+    <div class="entry-content">
+      
+      <p>Submitted by Jim Hendler, Head, Department of Computer Science, Rensselaer Polytechnic Institute and Theresa A. Pardo, Director, Center for Technology in Government, Associate Research Professor, Public Administration and Policy and Informatics, University at Albany, State University of New York.</p>
+<p>Government agencies are investing in strategies to increase access to information created, collected, and held by government. While these strategies typically involve placing information on the web, they sometimes exhibit a misunderstanding of the importance of providing that information in “machine readable” formats. The degree to which information is machine readable, however, is critical to meeting priorities such as open government and open data, and directly influences, and in many cases limits, the uses citizens and other interested parties can make of that information.</p>
+<p>Historically, efforts to make government information available to the public have focused on pushing static information about government programs and services to the web. The intended user has been a human who can read, print, and take actions based on reading the material or by engaging in a form-based transaction. In some cases, users were able to query the data or map the results using sophisticated geospatial displays. Access to the data itself, on the other hand, was rarely provided.</p>
+<p>This historical practice has been dictated in large part by the capabilities of familiar web technologies (such as HTML and PDF) and a narrow vision of the expected users and uses of the information. Machine readable formats expand that field of vision to new users and new uses and require technologies (such as RDF, XML, and JSON) that may be less familiar in this context, but are still proven and widely used in other arenas (such as web services and content management). Taking the next step to machine readable formats requires government agencies to fully appreciate the potential uses of government information as well as the range of possible formats and the implications of those formats on intended use.</p>
+<p>So where to begin? An important starting point is to understand that “machine readable” is not synonymous with “digitally accessible” information.  Scanning a report, the text, graphics, or even rows and columns of numbers, makes it digitally accessible, but a computer still is not really able to “understand” the information. This distinction can be seen in the difference between a magazine cover and a barcode on that cover. A computer cannot directly understand what the picture on the magazine represents, even if it is presented in an online format, but it can read and understand the bar code, using it for identifying the price and tracking the purchase, for example.</p>
+<p>Let’s consider the significance of that bar code – a machine readable format that’s universally embedded in products and documents today, but was virtually unseen just 40 years ago. What are some factors that account for its prevalence now?</p>
+<ul>
+<li>Uniformity &#8211; The standard format of the UPC (Universal Product Code) established in the 1970’s made widespread adoption possible as tools for printing and processing the UPC could develop around an accepted model.</li>
+<li>Simplicity – The bar code itself is a rather unobtrusive symbol that today has relatively little impact on its attached product. Consumers barely notice it and it’s created without much additional effort.</li>
+<li>Ubiquity – The bar code, which was introduced for grocery store items, now appears on virtually every item that can be purchased or distributed.</li>
+<li>Economy – The cost savings realized through faster, more accurate transaction processing made the bar code a worthwhile investment. The savings soon extended to better inventory management, customer relationships, and theft control (you can’t switch bar codes as easily as you can switch price tags).</li>
+<li>Extensibility – The types and amount of data that could be stored and processed via bar codes expanded its application to areas such as health care (for tracking patient and medication information in hospital settings), distribution (for tracking and expediting shipping and mailing), and scientific research (for banding birds and other wildlife) to name just a few.</li>
+</ul>
+<p>Similar factors are now coming into play with the advent of machine readable formats for government data. The expectation of similar benefits in usability, payback, and extensibility should provide the motivation. To realize these benefits, similar conditions also apply. Uniformity and standardization in data formats and processing are needed. Simplicity in creating and embedding the formats must be achieved. Cost advantages must be realized through their use to justify their creation. When these conditions are met, machine readable data become more prevalent leading in turn to increased capabilities.</p>
+<p>For these reasons and as commitments to open government and transparency increase, efforts to make information available must include machine readable versions of datasets and not only reports about this information in document form (such as PDF, HTML, and JPG).  Consider a bar chart in a government report. You can read the report in PDF format and understand the analysis the chart provides. However, neither the chart itself nor its underlying data is available in a way that allows further processing of that information. Next generation efforts in opening government must ensure that users have access, for example, not just to a static bar chart image, but also to information about the source of that bar chart and the underlying data itself, much as the magazine bar code described above reveals far more data about the magazine that can be leveraged for additional benefits.</p>
+<p>In a practical sense, machine readable information helps government agencies to bridge the gap between “documents” (which are typically static and frozen in their format) and “data” (which may be dynamic and can be open to further processing). By adopting a machine readable perspective, these same agencies can meet their open government and open data objectives more completely, reliably, and responsibly.</p>
+<p>Further implications of “documents” versus “data” and the various levels of machine readability, along with the conditions required for broader and deeper implementation, are far beyond the scope of this paper which intends to provide a basic awareness of the main components of machine readable information. To aid in that awareness, the following sections briefly outline the characteristics and differences between documents and data and take a quick look at the special case of syndication formats. It concludes with a glossary of relevant terms. Subsequent papers will address the issues surrounding machine readability and related policies in greater detail.</p>
+<p><strong><em>Machine Readability for Text Documents</em></strong></p>
+<p><strong>PDF (Portable Document Format) </strong>is the primary format used to make government information available to the public in document form. While PDF has made it possible for many documents to be available on the web, simply providing a PDF report does not fully address the need to have information about the document itself or its underlying data. For example, the PDF does not necessarily indicate who authored it, where it came from, or the nature of its content. This type of information about the document is often referred to as the “metadata” for the document. Much as a bar code contains additional data about a product, this metadata provides additional data that can assist citizens and researchers searching by a particular author or on a particular topic. Without access to metadata on the thousands of government documents on the web, citizens are essentially looking for a needle in a haystack. There are a number of tools available to extract that kind of information from many kinds of PDF documents and to make it available for use by application developers to ensure that data is available for searching by citizens and others. Thus, PDF documents are a step towards machine readability, but are most useful when enhanced with appropriate metadata.</p>
+<p><strong>XML (eXtensible Markup Language) </strong>was developed for several purposes, one of which is to make the metadata of documents more directly available.  XML, when properly used, tags information in a document so that computers can automatically extract it to help provide users with capabilities such as searching, browsing, and information discovery.  Along these lines, an important emerging property of XML involves providing mechanisms for tracking versions of a document.  When used, it allows the history of a document to be made available to others — an important capability for tracking legislation, policy guidance, and decision memos.</p>
+<p>Producing quality metadata is pivotal to the ability of search tools to find a particular document in response to particular queries. XML does not produce metadata, but is a tool to make it available for use. Producing metadata and then ensuring its use through languages such as XML falls to the document owners and producers and the technologists who support them.</p>
+<p><strong><em>Machine Readability for Data</em></strong></p>
+<p>Machine readability directly influences data usability. Datasets, in particular very large datasets, on their own convey little information to a human. Only when that data is processed in some way — visualized, analyzed, or summarized — does it becomes informative or useful. Thus, to fully realize the potential of open government data, government agencies must release their data in a format that allows processing.  Providing innovators, journalists, and other end users with data in this way makes it possible for them to better understand the raw data, to examine it in ways that meet their interests and responds to their questions. It allows them to drive their businesses; in some cases it becomes their businesses.</p>
+<p>The most common machine readable format for data is “Comma Separated Variables” (CSV), which is provided directly by many standard database and spreadsheet products.  CSV stores tabular data in a text-based format, making it easily exchanged by machines.  CSV, like XML for documents, does not inherently make metadata available. There are a number of metadata formats being developed for use along with CSV, but currently these tend to be defined by those developing open data websites, rather than the data providers themselves.</p>
+<p>A general problem with CSV is that because it is primarily text-based, it makes it difficult for computers to find common elements between datasets.  If one dataset has a value of “Alaska” and another has one of “AK” then separate information must be retained somewhere that can link these things to each other.  The term “linked data” and the emerging Resource Description Framework (RDF) standard are designed to both enhance the capability of datasets to have their metadata directly attached and also to allow common terms to be related throughout datasets. These features of RDF are making it increasingly attractive for modern open data sites.</p>
+<p><strong><em>Syndication Formats </em></strong></p>
+<p>When information is published in machine readable formats, that information, and especially its metadata, can be shared via “syndication” that enables automatic, continuous feeds of information.  A user, using any one of a number of applications, can request that the information be “pushed” to their machine.  Common syndication formats, such as RSS, Atom and JSON are thus used for sharing machine readable documents, but are not themselves machine readability solutions. They can be viewed more accurately as beneficial outcomes of machine readability, an outcome that most people are familiar with today.</p>
+<p><strong><em>A Glossary for Machine Readability</em></strong></p>
+<p>The following glossary provides basic definitions for terms and acronyms that you may encounter when investigating machine readability. They are arranged alphabetically, not by topic or theme.</p>
+<p><strong>API: </strong>(Application Programming Interface) When information is made available in any machine readable format, it becomes possible to make that information directly available to programs that request that information over the web.  An API is the way this information is made directly available to other machines.</p>
+<p><strong>Atom: </strong>Atom is a machine syndication format based on XML.  It is widely used in applications that publish documents or news items, and then syndicate the basic metadata about that document (title, authors, etc.).</p>
+<p><strong>CSV: </strong>(Comma separated values) A format that stores tabular data (numbers and text) in plain-text form. CSV is an open format and is widely used to store and organize tabular data. Most open government data sites use CSV as the data release format.</p>
+<p><strong>Digital Formats</strong>: Any format that can be stored, viewed and shared by a computer. While all machine readable formats are also digital formats, not all digital formats are machine readable.</p>
+<p><strong>Five-star (linked open) Data: </strong>Tim Berners-Lee, inventor of the World Wide Web, proposed a rating scheme for open government data.  He suggested that making data available online was one star, making it machine readable was two-stars, using an open-format was three stars, using RDF format was four stars, and using RDF with links to other datasets was five stars.</p>
+<p><strong>HTML</strong>:  (HyperText Markup Language) The main markup language for displaying web pages and other information in a web browser. HTML is an open standard by the W3C. The tags and markup of HTML mainly relate to how information is displayed to a human user, not to the information itself. In general, putting a document in HTML, without some form of tagging or metadata, is not considered making it machine readable in a useful sense.</p>
+<p><strong>JSON</strong>: (JavaScript Object Notation) A machine readable data format derived from the JavaScript language used on many web sites.  It is used for representing simple data structures and associative arrays. As a data serialization format it is language and machine independent. JSON is an open format and is defined in RFC 4627. JSON is also used by Facebook as a way of publishing public social-networking information, which is increasing its use in datasharing and syndication applications.</p>
+<p><strong>Metadata</strong>: Machine readable data is most useful when information about who produced it, when, etc. is associated with the data. Both documents and structured datasets require metadata to be searchable, sharable, etc.</p>
+<p><strong>Open Format: </strong>The U.S. Government through the Open Government Directive (<a href="https://obamawhitehouse.archives.gov/omb/assets/memoranda_2010/m10-06.pdf" class="external ext-link" rel="external" onclick="this.target=&#039;_blank&#039;;">http://www.whitehouse.gov/omb/assets/memoranda_2010/m10-06.pdf</a>) defines an open format as “one that is platform independent, machine readable, and made available to the public without restrictions that would impede the re-use of that information.” All of the formats discussed in this document are Open Formats.</p>
+<p><strong>PDF</strong>: (Portable Document Format) A file format used mainly to represent documents such that layout will stay the same independent of the system environment. As of 2008, Adobe released the PDF format as an open standard. PDF is mainly a human readable format, concerned with layout and organization. Tools for connecting metadata to PDF or extracting the text from it make PDF more machine readable than many other document formats.</p>
+<p><strong>RDF: </strong>(Resource Description Framework) A data language used to represent data and information as web resources so that the can be “linked” together. RDF is an open standard from the W3C. RDF is increasing in popularity as a data release language as it allows common terms to be linked between datasets.</p>
+<p><strong>RSS: </strong>(Really Simple Syndication) An XML (or RDF) based language used to publish frequently updated works. Includes both content and metadata about the content (i.e., author and date). An RSS feed is a common syndication method for sharing documents published on the web.</p>
+<p><strong>Schema.org</strong>: Schema.org is a way of embedding metadata about common objects into other web documents. It is supported by Bing, Google, Yahoo! and other web search engines.  Use of Schema.org enhances the ability of search engines to find machine readable documents and to optimize their search rank.  Use of schema.org is an increasingly important enhancement to machine readable documents due to its role in increasing Search Engine Optimization for online resources.</p>
+<p><strong>Syndication Formats</strong>: Digital formats used to help publish continuous feeds of information.</p>
+<p><strong>XML: </strong>(eXtensible Markup Language) A markup language that defines a set of rules for encoding documents in a format that can be both human and machine readable. XML is an open format created and maintained by the W3C. XML is enhanced by proper use of XML schemas or by use of metadata embedded in the XML.</p>
+
+<div style="display: block !important; margin:0 !important; padding: 0 !important" id="wpp_popup_post_end_element"></div>    </div>
+
+                  <em></em>
+    <footer>
+          </footer>
+  </article>
+        
+          <section id="comments">
+    <h3>4 Responses to &ldquo;A Primer on Machine Readability for Online Documents and Data&rdquo;</h3>
+
+    <ol class="media-list">
+      
+  <li id="comment-4169" class="comment even thread-even depth-1 media comment-4169">
+    <img alt='' src='https://secure.gravatar.com/avatar/?s=64&amp;d=mm&amp;r=g' srcset='https://secure.gravatar.com/avatar/?s=128&#038;d=mm&#038;r=g 2x' class='avatar pull-left media-object avatar-64 photo avatar-default' height='64' width='64' loading='lazy'/><div class="media-body">
+  <h4 class="media-heading">sally.bourrie@gsa.gov</h4>
+  <time datetime="2012-10-09T11:25:42-04:00"><a href="blog/primer-machine-readability-online-documents-and-data/index.html#comment-4169">October 9, 2012</a></time>
+  
+  
+  <p>This is a tremendously useful document, Jim. Thank you for providing it &#8212; everyone will benefit.</p>
+    </div></li>
+
+  <li id="comment-7161" class="comment odd alt thread-odd thread-alt depth-1 media comment-7161">
+    <img alt='' src='https://secure.gravatar.com/avatar/?s=64&amp;d=mm&amp;r=g' srcset='https://secure.gravatar.com/avatar/?s=128&#038;d=mm&#038;r=g 2x' class='avatar pull-left media-object avatar-64 photo avatar-default' height='64' width='64' loading='lazy'/><div class="media-body">
+  <h4 class="media-heading">Alex G</h4>
+  <time datetime="2013-05-19T02:13:00-04:00"><a href="blog/primer-machine-readability-online-documents-and-data/index.html#comment-7161">May 19, 2013</a></time>
+  
+  
+  <p>Uniformity and simplicity is really the key here&#8230; As design company owner and main designer that deals with a lot of data I can tell that some data usage involves hand not machine rather in interpreting data in more accessible format such as infographics. Lets keeps things more simple. </p>
+    </div></li>
+
+  <li id="comment-144272" class="comment even thread-even depth-1 media comment-144272">
+    <img alt='' src='https://secure.gravatar.com/avatar/f2991a9c0fef4ed241c912be404f1bf4?s=64&amp;d=mm&amp;r=g' srcset='https://secure.gravatar.com/avatar/f2991a9c0fef4ed241c912be404f1bf4?s=128&#038;d=mm&#038;r=g 2x' class='avatar pull-left media-object avatar-64 photo' height='64' width='64' loading='lazy'/><div class="media-body">
+  <h4 class="media-heading">Rhonda</h4>
+  <time datetime="2014-08-11T07:00:49-04:00"><a href="blog/primer-machine-readability-online-documents-and-data/index.html#comment-144272">August 11, 2014</a></time>
+  
+  
+  <p>I blog frequently and I seriously appreciate your information. Your article has really peaked my interest. I&#8217;m going to book mark your site and keep checking for new details about once per week. I subscribed to your RSS feed too.</p>
+    </div></li>
+
+  <li id="comment-2135622" class="comment odd alt thread-odd thread-alt depth-1 media comment-2135622">
+    <img alt='' src='https://secure.gravatar.com/avatar/8d2b85091f124bc662c26a9139231cb3?s=64&amp;d=mm&amp;r=g' srcset='https://secure.gravatar.com/avatar/8d2b85091f124bc662c26a9139231cb3?s=128&#038;d=mm&#038;r=g 2x' class='avatar pull-left media-object avatar-64 photo' height='64' width='64' loading='lazy'/><div class="media-body">
+  <h4 class="media-heading">J. Albert Bowden II</h4>
+  <time datetime="2015-11-13T19:42:18-05:00"><a href="blog/primer-machine-readability-online-documents-and-data/index.html#comment-2135622">November 13, 2015</a></time>
+  
+  
+  <p>Saddened to see PDF promoted here as the primary format the US government uses to make information available to the public.<br />
+PDF scraping/extraction tools for textual data are far from perfect and typically require hands-on involvement (on some level) to free the data locked inside. Scraping PDFs for images (OCR)&#8230;.don&#8217;t even get me started on how painful it is.<br />
+While PDF did go open source, there are still parts of the specification that are not, thus creating barriers of entry on some level for users. Moreover, PDFs require a browser plug-in for viewing on the web, thus defining itself as a Non-Web Platform technology.<br />
+HTML is the format that should be promoted and utilized by the US government for making information available to the public. HTML is a Web Platform standard, the backbone of the internet, the most widely used semantic web technology (microformats) utilized to date, and is a Living Standard maintained by the W3C. or in their words &#8220;HTML is the Web&#8217;s core language for creating documents and applicatons for everyone to use, anywhere&#8221;.<br />
+Moreover, to the reasons pointing out the success of bar codes:<br />
+Uniformity &#8211; HTML is the Web Platform&#8217;s standard format for structuring content, aka its publishing language. This standard format&#8217;s release into the public domain enabled immediate global consumption and adoption, which in turn fueled the growth of tools utilizing HTML.<br />
+Simplicity &#8211; HTML is entirely unobtrusive and when used correctly has zero impact on attached product (content), as CSS is used for styling web platform documents. The public (non-techie) in general is unaware of its presence, and it can be created with minimal effort in an open-source text editor/ide.<br />
+Ubiquity &#8211; HTML, which was created specifically for enabling the sharing of free links, literally is the essence of the World Wide Web; the Web was created specifically for sharing information.<br />
+Economy &#8211; The cost savings realized through an open format/platform have made HTML a worthwhile investment. These savings soon extended to better documentation, specification, and every other positive factor realized from crowd sourcing.<br />
+Extensibility &#8211; HTML has expanded the types and amount of data and media it consumes/renders in each new release, furthering its reach and strengths. However its important to note here that HTML (and the rest of Web Platform technologies) are inherently extensible by default; the Web was created with HTML hand-in-hand, so everywhere the Web is, HTML also reaches.<br />
+HTML also has accessibility baked in by default, so when used appropriately HTML provides massive benefits to users not surfing the Web with a standard mouse and keyboard setup. Proper use of HTML also increases usability, scalability, readability, portability, interoperability, and reusability just to name a few.<br />
+An important point to understand is that HTML can be both &#8220;machine readable&#8221; and &#8220;digitablly accessible&#8221; simultaneously. A browser/user agent can understand what a picture in a magazine represents, even when its presented in an online format, when said picture is properly marked up (alt=&#8221;&#8221;). The example regarding a bar chart in a government report is the same: you can read the report in HTML format and understand its provided analysis, while at the same time providing underlying data regarding the chart that allows further processing of that information. To your point about nextgen efforts, utilizing HTML properly ensures users access to both.<br />
+Lastly, your provided defintion of Open Format clearly states that &#8220;an open format is platform independent, machine readable, and made available to the public without restrictions that would impede the re-use of that information&#8221;. HTML clearly fits this description, while PDF clearly does not.<br />
+Finally, HTML source code can be viewed in the browser by any user; this crucial detail enables/empowers everyone and anyone who is interested in looking at/learning about what is going on under the hood of the web page they are on. I cannot emphasize this empowerment enough; a code literal public is the future that we seek, and HTML provides a perfectly simple gateway towards said code literacy. Getting the masses educated about the Web will only increase its adoption, spread innovation, and can potentially make the world a much better place. PDFs are locked silos that make nearly every interaction with them a pained process.<br />
+In closing, you should include microformats to your list of machine-readables; as previously noted, it is the most widespread semantic technology in use on the Web today, created years before schema.org, enabling all of the desired functionaliy described in this post, while furthering the intent and agenda of the World Wide Web. Every point you made regarding schema.org is accomplished by Microformats, in a non-obtrusive manner, maintaining proper separation of concerns between Web Platform technologies (unlike schema.org), and not created/backed by the very search engines it is utilized by.</p>
+    </div></li>
+    </ol>
+
+    
+        <div class="alert alert-warning">
+      Comments are closed.    </div>
+      </section><!-- /#comments -->
+
+
+
+    
+
+
+
+
+
+
+</div>
+        </main>
+        <!-- /.main -->
+
+        
+
+    </div>
+    <!-- /.content -->
+</div>
+<!-- /.wrap -->
+
+<footer class="content-info" role="contentinfo">
+
+
+    <div class="container">
+
+
+        <div class="row">
+
+            <!--
+    <div class="col-lg-4">
+            <p>&copy; 2021 Data.gov</p>
+    </div>
+    -->
+
+
+            <div class="col-md-6 col-lg-6">
+                <div class="footer-logo">
+                    <a class="logo-brand local-link" href="../../index.html" alt="Data.gov">Data.gov</a>
+                </div>
+                <ul id="menu-footer2" class="nav"><li class="menu-privacy-and-website-policies"><a href="../../privacy-policy.html" class="local-link">Privacy and Website Policies</a></li>
+<li class="menu-usa-gov"><a href="https://www.usa.gov/" class="external ext-link" rel="external" onclick="this.target=&#039;_blank&#039;;">USA.GOV</a></li>
+<li class="menu-performance-gov"><a href="http://www.performance.gov/" class="external ext-link" rel="external" onclick="this.target=&#039;_blank&#039;;">PERFORMANCE.GOV</a></li>
+</ul>            </div>
+
+                            <nav class="col-md-3 col-lg-3" role="navigation">
+                    <ul id="menu-footer" class="nav"><li class="menu-about"><a href="../../about/index.html" class="local-link">About</a></li>
+<li class="menu-open-government"><a href="../../open-gov/" class="local-link">Open Government</a></li>
+<li class="menu-blog"><a href="../../meta.html" class="local-link">Blog</a></li>
+<li class="menu-metrics"><a href="../../metrics.html" class="local-link">Metrics</a></li>
+<li class="menu-events"><a href="../../events/index.html">Events</a></li>
+</ul>                </nav>
+
+            
+
+
+            <div class="col-md-3 col-lg-3 social-nav">
+
+                
+
+
+                                    <nav role="navigation">
+                        <ul id="menu-social_navigation" class="nav"><li><a href="https://twitter.com/usdatagov" title="This link will direct you to an external website that may have different content and privacy policies from Data.gov." class="local-link"><i class="fa fa-twitter" ></i><span>Twitter</span></a></li>
+<li><a href="http://github.com/GSA/data.gov/" title="This link will direct you to an external website that may have different content and privacy policies from Data.gov." class="local-link"><i class="fa fa-github" ></i><span>Github</span></a></li>
+</ul>                    </nav>
+                
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+		<script>
+		( function ( body ) {
+			'use strict';
+			body.className = body.className.replace( /\btribe-no-js\b/, 'tribe-js' );
+		} )( document.body );
+		</script>
+		<script> /* <![CDATA[ */var tribe_l10n_datatables = {"aria":{"sort_ascending":": activate to sort column ascending","sort_descending":": activate to sort column descending"},"length_menu":"Show _MENU_ entries","empty_table":"No data available in table","info":"Showing _START_ to _END_ of _TOTAL_ entries","info_empty":"Showing 0 to 0 of 0 entries","info_filtered":"(filtered from _MAX_ total entries)","zero_records":"No matching records found","search":"Search:","all_selected_text":"All items on this page were selected. ","select_all_link":"Select all pages","clear_selection":"Clear Selection.","pagination":{"all":"All","next":"Next","previous":"Previous"},"select":{"rows":{"0":"","_":": Selected %d rows","1":": Selected 1 row"}},"datepicker":{"dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesMin":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Prev","currentText":"Today","closeText":"Done","today":"Today","clear":"Clear"}};/* ]]> */ </script><script type='text/javascript' src='../app/plugins/simple-tooltips/zebra_tooltips.js'></script>
+<script type='text/javascript' src='../wp/wp-includes/js/dist/vendor/wp-polyfill.min.js'></script>
+<script type='text/javascript' id='wp-polyfill-js-after'>
+( 'fetch' in window ) || document.write( '<script src="../../wp/wp-includes/js/dist/vendor/wp-polyfill-fetch.min.js@ver=3.0.0"></scr' + 'ipt>' );( document.contains ) || document.write( '<script src="../wp/wp-includes/js/dist/vendor/wp-polyfill-node-contains.min.js@ver=3.42.0"></scr' + 'ipt>' );( window.DOMRect ) || document.write( '<script src="../wp/wp-includes/js/dist/vendor/wp-polyfill-dom-rect.min.js@ver=3.42.0"></scr' + 'ipt>' );( window.URL && window.URL.prototype && window.URLSearchParams ) || document.write( '<script src="../wp/wp-includes/js/dist/vendor/wp-polyfill-url.min.js@ver=3.6.4"></scr' + 'ipt>' );( window.FormData && window.FormData.prototype.keys ) || document.write( '<script src="../wp/wp-includes/js/dist/vendor/wp-polyfill-formdata.min.js></scr' + 'ipt>' );
+</script>
+<script type='text/javascript' id='contact-form-7-js-extra'>
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/www.data.gov\/wp-json\/","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../app/plugins/contact-form-7/includes/js/index.js'></script>
+<script type='text/javascript' src='../app/plugins/the-events-calendar/common/vendor/datatables/datatables.min.js'></script>
+<script type='text/javascript' src='../app/themes/roots-nextdatagov/assets/js/scripts.min.js'></script>
+<script type='text/javascript' src='https://code.jquery.com/jquery-migrate-3.1.0.min.js' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='../wp/wp-includes/js/wp-embed.min.js'></script>
+                			            
+                <script type="text/javascript">
+                    jQuery(function() {
+                                                
+                        jQuery(".tooltips img").closest(".tooltips").css("display", "inline-block");
+                    
+                        new jQuery.Zebra_Tooltips(jQuery('.tooltips').not('.custom_m_bubble'), {
+                            'background_color':     '#000000',
+                            'color':				'#ffffff',
+                            'max_width':  250,
+                            'opacity':    .95, 
+                            'position':    'center'
+                        });
+                        
+                                            
+                    });
+                </script>        
+		</body>
+</html>
