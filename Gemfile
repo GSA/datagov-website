@@ -2,7 +2,6 @@ source "https://rubygems.org"
 
 gem "jekyll", "~> 4.2.1"
 gem "html-proofer"
-gem "jekyll-redirect-from"
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
