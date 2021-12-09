@@ -1,6 +1,9 @@
-.PHONY: all 
+.PHONY: all build
 
 all: crawl convert
+
+build:
+	npm run build:jekyll
 
 # convert corrects links that were not converted correctly
 convert: 
