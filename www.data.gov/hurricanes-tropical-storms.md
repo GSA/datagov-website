@@ -14,6 +14,7 @@ excerpt: '<p>Here are mapping tools and data layers to help you analyze and asse
 featured_media: 0
 guid: https://www.data.gov/?page_id=136621
 id: 136621
+layout: legacy-page
 link: https://www.data.gov/climate/hurricanes-tropical-storms/
 meta: []
 modified: '2014-03-18T23:11:16'

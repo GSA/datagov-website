@@ -16,6 +16,7 @@ featured_media: 0
 format: standard
 guid: https://www.data.gov/?p=24529326
 id: 24529326
+layout: legacy-post
 link: https://www.data.gov/maritime/stormy-weather-150-years-hurricane-tracks-atlantic-ocean/
 meta: []
 modified: '2017-02-17T18:44:57'

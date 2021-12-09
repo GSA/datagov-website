@@ -15,6 +15,7 @@ excerpt: "<p>These resources include best practices and recommendations for mari
 featured_media: 0
 guid: http://www.data.gov/?p=115912
 id: 115912
+layout: legacy-page
 link: https://www.data.gov/ocean/best-practices
 meta: []
 modified: '2019-11-13T15:07:30'

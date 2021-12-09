@@ -14,6 +14,7 @@ excerpt: '<p>This community is part of the implementation of the National Policy
 featured_media: 0
 guid: http://www.data.gov/?p=40729
 id: 40729
+layout: legacy-page
 link: https://www.data.gov/ocean/about-ocean-community
 meta: []
 modified: '2017-10-04T17:17:49'

@@ -17,6 +17,7 @@ featured_media: 0
 format: standard
 guid: https://www.data.gov/?p=26648756
 id: 26648756
+layout: legacy-post
 link: https://www.data.gov/meta/covid-19-is-complex-as-is-covid-19-open-data/
 meta: []
 modified: '2020-12-15T13:31:31'

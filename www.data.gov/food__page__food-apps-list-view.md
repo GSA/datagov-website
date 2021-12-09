@@ -12,6 +12,7 @@ excerpt: '<p>This page highlights apps and websites for Food, Agriculture, and R
 featured_media: 0
 guid: http://www.data.gov/?p=47532
 id: 47532
+layout: legacy-page
 link: https://www.data.gov/food/food-apps-list-view
 meta: []
 modified: '2013-12-06T23:41:39'

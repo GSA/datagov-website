@@ -15,6 +15,7 @@ featured_media: 130239
 format: standard
 guid: http://www.data.gov/?p=129265
 id: 129265
+layout: legacy-post
 link: https://www.data.gov/food/nifa/
 meta: []
 modified: '2014-12-16T15:03:39'

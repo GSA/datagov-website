@@ -14,6 +14,7 @@ excerpt: '<p>Looking for ways to get services and find more about your neighborh
 featured_media: 0
 guid: http://www.data.gov/?page_id=129635
 id: 129635
+layout: legacy-page
 link: https://www.data.gov/counties-intro/
 meta: []
 modified: '2013-12-16T08:23:56'

@@ -16,6 +16,7 @@ featured_media: 0
 format: standard
 guid: https://www.data.gov/?p=26396174
 id: 26396174
+layout: legacy-post
 link: https://www.data.gov/meta/serving-the-needs-of-data-practitioners-with-a-new-resources-data-gov/
 meta: []
 modified: '2020-09-18T10:52:29'

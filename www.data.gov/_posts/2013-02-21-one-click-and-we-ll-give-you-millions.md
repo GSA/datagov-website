@@ -16,6 +16,7 @@ featured_media: 0
 format: standard
 guid: http://www.data.gov/?p=42221
 id: 42221
+layout: legacy-post
 link: https://www.data.gov/blog/one-click-and-we%E2%80%99ll-give-you-millions
 meta: []
 modified: '2014-04-14T17:18:41'

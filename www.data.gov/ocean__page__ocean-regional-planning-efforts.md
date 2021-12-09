@@ -15,6 +15,7 @@ excerpt: '<p>Under the National Ocean Policy, the United States is subdivided in
 featured_media: 0
 guid: http://www.data.gov/?p=35666
 id: 35666
+layout: legacy-page
 link: https://www.data.gov/ocean/ocean-regional-planning-efforts
 meta: []
 modified: '2018-10-25T12:23:32'

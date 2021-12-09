@@ -17,6 +17,7 @@ featured_media: 0
 format: standard
 guid: https://www.data.gov/?p=24529336
 id: 24529336
+layout: legacy-post
 link: https://www.data.gov/maritime/ferrying-data-public-usdot-national-census-ferry-operators/
 meta: []
 modified: '2017-03-14T19:21:49'

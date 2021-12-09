@@ -10,6 +10,7 @@ excerpt: ''
 featured_media: 0
 guid: https://www.data.gov/?page_id=1985791
 id: 1985791
+layout: legacy-page
 link: https://www.data.gov/weather/highlights
 meta: []
 modified: '2014-07-28T14:28:31'

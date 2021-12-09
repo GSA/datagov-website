@@ -14,6 +14,7 @@ featured_media: 0
 format: status
 guid: http://www.data.gov/?p=129936
 id: 129936
+layout: legacy-post
 link: https://www.data.gov/energy/energy-tweet/
 meta: []
 modified: '2014-01-03T16:43:12'

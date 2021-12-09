@@ -14,6 +14,7 @@ excerpt: '<p>New energy data is made available daily, and while federal agencies
 featured_media: 0
 guid: http://www.data.gov/?p=40563
 id: 40563
+layout: legacy-page
 link: https://www.data.gov/energy/searching-and-subscribing-energy-resources
 meta: []
 modified: '2019-11-13T15:06:14'

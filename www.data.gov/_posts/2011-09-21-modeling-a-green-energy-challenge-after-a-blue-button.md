@@ -21,6 +21,7 @@ featured_media: 0
 format: standard
 guid: http://www.data.gov/?p=5125
 id: 5125
+layout: legacy-post
 link: https://www.data.gov/energy/blog/modeling-green-energy-challenge-after-blue-button
 meta: []
 modified: '2018-10-25T11:45:46'

@@ -10,6 +10,7 @@ excerpt: ''
 featured_media: 0
 guid: http://www.data.gov/?p=52601
 id: 52601
+layout: legacy-page
 link: https://www.data.gov/metric/federalagency/dataset-published-per-month
 meta: []
 modified: '2017-05-31T18:22:32'

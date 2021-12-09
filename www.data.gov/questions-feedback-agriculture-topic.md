@@ -12,6 +12,7 @@ excerpt: "<p>You can use this form to contact the Agriculture\_Topic leads.\_To 
 featured_media: 0
 guid: http://www.data.gov/?page_id=15875162
 id: 15875162
+layout: legacy-page
 link: https://www.data.gov/food/contact
 meta: []
 modified: '2016-12-23T10:21:33'

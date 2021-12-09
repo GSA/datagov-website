@@ -16,6 +16,7 @@ excerpt: '<p>Marine planners often need to consider a wide range of information 
 featured_media: 0
 guid: http://www.data.gov/?p=40541
 id: 40541
+layout: legacy-page
 link: https://www.data.gov/ocean/ocean-map
 meta: []
 modified: '2018-01-05T16:15:52'

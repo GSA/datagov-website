@@ -16,6 +16,7 @@ excerpt: '<p>Tribal Nations Tools &#8211; Assessment and Planning Adaptation Wor
 featured_media: 0
 guid: http://www.data.gov/?page_id=19225812
 id: 19225812
+layout: legacy-page
 link: https://www.data.gov/climate/tribal-nations/tools-assessment-planning
 meta: []
 modified: '2016-10-24T14:11:18'

@@ -11,6 +11,7 @@ excerpt: '<p>VegScape &#8211; Vegetation Condition Explorer</p>
 featured_media: 0
 guid: http://www.data.gov/?p=47542
 id: 47542
+layout: legacy-page
 link: https://www.data.gov/food/food-geocategories
 meta: []
 modified: '2013-11-07T00:38:51'

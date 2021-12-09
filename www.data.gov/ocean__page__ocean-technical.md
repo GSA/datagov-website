@@ -10,6 +10,7 @@ excerpt: ''
 featured_media: 0
 guid: http://www.data.gov/?p=35664
 id: 35664
+layout: legacy-page
 link: https://www.data.gov/ocean/ocean-technical
 meta: []
 modified: '2014-03-26T12:41:17'

@@ -16,6 +16,7 @@ featured_media: 0
 format: image
 guid: http://www.data.gov/?p=128682
 id: 128682
+layout: legacy-post
 link: https://www.data.gov/food/agricultural-productivity-in-the-united-states/
 meta: []
 modified: '2013-12-18T15:38:10'

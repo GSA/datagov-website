@@ -12,6 +12,7 @@ excerpt: '<p>Data Quality and Documentation Suggested metadata standards and req
 featured_media: 0
 guid: http://www.data.gov/?p=40637
 id: 40637
+layout: legacy-page
 link: https://www.data.gov/ocean/data-quality-and-documentation
 meta: []
 modified: '2013-11-07T00:38:48'

@@ -14,6 +14,7 @@ excerpt: '<p>Please use the following form to submit a new issue describing a pr
 featured_media: 0
 guid: http://www.data.gov/?page_id=16401762
 id: 16401762
+layout: legacy-page
 link: https://www.data.gov/issue/
 meta: []
 modified: '2016-12-22T12:58:38'

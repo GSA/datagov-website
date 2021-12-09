@@ -14,6 +14,7 @@ excerpt: '<p>Use data to analyze county services, compare to other counties, and
 featured_media: 0
 guid: http://www.data.gov/?p=40616
 id: 40616
+layout: legacy-page
 link: https://www.data.gov/counties/counties-officials
 meta: []
 modified: '2013-11-07T00:38:47'

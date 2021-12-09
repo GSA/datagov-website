@@ -16,6 +16,7 @@ featured_media: 0
 format: standard
 guid: http://www.data.gov/?p=19289942
 id: 19289942
+layout: legacy-post
 link: https://www.data.gov/meta/open-government-national-action-plan/
 meta: []
 modified: '2018-10-25T10:47:53'

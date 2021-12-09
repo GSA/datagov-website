@@ -13,6 +13,7 @@ excerpt: "<p>Data.gov is the federal government\u2019s open data site, and aims 
 featured_media: 0
 guid: https://www.data.gov/?page_id=24492951
 id: 24492951
+layout: legacy-page
 link: https://www.data.gov/open-gov/
 meta: []
 modified: '2019-09-18T12:20:43'

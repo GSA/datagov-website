@@ -15,6 +15,7 @@ excerpt: '<p>Data and innovation challenges issued by public, private, nonprofit
 featured_media: 0
 guid: https://www.data.gov/?page_id=138971
 id: 138971
+layout: legacy-page
 link: https://www.data.gov/climate/climate-challenges
 meta: []
 modified: '2014-03-18T22:56:50'

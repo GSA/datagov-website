@@ -16,6 +16,7 @@ excerpt: '<p>Marine Planning Portal Network The Network, through a combination o
 featured_media: 0
 guid: http://www.data.gov/?p=115892
 id: 115892
+layout: legacy-page
 link: https://www.data.gov/ocean/marine-planning-portal-network-teaser
 meta: []
 modified: '2014-05-12T10:35:23'

@@ -16,6 +16,7 @@ excerpt: '<p>Illinois, Indiana, Michigan, Minnesota, New York, Ohio, Pennsylvani
 featured_media: 0
 guid: https://www.data.gov/?page_id=170131
 id: 170131
+layout: legacy-page
 link: https://www.data.gov/ocean/great-lakes
 meta: []
 modified: '2016-12-31T16:04:58'

@@ -16,6 +16,7 @@ featured_media: 0
 format: standard
 guid: http://54.225.112.145/?p=230
 id: 230
+layout: legacy-post
 link: https://www.data.gov/ocean/federal-data-resources/
 meta: []
 modified: '2013-11-26T18:04:46'

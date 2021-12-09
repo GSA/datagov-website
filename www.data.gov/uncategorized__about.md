@@ -15,6 +15,7 @@ excerpt: '<p>About Data.gov Who developed Data.gov? With what technology is Data
 featured_media: 0
 guid: http://www.data.gov/?p=26
 id: 26
+layout: legacy-page
 link: https://www.data.gov/about
 meta: []
 modified: '2020-07-10T14:29:38'

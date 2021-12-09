@@ -17,6 +17,7 @@ featured_media: 0
 format: link
 guid: https://www.data.gov/?p=161481
 id: 161481
+layout: legacy-post
 link: https://www.data.gov/ocean/webinar-using-participatory-gis-map-ocean-uses-mid-atlantic/
 meta: []
 modified: '2014-05-29T09:28:34'

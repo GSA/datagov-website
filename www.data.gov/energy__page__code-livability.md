@@ -13,6 +13,7 @@ excerpt: "<p>The Partnership for Sustainable Communities is hosting a code-a-tho
 featured_media: 0
 guid: http://www.data.gov/?p=35659
 id: 35659
+layout: legacy-page
 link: https://www.data.gov/energy/code-livability
 meta: []
 modified: '2019-11-13T15:05:51'

@@ -15,6 +15,7 @@ excerpt: '<p>Welcome to Labs.Data.gov, a repository of shared services to protot
 featured_media: 0
 guid: https://www.data.gov/?page_id=180791
 id: 180791
+layout: legacy-page
 link: https://www.data.gov/labs/
 meta: []
 modified: '2019-04-24T10:39:00'

@@ -16,6 +16,7 @@ featured_media: 0
 format: link
 guid: http://www.data.gov/?p=128965
 id: 128965
+layout: legacy-post
 link: https://www.data.gov/food/from-data-to-decisions-using-data-to-improve-public-access-and-knowledge/
 meta: []
 modified: '2013-12-12T15:46:43'

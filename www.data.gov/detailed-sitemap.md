@@ -9,6 +9,7 @@ excerpt: ''
 featured_media: 0
 guid: http://www.data.gov/?page_id=130023
 id: 130023
+layout: legacy-page
 link: https://www.data.gov/detailed-sitemap/
 meta: []
 modified: '2015-08-10T18:44:36'

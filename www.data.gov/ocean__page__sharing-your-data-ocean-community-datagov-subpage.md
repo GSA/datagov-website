@@ -15,6 +15,7 @@ excerpt: "<p>Federal Publishers Under\_ the Open Data Policy, Federal agencies a
 featured_media: 0
 guid: https://www.data.gov/ocean/page/sharing-your-data-ocean-community-datagov-subpage
 id: 115921
+layout: legacy-page
 link: https://www.data.gov/ocean/sharing-your-data-ocean-community-datagov-subpage
 meta: []
 modified: '2014-04-24T09:28:58'

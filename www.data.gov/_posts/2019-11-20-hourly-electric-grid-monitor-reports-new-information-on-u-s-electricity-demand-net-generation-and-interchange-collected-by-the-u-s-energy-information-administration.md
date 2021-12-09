@@ -17,6 +17,7 @@ featured_media: 26088743
 format: standard
 guid: https://www.data.gov/?p=22933412
 id: 22933412
+layout: legacy-post
 link: https://www.data.gov/energy/hourly-information-on-u-s-electricity-supply-demand-and-flows-now-available-from-the-u-s-energy-information-administration/
 meta: []
 modified: '2019-11-21T10:20:36'

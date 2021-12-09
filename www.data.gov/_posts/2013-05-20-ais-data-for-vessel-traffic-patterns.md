@@ -16,6 +16,7 @@ featured_media: 0
 format: image
 guid: http://54.225.112.145/?p=155
 id: 124489
+layout: legacy-post
 link: https://www.data.gov/ocean/ais-data-for-vessel-traffic-patterns/
 meta: []
 modified: '2013-11-14T01:27:09'

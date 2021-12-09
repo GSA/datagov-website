@@ -15,6 +15,7 @@ excerpt: '<p>Data.gov doesn&#8217;t just catalog raw data, it also includes APIs
 featured_media: 0
 guid: http://www.data.gov/?p=40719
 id: 40719
+layout: legacy-page
 link: https://www.data.gov/developers/apis
 meta: []
 modified: '2017-01-27T14:04:20'

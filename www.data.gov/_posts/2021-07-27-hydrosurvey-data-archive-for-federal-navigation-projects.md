@@ -18,6 +18,7 @@ featured_media: 129613
 format: standard
 guid: https://www.data.gov/?p=27144945
 id: 27144945
+layout: legacy-post
 link: https://www.data.gov/maritime/hydrosurvey-data-archive-for-federal-navigation-projects/
 meta: []
 modified: '2021-07-27T18:34:04'

@@ -15,6 +15,7 @@ featured_media: 0
 format: standard
 guid: http://www.data.gov/?p=129596
 id: 129596
+layout: legacy-post
 link: https://www.data.gov/food/apps-for-farmers/
 meta: []
 modified: '2014-03-03T15:41:46'

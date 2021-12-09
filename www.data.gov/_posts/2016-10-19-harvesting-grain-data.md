@@ -16,6 +16,7 @@ featured_media: 0
 format: standard
 guid: https://www.data.gov/?p=23817691
 id: 23817691
+layout: legacy-post
 link: https://www.data.gov/maritime/harvesting-grain-data/
 meta: []
 modified: '2016-11-29T20:14:50'

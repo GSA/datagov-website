@@ -16,6 +16,7 @@ featured_media: 0
 format: standard
 guid: http://www.data.gov/?p=17588052
 id: 17588052
+layout: legacy-post
 link: https://www.data.gov/meta/data-gov-turns-six/
 meta: []
 modified: '2015-05-21T11:15:09'

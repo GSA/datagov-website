@@ -14,6 +14,7 @@ excerpt: '<p>Federal Data Resources We are in the process of making Federal data
 featured_media: 0
 guid: http://www.data.gov/?p=35636
 id: 35636
+layout: legacy-page
 link: https://www.data.gov/ocean/federal-data-resources
 meta: []
 modified: '2013-11-07T00:38:50'

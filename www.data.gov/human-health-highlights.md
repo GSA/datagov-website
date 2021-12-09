@@ -14,6 +14,7 @@ excerpt: "<p>Launch of Health theme of Climate.Data.Gov The U.S. Government has 
 featured_media: 0
 guid: http://www.data.gov/?page_id=16117032
 id: 16117032
+layout: legacy-page
 link: https://www.data.gov/climate/humanhealth/highlights
 meta: []
 modified: '2015-04-06T12:47:18'

@@ -16,6 +16,7 @@ excerpt: '<p>U.S. Virgin Islands, Puerto Rico Regional Ocean Partnership: Caribb
 featured_media: 0
 guid: https://www.data.gov/?page_id=170151
 id: 170151
+layout: legacy-page
 link: https://www.data.gov/ocean/caribbean
 meta: []
 modified: '2016-12-31T16:04:48'

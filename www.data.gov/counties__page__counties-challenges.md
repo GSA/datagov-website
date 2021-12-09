@@ -16,6 +16,7 @@ excerpt: '<p>County and federal governments are using challenges to encourage de
 featured_media: 0
 guid: http://www.data.gov/?p=40609
 id: 40609
+layout: legacy-page
 link: https://www.data.gov/counties/counties-challenges
 meta: []
 modified: '2013-12-06T23:50:36'

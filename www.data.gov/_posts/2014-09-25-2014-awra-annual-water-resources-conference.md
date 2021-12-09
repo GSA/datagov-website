@@ -18,6 +18,7 @@ featured_media: 0
 format: standard
 guid: https://www.data.gov/?p=6838822
 id: 6838822
+layout: legacy-post
 link: https://www.data.gov/climate/2014-awra-annual-water-resources-conference/
 meta: []
 modified: '2015-04-21T15:53:24'
@@ -25,8 +26,8 @@ modified_gmt: '2015-04-21T19:53:24'
 permalink: /climate/2014-awra-annual-water-resources-conference/
 ping_status: open
 redirect_from:
-- /water/2014-awra-annual-water-resources-conference/
 - /climate/water/2014-awra-annual-water-resources-conference/
+- /water/2014-awra-annual-water-resources-conference/
 slug: 2014-awra-annual-water-resources-conference
 status: publish
 sticky: false

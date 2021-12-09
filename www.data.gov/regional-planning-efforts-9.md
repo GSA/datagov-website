@@ -16,6 +16,7 @@ excerpt: '<p>Alaska Regional Ocean Partnership: Regional Data Portal: Alaska Oce
 featured_media: 0
 guid: https://www.data.gov/?page_id=170171
 id: 170171
+layout: legacy-page
 link: https://www.data.gov/ocean/alaska-arctic
 meta: []
 modified: '2016-12-31T16:04:39'

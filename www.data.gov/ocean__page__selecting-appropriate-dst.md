@@ -15,6 +15,7 @@ excerpt: '<p>Selecting the Appropriate DST &nbsp; DSTs that enable practitioners
 featured_media: 0
 guid: http://www.data.gov/?p=35661
 id: 35661
+layout: legacy-page
 link: https://www.data.gov/ocean/selecting-appropriate-dst
 meta: []
 modified: '2013-11-07T00:39:00'

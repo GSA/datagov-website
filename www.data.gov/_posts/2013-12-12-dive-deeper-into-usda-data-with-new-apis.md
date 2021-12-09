@@ -15,6 +15,7 @@ featured_media: 0
 format: link
 guid: http://www.data.gov/?p=128961
 id: 128961
+layout: legacy-post
 link: https://www.data.gov/food/dive-deeper-into-usda-data-with-new-apis/
 meta: []
 modified: '2013-12-12T15:37:20'

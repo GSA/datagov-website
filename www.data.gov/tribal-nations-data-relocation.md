@@ -16,6 +16,7 @@ excerpt: '<p>Tribal Nations Tools &#8211; Relocation Adaptation Workbook for Nat
 featured_media: 0
 guid: http://www.data.gov/?page_id=19225892
 id: 19225892
+layout: legacy-page
 link: https://www.data.gov/climate/tribal-nations/tools-relocation
 meta: []
 modified: '2019-05-06T14:37:35'

@@ -10,6 +10,7 @@ featured_media: 0
 format: gallery
 guid: http://www.data.gov/?p=438
 id: 438
+layout: legacy-post
 link: https://www.data.gov/energy/slides/rooftop-solar-challenge
 meta: []
 modified: '2012-12-05T12:33:11'

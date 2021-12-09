@@ -15,6 +15,7 @@ excerpt: '<p>Discover and access data, information, and decision tools related t
 featured_media: 0
 guid: http://www.data.gov/?page_id=128866
 id: 128866
+layout: legacy-page
 link: https://www.data.gov/ocean-introduction/
 meta: []
 modified: '2014-04-15T13:32:25'

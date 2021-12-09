@@ -15,6 +15,7 @@ featured_media: 0
 format: standard
 guid: http://www.data.gov/?p=21118802
 id: 21118802
+layout: legacy-post
 link: https://www.data.gov/meta/open-data-roundtables/
 meta: []
 modified: '2017-03-06T17:06:00'

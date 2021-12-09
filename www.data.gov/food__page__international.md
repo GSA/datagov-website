@@ -9,6 +9,7 @@ excerpt: ''
 featured_media: 0
 guid: http://www.data.gov/?p=46232
 id: 46232
+layout: legacy-page
 link: https://www.data.gov/food/international
 meta: []
 modified: '2013-11-07T00:38:52'

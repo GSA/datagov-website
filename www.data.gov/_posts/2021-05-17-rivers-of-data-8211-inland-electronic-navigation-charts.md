@@ -19,6 +19,7 @@ featured_media: 26085520
 format: standard
 guid: https://www.data.gov/?p=25601282
 id: 25601282
+layout: legacy-post
 link: https://www.data.gov/maritime/rivers-of-data-inland-electronic-navigation-charts/
 meta: []
 modified: '2021-03-24T17:35:54'
@@ -26,9 +27,9 @@ modified_gmt: '2021-03-24T21:35:54'
 permalink: /maritime/rivers-of-data-inland-electronic-navigation-charts/
 ping_status: open
 redirect_from:
-- /transportation/rivers-of-data-inland-electronic-navigation-charts/
-- /geospatial/rivers-of-data-inland-electronic-navigation-charts/
 - /climate/transportation/rivers-of-data-inland-electronic-navigation-charts/
+- /geospatial/rivers-of-data-inland-electronic-navigation-charts/
+- /transportation/rivers-of-data-inland-electronic-navigation-charts/
 slug: rivers-of-data-inland-electronic-navigation-charts
 status: publish
 sticky: false

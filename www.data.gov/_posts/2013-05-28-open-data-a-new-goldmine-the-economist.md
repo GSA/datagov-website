@@ -15,6 +15,7 @@ featured_media: 0
 format: link
 guid: http://www.data.gov/?p=115971
 id: 115971
+layout: legacy-post
 link: https://www.data.gov/announcements/open-data-new-goldmine-economist
 meta: []
 modified: '2014-03-18T21:44:17'

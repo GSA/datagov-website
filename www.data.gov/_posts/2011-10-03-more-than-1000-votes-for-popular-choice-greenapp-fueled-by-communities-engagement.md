@@ -23,6 +23,7 @@ featured_media: 0
 format: standard
 guid: http://www.data.gov/?p=5126
 id: 5126
+layout: legacy-post
 link: https://www.data.gov/energy/blog/more-1000-votes-popular-choice-greenapp-fueled-communities-engagement
 meta: []
 modified: '2017-10-04T17:05:03'

@@ -14,6 +14,7 @@ excerpt: '<p>Water How are human and natural components of the hydrologic cycle 
 featured_media: 0
 guid: http://www.data.gov/?page_id=17343532
 id: 17343532
+layout: legacy-page
 link: https://www.data.gov/climate/water-framing-questions
 meta: []
 modified: '2015-04-23T16:35:08'

@@ -9,6 +9,7 @@ excerpt: ''
 featured_media: 0
 guid: http://www.data.gov/?p=40617
 id: 40617
+layout: legacy-page
 link: https://www.data.gov/counties/counties-mobile-applications
 meta: []
 modified: '2013-11-07T00:38:47'

@@ -16,6 +16,7 @@ excerpt: '<p>Science and information are fundamental to effective marine plannin
 featured_media: 0
 guid: http://www.data.gov/?p=35662
 id: 35662
+layout: legacy-page
 link: https://www.data.gov/ocean/ocean-tools
 meta: []
 modified: '2019-11-13T15:05:59'

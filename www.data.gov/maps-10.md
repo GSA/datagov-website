@@ -16,6 +16,7 @@ excerpt: '<p>Here you will find a collection of maps and map layers that can hel
 featured_media: 0
 guid: http://www.data.gov/?page_id=12320802
 id: 12320802
+layout: legacy-page
 link: https://www.data.gov/climate/ecosystem-vulnerability/ecosystem-vulnerability-maps
 meta: []
 modified: '2019-05-02T14:02:02'

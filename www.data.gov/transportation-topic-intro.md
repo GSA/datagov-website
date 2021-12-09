@@ -16,6 +16,7 @@ excerpt: '<p>Here you will find resources related to the impacts of climate chan
 featured_media: 0
 guid: http://www.data.gov/?page_id=16118332
 id: 16118332
+layout: legacy-page
 link: https://www.data.gov/transportation-topic-intro/
 meta: []
 modified: '2021-02-18T15:51:27'

@@ -12,6 +12,7 @@ excerpt: "<p>Explore, discover and access a variety of rich spatial and non\u201
 featured_media: 0
 guid: http://www.data.gov/?p=40558
 id: 40558
+layout: legacy-page
 link: https://www.data.gov/ocean/other-data-source
 meta: []
 modified: '2013-11-07T00:38:57'

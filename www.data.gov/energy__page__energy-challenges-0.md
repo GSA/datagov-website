@@ -9,6 +9,7 @@ excerpt: ''
 featured_media: 0
 guid: http://www.data.gov/?p=35648
 id: 35648
+layout: legacy-page
 link: https://www.data.gov/energy/energy-challenges
 meta: []
 modified: '2014-01-08T16:32:43'

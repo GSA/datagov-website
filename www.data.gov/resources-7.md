@@ -16,6 +16,7 @@ excerpt: '<p>The 2014 National Climate Assessment provides background informatio
 featured_media: 0
 guid: https://www.data.gov/?page_id=140271
 id: 140271
+layout: legacy-page
 link: https://www.data.gov/climate/water/water-resources
 meta: []
 modified: '2014-12-15T10:05:48'

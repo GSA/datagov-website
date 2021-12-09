@@ -17,6 +17,7 @@ featured_media: 0
 format: standard
 guid: https://www.data.gov/?p=26847317
 id: 26847317
+layout: legacy-post
 link: https://www.data.gov/maritime/clean-air-practices-at-ports-epa-interactive-map/
 meta: []
 modified: '2021-03-24T17:31:44'

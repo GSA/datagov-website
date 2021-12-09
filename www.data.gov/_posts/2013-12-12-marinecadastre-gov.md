@@ -17,6 +17,7 @@ featured_media: 130215
 format: image
 guid: http://www.data.gov/?p=128946
 id: 128946
+layout: legacy-post
 link: https://www.data.gov/ocean/marinecadastre-gov/
 meta: []
 modified: '2014-01-16T08:21:49'

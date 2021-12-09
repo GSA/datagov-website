@@ -16,6 +16,7 @@ featured_media: 0
 format: standard
 guid: https://www.data.gov/?p=26726182
 id: 26726182
+layout: legacy-post
 link: https://www.data.gov/meta/launch-of-the-new-data-gov-catalog/
 meta: []
 modified: '2021-02-05T16:12:04'

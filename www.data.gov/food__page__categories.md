@@ -15,6 +15,7 @@ excerpt: '<p>Agriculture Investment and Engineering Animals and Animal Systems A
 featured_media: 0
 guid: http://www.data.gov/?p=48641
 id: 48641
+layout: legacy-page
 link: https://www.data.gov/food/categories
 meta: []
 modified: '2013-11-07T00:38:45'

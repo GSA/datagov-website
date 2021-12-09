@@ -14,6 +14,7 @@ excerpt: '<p>Sharing Your Data Guidelines for sharing your data in the community
 featured_media: 0
 guid: https://www.data.gov/ocean/page/sharing-your-data-ocean-community-datagov
 id: 115891
+layout: legacy-page
 link: https://www.data.gov/ocean/sharing-your-data-ocean-community-datagov
 meta: []
 modified: '2014-04-22T12:33:58'

@@ -16,6 +16,7 @@ featured_media: 21891272
 format: standard
 guid: http://www.data.gov/?p=21891242
 id: 21891242
+layout: legacy-post
 link: https://www.data.gov/meta/data-usa-visualizing-government-data/
 meta: []
 modified: '2016-05-13T15:57:44'

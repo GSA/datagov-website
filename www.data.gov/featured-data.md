@@ -16,6 +16,7 @@ excerpt: '<p>tbd &#8211; open paragraph National Water Information System Nation
 featured_media: 0
 guid: https://www.data.gov/?page_id=8809452
 id: 8809452
+layout: legacy-page
 link: https://www.data.gov/climate/water/water-resources
 meta: []
 modified: '2014-11-05T18:36:39'

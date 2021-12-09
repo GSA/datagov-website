@@ -15,6 +15,7 @@ excerpt: '<p>This section provides information on common mapping service and dat
 featured_media: 0
 guid: http://www.data.gov/?p=40641
 id: 40641
+layout: legacy-page
 link: https://www.data.gov/ocean/data-publishing-and-exchange-subpage
 meta: []
 modified: '2013-11-07T00:38:48'

@@ -17,6 +17,7 @@ featured_media: 0
 format: image
 guid: http://www.data.gov/?p=129259
 id: 129259
+layout: legacy-post
 link: https://www.data.gov/food/nass-quickstats/
 meta: []
 modified: '2014-04-03T11:45:11'

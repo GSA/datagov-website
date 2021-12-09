@@ -16,6 +16,7 @@ featured_media: 0
 format: image
 guid: http://54.225.112.145/?p=384
 id: 384
+layout: legacy-post
 link: https://www.data.gov/energy/apis-from-eia/
 meta: []
 modified: '2013-12-13T19:36:22'

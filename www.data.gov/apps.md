@@ -15,6 +15,7 @@ excerpt: '<p>Here are a few government and non-government software tools to help
 featured_media: 0
 guid: https://www.data.gov/?page_id=138951
 id: 138951
+layout: legacy-page
 link: https://www.data.gov/climate/climate-tools
 meta: []
 modified: '2017-10-04T17:54:00'

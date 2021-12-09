@@ -12,6 +12,7 @@ excerpt: "<p>Regional Planning Efforts and Resources Coastal and marine spatial 
 featured_media: 0
 guid: http://www.data.gov/?p=35641
 id: 35641
+layout: legacy-page
 link: https://www.data.gov/ocean/regional-planning-efforts-and-resources
 meta: []
 modified: '2013-11-07T00:38:58'

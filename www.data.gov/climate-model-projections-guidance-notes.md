@@ -16,6 +16,7 @@ excerpt: '<p>&lt;&lt; Back to Climate Projections Key message: Climate simulatio
 featured_media: 0
 guid: https://www.data.gov/?page_id=2289391
 id: 2289391
+layout: legacy-page
 link: https://www.data.gov/climate-model-projections-guidance-notes/
 meta: []
 modified: '2019-05-01T14:06:29'

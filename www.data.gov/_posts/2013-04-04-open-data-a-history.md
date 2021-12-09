@@ -15,6 +15,7 @@ featured_media: 0
 format: standard
 guid: http://www.data.gov/?p=42642
 id: 42642
+layout: legacy-post
 link: https://www.data.gov/blog/open-data-history
 meta: []
 modified: '2017-10-02T18:18:24'

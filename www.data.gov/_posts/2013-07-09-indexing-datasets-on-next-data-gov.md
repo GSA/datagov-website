@@ -15,6 +15,7 @@ featured_media: 0
 format: standard
 guid: http://www.data.gov/?p=636
 id: 636
+layout: legacy-post
 link: https://www.data.gov/meta/indexing-datasets-on-next-data-gov/
 meta: []
 modified: '2014-03-18T21:44:09'

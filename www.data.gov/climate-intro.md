@@ -15,6 +15,7 @@ excerpt: "<p>Here you can find data related to climate change that can help info
 featured_media: 0
 guid: https://www.data.gov/?page_id=147871
 id: 147871
+layout: legacy-page
 link: https://www.data.gov/climate-intro/
 meta: []
 modified: '2019-07-29T14:24:35'

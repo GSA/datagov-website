@@ -15,6 +15,7 @@ featured_media: 0
 format: link
 guid: http://www.data.gov/?p=116131
 id: 116131
+layout: legacy-post
 link: https://www.data.gov/announcements/open-data-executive-order-shows-path-forward
 meta: []
 modified: '2014-03-18T21:44:15'

@@ -8,6 +8,7 @@ excerpt: ''
 featured_media: 0
 guid: http://www.data.gov/?page_id=130020
 id: 130020
+layout: legacy-page
 link: https://www.data.gov/sitemap
 meta: []
 modified: '2014-01-07T13:46:59'

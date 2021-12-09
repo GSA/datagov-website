@@ -15,6 +15,7 @@ excerpt: "<p>Electricity Information Agency\u2019s Energy Disruptions Tool The U
 featured_media: 0
 guid: http://www.data.gov/?page_id=16118542
 id: 16118542
+layout: legacy-page
 link: https://www.data.gov/climate/energy-infrastructure/highlights/
 meta: []
 modified: '2015-06-24T19:14:52'

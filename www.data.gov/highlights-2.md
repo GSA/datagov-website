@@ -10,6 +10,7 @@ excerpt: ''
 featured_media: 0
 guid: https://www.data.gov/?page_id=9299892
 id: 9299892
+layout: legacy-page
 link: https://www.data.gov/climate/water/highlights/
 meta: []
 modified: '2014-11-18T16:25:16'

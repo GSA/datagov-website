@@ -15,6 +15,7 @@ featured_media: 0
 format: link
 guid: http://www.data.gov/?p=116062
 id: 116062
+layout: legacy-post
 link: https://www.data.gov/announcements/opengov-voices-datagov-relaunches-open-source-platform-ckan-sunlight-foundation-blog
 meta: []
 modified: '2014-03-18T21:44:16'

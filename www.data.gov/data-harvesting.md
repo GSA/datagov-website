@@ -16,6 +16,7 @@ excerpt: '<p>Data.gov is organized around metadata published by government offic
 featured_media: 0
 guid: http://www.data.gov/?page_id=132651
 id: 132651
+layout: legacy-page
 link: https://www.data.gov/developers/harvesting
 meta: []
 modified: '2020-01-24T16:04:59'

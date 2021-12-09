@@ -13,6 +13,7 @@ excerpt: '<p>Thank you for your feedback. To protect your privacy, please do not
 featured_media: 0
 guid: https://www.data.gov/?page_id=9323612
 id: 9323612
+layout: legacy-page
 link: https://www.data.gov/climate/coastalflooding/feedback/
 meta: []
 modified: '2016-12-23T10:30:12'

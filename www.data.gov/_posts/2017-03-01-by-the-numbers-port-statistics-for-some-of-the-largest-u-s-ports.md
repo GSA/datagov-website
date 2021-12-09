@@ -15,6 +15,7 @@ featured_media: 0
 format: standard
 guid: https://www.data.gov/?p=24529331
 id: 24529331
+layout: legacy-post
 link: https://www.data.gov/maritime/p24529331/
 meta: []
 modified: '2017-02-15T14:56:27'

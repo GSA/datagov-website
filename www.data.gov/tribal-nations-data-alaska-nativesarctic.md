@@ -16,6 +16,7 @@ excerpt: '<p>Tribal Nations Tools &#8211; Alaska Natives/Arctic Arctic Adaptatio
 featured_media: 0
 guid: http://www.data.gov/?page_id=19225792
 id: 19225792
+layout: legacy-page
 link: https://www.data.gov/climate/tribal-nations/tools-natives-arctic
 meta: []
 modified: '2019-05-06T14:35:50'

@@ -15,6 +15,7 @@ excerpt: '<p>Best Practices Collection of resources on best practices and recomm
 featured_media: 0
 guid: http://www.data.gov/?p=115902
 id: 115902
+layout: legacy-page
 link: https://www.data.gov/ocean/best-practices-teaser
 meta: []
 modified: '2014-04-14T14:51:38'

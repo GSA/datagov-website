@@ -13,6 +13,7 @@ excerpt: "<p>Apps and Tools are at the heart of enabling developers to get their
 featured_media: 0
 guid: http://www.data.gov/?p=41691
 id: 41691
+layout: legacy-page
 link: https://www.data.gov/developers/developers-apps-list-view
 meta: []
 modified: '2013-11-07T00:38:49'

@@ -14,6 +14,7 @@ excerpt: '<p>The BREAD Ideas Challenge is an opportunity for researchers in the 
 featured_media: 0
 guid: http://www.data.gov/?p=46102
 id: 46102
+layout: legacy-page
 link: https://www.data.gov/food/bread-ideas-challenge
 meta: []
 modified: '2013-11-07T00:38:44'

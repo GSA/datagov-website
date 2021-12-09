@@ -13,6 +13,7 @@ excerpt: '<p>2020 Goal U.S. to have the highest proportion of college graduates 
 featured_media: 0
 guid: http://www.data.gov/?p=35238
 id: 35238
+layout: legacy-page
 link: https://www.data.gov/education/2020-goal
 meta: []
 modified: '2016-12-29T22:33:46'

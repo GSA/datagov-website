@@ -13,6 +13,7 @@ excerpt: "<p>This site is a centralized federal resource for Food, Agriculture, 
 featured_media: 0
 guid: http://www.data.gov/?p=46082
 id: 46082
+layout: legacy-page
 link: https://www.data.gov/food/about
 meta: []
 modified: '2013-12-16T06:26:52'

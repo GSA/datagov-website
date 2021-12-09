@@ -13,6 +13,7 @@ featured_media: 0
 format: status
 guid: http://www.data.gov/?p=791
 id: 791
+layout: legacy-post
 link: https://www.data.gov/food/open-ag-data/
 meta: []
 modified: '2013-07-26T12:29:45'

@@ -13,6 +13,7 @@ excerpt: '<p>Discover data and resources on key energy topics like alternative f
 featured_media: 0
 guid: http://www.data.gov/?page_id=128688
 id: 128688
+layout: legacy-page
 link: https://www.data.gov/energy-intro/
 meta: []
 modified: '2013-12-17T14:53:33'

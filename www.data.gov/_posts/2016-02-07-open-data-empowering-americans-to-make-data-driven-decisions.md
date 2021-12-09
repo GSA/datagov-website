@@ -16,6 +16,7 @@ featured_media: 0
 format: standard
 guid: http://www.data.gov/?p=20754632
 id: 20754632
+layout: legacy-post
 link: https://www.data.gov/meta/open-data-empowering-americans-to-make-data-driven-decisions/
 meta: []
 modified: '2018-10-25T12:19:22'

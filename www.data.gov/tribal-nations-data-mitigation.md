@@ -16,6 +16,7 @@ excerpt: '<p>Tribal Nations Tools &#8211; Mitigation Guidelines for Considering 
 featured_media: 0
 guid: http://www.data.gov/?page_id=19225852
 id: 19225852
+layout: legacy-page
 link: https://www.data.gov/climate/tribal-nations/tools-mitigation/
 meta: []
 modified: '2019-05-06T14:34:21'

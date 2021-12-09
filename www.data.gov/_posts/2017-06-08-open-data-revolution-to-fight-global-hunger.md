@@ -15,6 +15,7 @@ featured_media: 0
 format: standard
 guid: https://www.data.gov/?p=24615516
 id: 24615516
+layout: legacy-post
 link: https://www.data.gov/food/open-data-revolution-fight-global-hunger/
 meta: []
 modified: '2017-06-08T15:35:14'

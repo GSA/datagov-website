@@ -9,6 +9,7 @@ excerpt: ''
 featured_media: 0
 guid: http://www.data.gov/?p=46132
 id: 46132
+layout: legacy-page
 link: https://www.data.gov/food/data-food-community
 meta: []
 modified: '2013-11-07T00:38:48'

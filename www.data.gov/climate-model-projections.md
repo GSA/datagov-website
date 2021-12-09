@@ -15,6 +15,7 @@ excerpt: '<p>Target User Community: As with the other resources provided through
 featured_media: 0
 guid: https://www.data.gov/?page_id=2289151
 id: 2289151
+layout: legacy-page
 link: https://www.data.gov/climate/portals/
 meta: []
 modified: '2019-05-06T14:41:14'

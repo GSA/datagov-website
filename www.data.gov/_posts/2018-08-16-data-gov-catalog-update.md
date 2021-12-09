@@ -16,6 +16,7 @@ featured_media: 0
 format: standard
 guid: https://www.data.gov/?p=25342619
 id: 25342619
+layout: legacy-post
 link: https://www.data.gov/meta/data-gov-catalog-update/
 meta: []
 modified: '2018-08-16T17:58:32'

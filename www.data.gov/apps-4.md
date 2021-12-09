@@ -16,6 +16,7 @@ excerpt: '<p>Here users will find web-based tools and publicly accessible models
 featured_media: 0
 guid: https://www.data.gov/?page_id=139751
 id: 139751
+layout: legacy-page
 link: https://www.data.gov/climate/energy-infrastructure/energy-infrastructure-tools
 meta: []
 modified: '2019-05-06T13:23:10'

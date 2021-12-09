@@ -14,6 +14,7 @@ excerpt: '<p>Coastal communities are becoming increasingly vulnerable to the ris
 featured_media: 0
 guid: https://www.data.gov/?page_id=138991
 id: 138991
+layout: legacy-page
 link: https://www.data.gov/climate/climate-resources
 meta: []
 modified: '2020-05-19T17:57:37'

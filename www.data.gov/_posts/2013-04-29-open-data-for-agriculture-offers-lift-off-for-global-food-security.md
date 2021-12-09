@@ -16,6 +16,7 @@ featured_media: 0
 format: standard
 guid: http://www.data.gov/?p=48042
 id: 48042
+layout: legacy-post
 link: https://www.data.gov/blog/open-data-agriculture-offers-lift-global-food-security
 meta: []
 modified: '2014-03-18T21:44:18'

@@ -13,6 +13,7 @@ excerpt: '<p>Crop Explorer World Agricultural Supply and Demand Estimates Report
 featured_media: 0
 guid: http://www.data.gov/?p=46092
 id: 46092
+layout: legacy-page
 link: https://www.data.gov/food/agriculture-page
 meta: []
 modified: '2013-11-07T00:38:44'

@@ -23,6 +23,7 @@ featured_media: 0
 format: standard
 guid: http://www.data.gov/?p=12924992
 id: 12924992
+layout: legacy-post
 link: https://www.data.gov/climate/water-resources-resilience/
 meta: []
 modified: '2020-09-17T15:29:49'
@@ -30,20 +31,20 @@ modified_gmt: '2020-09-17T19:29:49'
 permalink: /climate/water-resources-resilience/
 ping_status: open
 redirect_from:
-- /climate/energy-infrastructure/water-resources-resilience/
-- /climate/transportation/water-resources-resilience/
-- /water/water-resources-resilience/
-- /foodresilience/water-resources-resilience/
-- /climate/foodresilience/water-resources-resilience/
-- /coastalflooding/water-resources-resilience/
-- /humanhealth/water-resources-resilience/
 - /climate/coastalflooding/water-resources-resilience/
-- /energy-infrastructure/water-resources-resilience/
 - /climate/ecosystem-vulnerability/water-resources-resilience/
-- /ecosystem-vulnerability/water-resources-resilience/
+- /climate/energy-infrastructure/water-resources-resilience/
+- /climate/foodresilience/water-resources-resilience/
 - /climate/humanhealth/water-resources-resilience/
+- /climate/transportation/water-resources-resilience/
 - /climate/water/water-resources-resilience/
+- /coastalflooding/water-resources-resilience/
+- /ecosystem-vulnerability/water-resources-resilience/
+- /energy-infrastructure/water-resources-resilience/
+- /foodresilience/water-resources-resilience/
+- /humanhealth/water-resources-resilience/
 - /transportation/water-resources-resilience/
+- /water/water-resources-resilience/
 slug: water-resources-resilience
 status: publish
 sticky: false

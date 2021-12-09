@@ -9,6 +9,7 @@ excerpt: ''
 featured_media: 0
 guid: https://www.data.gov/?page_id=139081
 id: 139081
+layout: legacy-page
 link: https://www.data.gov/climate/energy-supply
 meta: []
 modified: '2020-09-17T15:25:29'

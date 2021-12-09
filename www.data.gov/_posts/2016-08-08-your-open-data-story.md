@@ -17,6 +17,7 @@ featured_media: 22972562
 format: standard
 guid: https://www.data.gov/?p=22972542
 id: 22972542
+layout: legacy-post
 link: https://www.data.gov/meta/your-open-data-story/
 meta: []
 modified: '2016-08-08T11:21:48'

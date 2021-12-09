@@ -16,6 +16,7 @@ excerpt: '<p>Here users will find relevant content&nbsp;from U.S. government age
 featured_media: 0
 guid: https://www.data.gov/?page_id=140261
 id: 140261
+layout: legacy-page
 link: https://www.data.gov/climate/energy-infrastructure/energy-infrastructure-featured-content
 meta: []
 modified: '2019-05-06T13:39:03'

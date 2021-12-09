@@ -13,6 +13,7 @@ excerpt: '<p>Share Your Data in the Ocean Community Guidelines for sharing your 
 featured_media: 0
 guid: http://www.data.gov/?p=40636
 id: 40636
+layout: legacy-page
 link: https://www.data.gov/ocean/sharing-your-data-ocean-community-datagov-0
 meta: []
 modified: '2014-04-22T12:53:44'

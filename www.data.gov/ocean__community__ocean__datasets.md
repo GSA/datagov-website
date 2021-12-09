@@ -10,6 +10,7 @@ excerpt: "<p>Explore, discover and access a variety of rich spatial and non\u201
 featured_media: 0
 guid: http://www.data.gov/?p=35642
 id: 35642
+layout: legacy-page
 link: https://www.data.gov/ocean/datasets
 meta: []
 modified: '2017-10-04T17:17:27'

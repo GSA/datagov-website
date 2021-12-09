@@ -15,6 +15,7 @@ featured_media: 0
 format: link
 guid: http://www.data.gov/?p=35
 id: 35
+layout: legacy-post
 link: https://www.data.gov/announcements/datagov-ckan-catalog
 meta: []
 modified: '2014-03-18T21:44:35'

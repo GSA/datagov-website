@@ -10,6 +10,7 @@ excerpt: ''
 featured_media: 0
 guid: http://www.data.gov/?p=40762
 id: 40762
+layout: legacy-page
 link: https://www.data.gov/ocean/regional-planning
 meta: []
 modified: '2014-04-21T12:01:49'

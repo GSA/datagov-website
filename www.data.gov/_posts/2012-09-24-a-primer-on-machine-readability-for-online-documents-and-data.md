@@ -13,6 +13,7 @@ featured_media: 0
 format: standard
 guid: http://www.data.gov/?p=5150
 id: 5150
+layout: legacy-post
 link: https://www.data.gov/developers/blog/primer-machine-readability-online-documents-and-data
 meta: []
 modified: '2017-10-02T18:18:21'

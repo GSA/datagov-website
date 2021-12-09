@@ -16,6 +16,7 @@ excerpt: '<p>This page contains relevant content from U.S. government agencies a
 featured_media: 0
 guid: http://www.data.gov/?page_id=19089782
 id: 19089782
+layout: legacy-page
 link: https://www.data.gov/climate/tribal-nations/tribal-nations-featured-content
 meta: []
 modified: '2019-05-06T14:30:27'

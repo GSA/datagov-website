@@ -18,6 +18,7 @@ featured_media: 0
 format: standard
 guid: http://www.data.gov/?p=129250
 id: 129250
+layout: legacy-post
 link: https://www.data.gov/food/national-agriculture-statistics-service-2/
 meta: []
 modified: '2014-01-09T12:31:59'

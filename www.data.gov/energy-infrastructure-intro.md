@@ -15,6 +15,7 @@ excerpt: '<p>Here you will find scientific and technical information resources r
 featured_media: 0
 guid: http://www.data.gov/?page_id=16118532
 id: 16118532
+layout: legacy-page
 link: https://www.data.gov/energy-infrastructure-intro/
 meta: []
 modified: '2015-06-24T19:17:57'

@@ -16,6 +16,7 @@ excerpt: '<p>This page contains links to web-based tools and publicly accessible
 featured_media: 0
 guid: http://www.data.gov/?page_id=18208692
 id: 18208692
+layout: legacy-page
 link: https://www.data.gov/climate/arctic/tools
 meta: []
 modified: '2021-02-19T10:29:33'

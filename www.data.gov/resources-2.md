@@ -15,6 +15,7 @@ excerpt: "<p>The 2018 US National Climate Assessment\u2019s Human Health chapter
 featured_media: 0
 guid: https://www.data.gov/?page_id=140301
 id: 140301
+layout: legacy-page
 link: https://www.data.gov/climate/humanhealth/humanhealth-featured-content
 meta: []
 modified: '2019-05-06T13:44:11'

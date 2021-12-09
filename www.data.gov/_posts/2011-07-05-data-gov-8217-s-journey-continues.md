@@ -24,6 +24,7 @@ featured_media: 0
 format: standard
 guid: http://www.data.gov/?p=5123
 id: 5123
+layout: legacy-post
 link: https://www.data.gov/developers/blog/datagovs-journey-continues
 meta: []
 modified: '2017-06-20T13:24:41'

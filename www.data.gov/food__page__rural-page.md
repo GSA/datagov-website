@@ -12,6 +12,7 @@ excerpt: '<p>The Atlas of Rural and Small Town America Rural Community Informati
 featured_media: 0
 guid: http://www.data.gov/?p=46252
 id: 46252
+layout: legacy-page
 link: https://www.data.gov/food/rural-page
 meta: []
 modified: '2013-11-07T00:38:58'

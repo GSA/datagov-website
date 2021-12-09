@@ -16,6 +16,7 @@ excerpt: '<p>To help communities and individuals plan for the risks of sea level
 featured_media: 0
 guid: http://www.data.gov/?page_id=16117302
 id: 16117302
+layout: legacy-page
 link: https://www.data.gov/climate/transportation/highlights
 meta: []
 modified: '2015-06-16T16:33:49'

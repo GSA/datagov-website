@@ -12,6 +12,7 @@ excerpt: '<p>The details and current status of data requests submitted through t
 featured_media: 0
 guid: http://www.data.gov/?page_id=16823372
 id: 16823372
+layout: legacy-page
 link: https://www.data.gov/requests/
 meta: []
 modified: '2015-03-20T16:00:36'

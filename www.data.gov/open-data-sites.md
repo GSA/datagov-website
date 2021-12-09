@@ -15,6 +15,7 @@ excerpt: '<p>Data.gov is leading the way in democratizing public sector data and
 featured_media: 0
 guid: http://uat-wp-datagov.reisys.com/?page_id=127310
 id: 127310
+layout: legacy-page
 link: https://www.data.gov/opendatasites
 meta: []
 modified: '2014-02-20T17:18:14'

@@ -13,6 +13,7 @@ excerpt: "<p>This website is supported by the Interagency Council on Agricultura
 featured_media: 0
 guid: http://www.data.gov/?p=46272
 id: 46272
+layout: legacy-page
 link: https://www.data.gov/food/vision-food
 meta: []
 modified: '2013-11-07T00:39:05'

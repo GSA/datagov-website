@@ -12,6 +12,7 @@ excerpt: '<p>North AmericaSouth AmericaEuropeWestern AsiaMiddle EastEastern Asia
 featured_media: 0
 guid: http://www.data.gov/?p=46222
 id: 46222
+layout: legacy-page
 link: https://www.data.gov/food/food-regional-crop-areas-and-climatic-profiles
 meta: []
 modified: '2013-11-07T00:38:51'

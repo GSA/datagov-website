@@ -16,6 +16,7 @@ excerpt: '<p>Tribal Nations Tools &#8211; Disaster Risk Reduction Climate Resili
 featured_media: 0
 guid: http://www.data.gov/?page_id=19225872
 id: 19225872
+layout: legacy-page
 link: https://www.data.gov/climate/tribal-nations/tools-disaster-risk-reduction
 meta: []
 modified: '2018-10-25T09:58:39'

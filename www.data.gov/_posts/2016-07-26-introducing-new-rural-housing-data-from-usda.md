@@ -16,6 +16,7 @@ featured_media: 0
 format: standard
 guid: https://www.data.gov/?p=22830522
 id: 22830522
+layout: legacy-post
 link: https://www.data.gov/food/introducing-new-rural-housing-data-from-usda/
 meta: []
 modified: '2016-07-26T13:24:32'

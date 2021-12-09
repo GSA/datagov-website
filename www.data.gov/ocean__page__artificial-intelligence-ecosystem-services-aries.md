@@ -15,6 +15,7 @@ excerpt: '<p>URL: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n
 featured_media: 0
 guid: http://www.data.gov/?p=40743
 id: 40743
+layout: legacy-page
 link: https://www.data.gov/ocean/artificial-intelligence-ecosystem-services-aries
 meta: []
 modified: '2013-11-07T00:38:44'

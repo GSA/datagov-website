@@ -13,6 +13,7 @@ excerpt: "<p>Energy.data.gov is a new open government initiative to increase awa
 featured_media: 0
 guid: http://www.data.gov/?p=35644
 id: 35644
+layout: legacy-page
 link: https://www.data.gov/energy/energy-welcome
 meta: []
 modified: '2013-11-07T00:38:49'

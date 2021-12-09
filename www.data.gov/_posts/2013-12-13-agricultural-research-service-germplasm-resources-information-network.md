@@ -15,6 +15,7 @@ featured_media: 0
 format: image
 guid: http://www.data.gov/?p=129263
 id: 129263
+layout: legacy-post
 link: https://www.data.gov/food/ars/
 meta: []
 modified: '2014-01-09T10:29:42'

@@ -13,6 +13,7 @@ excerpt: '<p>Thank you for your feedback. To protect your privacy, please do not
 featured_media: 0
 guid: http://uat-wp-datagov.reisys.com/?page_id=126643
 id: 126643
+layout: legacy-page
 link: https://www.data.gov/got-feedback/
 meta: []
 modified: '2014-03-27T12:23:25'

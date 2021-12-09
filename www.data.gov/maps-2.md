@@ -16,6 +16,7 @@ excerpt: '<p>Here are a few examples of the many maps available on the Internet 
 featured_media: 0
 guid: https://www.data.gov/?page_id=139911
 id: 139911
+layout: legacy-page
 link: https://www.data.gov/climate/water/water-maps
 meta: []
 modified: '2019-05-06T14:14:26'

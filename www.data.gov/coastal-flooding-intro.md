@@ -15,6 +15,7 @@ excerpt: '<p>Here you will find resources that help shed light on the risks of n
 featured_media: 0
 guid: https://www.data.gov/?page_id=143161
 id: 143161
+layout: legacy-page
 link: https://www.data.gov/coastal-flooding-intro/
 meta: []
 modified: '2015-04-23T16:05:28'

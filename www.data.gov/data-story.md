@@ -14,6 +14,7 @@ excerpt: '<p>Please use the following form to submit a new story describing an a
 featured_media: 0
 guid: https://www.data.gov/?page_id=22217322
 id: 22217322
+layout: legacy-page
 link: https://www.data.gov/story
 meta: []
 modified: '2016-06-09T19:31:51'

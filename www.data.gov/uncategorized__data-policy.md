@@ -14,6 +14,7 @@ excerpt: "<p>Linking to Data.gov Data.gov\_is the official portal for open data 
 featured_media: 0
 guid: http://www.data.gov/?p=29
 id: 29
+layout: legacy-page
 link: https://www.data.gov/data-policy
 meta: []
 modified: '2014-12-31T16:22:48'

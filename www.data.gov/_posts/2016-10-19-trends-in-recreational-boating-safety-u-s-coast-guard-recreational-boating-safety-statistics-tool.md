@@ -16,6 +16,7 @@ featured_media: 0
 format: standard
 guid: https://www.data.gov/?p=23817761
 id: 23817761
+layout: legacy-post
 link: https://www.data.gov/maritime/trends-recreational-boating-safety-u-s-coast-guard-recreational-boating-safety-statistics-tool/
 meta: []
 modified: '2016-11-29T20:14:51'

@@ -16,6 +16,7 @@ excerpt: '<p>Tribal Nations Featured Tools This page contains links to web-based
 featured_media: 0
 guid: http://www.data.gov/?page_id=19089802
 id: 19089802
+layout: legacy-page
 link: https://www.data.gov/climate/tribal-nations/tribal-nations-tools
 meta: []
 modified: '2017-05-25T10:53:44'

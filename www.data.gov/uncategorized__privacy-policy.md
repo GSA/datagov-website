@@ -16,6 +16,7 @@ excerpt: '<p>Privacy Policy Information Collected and Stored Automatically Cooki
 featured_media: 0
 guid: http://www.data.gov/?p=31
 id: 31
+layout: legacy-page
 link: https://www.data.gov/privacy-policy
 meta: []
 modified: '2021-10-01T17:10:31'

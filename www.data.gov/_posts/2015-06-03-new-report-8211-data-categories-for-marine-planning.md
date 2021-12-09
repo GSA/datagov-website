@@ -16,6 +16,7 @@ featured_media: 17710362
 format: standard
 guid: http://www.data.gov/?p=17700932
 id: 17700932
+layout: legacy-post
 link: https://www.data.gov/ocean/new-report-data-categories-for-marine-planning/
 meta: []
 modified: '2015-06-04T08:34:34'

@@ -16,6 +16,7 @@ excerpt: '<p>&nbsp; This Food, Agriculture, and Rural Community establishes a un
 featured_media: 0
 guid: http://www.data.gov/?p=46112
 id: 46112
+layout: legacy-page
 link: https://www.data.gov/food/collaborate-food-community
 meta: []
 modified: '2014-03-25T16:45:21'

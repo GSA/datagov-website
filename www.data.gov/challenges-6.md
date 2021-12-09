@@ -10,6 +10,7 @@ excerpt: ''
 featured_media: 0
 guid: http://www.data.gov/?page_id=18208802
 id: 18208802
+layout: legacy-page
 link: https://www.data.gov/climate/arctic/arctic-challenges
 meta: []
 modified: '2021-02-19T10:34:19'

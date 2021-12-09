@@ -16,6 +16,7 @@ excerpt: '<p>Below are&nbsp;several examples of available map resources that ill
 featured_media: 0
 guid: http://www.data.gov/?page_id=18208742
 id: 18208742
+layout: legacy-page
 link: https://www.data.gov/climate/arctic/maps
 meta: []
 modified: '2021-02-19T10:30:43'

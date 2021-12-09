@@ -16,6 +16,7 @@ featured_media: 0
 format: standard
 guid: http://www.data.gov/?p=17869032
 id: 17869032
+layout: legacy-post
 link: https://www.data.gov/climate/transportation/first-international-conference-on-surface-transportation-system-resilience-to-climate-change-and-extreme-weather-events/
 meta: []
 modified: '2016-05-19T18:11:12'

@@ -11,6 +11,7 @@ excerpt: '<p>[cpvg_list name=&#8217;list1379613818944&#8242;]</p>
 featured_media: 0
 guid: http://uat-wp-datagov.reisys.com/?page_id=127325
 id: 127325
+layout: legacy-page
 link: https://www.data.gov/federal-agency-participation/
 meta: []
 modified: '2013-11-07T16:33:47'

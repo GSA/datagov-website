@@ -12,6 +12,7 @@ excerpt: "<p>You can use this form to contact the Climate Topic leads.\_To prote
 featured_media: 0
 guid: https://www.data.gov/?page_id=147791
 id: 147791
+layout: legacy-page
 link: https://www.data.gov/climate/contact/
 meta: []
 modified: '2016-12-23T10:21:58'

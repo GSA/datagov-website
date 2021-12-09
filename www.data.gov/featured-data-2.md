@@ -16,6 +16,7 @@ excerpt: '<p>Food production, distribution, safety, and international security a
 featured_media: 0
 guid: https://www.data.gov/?page_id=2036431
 id: 2036431
+layout: legacy-page
 link: https://www.data.gov/climate/foodresilience/foodresilience-resources
 meta: []
 modified: '2019-05-06T13:40:58'

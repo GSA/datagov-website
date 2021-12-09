@@ -15,6 +15,7 @@ excerpt: '<p>Food Resilience FOOD PRODUCTION How will crop yield and production 
 featured_media: 0
 guid: http://www.data.gov/?page_id=17343172
 id: 17343172
+layout: legacy-page
 link: https://www.data.gov/climate/foodresilience/food-resilience-framing-questions/
 meta: []
 modified: '2015-04-23T16:24:13'

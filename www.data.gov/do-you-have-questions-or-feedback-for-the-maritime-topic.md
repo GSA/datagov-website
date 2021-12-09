@@ -14,6 +14,7 @@ excerpt: '<p>You can use this form to contact the Maritime Topic leads. To prote
 featured_media: 0
 guid: https://www.data.gov/?page_id=24210432
 id: 24210432
+layout: legacy-page
 link: https://www.data.gov/maritime/contact/
 meta: []
 modified: '2016-12-23T10:24:20'

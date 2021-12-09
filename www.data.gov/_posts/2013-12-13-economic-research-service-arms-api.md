@@ -16,6 +16,7 @@ featured_media: 0
 format: standard
 guid: http://www.data.gov/?p=129255
 id: 129255
+layout: legacy-post
 link: https://www.data.gov/food/economic-research-service/
 meta: []
 modified: '2014-01-09T12:29:15'

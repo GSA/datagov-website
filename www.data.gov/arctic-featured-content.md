@@ -16,6 +16,7 @@ excerpt: '<p>This page contains relevant content&nbsp;from U.S. government agenc
 featured_media: 0
 guid: http://www.data.gov/?page_id=18208722
 id: 18208722
+layout: legacy-page
 link: https://www.data.gov/climate/arctic/featured-content
 meta: []
 modified: '2021-02-19T10:27:38'

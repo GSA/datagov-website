@@ -15,6 +15,7 @@ excerpt: "<p>American Samoa, Commonwealth of the Northern Mariana Islands (CNMI)
 featured_media: 0
 guid: https://www.data.gov/?page_id=169961
 id: 169961
+layout: legacy-page
 link: https://www.data.gov/ocean/pacific-islands
 meta: []
 modified: '2016-12-31T16:05:44'

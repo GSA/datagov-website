@@ -15,6 +15,7 @@ excerpt: '<p>These apps help families explore their counties, help travelers get
 featured_media: 0
 guid: http://www.data.gov/?p=40608
 id: 40608
+layout: legacy-page
 link: https://www.data.gov/counties/counties-apps
 meta: []
 modified: '2014-01-09T07:50:37'

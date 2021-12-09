@@ -14,6 +14,7 @@ excerpt: '<p>Welcome to the Data.gov Communities page! Here you&#8217;ll find re
 featured_media: 0
 guid: http://uat-wp-datagov.reisys.com/?page_id=127298
 id: 127298
+layout: legacy-page
 link: https://www.data.gov/communities/
 meta: []
 modified: '2014-11-03T17:29:13'

@@ -15,6 +15,7 @@ featured_media: 0
 format: standard
 guid: http://www.data.gov/?p=42822
 id: 42822
+layout: legacy-post
 link: https://www.data.gov/blog/innovators-using-federal-data-help-consumers-make-informed-decisions
 meta: []
 modified: '2014-03-18T21:44:19'

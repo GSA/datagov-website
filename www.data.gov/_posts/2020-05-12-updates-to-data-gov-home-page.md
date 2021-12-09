@@ -16,6 +16,7 @@ featured_media: 0
 format: standard
 guid: https://www.data.gov/?p=26319174
 id: 26319174
+layout: legacy-post
 link: https://www.data.gov/meta/updates-to-data-gov-home-page/
 meta: []
 modified: '2020-07-06T17:47:46'

@@ -15,6 +15,7 @@ excerpt: '<p>A range of tools are available to help analyze and assess the impac
 featured_media: 0
 guid: https://www.data.gov/?page_id=139861
 id: 139861
+layout: legacy-page
 link: https://www.data.gov/climate/humanhealth/humanhealth-tools
 meta: []
 modified: '2017-06-19T12:52:33'

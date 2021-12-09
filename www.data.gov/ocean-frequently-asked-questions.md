@@ -10,6 +10,7 @@ excerpt: ''
 featured_media: 0
 guid: http://uat-wp-datagov.reisys.com/?page_id=126637
 id: 126637
+layout: legacy-page
 link: https://www.data.gov/ocean/FAQ/
 meta: []
 modified: '2013-12-19T07:18:33'

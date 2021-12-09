@@ -12,6 +12,7 @@ excerpt: "<p>You can use this form to contact the\_Energy Topic\_leads. To prote
 featured_media: 0
 guid: http://www.data.gov/?page_id=15890582
 id: 15890582
+layout: legacy-page
 link: https://www.data.gov/energy/contact/
 meta: []
 modified: '2016-12-23T10:23:18'

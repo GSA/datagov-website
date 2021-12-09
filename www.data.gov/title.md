@@ -16,6 +16,7 @@ excerpt: '<p>Here you will find resources related to the impacts of climate chan
 featured_media: 0
 guid: https://www.data.gov/?page_id=2036391
 id: 2036391
+layout: legacy-page
 link: https://www.data.gov/title/
 meta: []
 modified: '2015-04-23T15:43:38'

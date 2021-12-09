@@ -14,6 +14,7 @@ excerpt: "<p>Georgia, Florida, North Carolina, South Carolina Regional Ocean Par
 featured_media: 0
 guid: https://www.data.gov/?page_id=170041
 id: 170041
+layout: legacy-page
 link: https://www.data.gov/ocean/south-atlantic
 meta: []
 modified: '2016-12-31T16:05:38'

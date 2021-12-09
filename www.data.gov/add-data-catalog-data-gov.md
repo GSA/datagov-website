@@ -15,6 +15,7 @@ excerpt: '<p>Sign up here to get your local data federated to Data.gov for great
 featured_media: 0
 guid: http://www.data.gov/?page_id=16604012
 id: 16604012
+layout: legacy-page
 link: https://www.data.gov/local/add
 meta: []
 modified: '2017-08-07T16:10:06'

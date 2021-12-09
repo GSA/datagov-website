@@ -22,6 +22,7 @@ featured_media: 0
 format: standard
 guid: http://www.data.gov/?p=5124
 id: 5124
+layout: legacy-post
 link: https://www.data.gov/energy/blog/creating-emissions-and-generation-resource-integrated-database-egrid
 meta: []
 modified: '2012-12-18T18:56:45'

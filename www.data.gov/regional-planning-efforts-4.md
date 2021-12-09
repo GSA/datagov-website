@@ -16,6 +16,7 @@ excerpt: '<p>Maine, New Hampshire, Massachusetts, Rhode Island, Connecticut, Ver
 featured_media: 0
 guid: https://www.data.gov/?page_id=170061
 id: 170061
+layout: legacy-page
 link: https://www.data.gov/ocean/northeast
 meta: []
 modified: '2016-12-31T16:05:23'

@@ -15,6 +15,7 @@ featured_media: 0
 format: standard
 guid: http://54.225.112.145/?p=516
 id: 516
+layout: legacy-post
 link: https://www.data.gov/developers/introducing-project-open-data/
 meta: []
 modified: '2017-08-07T16:10:06'

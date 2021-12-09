@@ -14,6 +14,7 @@ excerpt: '<p>&nbsp; This site is a centralized federal resource for Food, Agricu
 featured_media: 0
 guid: http://www.data.gov/?p=46242
 id: 46242
+layout: legacy-page
 link: https://www.data.gov/food/outcomes-food
 meta: []
 modified: '2013-11-07T00:38:57'

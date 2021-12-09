@@ -13,6 +13,7 @@ excerpt: '<p>When you click on the images or titles below, you will be leaving t
 featured_media: 0
 guid: http://www.data.gov/?p=35638
 id: 35638
+layout: legacy-page
 link: https://www.data.gov/energy/energy-maps
 meta: []
 modified: '2017-12-15T16:45:41'

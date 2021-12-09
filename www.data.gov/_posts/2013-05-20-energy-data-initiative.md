@@ -15,6 +15,7 @@ featured_media: 0
 format: image
 guid: http://54.225.112.145/?p=188
 id: 124495
+layout: legacy-post
 link: https://www.data.gov/energy/energy-data-initiative/
 meta: []
 modified: '2013-11-13T19:13:45'

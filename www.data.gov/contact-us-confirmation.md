@@ -11,6 +11,7 @@ excerpt: '<p>Your feedback has been submitted. Go back to the form</p>
 featured_media: 0
 guid: http://uat-wp-datagov.reisys.com/?page_id=127662
 id: 127662
+layout: legacy-page
 link: https://www.data.gov/contact-confirmation/
 meta: []
 modified: '2013-12-15T17:42:21'

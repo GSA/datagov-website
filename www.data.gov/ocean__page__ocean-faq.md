@@ -12,6 +12,7 @@ excerpt: '<p>Following are some Frequently Asked Questions, we hope to add to th
 featured_media: 0
 guid: http://www.data.gov/?p=40738
 id: 40738
+layout: legacy-page
 link: https://www.data.gov/ocean/ocean-faq
 meta: []
 modified: '2013-11-07T00:56:16'

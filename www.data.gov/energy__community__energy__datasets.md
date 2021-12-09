@@ -14,6 +14,7 @@ excerpt: '<p>Take a look at the different data sets and tools to access those th
 featured_media: 0
 guid: http://www.data.gov/?p=35619
 id: 35619
+layout: legacy-page
 link: https://www.data.gov/energy/datasets
 meta: []
 modified: '2013-11-07T00:38:50'

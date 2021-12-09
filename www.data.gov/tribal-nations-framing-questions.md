@@ -16,6 +16,7 @@ excerpt: '<p>Tribal Nations Data sharing between Tribal Nations and non-tribal p
 featured_media: 0
 guid: http://www.data.gov/?page_id=19225932
 id: 19225932
+layout: legacy-page
 link: https://www.data.gov/climate/tribal-nations/framing-questions
 meta: []
 modified: '2019-05-06T14:20:25'

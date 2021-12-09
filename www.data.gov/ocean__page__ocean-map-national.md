@@ -14,6 +14,7 @@ excerpt: '<p>&nbsp; The following maps are from data sources that are available 
 featured_media: 0
 guid: http://www.data.gov/?p=40542
 id: 40542
+layout: legacy-page
 link: https://www.data.gov/ocean/ocean-map-national
 meta: []
 modified: '2014-01-12T17:13:47'

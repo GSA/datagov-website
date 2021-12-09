@@ -15,6 +15,7 @@ excerpt: '<p>Here is a collection of select tools that can help us to better und
 featured_media: 0
 guid: http://www.data.gov/?page_id=12320822
 id: 12320822
+layout: legacy-page
 link: https://www.data.gov/climate/ecosystem-vulnerability/ecosystem-vulnerability-tools
 meta: []
 modified: '2019-05-02T13:43:22'

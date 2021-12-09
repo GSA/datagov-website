@@ -16,6 +16,7 @@ excerpt: '<p>Human Health In what ways does the changing climate affect public h
 featured_media: 0
 guid: http://www.data.gov/?page_id=17343492
 id: 17343492
+layout: legacy-page
 link: https://www.data.gov/climate/human-health-framing-questions
 meta: []
 modified: '2015-04-23T16:30:59'

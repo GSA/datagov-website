@@ -13,6 +13,7 @@ excerpt: '<p>Thank you for your feedback. To protect your privacy, please do not
 featured_media: 0
 guid: http://www.data.gov/?page_id=16118312
 id: 16118312
+layout: legacy-page
 link: https://www.data.gov/climate/energy-infrastructure/feedback
 meta: []
 modified: '2016-12-23T10:29:25'

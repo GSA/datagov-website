@@ -15,6 +15,7 @@ featured_media: 0
 format: link
 guid: http://www.data.gov/?p=784
 id: 784
+layout: legacy-post
 link: https://www.data.gov/food/global-open-data-initiative-for-agriculture-and-nutrition/
 meta: []
 modified: '2013-07-26T12:19:42'

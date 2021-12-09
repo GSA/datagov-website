@@ -15,6 +15,7 @@ featured_media: 0
 format: link
 guid: http://www.data.gov/?p=35565
 id: 35565
+layout: legacy-post
 link: https://www.data.gov/announcements/10-big-data-sites-watch-gil-press-foreign-policy
 meta: []
 modified: '2017-10-02T18:18:22'

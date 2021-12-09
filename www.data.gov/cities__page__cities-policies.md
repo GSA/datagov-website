@@ -15,6 +15,7 @@ excerpt: '<p>The data on Cities.Data.gov is brought together from many official 
 featured_media: 0
 guid: http://www.data.gov/?p=35650
 id: 35650
+layout: legacy-page
 link: https://www.data.gov/cities/cities-policies
 meta: []
 modified: '2018-10-25T12:20:27'

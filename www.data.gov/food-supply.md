@@ -9,6 +9,7 @@ excerpt: ''
 featured_media: 0
 guid: https://www.data.gov/?page_id=139071
 id: 139071
+layout: legacy-page
 link: https://www.data.gov/climate/food-supply
 meta: []
 modified: '2020-09-17T15:26:01'

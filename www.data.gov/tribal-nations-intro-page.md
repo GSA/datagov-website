@@ -16,6 +16,7 @@ excerpt: '<p>Tribal Nations data and maps found here will supplement other Clima
 featured_media: 0
 guid: http://www.data.gov/?page_id=19264182
 id: 19264182
+layout: legacy-page
 link: https://www.data.gov/climate/tribal-nations/tribal-nations-intro
 meta: []
 modified: '2019-05-06T14:26:15'

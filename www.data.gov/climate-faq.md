@@ -15,6 +15,7 @@ excerpt: '<p>Q: Where can I learn more about Data.gov? A: Please see the Data.go
 featured_media: 0
 guid: https://www.data.gov/?page_id=2054061
 id: 2054061
+layout: legacy-page
 link: https://www.data.gov/climate/faq/
 meta: []
 modified: '2019-01-30T12:12:51'

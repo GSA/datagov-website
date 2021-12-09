@@ -17,6 +17,7 @@ featured_media: 25601276
 format: standard
 guid: https://www.data.gov/?p=25213405
 id: 25213405
+layout: legacy-post
 link: https://www.data.gov/maritime/of-sturgeon-and-ships/
 meta: []
 modified: '2019-11-18T16:30:02'

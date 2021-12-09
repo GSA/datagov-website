@@ -18,6 +18,7 @@ featured_media: 0
 format: standard
 guid: http://www.data.gov/?p=17568732
 id: 17568732
+layout: legacy-post
 link: https://www.data.gov/climate/a-multi-university-initiative-makes-global-climate-information-more-accesible-to-farmers/
 meta: []
 modified: '2016-05-19T18:11:13'
@@ -25,10 +26,10 @@ modified_gmt: '2016-05-19T22:11:13'
 permalink: /climate/a-multi-university-initiative-makes-global-climate-information-more-accesible-to-farmers/
 ping_status: open
 redirect_from:
-- /foodresilience/a-multi-university-initiative-makes-global-climate-information-more-accesible-to-farmers/
 - /climate/ecosystem-vulnerability/a-multi-university-initiative-makes-global-climate-information-more-accesible-to-farmers/
-- /ecosystem-vulnerability/a-multi-university-initiative-makes-global-climate-information-more-accesible-to-farmers/
 - /climate/foodresilience/a-multi-university-initiative-makes-global-climate-information-more-accesible-to-farmers/
+- /ecosystem-vulnerability/a-multi-university-initiative-makes-global-climate-information-more-accesible-to-farmers/
+- /foodresilience/a-multi-university-initiative-makes-global-climate-information-more-accesible-to-farmers/
 slug: a-multi-university-initiative-makes-global-climate-information-more-accesible-to-farmers
 status: publish
 sticky: false

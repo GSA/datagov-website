@@ -17,6 +17,7 @@ featured_media: 0
 format: image
 guid: http://www.data.gov/?p=128971
 id: 128971
+layout: legacy-post
 link: https://www.data.gov/food/agricultural-marketing-service/
 meta: []
 modified: '2013-12-12T18:10:01'

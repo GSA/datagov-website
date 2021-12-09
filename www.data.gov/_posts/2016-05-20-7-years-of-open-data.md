@@ -16,6 +16,7 @@ featured_media: 0
 format: standard
 guid: https://www.data.gov/?p=21984272
 id: 21984272
+layout: legacy-post
 link: https://www.data.gov/meta/7-years-of-open-data/
 meta: []
 modified: '2017-05-16T13:47:25'

@@ -15,6 +15,7 @@ featured_media: 0
 format: link
 guid: http://www.data.gov/?p=121741
 id: 121741
+layout: legacy-post
 link: https://www.data.gov/announcements/agencies-get-how-open-data-compliance-fcw
 meta: []
 modified: '2014-03-18T21:44:05'

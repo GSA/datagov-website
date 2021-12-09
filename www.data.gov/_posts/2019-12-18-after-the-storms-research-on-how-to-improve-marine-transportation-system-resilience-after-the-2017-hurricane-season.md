@@ -18,6 +18,7 @@ featured_media: 26086325
 format: standard
 guid: https://www.data.gov/?p=26086320
 id: 26086320
+layout: legacy-post
 link: https://www.data.gov/maritime/after-the-storms-research-on-how-to-improve-marine-transportation-system-resilience-after-the-2017-hurricane-season/
 meta: []
 modified: '2021-03-24T17:37:35'

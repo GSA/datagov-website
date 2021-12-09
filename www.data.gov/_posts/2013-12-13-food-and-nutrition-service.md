@@ -14,6 +14,7 @@ featured_media: 0
 format: image
 guid: http://www.data.gov/?p=129257
 id: 129257
+layout: legacy-post
 link: https://www.data.gov/food/food-and-nutrition-service/
 meta: []
 modified: '2013-12-18T15:44:37'

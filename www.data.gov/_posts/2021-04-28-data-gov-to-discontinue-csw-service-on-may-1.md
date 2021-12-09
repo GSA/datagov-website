@@ -17,6 +17,7 @@ featured_media: 0
 format: standard
 guid: https://www.data.gov/?p=26927987
 id: 26927987
+layout: legacy-post
 link: https://www.data.gov/meta/data-gov-to-discontinue-csw-service-on-may-1/
 meta: []
 modified: '2021-04-28T16:06:50'

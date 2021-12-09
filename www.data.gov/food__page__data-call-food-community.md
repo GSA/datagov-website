@@ -9,6 +9,7 @@ excerpt: ''
 featured_media: 0
 guid: http://www.data.gov/?p=46142
 id: 46142
+layout: legacy-page
 link: https://www.data.gov/food/data-call-food-community
 meta: []
 modified: '2013-11-07T00:38:48'

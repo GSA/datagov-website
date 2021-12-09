@@ -16,6 +16,7 @@ excerpt: '<p>The 2018 National Climate Assessment&#8217;s chapter on Ecosystems,
 featured_media: 0
 guid: http://www.data.gov/?page_id=12320842
 id: 12320842
+layout: legacy-page
 link: https://www.data.gov/climate/ecosystem-vulnerability/ecosystem-vulnerability-resources
 meta: []
 modified: '2019-05-02T13:46:46'

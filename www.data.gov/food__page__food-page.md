@@ -15,6 +15,7 @@ excerpt: '<p>Super Tracker MyPlate.gov MyPyramid Raw Food Data Know Your Farmer 
 featured_media: 0
 guid: http://www.data.gov/?p=46212
 id: 46212
+layout: legacy-page
 link: https://www.data.gov/food/food-page
 meta: []
 modified: '2014-03-25T16:48:08'

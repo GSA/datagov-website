@@ -15,6 +15,7 @@ excerpt: "<p>This section contains information highlighting Ocean.data.gov metad
 featured_media: 0
 guid: http://www.data.gov/?p=40640
 id: 40640
+layout: legacy-page
 link: https://www.data.gov/ocean/ocean-data-quality-and-documentation
 meta: []
 modified: '2017-10-12T13:20:08'

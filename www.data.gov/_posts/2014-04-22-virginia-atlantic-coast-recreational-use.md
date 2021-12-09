@@ -16,6 +16,7 @@ featured_media: 164561
 format: image
 guid: https://www.data.gov/?p=164551
 id: 164551
+layout: legacy-post
 link: https://www.data.gov/ocean/virginia-atlantic-coast-recreational-use/
 meta: []
 modified: '2014-04-22T09:58:05'

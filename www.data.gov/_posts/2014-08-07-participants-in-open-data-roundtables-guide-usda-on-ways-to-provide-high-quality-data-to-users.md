@@ -15,6 +15,7 @@ featured_media: 0
 format: standard
 guid: https://www.data.gov/?p=3117962
 id: 3117962
+layout: legacy-post
 link: https://www.data.gov/food/participants-open-data-roundtables-guide-usda-ways-provide-high-quality-data-users/
 meta: []
 modified: '2017-10-02T18:21:58'

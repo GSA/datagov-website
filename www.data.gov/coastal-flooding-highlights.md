@@ -10,6 +10,7 @@ excerpt: ''
 featured_media: 0
 guid: https://www.data.gov/?page_id=160711
 id: 160711
+layout: legacy-page
 link: https://www.data.gov/climate/coastalflooding/highlights
 meta: []
 modified: '2020-09-17T15:23:01'

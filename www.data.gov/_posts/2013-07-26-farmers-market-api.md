@@ -16,6 +16,7 @@ featured_media: 0
 format: standard
 guid: http://www.data.gov/?p=798
 id: 798
+layout: legacy-post
 link: https://www.data.gov/food/farmers-market-api/
 meta: []
 modified: '2013-12-16T06:29:23'

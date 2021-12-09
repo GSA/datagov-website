@@ -10,6 +10,7 @@ excerpt: ''
 featured_media: 0
 guid: https://www.data.gov/?page_id=160921
 id: 160921
+layout: legacy-page
 link: https://www.data.gov/energy/highlights
 meta: []
 modified: '2014-04-04T17:45:14'

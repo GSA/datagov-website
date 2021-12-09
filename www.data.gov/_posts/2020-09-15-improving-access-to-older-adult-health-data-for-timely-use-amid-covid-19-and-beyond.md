@@ -16,6 +16,7 @@ featured_media: 0
 format: standard
 guid: https://www.data.gov/?p=26452516
 id: 26452516
+layout: legacy-post
 link: https://www.data.gov/meta/data-gov-creates-one-stop-shop-for-datasets-on-the-health-of-older-adults/
 meta: []
 modified: '2020-09-15T12:42:54'

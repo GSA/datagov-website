@@ -16,6 +16,7 @@ featured_media: 185171
 format: image
 guid: https://www.data.gov/?p=185161
 id: 185161
+layout: legacy-post
 link: https://www.data.gov/ocean/water-column-sonar-data-collection/
 meta: []
 modified: '2014-07-31T21:15:43'

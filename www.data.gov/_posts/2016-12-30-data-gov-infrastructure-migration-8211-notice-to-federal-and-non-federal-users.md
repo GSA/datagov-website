@@ -16,6 +16,7 @@ featured_media: 24492979
 format: standard
 guid: https://www.data.gov/?p=24492977
 id: 24492977
+layout: legacy-post
 link: https://www.data.gov/meta/data-gov-infrastructure-migration-notice-federal-non-federal-users/
 meta: []
 modified: '2017-01-03T11:12:21'

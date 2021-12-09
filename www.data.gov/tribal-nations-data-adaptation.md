@@ -16,6 +16,7 @@ excerpt: '<p>Tribal Nations Tools &#8211; Adaptation Adaptation Workbook for Nat
 featured_media: 0
 guid: http://www.data.gov/?page_id=19225832
 id: 19225832
+layout: legacy-page
 link: https://www.data.gov/climate/tribal-nations/tools-adaptation
 meta: []
 modified: '2019-05-06T14:36:37'

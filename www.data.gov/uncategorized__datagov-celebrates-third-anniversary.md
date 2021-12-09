@@ -13,6 +13,7 @@ excerpt: "<p>Today marks the third anniversary of the U.S. government\u2019s ope
 featured_media: 0
 guid: http://www.data.gov/?p=10
 id: 10
+layout: legacy-page
 link: https://www.data.gov/datagov-celebrates-third-anniversary
 meta: []
 modified: '2013-11-07T00:38:48'

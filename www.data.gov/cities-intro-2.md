@@ -14,6 +14,7 @@ excerpt: "<p>Open data is powering a new civic movement that is changing the way
 featured_media: 0
 guid: http://www.data.gov/?page_id=129646
 id: 129646
+layout: legacy-page
 link: https://www.data.gov/cities-intro-2/
 meta: []
 modified: '2014-01-09T07:11:12'

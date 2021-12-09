@@ -16,6 +16,7 @@ featured_media: 0
 format: standard
 guid: https://www.data.gov/?p=25589992
 id: 25589992
+layout: legacy-post
 link: https://www.data.gov/meta/duplicate-entries-removed-from-data-gov-catalog/
 meta: []
 modified: '2019-02-27T18:35:18'

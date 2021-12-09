@@ -13,6 +13,7 @@ excerpt: "<p>Got an idea for an app? We\u2019ve got data! Find examples and open
 featured_media: 0
 guid: http://www.data.gov/?p=40615
 id: 40615
+layout: legacy-page
 link: https://www.data.gov/counties/counties-developers
 meta: []
 modified: '2013-11-07T00:38:47'

@@ -15,6 +15,7 @@ excerpt: '<p>Energy 1) How are fundamental energy resources impacted by climate?
 featured_media: 0
 guid: http://www.data.gov/?page_id=17736862
 id: 17736862
+layout: legacy-page
 link: https://www.data.gov/energy-infrastruture-framing-questions/
 meta: []
 modified: '2015-06-09T10:43:16'

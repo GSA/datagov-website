@@ -16,6 +16,7 @@ featured_media: 161431
 format: image
 guid: https://www.data.gov/?p=161421
 id: 161421
+layout: legacy-post
 link: https://www.data.gov/ocean/maritime-limits-boundaries-united-states/
 meta: []
 modified: '2014-04-09T13:40:03'

@@ -10,6 +10,7 @@ excerpt: ''
 featured_media: 0
 guid: https://www.data.gov/?page_id=160681
 id: 160681
+layout: legacy-page
 link: https://www.data.gov/climate/highlights
 meta: []
 modified: '2014-04-04T17:36:47'

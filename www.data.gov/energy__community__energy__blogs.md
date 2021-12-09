@@ -11,6 +11,7 @@ excerpt: '<p>Energy Community blog page</p>
 featured_media: 0
 guid: http://www.data.gov/?p=35616
 id: 35616
+layout: legacy-page
 link: https://www.data.gov/energy/blogs
 meta: []
 modified: '2013-12-06T23:30:45'

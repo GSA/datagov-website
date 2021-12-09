@@ -17,6 +17,7 @@ featured_media: 0
 format: standard
 guid: http://www.data.gov/?p=21564742
 id: 21564742
+layout: legacy-post
 link: https://www.data.gov/meta/liberating-data-for-public-value-the-case-of-data-gov/
 meta: []
 modified: '2016-04-12T12:02:02'

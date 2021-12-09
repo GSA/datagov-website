@@ -15,6 +15,7 @@ excerpt: '<p>The Energy Data Initiative is an Administration-wide effort to libe
 featured_media: 0
 guid: http://www.data.gov/?p=35647
 id: 35647
+layout: legacy-page
 link: https://www.data.gov/energy/energy-data-initiative-0
 meta: []
 modified: '2013-11-07T00:38:50'

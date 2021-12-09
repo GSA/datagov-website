@@ -15,6 +15,7 @@ excerpt: '<p>The Green Button initiative gives utility customers easy access to 
 featured_media: 0
 guid: http://www.data.gov/?p=40566
 id: 40566
+layout: legacy-page
 link: https://www.data.gov/energy/welcome-green-button
 meta: []
 modified: '2019-11-13T15:06:20'

@@ -18,6 +18,7 @@ featured_media: 0
 format: standard
 guid: http://www.data.gov/?p=16667282
 id: 16667282
+layout: legacy-post
 link: https://www.data.gov/opendata/get-local-government-data-gov/
 meta: []
 modified: '2015-03-03T16:01:43'

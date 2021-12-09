@@ -16,6 +16,7 @@ featured_media: 0
 format: standard
 guid: http://www.data.gov/?p=16873332
 id: 16873332
+layout: legacy-post
 link: https://www.data.gov/meta/open-apps/
 meta: []
 modified: '2015-03-18T10:00:59'

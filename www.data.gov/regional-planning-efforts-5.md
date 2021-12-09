@@ -15,6 +15,7 @@ excerpt: "<p>Delaware, Maryland, New Jersey, New York, Virginia Regional Plannin
 featured_media: 0
 guid: https://www.data.gov/?page_id=170091
 id: 170091
+layout: legacy-page
 link: https://www.data.gov/ocean/mid-atlantic
 meta: []
 modified: '2016-12-31T16:05:28'

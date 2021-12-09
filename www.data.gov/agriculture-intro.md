@@ -15,6 +15,7 @@ excerpt: '<p>Explore data that can help inform agriculture investment, innovatio
 featured_media: 0
 guid: http://www.data.gov/?page_id=128641
 id: 128641
+layout: legacy-page
 link: https://www.data.gov/agriculture-intro/
 meta: []
 modified: '2013-12-17T13:51:07'

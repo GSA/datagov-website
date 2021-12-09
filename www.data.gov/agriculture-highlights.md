@@ -10,6 +10,7 @@ excerpt: ''
 featured_media: 0
 guid: https://www.data.gov/?page_id=160631
 id: 160631
+layout: legacy-page
 link: https://www.data.gov/food/highlights
 meta: []
 modified: '2014-04-04T17:35:57'

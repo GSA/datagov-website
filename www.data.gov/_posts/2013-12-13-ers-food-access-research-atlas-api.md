@@ -16,6 +16,7 @@ featured_media: 0
 format: image
 guid: http://www.data.gov/?p=129268
 id: 129268
+layout: legacy-post
 link: https://www.data.gov/food/ers-2/
 meta: []
 modified: '2014-04-11T13:26:26'

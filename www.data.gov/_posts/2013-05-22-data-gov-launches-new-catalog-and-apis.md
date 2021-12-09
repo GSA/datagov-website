@@ -17,6 +17,7 @@ featured_media: 0
 format: standard
 guid: http://www.data.gov/?p=51651
 id: 51651
+layout: legacy-post
 link: https://www.data.gov/blog/datagov-launches-new-catalog-and-apis
 meta: []
 modified: '2018-10-25T11:48:35'

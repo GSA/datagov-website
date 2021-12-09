@@ -17,6 +17,7 @@ featured_media: 0
 format: standard
 guid: https://www.data.gov/?p=26220633
 id: 26220633
+layout: legacy-post
 link: https://www.data.gov/energy/introducing-the-u-s-energy-information-administration-eia-redesigned-international-energy-portal/
 meta: []
 modified: '2020-03-05T16:01:08'

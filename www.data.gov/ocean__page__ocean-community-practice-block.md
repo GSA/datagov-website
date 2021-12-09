@@ -12,6 +12,7 @@ excerpt: '<p>Data Publishing and Exchange Data Quality and Documentation Communi
 featured_media: 0
 guid: http://www.data.gov/?p=40645
 id: 40645
+layout: legacy-page
 link: https://www.data.gov/ocean/ocean-community-practice-block
 meta: []
 modified: '2013-11-07T00:38:55'

@@ -14,6 +14,7 @@ excerpt: '<p>The commitment to accessibility for all is reflected on this site i
 featured_media: 0
 guid: http://www.data.gov/?p=30
 id: 30
+layout: legacy-page
 link: https://www.data.gov/accessibility
 meta: []
 modified: '2013-12-16T03:32:22'

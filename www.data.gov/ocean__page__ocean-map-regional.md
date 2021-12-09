@@ -15,6 +15,7 @@ excerpt: '<p>&nbsp; The following maps are from data sources that are regional i
 featured_media: 0
 guid: http://www.data.gov/?p=40545
 id: 40545
+layout: legacy-page
 link: https://www.data.gov/ocean/ocean-map-regional
 meta: []
 modified: '2014-04-24T09:30:29'

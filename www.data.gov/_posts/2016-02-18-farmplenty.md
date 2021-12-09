@@ -15,6 +15,7 @@ featured_media: 0
 format: standard
 guid: http://www.data.gov/?p=20904182
 id: 20904182
+layout: legacy-post
 link: https://www.data.gov/food/farmplenty/
 meta: []
 modified: '2016-02-18T13:23:01'

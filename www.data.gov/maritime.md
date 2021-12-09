@@ -16,6 +16,7 @@ excerpt: '<p>Discover datasets for marine transportation, a critical part of our
 featured_media: 0
 guid: https://www.data.gov/?page_id=23817711
 id: 23817711
+layout: legacy-page
 link: https://www.data.gov/maritime/maritime/
 meta: []
 modified: '2016-11-29T20:16:15'

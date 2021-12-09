@@ -13,6 +13,7 @@ excerpt: "<p>The datasets displayed here are part of a growing number brought fo
 featured_media: 0
 guid: http://www.data.gov/?p=35651
 id: 35651
+layout: legacy-page
 link: https://www.data.gov/energy/energy-additional-resources
 meta: []
 modified: '2017-11-27T11:07:24'

@@ -12,6 +12,7 @@ excerpt: '<p>Looking for ways to get services and find more about your neighborh
 featured_media: 0
 guid: http://www.data.gov/?p=40606
 id: 40606
+layout: legacy-page
 link: https://www.data.gov/counties/counties-residents
 meta: []
 modified: '2013-11-07T00:38:48'

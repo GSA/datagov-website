@@ -16,6 +16,7 @@ excerpt: '<p>Over the past five years, there has been a large body of literature
 featured_media: 0
 guid: https://www.data.gov/?page_id=140251
 id: 140251
+layout: legacy-page
 link: https://www.data.gov/climate/transportation/transportation-featured-content
 meta: []
 modified: '2019-05-06T13:54:46'

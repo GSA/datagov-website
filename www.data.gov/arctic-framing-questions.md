@@ -16,6 +16,7 @@ excerpt: '<p>&nbsp;Arctic Understand changes in Arctic ocean chemistry, as well 
 featured_media: 0
 guid: http://www.data.gov/?page_id=18405682
 id: 18405682
+layout: legacy-page
 link: https://www.data.gov/arctic_framing_questions
 meta: []
 modified: '2021-02-19T10:28:26'

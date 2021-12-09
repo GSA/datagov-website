@@ -15,6 +15,7 @@ excerpt: '<p>Here are a few government and non-government software tools to help
 featured_media: 0
 guid: https://www.data.gov/?page_id=139701
 id: 139701
+layout: legacy-page
 link: https://www.data.gov/climate/coastalflooding/coastalflooding-tools
 meta: []
 modified: '2019-05-02T14:25:28'

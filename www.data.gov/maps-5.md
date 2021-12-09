@@ -15,6 +15,7 @@ excerpt: "<p>Here are several examples of the available map resources on data.go
 featured_media: 0
 guid: https://www.data.gov/?page_id=139901
 id: 139901
+layout: legacy-page
 link: https://www.data.gov/climate/energy-infrastructure/energy-infrastructure-maps
 meta: []
 modified: '2017-05-25T14:40:15'

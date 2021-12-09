@@ -13,6 +13,7 @@ excerpt: "<p>Open government data powers\_software applications that help people
 featured_media: 0
 guid: http://uat-wp-datagov.reisys.com/?page_id=127625
 id: 127625
+layout: legacy-page
 link: https://www.data.gov/applications
 meta: []
 modified: '2016-03-03T00:33:06'

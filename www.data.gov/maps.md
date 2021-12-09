@@ -15,6 +15,7 @@ excerpt: '<p>Here are mapping tools and data layers to help you analyze and asse
 featured_media: 0
 guid: https://www.data.gov/?page_id=139881
 id: 139881
+layout: legacy-page
 link: https://www.data.gov/climate/coastalflooding/coastalflooding-maps
 meta: []
 modified: '2019-05-02T14:30:22'

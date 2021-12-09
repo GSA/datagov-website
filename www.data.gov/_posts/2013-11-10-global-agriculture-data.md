@@ -16,6 +16,7 @@ featured_media: 0
 format: standard
 guid: http://www.data.gov/?p=127870
 id: 127870
+layout: legacy-post
 link: https://www.data.gov/food/global-agriculture-data-3/
 meta: []
 modified: '2013-12-07T01:26:26'

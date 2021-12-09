@@ -18,6 +18,7 @@ featured_media: 0
 format: standard
 guid: http://www.data.gov/?p=129690
 id: 129690
+layout: legacy-post
 link: https://www.data.gov/counties/county-business-patterns/
 meta: []
 modified: '2014-12-02T21:44:36'
@@ -25,8 +26,8 @@ modified_gmt: '2014-12-03T02:44:36'
 permalink: /counties/county-business-patterns/
 ping_status: open
 redirect_from:
-- /local/county-business-patterns/
 - /jobs-and-skills/county-business-patterns/
+- /local/county-business-patterns/
 slug: county-business-patterns
 status: publish
 sticky: false

@@ -16,6 +16,7 @@ excerpt: '<p>Geography and EnvironmentScience and TechnologyLand Use and Land Co
 featured_media: 0
 guid: http://www.data.gov/?p=46202
 id: 46202
+layout: legacy-page
 link: https://www.data.gov/food/food-data-categories
 meta: []
 modified: '2016-12-31T16:10:15'

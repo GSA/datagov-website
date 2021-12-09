@@ -15,6 +15,7 @@ featured_media: 0
 format: standard
 guid: https://www.data.gov/?p=24557416
 id: 24557416
+layout: legacy-post
 link: https://www.data.gov/meta/p24557416/
 meta: []
 modified: '2017-05-03T12:38:01'

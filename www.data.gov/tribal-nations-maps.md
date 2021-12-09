@@ -15,6 +15,7 @@ excerpt: '<p>The Tribal Nations Map Gallery includes printable PDF wall-map vers
 featured_media: 0
 guid: http://www.data.gov/?page_id=19290902
 id: 19290902
+layout: legacy-page
 link: https://www.data.gov/climate/tribal-nations/tribal-nations-maps
 meta: []
 modified: '2019-05-06T14:31:46'

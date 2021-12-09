@@ -16,6 +16,7 @@ excerpt: '<p>The U.S. government and its partners have been collecting data rele
 featured_media: 0
 guid: http://www.data.gov/?page_id=18405782
 id: 18405782
+layout: legacy-page
 link: https://www.data.gov/climate/arctic-data/
 meta: []
 modified: '2021-02-19T10:27:02'

@@ -15,6 +15,7 @@ featured_media: 0
 format: standard
 guid: https://www.data.gov/?p=178541
 id: 178541
+layout: legacy-post
 link: https://www.data.gov/ocean/webinar-monitoring-us-ocean-great-lakes-economy/
 meta: []
 modified: '2014-05-22T08:44:24'

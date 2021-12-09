@@ -16,6 +16,7 @@ excerpt: '<p>Here are a few examples of the many maps available on the internet 
 featured_media: 0
 guid: https://www.data.gov/?page_id=139921
 id: 139921
+layout: legacy-page
 link: https://www.data.gov/climate/foodresilience/foodresilience-maps
 meta: []
 modified: '2017-05-23T10:18:15'

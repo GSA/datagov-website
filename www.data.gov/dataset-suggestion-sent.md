@@ -10,6 +10,7 @@ excerpt: '<p>Your suggesstion has been submitted. Go back to the form.</p>
 featured_media: 0
 guid: https://www.data.gov/?page_id=134311
 id: 134311
+layout: legacy-page
 link: https://www.data.gov/suggest-dataset-success
 meta: []
 modified: '2014-02-05T15:52:44'

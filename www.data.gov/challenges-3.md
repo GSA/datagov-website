@@ -10,6 +10,7 @@ excerpt: ''
 featured_media: 0
 guid: https://www.data.gov/?page_id=140191
 id: 140191
+layout: legacy-page
 link: https://www.data.gov/climate/energy-infrastructure/energy-infrastructure-challenges
 meta: []
 modified: '2021-02-19T10:36:10'

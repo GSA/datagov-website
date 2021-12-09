@@ -14,6 +14,7 @@ featured_media: 0
 format: standard
 guid: http://www.data.gov/?p=765
 id: 765
+layout: legacy-post
 link: https://www.data.gov/food/dr-woteki-on-scientific-integrity/
 meta: []
 modified: '2013-07-25T22:20:19'

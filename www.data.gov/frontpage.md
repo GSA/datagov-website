@@ -14,6 +14,7 @@ excerpt: '<p>The home of the U.S. Government&#8217;s open data Here you will fin
 featured_media: 0
 guid: http://www.data.gov/?page_id=128635
 id: 128635
+layout: legacy-page
 link: https://www.data.gov/
 meta: []
 modified: '2020-09-14T16:18:34'

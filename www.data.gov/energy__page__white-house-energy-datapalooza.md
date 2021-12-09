@@ -15,6 +15,7 @@ excerpt: '<p>White House Energy Datapalooza Todd Park, U.S. Chief Technology Off
 featured_media: 0
 guid: http://www.data.gov/?p=48231
 id: 48231
+layout: legacy-page
 link: https://www.data.gov/energy/white-house-energy-datapalooza
 meta: []
 modified: '2013-11-07T00:39:05'

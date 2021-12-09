@@ -15,6 +15,7 @@ excerpt: '<p>Developers can leverage their technical skills to build platforms a
 featured_media: 0
 guid: https://uat-datagov.reisys.com/?page_id=434304
 id: 434304
+layout: legacy-page
 link: https://www.data.gov/developers/
 meta: []
 modified: '2015-01-26T21:49:50'

@@ -14,6 +14,7 @@ featured_media: 0
 format: link
 guid: http://www.data.gov/?p=38
 id: 38
+layout: legacy-post
 link: https://www.data.gov/announcements/datagov-celebrates-third-anniversary
 meta: []
 modified: '2014-03-18T21:44:30'

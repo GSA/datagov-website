@@ -15,6 +15,7 @@ excerpt: '<p>The data on Counties.Data.gov is brought together from many officia
 featured_media: 0
 guid: http://www.data.gov/?p=40610
 id: 40610
+layout: legacy-page
 link: https://www.data.gov/counties/counties-policies
 meta: []
 modified: '2017-10-12T12:43:58'

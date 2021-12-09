@@ -10,6 +10,7 @@ excerpt: ''
 featured_media: 0
 guid: https://www.data.gov/maritime-hightlights/
 id: 23817591
+layout: legacy-page
 link: https://www.data.gov/maritime/highlights/
 meta: []
 modified: '2016-11-30T10:56:15'

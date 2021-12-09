@@ -15,6 +15,7 @@ excerpt: '<p>This section is intended to provide guidance and information to hel
 featured_media: 0
 guid: http://www.data.gov/?p=35665
 id: 35665
+layout: legacy-page
 link: https://www.data.gov/ocean/technical-community-practice
 meta: []
 modified: '2014-04-18T13:20:14'

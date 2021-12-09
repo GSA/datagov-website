@@ -10,6 +10,7 @@ excerpt: ''
 featured_media: 0
 guid: http://www.data.gov/climate/ecosystem-vulnerability/ecosystem-vulnerability-hightlights/
 id: 12320782
+layout: legacy-page
 link: https://www.data.gov/climate/ecosystem-vulnerability/highlights
 meta: []
 modified: '2014-12-08T16:33:58'

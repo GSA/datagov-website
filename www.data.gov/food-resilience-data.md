@@ -15,6 +15,7 @@ excerpt: '<p>The U.S. Government and its partners have been collecting data rele
 featured_media: 0
 guid: https://www.data.gov/?page_id=2036371
 id: 2036371
+layout: legacy-page
 link: https://www.data.gov/climate/foodresilience/food-resilience-data-sets
 meta: []
 modified: '2014-07-31T20:57:27'

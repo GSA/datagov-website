@@ -14,6 +14,7 @@ excerpt: '<p>This page features datasets from participating counties as well as 
 featured_media: 0
 guid: http://www.data.gov/?p=40607
 id: 40607
+layout: legacy-page
 link: https://www.data.gov/counties/counties-counties-data
 meta: []
 modified: '2013-11-09T08:19:16'

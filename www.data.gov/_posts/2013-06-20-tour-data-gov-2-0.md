@@ -14,6 +14,7 @@ featured_media: 0
 format: standard
 guid: http://www.data.gov/?p=117221
 id: 117221
+layout: legacy-post
 link: https://www.data.gov/blog/tour-datagov-20
 meta: []
 modified: '2014-03-18T21:44:12'

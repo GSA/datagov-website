@@ -9,6 +9,7 @@ excerpt: ''
 featured_media: 0
 guid: http://uat-wp-datagov.reisys.com/?page_id=126923
 id: 126923
+layout: legacy-page
 link: https://www.data.gov/agriculture/
 meta: []
 modified: '2013-11-07T00:38:44'

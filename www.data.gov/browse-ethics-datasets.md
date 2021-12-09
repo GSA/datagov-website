@@ -16,6 +16,7 @@ excerpt: '<p>Use the catalog below to access the full version of ethics datasets
 featured_media: 0
 guid: https://www.data.gov/?page_id=24905262
 id: 24905262
+layout: legacy-page
 link: https://www.data.gov/ethics/browse-datasets/
 meta: []
 modified: '2017-11-06T11:23:52'

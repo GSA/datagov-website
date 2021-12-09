@@ -13,6 +13,7 @@ excerpt: '<p>Thank you for your feedback. To protect your privacy, please do not
 featured_media: 0
 guid: http://www.data.gov/?page_id=18208762
 id: 18208762
+layout: legacy-page
 link: https://www.data.gov/climate/arctic/feedback
 meta: []
 modified: '2016-12-23T10:31:02'

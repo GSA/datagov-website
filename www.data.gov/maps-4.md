@@ -15,6 +15,7 @@ excerpt: '<p>Both climate impacts and transportation systems are distributed spa
 featured_media: 0
 guid: https://www.data.gov/?page_id=139891
 id: 139891
+layout: legacy-page
 link: https://www.data.gov/climate/transportation/transportation-maps
 meta: []
 modified: '2019-05-08T10:23:59'

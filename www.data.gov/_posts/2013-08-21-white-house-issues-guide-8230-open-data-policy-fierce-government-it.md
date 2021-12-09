@@ -16,6 +16,7 @@ featured_media: 0
 format: link
 guid: http://www.data.gov/?p=121751
 id: 121751
+layout: legacy-post
 link: https://www.data.gov/announcements/white-house-issues-guide-open-data-policy-fierce-government-it
 meta: []
 modified: '2014-03-18T21:44:05'

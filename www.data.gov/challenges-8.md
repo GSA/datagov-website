@@ -16,6 +16,7 @@ excerpt: '<p>Data and innovation challenges issued by public, private, nonprofit
 featured_media: 0
 guid: https://www.data.gov/?page_id=140211
 id: 140211
+layout: legacy-page
 link: https://www.data.gov/climate/foodresilience/foodresilience-challenges
 meta: []
 modified: '2021-02-19T10:36:32'

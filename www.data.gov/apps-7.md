@@ -16,6 +16,7 @@ excerpt: '<p>There are a large number of government and non-government software 
 featured_media: 0
 guid: https://www.data.gov/?page_id=139781
 id: 139781
+layout: legacy-page
 link: https://www.data.gov/climate/foodresilience/foodresilience-tools
 meta: []
 modified: '2017-06-19T12:59:38'

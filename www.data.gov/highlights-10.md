@@ -15,6 +15,7 @@ excerpt: "<p>The Administration is expanding its Climate Data Initiative (CDI) a
 featured_media: 0
 guid: http://www.data.gov/tribal-nations-hightlights/
 id: 19089562
+layout: legacy-page
 link: https://www.data.gov/climate/tribal-nations/highlights
 meta: []
 modified: '2015-11-05T12:11:37'

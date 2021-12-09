@@ -19,6 +19,7 @@ featured_media: 0
 format: standard
 guid: https://www.data.gov/?p=148111
 id: 148111
+layout: legacy-post
 link: https://www.data.gov/food/introducing-openfda-food-drug-administration/
 meta: []
 modified: '2014-09-11T10:49:15'
@@ -27,8 +28,8 @@ permalink: /food/introducing-openfda-food-drug-administration/
 ping_status: open
 redirect_from:
 - /consumer/introducing-openfda-food-drug-administration/
-- /health/introducing-openfda-food-drug-administration/
 - /developers/introducing-openfda-food-drug-administration/
+- /health/introducing-openfda-food-drug-administration/
 slug: introducing-openfda-food-drug-administration
 status: publish
 sticky: false

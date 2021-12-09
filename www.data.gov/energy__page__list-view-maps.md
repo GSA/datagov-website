@@ -9,6 +9,7 @@ excerpt: ''
 featured_media: 0
 guid: http://www.data.gov/?p=40711
 id: 40711
+layout: legacy-page
 link: https://www.data.gov/energy/list-view-maps
 meta: []
 modified: '2013-11-07T00:38:53'

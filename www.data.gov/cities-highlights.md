@@ -10,6 +10,7 @@ excerpt: ''
 featured_media: 0
 guid: https://www.data.gov/?page_id=160691
 id: 160691
+layout: legacy-page
 link: https://www.data.gov/cities/highlights
 meta: []
 modified: '2014-04-04T17:36:58'

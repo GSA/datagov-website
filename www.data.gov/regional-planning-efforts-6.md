@@ -16,6 +16,7 @@ excerpt: '<p>Alabama, Florida, Louisiana, Mississippi, Texas Regional Ocean Part
 featured_media: 0
 guid: https://www.data.gov/?page_id=170111
 id: 170111
+layout: legacy-page
 link: https://www.data.gov/ocean/gulf-of-mexico
 meta: []
 modified: '2016-12-31T16:05:07'

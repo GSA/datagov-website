@@ -15,6 +15,7 @@ excerpt: '<p>Data.gov captures a variety of metrics on the participation of the 
 featured_media: 0
 guid: http://www.data.gov/?p=11
 id: 11
+layout: legacy-page
 link: https://www.data.gov/metrics
 meta: []
 modified: '2017-05-31T18:12:28'

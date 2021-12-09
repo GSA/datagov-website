@@ -10,6 +10,7 @@ excerpt: ''
 featured_media: 0
 guid: http://www.data.gov/developers/community/developer/blogs
 id: 40721
+layout: legacy-page
 link: https://www.data.gov/developers/blogs
 meta: []
 modified: '2013-12-16T09:43:33'

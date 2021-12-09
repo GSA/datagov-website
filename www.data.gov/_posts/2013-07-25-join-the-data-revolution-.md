@@ -12,6 +12,7 @@ featured_media: 0
 format: status
 guid: http://www.data.gov/?p=757
 id: 757
+layout: legacy-post
 link: https://www.data.gov/food/join-the-data-revolution/
 meta: []
 modified: '2014-04-01T12:16:50'

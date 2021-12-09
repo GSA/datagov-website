@@ -15,6 +15,7 @@ excerpt: '<p>Some institutions may wish to host archives or mirrors of data list
 featured_media: 0
 guid: https://www.data.gov/?page_id=24516057
 id: 24516057
+layout: legacy-page
 link: https://www.data.gov/developers/archiving
 meta: []
 modified: '2017-01-27T15:39:23'

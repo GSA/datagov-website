@@ -16,6 +16,7 @@ featured_media: 168241
 format: image
 guid: https://www.data.gov/?p=168231
 id: 168231
+layout: legacy-post
 link: https://www.data.gov/ocean/noaas-ship-tracker/
 meta: []
 modified: '2014-04-28T12:51:33'

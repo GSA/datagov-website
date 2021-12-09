@@ -15,6 +15,7 @@ excerpt: "<p>\_Transportation How will climate trends affect transportation syst
 featured_media: 0
 guid: http://www.data.gov/?page_id=17736622
 id: 17736622
+layout: legacy-page
 link: https://www.data.gov/climate/transportation/framing-questions-transportation/
 meta: []
 modified: '2015-06-16T16:33:48'

@@ -17,6 +17,7 @@ featured_media: 0
 format: standard
 guid: https://www.data.gov/?p=175721
 id: 175721
+layout: legacy-post
 link: https://www.data.gov/ocean/webinar-vessel-tracking-data-used-ocean-planning/
 meta: []
 modified: '2014-05-12T08:37:46'

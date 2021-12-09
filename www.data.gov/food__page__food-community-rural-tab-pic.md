@@ -9,6 +9,7 @@ excerpt: ''
 featured_media: 0
 guid: http://www.data.gov/?p=46192
 id: 46192
+layout: legacy-page
 link: https://www.data.gov/food/food-community-rural-tab-pic
 meta: []
 modified: '2013-11-07T00:38:51'

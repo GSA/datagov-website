@@ -14,6 +14,7 @@ excerpt: "<p>While we can&#8217;t and don&#8217;t endorse specific apps, below a
 featured_media: 0
 guid: http://www.data.gov/?p=35620
 id: 35620
+layout: legacy-page
 link: https://www.data.gov/energy/energy-apps
 meta: []
 modified: '2015-01-03T19:37:12'

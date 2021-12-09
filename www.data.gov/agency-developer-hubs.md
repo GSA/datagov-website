@@ -15,6 +15,7 @@ excerpt: '<p>If you&#8217;re looking for developer resources associated with a s
 featured_media: 0
 guid: http://www.data.gov/?page_id=130061
 id: 130061
+layout: legacy-page
 link: https://www.data.gov/developers/agencies
 meta: []
 modified: '2018-01-08T12:01:01'

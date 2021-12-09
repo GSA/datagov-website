@@ -13,6 +13,7 @@ excerpt: "<p>At the Camp David Summit in 2012, G-8 and African leaders committed
 featured_media: 0
 guid: http://www.data.gov/?p=46122
 id: 46122
+layout: legacy-page
 link: https://www.data.gov/food/creation-food
 meta: []
 modified: '2013-11-07T00:38:48'

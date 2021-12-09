@@ -13,6 +13,7 @@ excerpt: "<p>1) Q: How do I upload metadata into Data.gov? A: Federal Agencies: 
 featured_media: 0
 guid: http://www.data.gov/?p=40652
 id: 40652
+layout: legacy-page
 link: https://www.data.gov/ocean/ocean-quick-reference
 meta: []
 modified: '2017-10-04T17:17:54'

@@ -16,6 +16,7 @@ excerpt: '<p>Indian Lands datasets are difficult to correctly interpret, so plea
 featured_media: 0
 guid: http://www.data.gov/?page_id=19089632
 id: 19089632
+layout: legacy-page
 link: https://www.data.gov/climate/tribal-nations/data-page
 meta: []
 modified: '2021-02-18T15:33:32'

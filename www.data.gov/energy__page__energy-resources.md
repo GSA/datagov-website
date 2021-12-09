@@ -9,6 +9,7 @@ excerpt: ''
 featured_media: 0
 guid: http://www.data.gov/?p=35639
 id: 35639
+layout: legacy-page
 link: https://www.data.gov/energy/energy-resources
 meta: []
 modified: '2013-12-06T23:55:45'

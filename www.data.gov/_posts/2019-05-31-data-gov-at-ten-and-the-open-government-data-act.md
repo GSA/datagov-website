@@ -15,6 +15,7 @@ featured_media: 0
 format: standard
 guid: https://www.data.gov/?p=25753556
 id: 25753556
+layout: legacy-post
 link: https://www.data.gov/meta/data-gov-at-ten-and-the-open-government-data-act/
 meta: []
 modified: '2019-05-31T17:23:37'

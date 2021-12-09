@@ -16,6 +16,7 @@ excerpt: '<p>The Human Health Theme section allows users to access data, informa
 featured_media: 0
 guid: http://www.data.gov/?page_id=16117002
 id: 16117002
+layout: legacy-page
 link: https://www.data.gov/climate/humanhealth/humanhealth-topic-intro/
 meta: []
 modified: '2015-04-23T16:32:02'

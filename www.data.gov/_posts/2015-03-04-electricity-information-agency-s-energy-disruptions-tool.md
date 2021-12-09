@@ -17,6 +17,7 @@ featured_media: 0
 format: standard
 guid: http://www.data.gov/?p=16679302
 id: 16679302
+layout: legacy-post
 link: https://www.data.gov/climate/energy-infrastructure/electricity-information-agencys-energy-disruptions-tool/
 meta: []
 modified: '2020-09-17T15:29:18'
@@ -24,8 +25,8 @@ modified_gmt: '2020-09-17T19:29:18'
 permalink: /climate/energy-infrastructure/electricity-information-agencys-energy-disruptions-tool/
 ping_status: open
 redirect_from:
-- /energy-infrastructure/electricity-information-agencys-energy-disruptions-tool/
 - /climate/energy-infrastructure/electricity-information-agencys-energy-disruptions-tool/
+- /energy-infrastructure/electricity-information-agencys-energy-disruptions-tool/
 slug: electricity-information-agencys-energy-disruptions-tool
 status: publish
 sticky: false

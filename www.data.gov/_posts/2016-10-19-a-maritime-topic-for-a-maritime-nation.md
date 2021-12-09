@@ -16,6 +16,7 @@ featured_media: 0
 format: standard
 guid: https://www.data.gov/?p=23817741
 id: 23817741
+layout: legacy-post
 link: https://www.data.gov/maritime/a-maritime-topic-for-a-maritime-nation/
 meta: []
 modified: '2016-11-29T20:14:52'

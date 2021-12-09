@@ -15,6 +15,7 @@ excerpt: '<p>A Network of Ocean Planning Practitioners As systems become more di
 featured_media: 0
 guid: http://www.data.gov/?p=40772
 id: 40772
+layout: legacy-page
 link: https://www.data.gov/ocean/marine-planning-portal-network
 meta: []
 modified: '2013-11-07T00:38:54'

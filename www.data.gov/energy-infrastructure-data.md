@@ -15,6 +15,7 @@ excerpt: '<p>The U.S. Government collects data across a wide range of energy sou
 featured_media: 0
 guid: http://www.data.gov/?page_id=16679492
 id: 16679492
+layout: legacy-page
 link: https://www.data.gov/climate/energy-infrastructure/energy-infrastructure-data/
 meta: []
 modified: '2020-09-17T15:25:02'

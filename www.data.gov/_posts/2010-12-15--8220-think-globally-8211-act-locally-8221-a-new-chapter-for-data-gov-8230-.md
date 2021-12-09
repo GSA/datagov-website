@@ -27,6 +27,7 @@ featured_media: 0
 format: standard
 guid: http://www.data.gov/?p=5109
 id: 5109
+layout: legacy-post
 link: https://www.data.gov/developers/blog/think-globally-act-locally-new-chapter-datagov
 meta: []
 modified: '2013-12-07T07:56:54'

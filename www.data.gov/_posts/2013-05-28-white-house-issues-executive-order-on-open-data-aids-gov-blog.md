@@ -14,6 +14,7 @@ featured_media: 0
 format: link
 guid: http://www.data.gov/?p=116082
 id: 116082
+layout: legacy-post
 link: https://www.data.gov/announcements/white-house-issues-executive-order-open-data-aidsgov-blog
 meta: []
 modified: '2014-03-18T21:44:16'

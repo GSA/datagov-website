@@ -13,6 +13,7 @@ excerpt: "<p>This open data community is supported by the Interagency Council on
 featured_media: 0
 guid: http://www.data.gov/?p=46262
 id: 46262
+layout: legacy-page
 link: https://www.data.gov/food/statistics
 meta: []
 modified: '2013-12-16T06:15:49'

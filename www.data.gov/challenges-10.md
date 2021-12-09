@@ -10,6 +10,7 @@ excerpt: ''
 featured_media: 0
 guid: http://www.data.gov/?page_id=12320862
 id: 12320862
+layout: legacy-page
 link: https://www.data.gov/climate/ecosystem-vulnerability/ecosystem-vulnerability-challenges
 meta: []
 modified: '2021-02-19T10:35:09'

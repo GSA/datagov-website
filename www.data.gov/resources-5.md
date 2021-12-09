@@ -15,6 +15,7 @@ excerpt: '<p>Coastal communities are becoming increasingly vulnerable to the ris
 featured_media: 0
 guid: https://www.data.gov/?page_id=140241
 id: 140241
+layout: legacy-page
 link: https://www.data.gov/climate/coastalflooding/coastalflooding-resources
 meta: []
 modified: '2019-05-02T14:35:00'
