@@ -4,7 +4,7 @@ applications:
     path: redirects
     instances: ((instances))
     memory: ((memory))
-    disk_quota: 5G
+    disk_quota: 4G
     buildpacks:
       - https://github.com/cloudfoundry/nginx-buildpack.git
     routes: ((routes))
