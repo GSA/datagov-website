@@ -1,0 +1,79 @@
+<map showShadow="0" showCanvasBorder="0" showBevel="1" showLabels="0" showMarkerLabels="0" fillColor="FFFFFF" borderColor="000000" baseFont="Verdana" baseFontSize="10" markerBorderColor="000000" markerBgColor="FF5904" markerRadius="6" legendPosition="bottom" useHoverColor="1" showMarkerToolTip="1" animation="0">
+	<data>
+		<entity color="123768" id="23" link="/united-states-datasites"/>
+		<entity color="123768" id="25" link="http://data.buenosaires.gob.ar/"/>
+		<entity color="123768" id="175" link="http://data.australia.gov.au/"/>
+		<entity color="123768" id="131" link="http://data.gv.at/"/>
+		<entity color="123768" id="190" link="http://www.bahrain.bh/wps/portal/data/"/>
+		<entity color="123768" id="133" link="http://data.gov.be/"/>
+		<entity color="123768" id="27" link="http://dados.gov.br/"/>
+		<entity color="123768" id="05" link="http://www.data.gc.ca/default.asp?lang=En"/>
+		<entity color="123768" id="28" link="http://datos.gob.cl/"/>
+		<entity color="123768" id="101" link="http://govinfo.nlc.gov.cn/"/>
+		<entity color="123768" id="138" link="http://digitaliser.dk/resource/432461"/>
+		<entity color="123768" id="139" link="http://pub.stat.ee/px-web.2001/Dialog/statfile1.asp"/>
+		<entity color="123768" id="140" link="http://www.suomi.fi/suomifi/tyohuone/yhteiset_palvelut/avoin_data/"/>
+		<entity color="123768" id="141" link="http://data.gouv.fr/"/>
+		<entity color="123768" id="142" link="http://www.portalu.de/ingrid-portal/portal/default-page.psml"/>
+		<entity color="123768" id="143" link="http://geodata.gov.gr/geodata/"/>
+		<entity color="123768" id="127" link="http://www.gov.hk/en/theme/psi/welcome/"/>
+		<entity color="123768" id="104" link="http://data.gov.in/"/>
+		<entity color="123768" id="146" link="http://www.statcentral.ie/"/>
+		<entity color="123768" id="147" link="http://www.dati.gov.it/"/>
+		<entity color="123768" id="61" link="http://opendata.go.ke/"/>
+		<entity color="123768" id="16" link="http://mapas.gob.mx/"/>
+		<entity color="123768" id="154" link="http://data.gov.md/"/>
+		<entity color="123768" id="69" link="http://data.gov.ma/"/>
+		<entity color="123768" id="157" link="http://data.overheid.nl/"/>
+		<entity color="123768" id="181" link="http://www.data.govt.nz/"/>
+		<entity color="123768" id="158" link="http://data.norge.no/"/>
+		<entity color="123768" id="35" link="http://www.datosperu.org/"/>
+		<entity color="123768" id="160" link="http://www.dados.gov.pt/pt/inicio/inicio.aspx"/>
+		<entity color="123768" id="110" link="http://www.data.go.kr/"/>
+		<entity color="123768" id="174" link="http://opengovdata.ru/"/>
+		<entity color="123768" id="198" link="http://www.saudi.gov.sa/wps/portal/!ut/p/c4/04_SB8K8xLLM9MSSzPy8xBz9CP0os3iTMGenYE8TIwODUEsLA89QU69g11A_YwMTQ_3g1Dz9gmxHRQCO1nwy"/>
+		<entity color="123768" id="119" link="http://data.gov.sg/"/>
+		<entity color="123768" id="164" link="http://data.gov.sk/"/>
+		<entity color="123768" id="166" link="http://datos.gob.es/"/>
+		<entity color="123768" id="167" link="http://xn--ppnadata-m4a.se/"/>
+		<entity color="123768" id="102" link="http://www.transparency.gov.tl/"/>
+		<entity color="123768" id="85" link="http://www.opendata.tn/"/>
+		<entity color="123768" id="200" link="http://www.government.ae/web/guest/uae-data"/>
+		<entity color="123768" id="170" link="http://data.gov.uk/"/>
+		<entity color="123768" id="37" link="http://datos.gub.uy/"/>
+	</data>
+	<markers>
+		<definition>
+			<marker id="SG" x="1628" y="723" label="Singapore"/>
+			<marker id="HK" x="1690" y="590" label="Hong Kong"/>
+			<marker id="TL" x="1737" y="785" label="Timor-Leste"/>
+			<marker id="UND" x="750" y="500" label="United Nations"/>
+			<marker id="NYC" x="580" y="470" label=""/>
+			<marker id="OECD" x="850" y="400" label="OECD"/>
+			<marker id="Paris" x="1020" y="415" label=""/>
+			<marker id="WBD" x="750" y="610" label="World Bank"/>
+			<marker id="WDC" x="560" y="480" label=""/>
+		</definition>
+		<shapes>
+			<shape id="SG_shape" type="circle" fillColor="123768"/>
+			<shape id="HK_shape" type="circle" fillColor="123768"/>
+			<shape id="TL_shape" type="circle" fillColor="123768"/>
+			<shape id="UND_shape" type="image" URL="sites/default/files/UN_data.gif"/>
+			<shape id="OECD_shape" type="image" URL="sites/default/files/oecd-maplogo.png"/>
+			<shape id="WBD_shape" type="image" URL="sites/default/files/world-bank-maplogo.gif"/>
+		</shapes>
+		<application>
+			<marker id="SG" shapeId="SG_shape" link="http://data.gov.sg/"/>
+			<marker id="HK" shapeId="HK_shape" link="http://www.gov.hk/en/theme/psi/welcome/"/>
+			<marker id="TL" shapeId="TL_shape" link="http://www.transparency.gov.tl/"/>
+			<marker id="UND" shapeId="UND_shape" link="http://data.un.org/"/>
+			<marker id="OECD" shapeId="OECD_shape" link="http://stats.oecd.org/"/>
+			<marker id="WBD" shapeId="WBD_shape" link="http://data.worldbank.org/"/>
+		</application>
+		<connectors>
+			<connector from="NYC" to="UND"/>
+			<connector from="Paris" to="OECD"/>
+			<connector from="WDC" to="WBD"/>
+		</connectors>
+	</markers>
+</map>

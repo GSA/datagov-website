@@ -1,0 +1,235 @@
+
+<map showCanvasBorder='0'	canvasBorderColor='f1f1f1' canvasBorderThickness='0' borderColor='666666'
+fillColor='ffffff' hoverColor='cccccc' markerBorderColor='222222' markerBgColor='c58325' markerRadius='6'
+showLabels='1' showMarkerLabels='0'>
+  <colorRange>
+  <color minValue='0' maxValue='2' displayValue='State' color='c58325' />
+  <color minValue='2' maxValue='3' displayValue='Local' color='006699' />
+     </colorRange>
+  <data>
+<entity id='AL' value='1' toolText='Alabama'
+link='http://open.alabama.gov/' />
+<entity id='AZ' value='1' toolText='Arizona'
+link='http://openbooks.az.gov/app/transparency/index.html' />
+<entity id='CA' value='1' toolText='California'
+link='http://data.ca.gov/' />
+<entity id='CO' value='1' toolText='Colorado'
+link='http://www.colorado.gov/data/' />
+<entity id='DE' value='1' toolText='Delaware'
+link='http://www.delaware.gov/data/' />
+<entity id='DC' value='1' toolText='District of Columbia'
+link='http://data.octo.dc.gov/' />
+<entity id='FL' value='1' toolText='Florida'
+link='http://www.floridahasarighttoknow.com/' />
+<entity id='GA' value='1' toolText='Georgia'
+link='http://www.open.georgia.gov/' />
+<entity id='IL' value='1' toolText='Illinois'
+link='http://data.illinois.gov/' />
+<entity id='IN' value='1' toolText='Indiana'
+link='http://inmap.indiana.edu/viewer.htm' />
+<entity id='IA' value='1' toolText='Iowa'
+link='http://data.iowa.gov/' />
+<entity id='KS' value='1' toolText='Kansas'
+link='http://www.kansas.gov/KanView/' />
+<entity id='KY' value='1' toolText='Kentucky'
+link='http://opendoor.ky.gov/search/Pages/spendingsearch.aspx' />
+<entity id='LA' value='1' toolText='Louisiana'
+link='http://wwwprd.doa.louisiana.gov/LaTrac/portal.cfm' />
+<entity id='ME' value='1' toolText='Maine'
+link='http://www.maine.gov/data/' />
+<entity id='MA' value='1' toolText='Massachusetts'
+link='http://www.mass.gov/data/' />
+<entity id='MI' value='1' toolText='Michigan'
+link='http://www.michigan.gov/data/' />
+<entity id='MN' value='1' toolText='Minnesota'
+link='http://www.mn.gov/data/' />
+<entity id='MO' value='1' toolText='Missouri'
+link='http://www.mo.gov/data/' />
+<entity id='NE' value='1' toolText='Nebraska'
+link='http://www.nebraska.gov/data/' />
+<entity id='NM' value='1' toolText='New Mexico'
+link='http://www.sunshineportalnm.com/' />
+<entity id='NY' value='1' toolText='New York'
+link='http://www.nysenate.gov/opendata/' />
+<entity id='NC' value='1' toolText='North Carolina'
+link='http://www.ncopenbook.gov/' />
+<entity id='ND' value='1' toolText='North Dakota'
+link='http://www.nd.gov/gis/' />
+<entity id='OH' value='1' toolText='Ohio'
+link='http://www.sos.state.oh.us/betterLives.aspx' />
+<entity id='OK' value='1' toolText='Oklahoma'
+link='http://www.ok.gov/about/data.html' />
+<entity id='OR' value='1' toolText='Oregon'
+link='http://data.oregon.gov/' />
+<entity id='RI' value='1' toolText='Rhode Island'
+link='http://www.ri.gov/data/' />
+<entity id='SD' value='1' toolText='South Dakota'
+link='http://open.sd.gov/' />
+<entity id='TN' value='1' toolText='Tennessee'
+link='http://www.tn.gov/opengov/' />
+<entity id='TX' value='1' toolText='Texas'
+link='http://www.texas.gov/en/Connect/Pages/open-data.aspx' />
+<entity id='UT' value='1' toolText='Utah'
+link='http://www.utah.gov/data/' />
+<entity id='VA' value='1' toolText='Virginia'
+link='http://datapoint.apa.virginia.gov/' />
+<entity id='WA' value='1' toolText='Washington'
+link='http://data.wa.gov/' />
+  </data>
+  <markers>
+  <definition>
+  	<marker id='DC_marker' x='602' y='194' label='District of Columbia' labelPos='right' />
+<marker id='ann_arbor_marker'
+x='510' y='128'
+label='Ann Arbor' labelPos='right' />
+<marker id='arvada_marker'
+x='255' y='175'
+label='Arvada' labelPos='right' />
+<marker id='atlanta_marker'
+x='510' y='265'
+label='Atlanta' labelPos='right' />
+<marker id='austin_marker'
+x='345' y='325'
+label='Austin' labelPos='right' />
+<marker id='baltimore_marker'
+x='610' y='185'
+label='Baltimore' labelPos='right' />
+<marker id='boston_marker'
+x='680' y='132'
+label='Boston' labelPos='right' />
+<marker id='cook_county_marker'
+x='465' y='152'
+label='Cook County' labelPos='right' />
+<marker id='chicago_marker'
+x='465' y='140'
+label='Chicago' labelPos='right' />
+<marker id='king_county_marker'
+x='50' y='50'
+label='King County' labelPos='right' />
+<marker id='new_orleans_marker'
+x='435' y='325'
+label='New Orleans' labelPos='right' />
+<marker id='new_york_city_marker'
+x='637' y='158'
+label='New York City' labelPos='right' />
+<marker id='philadelphia_marker'
+x='620' y='170'
+label='Philadelphia' labelPos='right' />
+<marker id='portland_marker'
+x='34' y='80'
+label='Portland' labelPos='right' />
+<marker id='san_francisco_marker'
+x='38' y='209'
+label='San Francisco' labelPos='right' />
+<marker id='seattle_marker'
+x='37' y='45'
+label='Seattle' labelPos='right' />
+  </definition>
+  <shapes>
+  	<shape id='DC_shape' type='polygon' sides='4' fillColor='c58325' />
+<shape id='ann_arbor_shape'
+type='circle' fillColor='006699' />
+<shape id='arvada_shape'
+type='circle' fillColor='006699' />
+<shape id='atlanta_shape'
+type='circle' fillColor='006699' />
+<shape id='austin_shape'
+type='circle' fillColor='006699' />
+<shape id='baltimore_shape'
+type='circle' fillColor='006699' />
+<shape id='boston_shape'
+type='circle' fillColor='006699' />
+<shape id='cook_county_shape'
+type='circle' fillColor='006699' />
+<shape id='chicago_shape'
+type='circle' fillColor='006699' />
+<shape id='king_county_shape'
+type='circle' fillColor='006699' />
+<shape id='new_orleans_shape'
+type='circle' fillColor='006699' />
+<shape id='new_york_city_shape'
+type='circle' fillColor='006699' />
+<shape id='philadelphia_shape'
+type='circle' fillColor='006699' />
+<shape id='portland_shape'
+type='circle' fillColor='006699' />
+<shape id='san_francisco_shape'
+type='circle' fillColor='006699' />
+<shape id='seattle_shape'
+type='circle' fillColor='006699' />
+  </shapes>
+  <application>
+  	<marker id='DC_marker' shapeId='DC_shape' toolText='District of Columbia'
+  	 link='http://data.octo.dc.gov/' />
+<marker id='ann_arbor_marker'
+shapeId='ann_arbor_shape'
+toolText='Ann Arbor'
+link='http://www.a2gov.org/data/' />
+<marker id='arvada_marker'
+shapeId='arvada_shape'
+toolText='Arvada'
+link='http://arvada.org/opendata' />
+<marker id='atlanta_marker'
+shapeId='atlanta_shape'
+toolText='Atlanta'
+link='http://gis.atlantaga.gov/gishome/index.php?option=com_content&amp;task=view&amp;id=10&amp;Itemid=52' />
+<marker id='austin_marker'
+shapeId='austin_shape'
+toolText='Austin'
+link='http://data.austintexas.gov/' />
+<marker id='baltimore_marker'
+shapeId='baltimore_shape'
+toolText='Baltimore'
+link='http://data.baltimorecity.gov/' />
+<marker id='boston_marker'
+shapeId='boston_shape'
+toolText='Boston'
+link='http://gis.cityofboston.gov/SolarBoston/' />
+<marker id='cook_county_marker'
+shapeId='cook_county_shape'
+toolText='Cook County'
+link='http://data.cookcountyil.gov/' />
+<marker id='chicago_marker'
+shapeId='chicago_shape'
+toolText='Chicago'
+link='http://data.cityofchicago.org/' />
+<marker id='king_county_marker'
+shapeId='king_county_shape'
+toolText='King County'
+link='http://www.datakc.org/' />
+<marker id='new_orleans_marker'
+shapeId='new_orleans_shape'
+toolText='New Orleans'
+link='http://data.nola.gov/' />
+<marker id='new_york_city_marker'
+shapeId='new_york_city_shape'
+toolText='New York City'
+link='http://www.nyc.gov/data' />
+<marker id='philadelphia_marker'
+shapeId='philadelphia_shape'
+toolText='Philadelphia'
+link='http://www.opendataphilly.org/' />
+<marker id='portland_marker'
+shapeId='portland_shape'
+toolText='Portland'
+link='http://civicapps.org/datasets' />
+<marker id='san_francisco_marker'
+shapeId='san_francisco_shape'
+toolText='San Francisco'
+link='http://www.datasf.org/' />
+<marker id='seattle_marker'
+shapeId='seattle_shape'
+toolText='Seattle'
+link='http://data.seattle.gov/' />
+  </application>
+  </markers>
+  <styles>
+  <definition>
+	 <style name='myShadow' type='Shadow' distance='0'/>
+	 <style name='HTMLFont' type='font' color='333333' borderColor='CCCCCC' bgColor='FFFFFF'/>
+  </definition>
+  <application>
+	 <apply toObject='MARKERLABELS' styles='HTMLFont,myShadow' />
+  </application>
+  </styles>
+</map>
