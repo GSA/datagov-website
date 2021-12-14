@@ -32,6 +32,6 @@ SUMMARY:2018 USDA Open Data Summer Camp
 DESCRIPTION:USDA and the Data Science Program at George Washington University are teaming up to design and deliver a FREE “summer camp” in 2018 for high-school students (ages 15-17) in the Washington Metro Area that focuses on using Open Data related to Science\, Technology\, Engineering\, Agriculture\, and Math (STEAM). \nCAMP OVERVIEW\nThis two-week long project-based Summer Camp will introduce participants to the use of data in the context of the USDA’s work with food nutrition\, forestry\, and urban agriculture. Students will explore\, analyze\, and reconfigure quantitative and qualitative data\, using fundamental graphical principles to present their project-related findings.
 URL:https://www.data.gov/event/2018-usda-open-data-summer-camp/
 LOCATION:George Washington University\, Corcoran Hall\, 725 21st St NW\,\, Washington\, DC\, 20052\, United States
-ATTACH;FMTTYPE=image/jpeg:https://bsp-ocsit-prod-east-appdata.s3.us-east-1.amazonaws.com/datagov/wordpress/2018/04/urban_group_photo.jpg
+ATTACH;FMTTYPE=image/jpeg:/datagov/wordpress/2018/04/urban_group_photo.jpg
 END:VEVENT
 END:VCALENDAR

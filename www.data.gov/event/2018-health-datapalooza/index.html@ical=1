@@ -32,6 +32,6 @@ SUMMARY:2018 Health Datapalooza
 DESCRIPTION:The Health Datapalooza convenes a diverse audience from the public and private sectors to learn how health and health care can be improved by harnessing the power of data and technology. \nThis one-of-a-kind conference offers meaningful\, cross-sector discussions around the future of health data  – and how it’s being used to challenge current practices and trigger changes in health care. \nDatapalooza attendees share the latest innovations and new methods for liberating data and creating actionable knowledge to drive health policy and practice. Hear from some of the top visionaries and thought leaders across the field and attend lively panels and engaging sessions that explore key questions and promising innovations in health data. \nDownload the 2017 onsite agenda book. \n 
 URL:https://www.data.gov/event/2018-health-datapalooza/
 LOCATION:Washington Hilton\, 1919 Connecticut Ave NW\, Washington\, DC\, 20009\, United States
-ATTACH;FMTTYPE=image/jpeg:https://bsp-ocsit-prod-east-appdata.s3.us-east-1.amazonaws.com/datagov/wordpress/2017/11/HDP-logo_0.jpg
+ATTACH;FMTTYPE=image/jpeg:/datagov/wordpress/2017/11/HDP-logo_0.jpg
 END:VEVENT
 END:VCALENDAR
