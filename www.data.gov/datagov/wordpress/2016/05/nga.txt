@@ -1,0 +1,107 @@
+{
+    "@context": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld",
+    "@id": "http://www.agency.gov/data.json",
+    "@type": "dcat:Catalog",    
+    "conformsTo": "https://project-open-data.cio.gov/v1.1/schema", 
+    "describedBy": "https://project-open-data.cio.gov/v1.1/schema/catalog.json",
+    "dataset": [
+        {
+            "@type": "dcat:Dataset",
+            "accessLevel": "public", 
+            "accrualPeriodicity": "R/P1Y", 
+            "bureauCode": [
+                "018:10"
+            ],
+            "conformsTo": "http://www.agency.gov/dataset-taxonomy/",
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "John Doe", 
+                "hasEmail": "mailto:John.doe@agency.gov"
+            }, 
+            "describedBy": "http://www.agency.gov/datasets/dataset-dictionary.html", 
+            "dataQuality": true, 
+            "description": "This is the description of the dataset.", 
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "description": "This is the link to the direct geospatial data download in Shapefile format.", 
+                    "downloadURL": "http://www.agency.gov/shp/dataset_Shapefile.zip", 
+                    "format": "Zipped SHP", 
+                    "mediaType": "application/zip", 
+                    "title": "Shapefile"
+                }, 
+                {
+                    "@type": "dcat:Distribution",
+                    "description": "This is the link to the direct geospatial data download in GeoDatabase format.", 
+                    "downloadURL": "http://www.agency.gov/shp/dataset_GeoDatabase.zip", 
+                    "format": "Zipped GDB", 
+                    "mediaType": "application/zip", 
+                    "title": "GeoDatabase"
+                }, 
+                {
+					"@type": "dcat:Distribution",
+                    "description": "This is the link to the ArcGIS Map Service.", 
+                    "downloadURL": "http://www.agency.gov/rest/services/dataset/MapServer", 
+                    "format": "ArcGIS Map Service", 
+                    "mediaType": "html/text", 
+                    "title": "ArcGIS Map Service"
+                }, 
+                {
+					"@type": "dcat:Distribution",
+                    "description": "This is the link to the ArcGIS Feature Server.", 
+                    "downloadURL": "http://www.agency.gov/rest/services/dataset/FeatureServer", 
+                    "format": "ArcGIS Feature Server", 
+                    "mediaType": "html/text", 
+                    "title": "ArcGIS Feature Server"
+                }
+            ], 
+            "identifier": "Dataset-0001", 
+            "issued": "2016-05-19", 
+            "keyword": [
+                "dataset type", 
+                "Other dataset keyword" 
+            ], 
+            "landingPage": "http://agency.gov/dataset", 
+            "language": [
+                "en-US"
+            ], 
+            "license": "http://creativecommons.org/publicdomain/zero/1.0/", 
+            "modified": "2011-11-19T12:00:00Z", 
+            "primaryITInvestmentUII": "021-006227212", 
+            "programCode": [
+                "000:000"
+            ], 
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Organization Name", 
+                "subOrganizationOf": {
+                    "@type": "org:Organization",
+                    "name": "Office Name", 
+                    "subOrganizationOf": {
+                        "@type": "org:Organization",
+                        "name": "Agency Name", 
+                        "subOrganizationOf": {
+                            "@type": "org:Organization",
+                            "name": "U.S. Government"
+                        }
+                    }
+                }
+            }, 
+            "references": [
+                "http://agency.gov/docs/dataset-1.html", 
+                "http://agency.gov/docs/dataset-2.html"
+            ], 
+            "rights": "This dataset has been given an international public domain dedication for worldwide reuse", 
+            "spatial": "United States", 
+            "systemOfRecords": "http://www.agency.gov/dataset/sorn/", 
+            "temporal": "2009-09-01T12:00:00Z/2010-05-31T12:00:00Z", 
+            "theme": [
+				"NGDA",
+				"National Geospatial Data Asset", 
+				"Cadastre Theme",
+				"NGDA Portfolio Themes"				
+            ], 
+            "title": "The PMO JSON Example"
+        }
+    ]
+}

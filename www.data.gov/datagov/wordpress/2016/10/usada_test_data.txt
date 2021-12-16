@@ -1,0 +1,124 @@
+{
+  "@type": "dcat:Catalog",
+  "describedBy": "https://project-open-data.cio.gov/v1.1/schema/catalog.json",
+  "conformsTo": "https://project-open-data.cio.gov/v1.1/schema",
+  "@context": "https://project-open-data.cio.gov/v1.1/schema/data.jsonld",
+  "dataset": [
+    {
+      "identifier": "USDA-FS-1002-2015-aaa",
+      "accessLevel": "public",
+      "contactPoint": {
+        "hasEmail": "mailto:bquayle@fs.fed.us",
+        "@type": "vcard:Contact",
+        "fn": "Brad Quayle"
+      },
+      "programCode": [
+        "005:000"
+      ],
+      "description": "The Monitoring Trends in Burn Severity (MTBS) project maps the location, extent, and severity of all large fires in the conterminous United States (CONUS), Alaska, Hawaii and Puerto Rico from 1984 to present. All documented fires greater than 1,000 acres in the western U.S. and greater than 500 acres in the eastern U.S. are mapped across all ownerships. The project produces geospatial and tabular data for analysis at a range of spatial, temporal, and thematic scales and are intended to meet a variety of information needs that require consistent data about fire effects through space and time. MTBS is conducted through a partnership between the U.S. Geological Survey National Center for Earth Resources Observation and Science (EROS) and the USDA Forest Service Remote Sensing Applications Center (RSAC).",
+      "title": "Test Duplicate resource URLs U.S. Forest Service Monitoring Trends in Burn Severity",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "http://www.mtbs.gov/nationalregional/pointdata.html",
+          "description": "The MTBS fire occurrence data set provides the location of mapped fires completed by the project since 1984 in the continental United States, Alaska, Hawaii and Puerto Rico.",
+          "mediaType": "text/html",
+          "title": "MTBS Fire Occurrence Locations"
+        },
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "http://www.mtbs.gov/nationalregional/burnedarea.html",
+          "description": "The MTBS burned area boundaries dataset represents the location and extent of burned areas for mapped fires completed by the project since 1984 in the continental United States, Alaska, Hawaii and Puerto Rico.",
+          "mediaType": "text/html",
+          "title": "MTBS Burned Area Boundaries"
+        },
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "http://www.mtbs.gov/nationalregional/download.html",
+          "description": "The MTBS burn severity datasets are raster mosaics of thematic burn severity classifications for fires completed by the project since 1984. Annual burn severity mosaics are provided for the continental United States (CONUS), Alaska, Hawaii and Puerto Rico.",
+          "mediaType": "text/html",
+          "title": "MTBS Thematic Burn Severity Mosaics"
+        },
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://apps.fs.usda.gov/fsgisx01/rest/services/RDW_Wildfire",
+          "description": "MTBS thematic burn severity as map services. Burn severity layers are thematic images depicting severity as unburned to low, low, moderate, high, and increased greenness (increased post-fire vegetation response). The layer may also have a sixth class representing a mask for clouds, shadows, large water bodies, or other features on the landscape that erroneously affect the severity classification. This data has been prepared as part of the Monitoring Trends in Burn Severity (MTBS) project. Due to the lack of comprehensive fire reporting information and quality Landsat imagery, burn severity for all targeted MTBS fires are not available. Additionally, the availability of burn severity data for fires occurring in the current and previous calendar year is variable since these data are currently in production and released on an intermittent basis by the MTBS project.",
+          "mediaType": "text/html",
+          "title": "MTBS Thematic Burn Severity REST Services"
+        },
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_MTBS_01/MapServer",
+          "format": "ArcGIS Map Service",
+          "description": "ArcGIS Map Service",
+          "mediaType": "text/html",
+          "title": "MTBS Fire Occurrence Locations and Burned Area Boundaries Map Service"
+        },
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://apps.fs.usda.gov/arcx/rest/services/EDW_FEATURE/EDW_MTBS_01/FeatureServer",
+          "format": "ArcGIS Feature Service",
+          "description": "ArcGIS Feature Service",
+          "mediaType": "text/html",
+          "title": "MTBS Fire Occurrence Locations and Burned Area Boundaries Feature Service"
+        },
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "http://data.fs.usda.gov/geodata/edw/datasets.php?xmlKeyword=monitoring+trends+in+burn+severity",
+          "description": "Link to MTBS geodata download page for xml metadata and shapefile and geodatabase downloads",
+          "mediaType": "text/html",
+          "title": "Data Download and Metadata"
+        },
+        {
+          "accessURL": "https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_MTBS_01/MapServer",
+          "@type": "dcat:Distribution",
+          "format": "api",
+          "description": "Link to API",
+          "title": "API"
+        },
+        {
+          "accessURL": "https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_MTBS_01/MapServer",
+          "@type": "dcat:Distribution",
+          "format": "api",
+          "description": "Link to API 2",
+          "title": "API"
+        },
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_MTBS_01/MapServer/generateKml",
+          "format": "kml",
+          "description": "Link to generate KML",
+          "mediaType": "text/html",
+          "title": "KML"
+        }
+      ],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "bureauCode": [
+        "005:96"
+      ],
+      "dataQuality": true,
+      "rights": "Public",
+      "modified": "2015-07-06",
+      "publisher": {
+        "@type": "org:Organization",
+        "name": "US Forest Service, Department of Agriculture"
+      },
+      "theme": [
+        "geospatial",
+        "National Geospatial Data Asset",
+        "Land Use Land Cover Theme"
+      ],
+      "keyword": [
+        "Landsat",
+        "USDA Forest Service",
+        "USGS EROS Data Center",
+        "air monitoring data",
+        "burn boundary",
+        "burn severity",
+        "fire",
+        "fire occurrence",
+        "trends"
+      ]
+    }
+  ]
+}

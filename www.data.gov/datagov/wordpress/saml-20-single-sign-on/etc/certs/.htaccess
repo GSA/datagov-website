@@ -1,0 +1,3 @@
+<Files ~ "\.(key)$">
+Deny from all
+</Files>

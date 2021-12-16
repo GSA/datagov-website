@@ -1,0 +1,118 @@
+.panels-flexible-region {
+  padding: 0;
+}
+
+.panels-flexible-region-inside {
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+}
+
+.panels-flexible-region-inside-first {
+  padding-left: 0;
+}
+
+.panels-flexible-region-inside-last {
+  padding-right: 0;
+}
+
+.panels-flexible-column {
+  padding: 0;
+}
+
+.panels-flexible-column-inside {
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+}
+
+.panels-flexible-column-inside-first {
+  padding-left: 0;
+}
+
+.panels-flexible-column-inside-last {
+  padding-right: 0;
+}
+
+.panels-flexible-row {
+  padding: 0 0 0.5em 0;
+  margin: 0;
+}
+
+.panels-flexible-row-last {
+  padding-bottom: 0;
+}
+
+.panels-flexible-column-home_page_layout-main {
+  float: left;
+  width: 99.0000%;
+}
+
+.panels-flexible-home_page_layout-inside {
+  padding-right: 0px;
+}
+
+.panels-flexible-home_page_layout {
+  width: auto;
+}
+
+.panels-flexible-region-home_page_layout-slideshow_ {
+  position: relative;
+  float: left;
+  background-color: transparent;
+  width: 570px;
+}
+
+.panels-flexible-region-home_page_layout-new_datasets {
+  position: relative;
+  float: left;
+  background-color: transparent;
+  width: 415px;
+}
+
+.panels-flexible-row-home_page_layout-23-inside {
+  padding-left: 985px;
+  margin-left: -985px;
+  padding-right: 0px;
+}
+
+* html .panels-flexible-row-home_page_layout-23-inside {
+  left: 985px;
+}
+
+.panels-flexible-region-home_page_layout-feature_top_left_ {
+  float: left;
+  width: 33.0345%;
+}
+
+.panels-flexible-region-home_page_layout-feature_top_middle_ {
+  float: left;
+  width: 33.0271%;
+}
+
+.panels-flexible-region-home_page_layout-feature_top_right_ {
+  float: left;
+  width: 32.9384%;
+}
+
+.panels-flexible-row-home_page_layout-21-inside {
+  padding-right: 0px;
+}
+
+.panels-flexible-region-home_page_layout-feature_bottom_left_ {
+  float: left;
+  width: 33.0345%;
+}
+
+.panels-flexible-region-home_page_layout-feature_bottom_middle_ {
+  float: left;
+  width: 33.0271%;
+}
+
+.panels-flexible-region-home_page_layout-feature_bottom_right_ {
+  float: left;
+  width: 32.9384%;
+}
+
+.panels-flexible-row-home_page_layout-22-inside {
+  padding-right: 0px;
+}
+

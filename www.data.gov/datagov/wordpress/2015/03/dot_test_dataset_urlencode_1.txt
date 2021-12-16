@@ -1,0 +1,85 @@
+{
+
+    "@context": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld",
+    "@type": "dcat:Catalog",
+    "conformsTo": "https://project-open-data.cio.gov/v1.1/schema",
+    "describedBy": "https://project-open-data.cio.gov/v1.1/schema/catalog.json",
+    "dataset": 
+
+[
+{
+
+    "@type": "dcat:Dataset",
+    "accessLevel": "public",
+    "accrualPeriodicity": "irregular",
+    "bureauCode": 
+
+[
+
+    "021:15"
+
+],
+"contactPoint":
+{
+
+    "@type": "vcard:Contact",
+    "fn": "Yoder, Supin (FHWA)",
+    "hasEmail": "mailto:Supin.Yoder@dot.gov"
+
+},
+"dataQuality": true,
+"description": "HEPGIS is a web-based interactive geographic map server that allows users to navigate and view geo-spatial data, print maps, and obtain data on specific features using only a web browser. It includes geo-spatial data used for transportation planning. HEPGIS previously received ARRA funding for development of Economically distressed Area maps. It is also being used to demonstrate emerging trends to address MPO and statewide planning regulations/requirements , enhanced National Highway System, Primary Freight Networks, commodity flows and safety data . HEPGIS has been used to help implement MAP-21 regulations and will help implement the Grow America Act, particularly related to Ladder of Opportunities and MPO reforms.",
+"distribution":
+[
+
+    {
+        "@type": "dcat:Distribution",
+        "downloadURL": "http://hepgis.fhwa.dot.gov/hepgismaps11/ViewMap.aspx?map%3DHighway%2BInformation%7CMAP-21%2BNational%2BHighway%2BSystem%23",
+        "mediaType": "application/octet-stream"
+    }
+
+],
+"identifier": "692.0",
+"issued": "2007-01-01",
+"keyword":
+[
+
+    "FHWA",
+    "Geographic",
+    "Geospatial",
+    "map",
+    "ARRA planning"
+
+],
+"language":
+[
+
+    "en-US"
+
+],
+"modified": "2014-11-24",
+"programCode":
+[
+
+    "021:009"
+
+],
+"publisher":
+{
+
+    "@type": "org:Organization",
+    "name": "Federal Highway Administration"
+
+},
+"spatial": "National, State, County",
+"temporal": "2007-01-01/2014-12-31",
+"theme":
+
+    [
+        "Transportation"
+    ],
+    "title": "Rural & Statewide GIS/Data Needs (HEPGIS): MAP-21 National Highway System"
+
+}
+]
+}

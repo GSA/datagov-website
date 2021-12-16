@@ -1,0 +1,68 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1138\cocoasubrtf510
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\b\fs24 \cf0 Welcome view
+\b0  shows new employee's avatar alongside the avatars of key members they should introduce themselves to, called "key people." Each key person has their name, position, and avatar\
+\
+
+\b New employee data model:
+\b0 \
+- name\
+- position\
+- email address\
+- desk location\
+- key people [collection of employees]\
+\
+
+\b Checklist Overview view 
+\b0 displays the list of on boarding items that will need to be completed by the new employee. From this view, the list shows a task title, a suggested due date, and a complete/incomplete icon. We can filter the list to show all items, or only items that are incomplete. Items can also be reordered. An item can be expanded to show its 
+\b Checklist Detail view
+\b0 \
+\
+
+\b Checklist Detail view
+\b0  displays the full description and complete task options of a single task:\
+- mark for completion (new employee can only mark with current timestamp, administrator can change this timestamp)\
+- mark time spent (useful for deltek)\
+- add notes (again, useful for deltek)\
+- ask someone for assistance/clarification of task\
+\
+
+\b Resources Overview view
+\b0  displays a list of useful resources, usually external links. They should also be categorized. Here's an example of useful resources and their categorizations:\
+\
+Admin\
+- Deltek\
+- OMB Calendar\
+- Portal\
+- Vacation/WFH Policies\
+- Email signature policy\
+Technical\
+- VPN Access\
+- Software requirements\
+- W3Schools\
+- Drupalize.me\
+- php.net\
+- github.com\
+\
+
+\b Resource URL data model:
+\b0 \
+- URL title\
+- URL destination\
+- tooltip text\
+- submitted by\
+\
+
+\b Resource Config data model:\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\b0 \cf0 - category\
+- Resource URL (object)\
+- weight\
+- user\
+\
+Extra credit: what we offer is simply a default view. The new employee can reorder the URLs, create additional useful URLs, create additional categories. It can serve as a bookmark manager for them, which can be accessed anywhere they can access the Hello site.}

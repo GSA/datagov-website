@@ -1,0 +1,98 @@
+.panels-flexible-region {
+  padding: 0;
+}
+
+.panels-flexible-region-inside {
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+}
+
+.panels-flexible-region-inside-first {
+  padding-left: 0;
+}
+
+.panels-flexible-region-inside-last {
+  padding-right: 0;
+}
+
+.panels-flexible-column {
+  padding: 0;
+}
+
+.panels-flexible-column-inside {
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+}
+
+.panels-flexible-column-inside-first {
+  padding-left: 0;
+}
+
+.panels-flexible-column-inside-last {
+  padding-right: 0;
+}
+
+.panels-flexible-row {
+  padding: 0 0 0.5em 0;
+  margin: 0;
+}
+
+.panels-flexible-row-last {
+  padding-bottom: 0;
+}
+
+.panels-flexible-column-announcements_layout-main {
+  float: left;
+  width: 99.0000%;
+}
+
+.panels-flexible-announcements_layout-inside {
+  padding-right: 0px;
+}
+
+.panels-flexible-announcements_layout {
+  width: auto;
+}
+
+.panels-flexible-region-announcements_layout-center {
+  float: left;
+  width: 69.3257%;
+}
+
+.panels-flexible-region-announcements_layout-previous_ {
+  float: left;
+  width: 29.6743%;
+}
+
+.panels-flexible-row-announcements_layout-main-row-inside {
+  padding-right: 0px;
+}
+
+.panels-flexible-region-announcements_layout-extra {
+  float: left;
+  width: 99.0000%;
+}
+
+.panels-flexible-row-announcements_layout-1-inside {
+  padding-right: 0px;
+}
+
+.panels-flexible-region-announcements_layout-left_box {
+  float: left;
+  width: 32.9483%;
+}
+
+.panels-flexible-region-announcements_layout-middle_box {
+  float: left;
+  width: 33.0271%;
+}
+
+.panels-flexible-region-announcements_layout-right_box {
+  float: left;
+  width: 33.0247%;
+}
+
+.panels-flexible-row-announcements_layout-2-inside {
+  padding-right: 0px;
+}
+

@@ -1,0 +1,159 @@
+<map showCanvasBorder="0" canvasBorderColor="f1f1f1" canvasBorderThickness="0" borderColor="666666" fillColor="ffffff" hoverColor="cccccc" markerBorderColor="222222" markerBgColor="c58325" markerRadius="6" showLabels="1" showMarkerLabels="0" baseFontSize="9">
+	<colorRange>
+		<color minValue="0" maxValue="2" displayValue="State" color="c58325"/>
+		<color minValue="2" maxValue="3" displayValue="Cities" color="006699"/>
+		<color minValue="3" maxValue="4" displayValue="County" color="000000"/>
+		<color minValue="4" maxValue="5" displayValue="Other State Related" color="009966"/>
+	</colorRange>
+	<data>
+		<entity id="AL" value="1" toolText="Alabama" link="http://open.alabama.gov/"/>
+		<entity id="AZ" value="1" toolText="Arizona" link="http://openbooks.az.gov/app/transparency/index.html"/>
+		<entity id="CA" value="1" toolText="California" link="http://data.ca.gov/"/>
+		<entity id="CO" value="1" toolText="Colorado" link="http://www.colorado.gov/data/"/>
+		<entity id="CT" value="1" toolText="Connecticut" link="http://transparency.ct.gov/html/main.asp"/>
+		<entity id="DE" value="1" toolText="Delaware" link="http://www.delaware.gov/data/"/>
+		<entity id="DC" value="1" toolText="District of Columbia" link="http://data.dc.gov/"/>
+		<entity id="FL" value="1" toolText="Florida" link="http://www.floridahasarighttoknow.com/"/>
+		<entity id="GA" value="1" toolText="Georgia" link="http://www.open.georgia.gov/"/>
+		<entity id="HI" value="1" toolText="Hawaii" link="http://data.hawaii.gov/"/>
+		<entity id="IL" value="1" toolText="Illinois" link="http://data.illinois.gov/"/>
+		<entity id="IN" value="1" toolText="Indiana" link="http://inmap.indiana.edu/viewer.htm"/>
+		<entity id="IA" value="1" toolText="Iowa" link="http://data.iowa.gov/"/>
+		<entity id="KS" value="1" toolText="Kansas" link="http://www.kansas.gov/KanView/"/>
+		<entity id="KY" value="1" toolText="Kentucky" link="http://opendoor.ky.gov/search/Pages/spendingsearch.aspx"/>
+		<entity id="LA" value="1" toolText="Louisiana" link="http://wwwprd.doa.louisiana.gov/LaTrac/portal.cfm"/>
+		<entity id="ME" value="1" toolText="Maine" link="http://www.maine.gov/data/"/>
+		<entity id="MD" value="1" toolText="Maryland" link="https://data.maryland.gov/"/>
+		<entity id="MA" value="1" toolText="Massachusetts" link="http://www.mass.gov/data/"/>
+		<entity id="MI" value="1" toolText="Michigan" link="http://www.michigan.gov/data/"/>
+		<entity id="MN" value="1" toolText="Minnesota" link="http://mn.gov/portal/"/>
+		<entity id="MO" value="1" toolText="Missouri" link="http://data.mo.gov/"/>
+		<entity id="NE" value="1" toolText="Nebraska" link="http://www.nebraska.gov/data/"/>
+		<entity id="NH" value="1" toolText="New Hampshire" link="http://nhopengov.org/"/>
+		<entity id="NM" value="1" toolText="New Mexico" link="http://www.sunshineportalnm.com/"/>
+		<entity id="NY" value="1" toolText="New York" link="https://data.ny.gov/"/>
+		<entity id="NC" value="1" toolText="North Carolina" link="http://www.ncopenbook.gov/"/>
+		<entity id="ND" value="1" toolText="North Dakota" link="http://www.nd.gov/gis/"/>
+		<entity id="OH" value="1" toolText="Ohio" link="http://transparency.ohio.gov/"/>
+		<entity id="OK" value="1" toolText="Oklahoma" link="http://www.ok.gov/about/data.html"/>
+		<entity id="OR" value="1" toolText="Oregon" link="http://data.oregon.gov/"/>
+		<entity id="RI" value="1" toolText="Rhode Island" link="http://www.ri.gov/data/"/>
+		<entity id="SD" value="1" toolText="South Dakota" link="http://open.sd.gov/"/>
+		<entity id="TN" value="1" toolText="Tennessee" link="http://www.tn.gov/opengov/"/>
+		<entity id="TX" value="1" toolText="Texas" link="http://www.texas.gov/en/Connect/Pages/open-data.aspx"/>
+		<entity id="UT" value="1" toolText="Utah" link="http://www.utah.gov/data/"/>
+		<entity id="VA" value="1" toolText="Virginia" link="http://datapoint.apa.virginia.gov/"/>
+		<entity id="WA" value="1" toolText="Washington" link="http://data.wa.gov/"/>
+	</data>
+	<markers>
+		<definition>
+			<marker id="DC_marker" x="602" y="194" label="District of Columbia" labelPos="right"/>
+			<marker id="ann_arbor_marker" x="510" y="128" label="Ann Arbor" labelPos="right"/>
+			<marker id="arvada_marker" x="255" y="175" label="Arvada" labelPos="right"/>
+			<marker id="asheville_marker" x="538" y="237" label="Asheville" labelPos="right"/>
+			<marker id="atlanta_marker" x="510" y="265" label="Atlanta" labelPos="right"/>
+			<marker id="austin_marker" x="345" y="325" label="Austin" labelPos="right"/>
+			<marker id="baltimore_marker" x="610" y="185" label="Baltimore" labelPos="right"/>
+			<marker id="boston_marker" x="680" y="132" label="Boston" labelPos="right"/>
+			<marker id="boston2_marker" x="682" y="134" label="City of Boston GIS Data Hub" labelPos="right"/>
+			<marker id="cook_county_marker" x="465" y="152" label="Cook County" labelPos="right"/>
+			<marker id="chicago_marker" x="465" y="140" label="Chicago" labelPos="right"/>
+			<marker id="denver_marker" x="254" y="177" label="Denver" labelpos="right"/>
+			<marker id="honolulu_marker" x="220" y="368" label="Honolulu" labelpos="right"/>
+			<marker id="king_county_marker" x="50" y="50" label="King County" labelPos="right"/>
+			<marker id="new_orleans_marker" x="435" y="325" label="New Orleans" labelPos="right"/>
+			<marker id="new_york_city_marker" x="637" y="158" label="New York City" labelPos="right"/>
+			<marker id="palo_alto_marker" x="40" y="211" label="Palo Alto" labelPos="right"/>
+			<marker id="philadelphia_marker" x="620" y="170" label="Philadelphia" labelPos="right"/>
+			<marker id="portland_marker" x="34" y="80" label="Portland" labelPos="right"/>
+			<marker id="san_francisco_marker" x="38" y="209" label="San Francisco" labelPos="right"/>
+			<marker id="san_mateo_county_marker" x="38" y="211" label="San Mateo" labelPos="right"/>
+			<marker id="seattle_marker" x="37" y="45" label="Seattle" labelPos="right"/>
+			<marker id="louisville_marker" x="490" y="202" label="Louisville" labelPos="right"/>
+			<marker id="kansas_city_marker" x="381" y="189" label="Kansas City" labelPos="right"/>
+			<marker id="albuquerque_marker" x="233" y="235" label="Albuquerque" labelPos="right"/>
+			<marker id="lexington_marker" x="507" y="199" label="Lexington" labelPos="right"/>
+			<marker id="santa_cruz_marker" x="40" y="217" label="Santa Cruz" labelPos="right"/>
+			<marker id="somerville_marker" x="677" y="130" label="Somerville" labelPos="right"/>
+			<marker id="raleigh_marker" x="590" y="238" label="Raleigh" labelPos="right"/>
+			<marker id="wellington_marker" x="557" y="366" label="Wellington" labelPos="right"/>
+			<marker id="weatherford_marker" x="342" y="280" label="Weatherford" labelPos="right"/>
+			<marker id="scottsdale_marker" x="166" y="269" label="Scottsdale" labelPos="right"/>
+			<marker id="madison_marker" x="443" y="117" label="Madison" labelPos="right"/>
+			<marker id="rockville_marker" x="450" y="135" label="Rockville" labelPos="right"/>
+			<marker id="champaign_marker" x="461" y="166" label="Champaign" labelPos="right"/>
+			<marker id="belleville_marker" x="441" y="192" label="Belleville" labelPos="right"/>
+			<marker id="gilpin_county_marker" x="245" y="170" label="Gilpin County" labelPos="right"/>
+			<marker id="denver_regional_council_marker" x="252" y="175" label="Denver Regional Council" labelPos="right"/>
+			<marker id="illinois_ssmam_marker" x="465" y="143" label="Denver Regional Council" labelPos="right"/>
+			<marker id="hawaii_gis_marker" x="218" y="366" label="Hawaii GIS" labelPos="right"/>
+			<marker id="missouri_accountability_portal_marker" x="415" y="193" label="Missouri Accountability Portal" labelPos="right"/>
+			<marker id="ny_state_senate_marker" x="641" y="125" label="NY State Senate" labelPos="right"/>
+			<marker id="tx_transparency_marker" x="343" y="323" label="Texas Transparency" labelPos="right"/>
+			<marker id="nys_data_center_marker" x="635" y="156" label="New York City" labelPos="right"/>
+			<marker id="southbend_marker" x="482.29" y="148.63" label="South Bend" labelPos="right"/> 
+		</definition>
+		<shapes>
+			<shape id="default_diamond" type="polygon" sides="4" fillColor="c58325"/>
+			<shape id="default_circle" type="circle" fillColor="006699"/>
+			<shape id="default_triangle" type="polygon" sides="3" fillColor="000000"/>
+			<shape id="default_pentagon" type="polygon" sides="5" fillColor="009966"/>
+		</shapes>
+		<application>
+			<marker id="DC_marker" shapeId="default_diamond" toolText="District of Columbia" link="http://data.dc.gov/"/>
+			<marker id="ann_arbor_marker" shapeId="default_circle" toolText="Ann Arbor" link="http://www.a2gov.org/data/"/>
+			<marker id="arvada_marker" shapeId="default_circle" toolText="Arvada" link="http://arvada.org/opendata"/>
+			<marker id="asheville_marker" shapeId="default_circle" toolText="Asheville" link="http://opendatacatalog.ashevillenc.gov/"/>
+			<marker id="atlanta_marker" shapeId="default_circle" toolText="Atlanta" link="http://gis.atlantaga.gov/"/>
+			<marker id="austin_marker" shapeId="default_circle" toolText="Austin" link="http://data.austintexas.gov/"/>
+			<marker id="baltimore_marker" shapeId="default_circle" toolText="Baltimore" link="http://data.baltimorecity.gov/"/>
+			<marker id="boston_marker" shapeId="default_circle" toolText="Boston" link="https://data.cityofboston.gov/"/>
+			<marker id="boston2_marker" shapeId="default_circle" toolText="Boston Enterprise GIS" link="http://www.cityofboston.gov/maps/"/>
+			<marker id="cook_county_marker" shapeId="default_triangle" toolText="Cook County" link="http://data.cookcountyil.gov/"/>
+			<marker id="chicago_marker" shapeId="default_circle" toolText="Chicago" link="http://data.cityofchicago.org/"/>
+			<marker id="denver_marker" shapeId="default_circle" toolText="Denver" link="http://data.denvergov.org/"/>
+			<marker id="honolulu_marker" shapeId="default_circle" toolText="Honolulu" link="https://data.honolulu.gov/"/>
+			<marker id="king_county_marker" shapeId="default_triangle" toolText="King County" link="http://www.datakc.org/"/>
+			<marker id="new_orleans_marker" shapeId="default_circle" toolText="New Orleans" link="http://data.nola.gov/"/>
+			<marker id="new_york_city_marker" shapeId="default_circle" toolText="New York City" link="http://www.nyc.gov/data"/>
+			<marker id="palo_alto_marker" shapeId="default_circle" toolText="Palo Alto" link="http://data.cityofpaloalto.org/"/>
+			<marker id="philadelphia_marker" shapeId="default_circle" toolText="Philadelphia" link="http://www.opendataphilly.org/"/>
+			<marker id="portland_marker" shapeId="default_circle" toolText="Portland" link="http://civicapps.org/datasets"/>
+			<marker id="san_francisco_marker" shapeId="default_circle" toolText="San Francisco" link="http://www.datasf.org/"/>
+			<marker id="san_mateo_county_marker" shapeId="default_triangle" toolText="San Mateo" link="https://data.smcgov.org/"/>
+			<marker id="seattle_marker" shapeId="default_circle" toolText="Seattle" link="http://data.seattle.gov/"/>
+			<marker id="louisville_marker" shapeId="default_circle" toolText="Louisville" link="http://portal.louisvilleky.gov/service/data/"/>
+			<marker id="kansas_city_marker" shapeId="default_circle" toolText="Kansas City" link="https://data.kcmo.org/"/>
+			<marker id="albuquerque_marker" shapeId="default_circle" toolText="Albuquerque" link="http://www.cabq.gov/abq-data/"/>
+			<marker id="lexington_marker" shapeId="default_circle" toolText="Lexington" link="http://www.lexingtonky.gov/index.aspx?page=416"/>
+			<marker id="santa_cruz_marker" shapeId="default_circle" toolText="Santa Cruz" link="http://data.cityofsantacruz.com/"/>
+			<marker id="somerville_marker" shapeId="default_circle" toolText="Somerville" link="http://data.somervillema.gov/"/>
+			<marker id="raleigh_marker" shapeId="default_circle" toolText="Raleigh" link="http://www.raleighnc.gov/open/"/>
+			<marker id="wellington_marker" shapeId="default_circle" toolText="Wellington" link="https://data.wellingtonfl.gov/"/>
+			<marker id="weatherford_marker" shapeId="default_circle" toolText="Weatherford" link="http://tx-weatherford2.civicplus.com/index.aspx?NID=1448"/>
+			<marker id="scottsdale_marker" shapeId="default_circle" toolText="Scottsdale" link="http://data.scottsdaleaz.gov/"/>
+			<marker id="madison_marker" shapeId="default_circle" toolText="Madison" link="https://data.cityofmadison.com/"/>
+			<marker id="rockville_marker" shapeId="default_circle" toolText="Rockville" link="https://data.illinois.gov/rockford"/>
+			<marker id="champaign_marker" shapeId="default_circle" toolText="Champaign" link="https://data.illinois.gov/champaign"/>
+			<marker id="belleville_marker" shapeId="default_circle" toolText="Belleville" link="https://data.illinois.gov/belleville"/>
+			<marker id="gilpin_county_marker" shapeId="default_triangle" toolText="Gilpin County" link="http://data.opencolorado.org/group/gilpin-county"/>
+			<marker id="denver_regional_council_marker" shapeId="default_pentagon" toolText="Denver Regional Council" link="http://data.opencolorado.org/group/drcog"/>
+			<marker id="illinois_ssmam_marker" shapeId="default_pentagon" toolText="Illinois South Suburban Mayors and Managers" link="https://data.illinois.gov/ssmma"/>
+			<marker id="hawaii_gis_marker" shapeId="default_pentagon" toolText="Hawaii GIS" link="http://gis.hicentral.com/"/>
+			<marker id="missouri_accountability_portal_marker" shapeId="default_pentagon" toolText="Missouri Accountability Portal" link="http://mapyourtaxes.mo.gov/MAP/Portal/Default.aspx"/>
+			<marker id="ny_state_senate_marker" shapeId="default_pentagon" toolText="NY State Senate" link="http://www.nysenate.gov/opendata/"/>
+			<marker id="tx_transparency_marker" shapeId="default_pentagon" toolText="Texas Transparency" link="http://www.texastransparency.org/opendata/index.php"/>
+			<marker id="nys_data_center_marker" shapeId="default_pentagon" toolText="New York State Data Center" link="http://esd.ny.gov/NYSDataCenter.html"/>
+			<marker id="southbend_marker" shapeId="default_circle" toolText="South Bend" link="https://data.southbendin.gov/"/>		
+		</application>
+	</markers>
+	<styles>
+		<definition>
+			<style name="myShadow" type="Shadow" distance="0"/>
+			<style name="HTMLFont" type="font" color="333333" borderColor="CCCCCC" bgColor="FFFFFF"/>
+		</definition>
+		<application>
+			<apply toObject="MARKERLABELS" styles="HTMLFont,myShadow"/>
+		</application>
+	</styles>
+</map>

@@ -1,0 +1,129 @@
+.panels-flexible-region {
+  padding: 0;
+}
+
+.panels-flexible-region-inside {
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+}
+
+.panels-flexible-region-inside-first {
+  padding-left: 0;
+}
+
+.panels-flexible-region-inside-last {
+  padding-right: 0;
+}
+
+.panels-flexible-column {
+  padding: 0;
+}
+
+.panels-flexible-column-inside {
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+}
+
+.panels-flexible-column-inside-first {
+  padding-left: 0;
+}
+
+.panels-flexible-column-inside-last {
+  padding-right: 0;
+}
+
+.panels-flexible-row {
+  padding: 0 0 0.5em 0;
+  margin: 0;
+}
+
+.panels-flexible-row-last {
+  padding-bottom: 0;
+}
+
+.panels-flexible-column-1_3_2_column-main {
+  float: left;
+  width: 99.0000%;
+}
+
+.panels-flexible-1_3_2_column-inside {
+  padding-right: 0px;
+}
+
+.panels-flexible-1_3_2_column {
+  width: auto;
+}
+
+.panels-flexible-region-1_3_2_column-center {
+  float: left;
+  width: 99.0000%;
+}
+
+.panels-flexible-row-1_3_2_column-main-row-inside {
+  padding-right: 0px;
+}
+
+.panels-flexible-column-1_3_2_column-3 {
+  float: left;
+  width: 69.2026%;
+}
+
+.panels-flexible-column-1_3_2_column-2 {
+  float: left;
+  width: 29.7974%;
+}
+
+.panels-flexible-row-1_3_2_column-1-inside {
+  padding-right: 0px;
+}
+
+.panels-flexible-column-1_3_2_column-8 {
+  float: left;
+  width: 49.5000%;
+}
+
+.panels-flexible-column-1_3_2_column-7 {
+  float: left;
+  width: 49.5000%;
+}
+
+.panels-flexible-row-1_3_2_column-6-inside {
+  padding-right: 0px;
+}
+
+.panels-flexible-region-1_3_2_column-1st_left {
+  float: left;
+  width: 99.0000%;
+}
+
+.panels-flexible-row-1_3_2_column-9-inside {
+  padding-right: 0px;
+}
+
+.panels-flexible-region-1_3_2_column-2nd_left {
+  float: left;
+  width: 99.0000%;
+}
+
+.panels-flexible-row-1_3_2_column-10-inside {
+  padding-right: 0px;
+}
+
+.panels-flexible-region-1_3_2_column-left {
+  float: left;
+  width: 99.0000%;
+}
+
+.panels-flexible-row-1_3_2_column-4-inside {
+  padding-right: 0px;
+}
+
+.panels-flexible-region-1_3_2_column-right {
+  float: left;
+  width: 99.0000%;
+}
+
+.panels-flexible-row-1_3_2_column-5-inside {
+  padding-right: 0px;
+}
+
