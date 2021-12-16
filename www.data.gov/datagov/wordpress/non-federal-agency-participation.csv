@@ -1,28 +1,28 @@
 "Agency Name",Sub-Agency/Publisher,"Organization Type",Datasets,"Last Entry"
-"Allegheny County / City of Pittsburgh / Western PA Regional Data Center",,"County Government",255,11/07/2017
-"Allegheny County / City of Pittsburgh / Western PA Regional Data Center","Allegheny County / City of Pittsburgh / Western PA Regional Data Center","County Government",255,11/07/2017
+"Allegheny County / City of Pittsburgh / Western PA Regional Data Center",,"County Government",267,08/03/2018
+"Allegheny County / City of Pittsburgh / Western PA Regional Data Center","Allegheny County / City of Pittsburgh / Western PA Regional Data Center","County Government",267,08/03/2018
 "Arizona Geological Survey",,"State Government",950,04/10/2015
-"Arlington County, VA",,"County Government",152,11/12/2017
-"Arlington County, VA","Arlington County","County Government",152,11/12/2017
+"Arlington County, VA",,"County Government",161,04/12/2018
+"Arlington County, VA","Arlington County","County Government",161,04/12/2018
 "Baruch Institute for Marine and Coastal Sciences, Univ of South Carolina",,University,26,05/17/2013
-"California Department of Resources",,"State Government",583,04/10/2015
 "California Environmental Health Tracking Program",,"State Government",16,04/10/2015
+"California Natural Resource Agency",,"State Government",583,04/10/2015
 "Center for International Earth Science Information Network, Columbia University",,University,2,10/09/2014
-"City and County of Durham, North Carolina",,"City Government",124,11/07/2017
-"City and County of Durham, North Carolina","Board of Elections","City Government",1,09/23/2017
+"City and County of Durham, North Carolina",,"City Government",129,04/04/2018
+"City and County of Durham, North Carolina","Board of Elections","City Government",2,11/21/2017
 "City and County of Durham, North Carolina","Budget Department","City Government",2,10/19/2017
 "City and County of Durham, North Carolina","Budget Department, Office of Performance and Innovation","City Government",5,09/13/2017
 "City and County of Durham, North Carolina","Bureau of Justice Statistics Office","City Government",3,07/17/2017
 "City and County of Durham, North Carolina","Bureau of Labor Statistics","City Government",1,07/17/2017
 "City and County of Durham, North Carolina","City Department of Transportation","City Government",1,09/23/2017
-"City and County of Durham, North Carolina","City and County of Durham, NC","City Government",32,10/31/2017
-"City and County of Durham, North Carolina","City of Durham","City Government",3,10/31/2017
-"City and County of Durham, North Carolina","Data Works NC","City Government",2,09/13/2017
-"City and County of Durham, North Carolina","Development Services Center","City Government",4,//
+"City and County of Durham, North Carolina","City and County of Durham, NC","City Government",30,02/28/2018
+"City and County of Durham, North Carolina","City of Durham","City Government",3,02/28/2018
+"City and County of Durham, North Carolina","Data Works NC","City Government",2,11/21/2017
+"City and County of Durham, North Carolina","Development Services Center","City Government",10,03/28/2018
 "City and County of Durham, North Carolina","Duke Parking and Transportation","City Government",1,09/23/2017
-"City and County of Durham, North Carolina","Durham County","City Government",6,11/07/2017
+"City and County of Durham, North Carolina","Durham County","City Government",6,04/04/2018
 "City and County of Durham, North Carolina","Durham County Library","City Government",23,07/17/2017
-"City and County of Durham, North Carolina","Durham GIS","City Government",6,11/07/2017
+"City and County of Durham, North Carolina","Durham GIS","City Government",6,04/04/2018
 "City and County of Durham, North Carolina","Environmental Protection Agency (EPA)","City Government",1,09/23/2017
 "City and County of Durham, North Carolina","Federal Election Commission (FEC)","City Government",2,09/23/2017
 "City and County of Durham, North Carolina",GoTriangle,"City Government",2,09/23/2017
@@ -35,69 +35,66 @@
 "City and County of Durham, North Carolina",NCCPR,"City Government",1,08/21/2017
 "City and County of Durham, North Carolina",Planning,"City Government",6,10/03/2017
 "City and County of Durham, North Carolina","Police Department","City Government",1,09/23/2017
-"City and County of Durham, North Carolina","Tax Administration","City Government",5,10/03/2017
+"City and County of Durham, North Carolina","Tax Administration","City Government",5,03/28/2018
 "City and County of Durham, North Carolina","U.S. Census Bureau","City Government",5,07/17/2017
 "City and County of Durham, North Carolina","University of South Carolina, Hazards Research Lab, Department of Geography","City Government",1,07/17/2017
-"City of Austin",,"City Government",1171,11/07/2017
+"City of Austin",,"City Government",995,08/03/2018
 "City of Austin","Department/Agency level/No publisher","City Government",1,05/24/2016
-"City of Austin",data.austintexas.gov,"City Government",1170,11/07/2017
-"City of Baltimore",,"City Government",435,11/07/2017
-"City of Baltimore",data.baltimorecity.gov,"City Government",435,11/07/2017
-"City of Baton Rouge",,"City Government",47,11/07/2017
-"City of Baton Rouge",data.brla.gov,"City Government",47,11/07/2017
-"City of Bloomington",,"City Government",130,11/11/2017
-"City of Bloomington","City of Bloomington","City Government",130,11/11/2017
-"City of Boise",,"City Government",12,08/08/2017
-"City of Boise","City of Boise, Idaho","City Government",12,08/08/2017
-"City of Charlotte",,"City Government",66,11/07/2017
-"City of Charlotte","City of Charlotte","City Government",66,11/07/2017
-"City of Chesapeake",,"City Government",31,10/03/2017
-"City of Chesapeake","City of Chesapeake, VA","City Government",31,10/03/2017
-"City of Chicago",,"City Government",691,11/07/2017
-"City of Chicago",data.cityofchicago.org,"City Government",691,11/07/2017
-"City of Hartford",,"City Government",51,11/07/2017
-"City of Hartford",data.hartford.gov,"City Government",51,11/07/2017
-"City of Honolulu",,"City Government",160,11/07/2017
-"City of Honolulu",data.honolulu.gov,"City Government",160,11/07/2017
+"City of Austin",data.austintexas.gov,"City Government",994,08/03/2018
+"City of Baltimore",,"City Government",433,08/03/2018
+"City of Baltimore",data.baltimorecity.gov,"City Government",433,08/03/2018
+"City of Baton Rouge",,"City Government",51,08/03/2018
+"City of Baton Rouge",data.brla.gov,"City Government",51,08/03/2018
+"City of Bloomington",,"City Government",158,08/01/2018
+"City of Bloomington","City of Bloomington","City Government",158,08/01/2018
+"City of Boise",,"City Government",6,04/05/2018
+"City of Boise","City of Boise, Idaho","City Government",6,04/05/2018
+"City of Charlotte",,"City Government",48,08/03/2018
+"City of Charlotte","City of Charlotte","City Government",48,08/03/2018
+"City of Chesapeake",,"City Government",32,08/03/2018
+"City of Chesapeake","City of Chesapeake, VA","City Government",32,08/03/2018
+"City of Chicago",,"City Government",703,08/03/2018
+"City of Chicago",data.cityofchicago.org,"City Government",703,08/03/2018
+"City of Hartford",,"City Government",51,08/03/2018
+"City of Hartford",data.hartford.gov,"City Government",51,08/03/2018
+"City of Honolulu",,"City Government",137,08/03/2018
+"City of Honolulu",data.honolulu.gov,"City Government",137,08/03/2018
 "City of Jackson, Mississippi",,"City Government",51,04/07/2017
 "City of Jackson, Mississippi","Department/Agency level/No publisher","City Government",1,02/10/2017
 "City of Jackson, Mississippi",data.jacksonms.gov,"City Government",50,04/07/2017
-"City of Los Angeles",,"City Government",304,11/11/2017
-"City of Los Angeles",data.lacity.org,"City Government",304,11/11/2017
-"City of New Orleans",,"City Government",194,11/11/2017
-"City of New Orleans","The Data Center","City Government",1,03/10/2016
-"City of New Orleans",appsteam@socrata.com,"City Government",1,11/11/2017
-"City of New Orleans",data.nola.gov,"City Government",192,11/11/2017
-"City of New York",,"City Government",1749,11/07/2017
+"City of Los Angeles",,"City Government",309,08/01/2018
+"City of Los Angeles",data.lacity.org,"City Government",309,08/01/2018
+"City of New Orleans",,"City Government",190,08/01/2018
+"City of New Orleans",appsteam@socrata.com,"City Government",1,08/01/2018
+"City of New Orleans",data.nola.gov,"City Government",189,08/01/2018
+"City of New York",,"City Government",1647,08/03/2018
 "City of New York","Department/Agency level/No publisher","City Government",3,06/09/2016
-"City of New York",data.cityofnewyork.us,"City Government",1746,11/07/2017
+"City of New York",data.cityofnewyork.us,"City Government",1644,08/03/2018
 "City of Philadelphia",,"City Government",91,04/09/2015
 "City of Philadelphia","City Of Philadelphia","City Government",1,04/09/2015
 "City of Philadelphia","City of Philadelphia","City Government",5,04/09/2015
 "City of Philadelphia","City of Philadelphia","City Government",85,04/09/2015
-"City of Providence",,"City Government",176,11/07/2017
-"City of Providence","Department/Agency level/No publisher","City Government",8,07/13/2017
-"City of Providence",data.providenceri.gov,"City Government",168,11/07/2017
-"City of San Francisco",,"City Government",475,11/07/2017
-"City of San Francisco",data.sfgov.org,"City Government",475,11/07/2017
-"City of Santa Rosa",,"City Government",96,11/07/2017
-"City of Santa Rosa",data.srcity.org,"City Government",96,11/07/2017
-"City of Seattle",,"City Government",568,11/07/2017
-"City of Seattle","City of Seattle GIS Program","City Government",19,11/07/2017
-"City of Seattle","Department/Agency level/No publisher","City Government",2,09/12/2017
-"City of Seattle",data.seattle.gov,"City Government",547,11/07/2017
-"City of Sioux Falls",,"City Government",76,//
-"City of Sioux Falls","City of Sioux Falls GIS","City Government",76,//
-"City of Somerville",,"City Government",46,11/07/2017
-"City of Somerville",data.somervillema.gov,"City Government",46,11/07/2017
-"City of Tempe",,"City Government",45,11/11/2017
-"City of Tempe","City of Tempe","City Government",45,11/11/2017
-"Cook County of Illinois",,"County Government",500,11/07/2017
-"Cook County of Illinois",datacatalog.cookcountyil.gov,"County Government",500,11/07/2017
+"City of Providence",,"City Government",178,08/04/2018
+"City of Providence",data.providenceri.gov,"City Government",178,08/04/2018
+"City of San Francisco",,"City Government",484,08/03/2018
+"City of San Francisco",data.sfgov.org,"City Government",484,08/03/2018
+"City of Santa Rosa",,"City Government",121,08/03/2018
+"City of Santa Rosa",data.srcity.org,"City Government",121,08/03/2018
+"City of Seattle",,"City Government",426,08/03/2018
+"City of Seattle","Department/Agency level/No publisher","City Government",1,11/24/2016
+"City of Seattle",data.seattle.gov,"City Government",425,08/03/2018
+"City of Sioux Falls",,"City Government",73,03/08/2018
+"City of Sioux Falls","City of Sioux Falls GIS","City Government",73,03/08/2018
+"City of Somerville",,"City Government",48,08/03/2018
+"City of Somerville",data.somervillema.gov,"City Government",48,08/03/2018
+"City of Tempe",,"City Government",69,08/04/2018
+"City of Tempe","City of Tempe","City Government",69,08/04/2018
+"Cook County of Illinois",,"County Government",529,08/03/2018
+"Cook County of Illinois",datacatalog.cookcountyil.gov,"County Government",529,08/03/2018
 "Cornell University ",,University,1759,05/17/2013
 "Earth Data Analysis Center, University of New Mexico",,University,5436,09/21/2017
-"Fairfax County, Virginia",,"County Government",175,11/07/2017
-"Fairfax County, Virginia","Fairfax County GIS","County Government",175,11/07/2017
+"Fairfax County, Virginia",,"County Government",179,08/03/2018
+"Fairfax County, Virginia","Fairfax County GIS","County Government",179,08/03/2018
 "Florida Department of Environmental Protection",,"State Government",3,08/25/2016
 "Florida Department of Environmental Protection","Engineering, Hydrology & Geology Program","State Government",3,08/25/2016
 "Great Lakes Commission",,Non-Profit,60,05/17/2013
@@ -105,108 +102,112 @@
 "International Boundary Commission",,Other,1,04/22/2016
 "Iowa State University GIS Support and Research Facility",,University,104,12/19/2015
 "Kansas Data Access and Support Center",,University,147,09/21/2017
-"King County, Washington",,"County Government",287,11/07/2017
-"King County, Washington",data.kingcounty.gov,"County Government",287,11/07/2017
-"Legal Services Corporation",,Non-Profit,1,02/10/2017
-"Legal Services Corporation","Office of Data Governance and Analysis",Non-Profit,1,02/10/2017
-"Loudoun County, Virginia",,"County Government",41,11/05/2017
-"Loudoun County, Virginia","Loudoun GIS","County Government",41,11/05/2017
+"King County, Washington",,"County Government",263,08/03/2018
+"King County, Washington",data.kingcounty.gov,"County Government",263,08/03/2018
+"Legal Services Corporation",,Non-Profit,1,03/27/2018
+"Legal Services Corporation","Office of Data Governance and Analysis",Non-Profit,1,03/27/2018
+"Loudoun County, Virginia",,"County Government",46,04/05/2018
+"Loudoun County, Virginia","Loudoun GIS","County Government",46,04/05/2018
 "Louisiana Geographic Information Center",,"State Government",274,08/02/2016
-"Louisville Metro Government",,"City Government",190,11/07/2017
-"Louisville Metro Government","Air Pollution Control District","City Government",12,08/19/2017
-"Louisville Metro Government","Animal Services","City Government",5,11/07/2017
-"Louisville Metro Government","Bike Louisville","City Government",1,07/30/2017
-"Louisville Metro Government","Codes &amp; Regulations","City Government",10,11/07/2017
-"Louisville Metro Government","Community Services","City Government",22,03/16/2017
-"Louisville Metro Government","Construction Review, Develop Louisville","City Government",3,11/07/2017
-"Louisville Metro Government",Corrections,"City Government",1,03/16/2017
-"Louisville Metro Government","Develop Louisville","City Government",24,11/07/2017
-"Louisville Metro Government","Develop Louisville, Construction Review","City Government",1,11/07/2017
-"Louisville Metro Government","Develop Louisville, MetroSafe","City Government",1,03/16/2017
-"Louisville Metro Government",EMS,"City Government",1,03/16/2017
-"Louisville Metro Government","Economic Development","City Government",1,03/16/2017
-"Louisville Metro Government","Emergency Management","City Government",2,03/16/2017
-"Louisville Metro Government","Health &amp; Wellness","City Government",7,11/07/2017
-"Louisville Metro Government","Housing and Community Development","City Government",2,03/16/2017
-"Louisville Metro Government","Human Resources","City Government",3,10/31/2017
-"Louisville Metro Government","Human Resources, Management &amp; Budget","City Government",1,10/31/2017
-"Louisville Metro Government","Information Technology","City Government",7,09/02/2017
-"Louisville Metro Government","Jefferson County Clerk Election Center","City Government",3,04/27/2017
-"Louisville Metro Government",LOJIC,"City Government",15,08/25/2017
-"Louisville Metro Government","Louisville Fire","City Government",7,04/20/2017
-"Louisville Metro Government","Louisville Fire, LOJIC","City Government",1,04/20/2017
-"Louisville Metro Government","Management &amp; Budget","City Government",1,10/31/2017
-"Louisville Metro Government","Mayor Fischer","City Government",1,04/06/2017
+"Louisville Metro Government",,"City Government",268,08/03/2018
+"Louisville Metro Government","Air Pollution Control District","City Government",12,01/10/2018
+"Louisville Metro Government","Animal Services","City Government",5,08/03/2018
+"Louisville Metro Government","Bike Louisville","City Government",2,02/14/2018
+"Louisville Metro Government","Codes & Regulations","City Government",11,08/03/2018
+"Louisville Metro Government","Codes & Regulations, Develop Louisville","City Government",3,08/03/2018
+"Louisville Metro Government","Community Services","City Government",22,01/10/2018
+"Louisville Metro Government","Construction Review","City Government",2,08/03/2018
+"Louisville Metro Government","Construction Review, Develop Louisville","City Government",3,08/03/2018
+"Louisville Metro Government",Corrections,"City Government",1,02/14/2018
+"Louisville Metro Government","Develop Louisville","City Government",25,08/03/2018
+"Louisville Metro Government","Develop Louisville, Planning and Design","City Government",3,08/03/2018
+"Louisville Metro Government",EMS,"City Government",2,08/03/2018
+"Louisville Metro Government","Economic Development","City Government",1,01/10/2018
+"Louisville Metro Government","Emergency Management","City Government",2,02/14/2018
+"Louisville Metro Government","Health & Wellness","City Government",7,08/03/2018
+"Louisville Metro Government","Housing and Community Development","City Government",2,01/10/2018
+"Louisville Metro Government","Human Resources","City Government",4,08/03/2018
+"Louisville Metro Government","Information Technology","City Government",7,08/03/2018
+"Louisville Metro Government","Information Technology, Performance Improvement and Innovation, Public Works & Assets","City Government",1,08/03/2018
+"Louisville Metro Government","Jefferson County Clerk Election Center","City Government",3,01/10/2018
+"Louisville Metro Government","Kentucky State Police","City Government",2,01/10/2018
+"Louisville Metro Government",LOJIC,"City Government",16,08/03/2018
+"Louisville Metro Government","LOJIC, Louisville Fire","City Government",1,02/14/2018
+"Louisville Metro Government","LOJIC, MetroSafe","City Government",1,02/14/2018
+"Louisville Metro Government","Louisville Downtown Partnership","City Government",1,08/03/2018
+"Louisville Metro Government","Louisville Fire","City Government",8,02/14/2018
+"Louisville Metro Government","Management &amp; Budget","City Government",1,08/19/2017
+"Louisville Metro Government","Mayor Fischer","City Government",1,08/03/2018
 "Louisville Metro Government","Mayor Fischer, Sustainability","City Government",1,04/06/2017
-"Louisville Metro Government","Metro Council","City Government",1,03/16/2017
-"Louisville Metro Government","Metro Parks","City Government",7,03/16/2017
-"Louisville Metro Government","Metro Police","City Government",11,04/20/2017
+"Louisville Metro Government","Metro Council","City Government",1,02/14/2018
+"Louisville Metro Government","Metro Parks","City Government",7,02/14/2018
+"Louisville Metro Government","Metro Police","City Government",10,08/03/2018
 "Louisville Metro Government",MetroCall,"City Government",1,08/26/2016
-"Louisville Metro Government",MetroSafe,"City Government",1,03/16/2017
-"Louisville Metro Government","MetroSafe, Louisville Fire","City Government",1,03/16/2017
-"Louisville Metro Government","Parking Authority (PARC)","City Government",5,03/16/2017
-"Louisville Metro Government","Performance Improvement","City Government",3,06/23/2017
-"Louisville Metro Government","Performance Improvement and Innovation, Information Technology","City Government",1,04/06/2017
-"Louisville Metro Government","Performance Improvement and Innovation, Louisville Downtown Partnership","City Government",1,06/23/2017
-"Louisville Metro Government","Planning and Design","City Government",9,03/16/2017
-"Louisville Metro Government","Public Works &amp; Assets","City Government",13,08/19/2017
-"Louisville Metro Government","Public Works &amp; Assets, Bike Louisville","City Government",1,07/30/2017
-"Louisville Metro Government","Public Works &amp; Assets, Information Technology, Performance Improvement and Innovation","City Government",1,04/06/2017
-"Louisville Metro Government",data.louisvilleky.gov,"City Government",1,03/23/2017
+"Louisville Metro Government",OpenStreetMap,"City Government",1,08/03/2018
+"Louisville Metro Government","Parking Authority (PARC)","City Government",6,08/03/2018
+"Louisville Metro Government","Performance Improvement","City Government",3,08/03/2018
+"Louisville Metro Government","Performance Improvement and Innovation, Information Technology","City Government",2,08/03/2018
+"Louisville Metro Government","Performance Improvement and Innovation, Louisville Downtown Partnership","City Government",1,08/03/2018
+"Louisville Metro Government","Planning and Design","City Government",9,08/03/2018
+"Louisville Metro Government","Public Works & Assets","City Government",13,08/03/2018
+"Louisville Metro Government","Public Works &amp; Assets","City Government",1,08/03/2018
+"Louisville Metro Government","Vacant and Public Property Administration","City Government",3,08/03/2018
+"Louisville Metro Government",data.louisvilleky.gov,"City Government",60,//
 "Minnesota Department of Natural Resources",,"State Government",177,04/10/2015
-"Montgomery County of Maryland",,"County Government",211,11/07/2017
-"Montgomery County of Maryland",data.montgomerycountymd.gov,"County Government",211,11/07/2017
-"Municipality of Anchorage",,"City Government",26,11/07/2017
-"Municipality of Anchorage",data.muni.org,"City Government",26,11/07/2017
-"NSGIC Education | GIS Inventory",,Education,727,08/19/2017
-"NSGIC Local Govt | GIS Inventory",,"Local Government",7907,09/21/2017
-"NSGIC Non-Profit | GIS Inventory",,Non-Profit,20,08/19/2017
-"NSGIC Private | GIS Inventory",,Private,134,08/19/2017
-"NSGIC Regional | GIS Inventory",,Regional,607,08/19/2017
-"NSGIC State | GIS Inventory",,"State Government",2142,08/19/2017
-"NSGIC Tribal | GIS Inventory",,Tribal,7,08/19/2017
-OpenTopography,,University,244,08/28/2017
+"Montgomery County of Maryland",,"County Government",239,08/03/2018
+"Montgomery County of Maryland",data.montgomerycountymd.gov,"County Government",239,08/03/2018
+"Municipality of Anchorage",,"City Government",26,08/04/2018
+"Municipality of Anchorage",data.muni.org,"City Government",26,08/04/2018
+"NSGIC Education | GIS Inventory",,Education,762,12/13/2017
+"NSGIC Local Govt | GIS Inventory",,"Local Government",9479,12/14/2017
+"NSGIC Non-Profit | GIS Inventory",,Non-Profit,21,12/14/2017
+"NSGIC Private | GIS Inventory",,Private,235,12/14/2017
+"NSGIC Regional | GIS Inventory",,Regional,823,12/14/2017
+"NSGIC State | GIS Inventory",,"State Government",2205,12/14/2017
+"NSGIC Tribal | GIS Inventory",,Tribal,8,12/14/2017
+OpenTopography,,University,251,04/04/2018
 "Pacific States Marine Fisheries Commission",,Other,32,05/17/2013
 "Scripps Institution of Oceanography, UC San Diego",,University,1,05/19/2014
 "State of Alaska",,"State Government",369,04/10/2015
 "State of Arkansas",,"State Government",359,04/10/2015
-"State of California",,"State Government",2675,10/31/2017
-"State of Connecticut",,"State Government",456,11/07/2017
-"State of Connecticut",data.ct.gov,"State Government",456,11/07/2017
-"State of Hawaii",,"State Government",660,11/09/2017
-"State of Hawaii",data.hawaii.gov,"State Government",660,11/09/2017
+"State of California",,"State Government",6211,03/08/2018
+"State of Connecticut",,"State Government",472,08/03/2018
+"State of Connecticut",data.ct.gov,"State Government",472,08/03/2018
+"State of Hawaii",,"State Government",740,08/01/2018
+"State of Hawaii",data.hawaii.gov,"State Government",740,08/01/2018
 "State of Illinois",,"State Government",619,09/21/2017
 "State of Illinois",data.illinois.gov,"State Government",619,09/21/2017
-"State of Iowa",,"State Government",731,11/11/2017
-"State of Iowa",data.iowa.gov,"State Government",731,11/11/2017
-"State of Maryland",,"State Government",381,11/07/2017
-"State of Maryland",data.maryland.gov,"State Government",381,11/07/2017
-"State of Minnesota",,"State Government",234,10/27/2017
-"State of Missouri",,"State Government",187,11/07/2017
-"State of Missouri",data.mo.gov,"State Government",187,11/07/2017
-"State of New York",,"State Government",621,11/07/2017
-"State of New York","State of New York","State Government",464,11/07/2017
-"State of New York",data.ny.gov,"State Government",157,11/07/2017
+"State of Iowa",,"State Government",563,08/01/2018
+"State of Iowa",data.iowa.gov,"State Government",563,08/01/2018
+"State of Maryland",,"State Government",353,08/03/2018
+"State of Maryland",data.maryland.gov,"State Government",353,08/03/2018
+"State of Minnesota",,"State Government",230,06/09/2018
+"State of Missouri",,"State Government",197,08/03/2018
+"State of Missouri",data.mo.gov,"State Government",197,08/03/2018
+"State of New York",,"State Government",622,08/03/2018
+"State of New York","State of New York","State Government",448,08/03/2018
+"State of New York",data.ny.gov,"State Government",174,08/03/2018
 "State of North Carolina",,"State Government",2,04/09/2015
-"State of North Dakota",,"State Government",326,11/07/2017
-"State of North Dakota","Attorney General","State Government",1,04/07/2017
-"State of North Dakota","Department of Agriculture","State Government",1,04/14/2017
-"State of North Dakota","Department of Emergency Services","State Government",14,09/21/2017
-"State of North Dakota","Department of Emergency Services, Department of Transportation","State Government",1,04/07/2017
-"State of North Dakota","Department of Health","State Government",23,09/21/2017
-"State of North Dakota","Department of Public Instruction","State Government",3,09/05/2017
-"State of North Dakota","Department of Transportation","State Government",21,10/18/2017
-"State of North Dakota","Department of Trust Lands","State Government",2,08/12/2017
-"State of North Dakota","Game and Fish Department","State Government",120,08/12/2017
-"State of North Dakota","Geological Survey","State Government",4,04/07/2017
-"State of North Dakota","Information Technology Department","State Government",4,04/07/2017
-"State of North Dakota","Legislative Council","State Government",1,04/07/2017
-"State of North Dakota","ND GIS Hub","State Government",88,11/07/2017
-"State of North Dakota","Oil and Gas Division","State Government",1,04/07/2017
-"State of North Dakota","Parks and Recreation Department","State Government",2,04/07/2017
-"State of North Dakota","Public Service Commission","State Government",1,04/07/2017
-"State of North Dakota","State Water Commission","State Government",38,06/23/2017
-"State of North Dakota",gishubdata.nd.gov,"State Government",1,04/07/2017
+"State of North Dakota",,"State Government",330,08/03/2018
+"State of North Dakota","Attorney General","State Government",1,12/19/2017
+"State of North Dakota","Department of Agriculture","State Government",1,04/11/2018
+"State of North Dakota","Department of Emergency Services","State Government",14,04/11/2018
+"State of North Dakota","Department of Emergency Services, Department of Transportation","State Government",1,04/11/2018
+"State of North Dakota","Department of Health","State Government",24,04/11/2018
+"State of North Dakota","Department of Mineral Resources","State Government",2,08/03/2018
+"State of North Dakota","Department of Public Instruction","State Government",3,04/11/2018
+"State of North Dakota","Department of Transportation","State Government",21,04/11/2018
+"State of North Dakota","Department of Trust Lands","State Government",2,04/11/2018
+"State of North Dakota","Game and Fish Department","State Government",120,04/11/2018
+"State of North Dakota","Geological Survey","State Government",4,04/11/2018
+"State of North Dakota","Information Technology Department","State Government",4,12/19/2017
+"State of North Dakota","Legislative Council","State Government",1,04/11/2018
+"State of North Dakota","ND GIS Hub","State Government",89,04/11/2018
+"State of North Dakota","Oil and Gas Division","State Government",1,12/19/2017
+"State of North Dakota","Parks and Recreation Department","State Government",2,04/11/2018
+"State of North Dakota","Public Service Commission","State Government",1,04/11/2018
+"State of North Dakota","State Water Commission","State Government",38,04/11/2018
+"State of North Dakota",gishubdata.nd.gov,"State Government",1,04/11/2018
 "State of Oklahoma",,"State Government",303,09/15/2016
 "State of Oklahoma","Board of Tests for Alcohol and Drug Influence","State Government",1,09/15/2016
 "State of Oklahoma",OKStateStat,"State Government",135,09/15/2016
@@ -221,31 +222,33 @@ OpenTopography,,University,244,08/28/2017
 "State of Oklahoma","Oklahoma Tourism and Recreation Department","State Government",1,09/15/2016
 "State of Oklahoma","Used Motor Vehicle Parts Commission","State Government",3,09/15/2016
 "State of Oklahoma",data.ok.gov,"State Government",55,06/29/2016
-"State of Oregon",,"State Government",535,11/11/2017
-"State of Oregon",data.oregon.gov,"State Government",535,11/11/2017
-"State of Washington",,"State Government",526,11/07/2017
-"State of Washington","Association of Washington Cities","State Government",40,09/12/2017
-"State of Washington","WA State Department of Social and Health Services","State Government",10,11/07/2017
-"State of Washington","Washington State Geospatial Portal","State Government",8,//
-"State of Washington",data.wa.gov,"State Government",468,11/07/2017
+"State of Oregon",,"State Government",564,08/01/2018
+"State of Oregon",data.oregon.gov,"State Government",564,08/01/2018
+"State of Washington",,"State Government",542,08/03/2018
+"State of Washington","Department/Agency level/No publisher","State Government",1,05/13/2018
+"State of Washington",data.wa.gov,"State Government",541,08/03/2018
 "The Fund for Peace",,Non-Profit,1,07/08/2014
-"Town of Cary, North Carolina",,"City Government",36,11/07/2017
+"Town of Cary, North Carolina",,"City Government",36,12/13/2017
 "Town of Cary, North Carolina","National Oceanic and Atmospheric Administration - National Centers for Environmental Information","City Government",1,07/22/2017
 "Town of Cary, North Carolina","The Town of Cary","City Government",4,07/22/2017
-"Town of Cary, North Carolina","Town of Cary","City Government",28,11/07/2017
+"Town of Cary, North Carolina","Town of Cary","City Government",29,12/13/2017
 "Town of Cary, North Carolina","Wake County Government","City Government",1,07/22/2017
-"Town of Cary, North Carolina","WakeGov Open Data","City Government",2,07/22/2017
+"Town of Cary, North Carolina","WakeGov Open Data","City Government",1,07/22/2017
+"Town of Chapel Hill, North Carolina",,"City Government",54,04/11/2018
+"Town of Chapel Hill, North Carolina","NCDOT, Division of Bicycle and Pedestrian Transportation","City Government",2,11/20/2017
+"Town of Chapel Hill, North Carolina","Town of Chapel Hill","City Government",51,04/11/2018
+"Town of Chapel Hill, North Carolina","US Census","City Government",1,11/20/2017
 "United Nations Cartographic Section",,Non-Profit,135,02/25/2015
 "University of Arizona",,University,3,05/17/2013
 "University of California San Diego",,University,5,07/24/2014
-"University of Idaho",,University,367,11/07/2017
+"University of Idaho",,University,205,03/14/2018
 "University of New Hampshire",,University,63,05/17/2013
 "University of Rhode Island Geospatial Extension Program",,University,21,05/17/2013
-"Vermont Center for Geographic Information",,"State Government",726,11/07/2017
-"Vermont Center for Geographic Information","VT Center for Geographic Information","State Government",726,11/07/2017
+"Vermont Center for Geographic Information",,"State Government",988,08/04/2018
+"Vermont Center for Geographic Information","VT Center for Geographic Information","State Government",988,08/04/2018
 "Virginia Department of Environmental Quality",,"State Government",2,04/10/2015
 "WV GIS Technical Center",,University,11,05/17/2013
-"Wake County",,"County Government",283,11/07/2017
-"Wake County","Wake County","County Government",283,11/07/2017
+"Wake County",,"County Government",321,08/03/2018
+"Wake County","Wake County","County Government",321,08/03/2018
 "Washington University St Louis",,University,59,05/17/2013
 "World Resources Institute",,Non-Profit,1,06/25/2014
