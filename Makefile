@@ -11,6 +11,10 @@ convert:
 crawl: 
 	wget -e robots=off -U mozilla --recursive --page-requisites --adjust-extension --domains www.data.gov,data.gov --no-parent --level=inf --convert-links --restrict-file-names=windows www.data.gov
 
-# runs at http://localhost:8000/
+# run jekyll and serve locallally at http://127.0.0.1:4000/
+run:
+	bundle exec jekyll serve
+
+# run raw http server at http://localhost:8000/
 run-local-server:
 	python3 -m http.server --directory www.data.gov
