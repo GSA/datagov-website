@@ -30,6 +30,7 @@ jobs:
           sleep 10
           timestamp=$(date +%s)
           host=www-redirects-dev-datagov.app.cloud.gov
+          curl --fail https://${host}/test?${timestamp}
           [ "200 https://www.data.gov/test?${timestamp}" = "$(curl --output /dev/null --write-out '%{http_code} %{redirect_url}' --fail --silent https://${host}/test?${timestamp})" ]
 
   deploy-staging:
