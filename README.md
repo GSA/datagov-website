@@ -36,8 +36,7 @@ Run some checks.
 
 ## www-redirects
 
-A tiny nginx application that redirects URLs from our subdomains to
-www.data.gov.
+A tiny nginx application that redirects URLs from our subdomains to data.gov.
 
 
 ### Services
@@ -53,7 +52,7 @@ www-redirects-domains | external-domain | domain | Routes \*.data.gov domains to
 
 The [external domain service](https://cloud.gov/docs/services/external-domain-service/) provides the domain routes and TLS for \*.data.gov. 
 
-    $ cf create-service external-domain domain www-redirects-domains -c '{"domains": "agriculture.data.gov,climate.data.gov,developer.data.gov,energy.data.gov,food.data.gov,highlights.data.gov,labs.data.gov,ocean.data.gov"}'
+    $ cf create-service external-domain domain www-redirects-domains -c '{"domains": "agriculture.data.gov,climate.data.gov,developer.data.gov,energy.data.gov,food.data.gov,highlights.data.gov,labs.data.gov,ocean.data.gov,www.data.gov"}'
     
 To work around [gsa/datagov-deploy#3573](https://github.com/GSA/datagov-deploy/issues/3573), we need to create the domains individually.
 
@@ -65,6 +64,7 @@ To work around [gsa/datagov-deploy#3573](https://github.com/GSA/datagov-deploy/i
     $ cf create-private-domain gsa-datagov highlights.data.gov
     $ cf create-private-domain gsa-datagov labs.data.gov
     $ cf create-private-domain gsa-datagov ocean.data.gov
+    $ cf create-private-domain gsa-datagov www.data.gov
 
 Create routes for each domain. Note that when [gsa/datagov-deploy#3573](https://github.com/GSA/datagov-deploy/issues/3573) is resolved, the map route command becomes `cf map-route www-redirects data.gov --hostname agriculture`.
 
@@ -76,11 +76,12 @@ Create routes for each domain. Note that when [gsa/datagov-deploy#3573](https://
     $ cf map-route www-redirects highlights.data.gov
     $ cf map-route www-redirects labs.data.gov
     $ cf map-route www-redirects ocean.data.gov
+    $ cf map-route www-redirects www.data.gov
 
 
 ### Continuous Delivery
 
-The www-redirects applicaiton is automatically deployed from CI. Make sure to
+The www-redirects application is automatically deployed from CI. Make sure to
 create deployer secrets.
 
 Secret | Description | Where to find?
