@@ -8,4 +8,4 @@ applications:
       - https://github.com/cloudfoundry/nginx-buildpack.git
     routes: ((routes))
     env:
-      TARGET_DOMAIN: www.data.gov
+      TARGET_DOMAIN: data.gov
