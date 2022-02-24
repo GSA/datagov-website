@@ -54,6 +54,10 @@ The [external domain service](https://cloud.gov/docs/services/external-domain-se
 
     $ cf create-service external-domain domain www-redirects-domains -c '{"domains": "agriculture.data.gov,climate.data.gov,developer.data.gov,energy.data.gov,food.data.gov,highlights.data.gov,labs.data.gov,ocean.data.gov,www.data.gov"}'
     
+ When you need to add a new subdomain, add it to the lists in this README and run this command (updating the set of domains above to include the new subdomain):
+ 
+    $ cf update-service www-redirects-domains -c '{"domains": "<full-list-of-domains>"}'
+    
 To work around [gsa/datagov-deploy#3573](https://github.com/GSA/datagov-deploy/issues/3573), we need to create the domains individually.
 
     $ cf create-private-domain gsa-datagov agriculture.data.gov
