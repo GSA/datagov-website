@@ -11,3 +11,4 @@ routes:
   - route: highlights.data.gov
   - route: labs.data.gov
   - route: ocean.data.gov
+  - route: www.data.gov
