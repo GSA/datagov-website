@@ -24,6 +24,7 @@ slug: uncategorized__about
 status: publish
 template: ''
 title: About Data.gov
+layout: legacy-page
 type: page
 ---
 **[About Data.gov](#about)**
