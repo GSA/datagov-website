@@ -26,10 +26,8 @@ NOTE: when going to a specific dataset, you may be redirected to an organization
 
 ### Collaborating
 
-<p>There are many ways to provide feedback and contribute to the discussions on Data.gov and this catalog.</p>
-- [Suggest a new dataset](https://explore.data.gov/nominate) and see what others have suggested
-- Contribute code or [suggest a change](https://github.com/GSA/data.gov/issues?labels=&milestone=&page=1&state=open) on Github
-- Ask a general question at the [Open Data Stack Exchange](https://opendata.stackexchange.com/) and tag it with “data.gov”
+<p>Here are some ways to provide feedback and contribute to the discussions on Data.gov and this catalog.</p>
+- Contribute code or [suggest a change](https://github.com/gsa/datagov-deploy ) on Github
 - Send an [email](https://www.data.gov/contact#question)
 
 ### Technology
