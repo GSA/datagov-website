@@ -12,15 +12,17 @@ Data.gov federates data from hundreds of [sources](https://catalog.data.gov/orga
 - Enter key words in the search box on any page
 - Browse on the left side through types, tags, formats, organizations, and publishers.  Clicking on multiple items narrows your search.  When your results appear, you can click on the “x” to the side of any single item to remove it from the search, or “clear all” to remove all selected items in a category.
 - Search by a geospatial area, draw a boundary box on the map at the top left and click “Apply” to find all datasets that are tagged for that geographic area.
+
 NOTE: when going to a specific dataset, you may be redirected to an organization’s web site, rather than getting a direct download.
 
 
 ### Collaborating
-There are many ways to provide feedback and contribute to the discussions on Data.gov and this catalog.
-[Suggest a new dataset](https://explore.data.gov/nominate) and see what others have suggested
-Contribute code or [suggest a change](https://github.com/GSA/data.gov/issues?labels=&milestone=&page=1&state=open) on Github
-Ask a general question at the [Open Data Stack Exchange](https://opendata.stackexchange.com/) and tag it with “data.gov”
-Send an [email](https://www.data.gov/contact#question)
+
+<p>There are many ways to provide feedback and contribute to the discussions on Data.gov and this catalog.</p>
+- [Suggest a new dataset](https://explore.data.gov/nominate) and see what others have suggested
+- Contribute code or [suggest a change](https://github.com/GSA/data.gov/issues?labels=&milestone=&page=1&state=open) on Github
+- Ask a general question at the [Open Data Stack Exchange](https://opendata.stackexchange.com/) and tag it with “data.gov”
+- Send an [email](https://www.data.gov/contact#question)
 
 ### Technology
 This catalog is built on an open source data management system ([CKAN)](https://ckan.org/) and a content management system (WordPress).  All the source code on Data.gov is [open source](https://github.com/GSA/data.gov) and available for download or contributions.
