@@ -2,6 +2,14 @@
 title: Catalog Help
 layout: legacy-page
 ---
+<head>
+<style type="text/css">
+body.page .intro .container p, .category .intro .container, #contact-wrapper .intro p {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+</style>
+</head>
 
 The [catalog](http://catalog.data.gov/#topic=_navigation) on Data.gov provides the ability to search and browse datasets, data series, tools, and products.
 
