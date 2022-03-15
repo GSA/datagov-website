@@ -27,7 +27,7 @@ NOTE: when going to a specific dataset, you may be redirected to an organization
 ### Collaborating
 
 <p>Here are some ways to provide feedback and contribute to the discussions on Data.gov and this catalog.</p>
-- Contribute code or [suggest a change](https://github.com/gsa/datagov-deploy ) on Github
+- Contribute code or [suggest a change](https://github.com/GSA/data.gov ) on Github
 - Send an [email](https://www.data.gov/contact#question)
 
 ### Technology
