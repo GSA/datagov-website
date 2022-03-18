@@ -14,6 +14,10 @@ convert:
 crawl: 
 	wget -e robots=off -U mozilla --recursive --page-requisites --adjust-extension --domains www.data.gov,data.gov --no-parent --level=inf --convert-links --restrict-file-names=windows www.data.gov
 
+# run htmlproofer locally to test linting and avoid annoying remote linting issues
+lint:
+	npm run lint
+
 # run jekyll and serve locallally at http://127.0.0.1:4000/
 run:
 	bundle install
