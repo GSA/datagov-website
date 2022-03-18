@@ -16,7 +16,8 @@ crawl:
 
 # run jekyll and serve locallally at http://127.0.0.1:4000/
 run:
-	bundle exec jekyll serve
+	bundle install
+	bundle exec jekyll serve --verbose
 
 # run raw http server at http://localhost:8000/
 run-local-server:
