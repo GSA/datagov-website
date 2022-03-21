@@ -27,6 +27,6 @@ type: page
 Your suggesstion has been submitted.
 
 
-[Go back to the form.](/suggest)
+[Go back to the form.](/suggest-dataset-success)
 
 

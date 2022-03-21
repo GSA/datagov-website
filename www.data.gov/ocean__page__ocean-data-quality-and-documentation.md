@@ -34,10 +34,10 @@ This section contains information highlighting Ocean.data.gov metadata standards
 
 
 
-* [Metadata Standards](#tabs-1)
-* [Metadata Requirements](#tabs-2)
-* [Data Quality Standards](#tabs-3)
-* [Spatial Data Standards](#tabs-4)
+* [Metadata Standards](#metadata-standards--recommended)
+* [Metadata Requirements](#metadata-requirements)
+* [Data Quality Standards](#data-quality-standards)
+* [Spatial Data Standards](#spatial-data-standards)
 
 
 

@@ -30,35 +30,35 @@ template: ''
 title: Privacy and Website Policies
 type: page
 ---
-**[Privacy Policy](#privacy_policy)**
+**[Privacy Policy](#privacy-policy)**
 
 
-* **[Information Collected and Stored Automatically](#information)**
+* **[Information Collected and Stored Automatically](#information-collected-and-stored-automatically)**
 * **[Cookies](#cookies)**
-* **[Personal Information](#personal_info)**
-* **[Online Comments](#comments)**
-* **[Moderation of Comments and Posts](#moderation)**
-* **[Site Security](#site_security)**
-* **[External Links](#external)**
-* **[Children’s Privacy](#children)**
+* **[Personal Information](#personal-information)**
+* **[Online Comments](#online-comments)**
+* **[Moderation of Comments and Posts](#moderation-of-comments-and-posts)**
+* **[Site Security](#site-security)**
+* **[External Links](#external-links)**
+* **[Children’s Privacy](#childrens-privacy)**
 * **[Prohibitions](#prohibitions)**
-* **[Changes to this Policy](#changes)**
+* **[Changes to this Policy](#changes-to-this-policy)**
 
 
-**[Data Policy](#data_policy)**
+**[Data Policy](#data-policy)**
 
 
-* **[Linking to Data.gov](#linking)**
-* **[Licensing](#license)**
-* **[Use of Logo](#logo)**
-* **[Public Information](#public_info)**
+* **[Linking to Data.gov](#linking-to-datagov)**
+* **[Licensing](#licensing)**
+* **[Use of Logo](#use-of-logo)**
+* **[Public Information](#public-information)**
 * **[Security](#security)**
 * **[Privacy](#privacy)**
-* **[Data Quality and Retention](#retention)**
-* **[Secondary Use](#secondary)**
+* **[Data Quality and Retention](#data-quality-and-retention)**
+* **[Secondary Use](#secondary-use)**
 * **[Attribution](#attribution)**
-* **[Disclaimer and Endorsement](#endorse)**
-* **[Applicability of this Data Policy](#applicable)**
+* **[Disclaimer and Endorsement](#disclaimer-and-endorsement)**
+* **[Applicability of this Data Policy](#applicability-of-this-data-policy)**
 
 
 **[Accessibility](#accessibility)**

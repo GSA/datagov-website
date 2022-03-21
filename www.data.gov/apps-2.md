@@ -31,20 +31,9 @@ type: page
 ---
 Here are a few government and non-government software tools to help coastal communities and others analyze and assess vulnerabilities of sea level rise, storm surges, and sinking lands. Please [let us know](/climate/climate-feedback/) if there are other tools we should list here.
 
+## Coastal Change Analysis Program (C-CAP) Land Cover Atlas
 
-* Coastal Change Analysis Program (C-CAP) Land Cover Atlas: Provides access to regional land cover and land cover change information.
-
-
-
-
-×
-
-
-#### Coastal Change Analysis Program (C-CAP) Land Cover Atlas
-
-
-
-
+Coastal Change Analysis Program (C-CAP) Land Cover Atlas: Provides access to regional land cover and land cover change information.
 
 Sponsor:
 NOAA
@@ -59,21 +48,9 @@ The Land Cover Atlas eliminates the need for desktop geographic information syst
 Application:
 The tool summarizes general change trends (such as forest losses or new development) and can highlight specific changes of interest (salt marsh losses to open water, or evergreen forest losses to development, for instance).
 
+## Climate Resilience Evaluation and Awareness Tool (CREAT)
 
-Close
-* Climate Resilience Evaluation and Awareness Tool (CREAT): Provides information on climate impacts to assist water utilities to assess future risks and vulnerabilities.
-
-
-
-
-×
-
-
-#### Climate Resilience Evaluation and Awareness Tool (CREAT)
-
-
-
-
+Climate Resilience Evaluation and Awareness Tool (CREAT): Provides information on climate impacts to assist water utilities to assess future risks and vulnerabilities.
 
 Sponsor:
 EPA
@@ -88,21 +65,9 @@ CREAT provides three climate scenarios that provide localized projections on tem
 Application:
 Water utilities can plan and prepare for climate change impacts that threaten assets and operations.
 
+## Coastal Change Hazards Portal
 
-Close
-* Coastal Change Hazards Portal: The U.S. Geological Survey is uncovering the science behind coastal change hazards and providing data, tools, and scientific knowledge to help coastal planners as they work to reduce risk along our coastlines.
-
-
-
-
-×
-
-
-#### Coastal Change Hazards Portal
-
-
-
-
+Coastal Change Hazards Portal: The U.S. Geological Survey is uncovering the science behind coastal change hazards and providing data, tools, and scientific knowledge to help coastal planners as they work to reduce risk along our coastlines.
 
 Sponsor:
 USGS
@@ -114,27 +79,14 @@ Summary:
 Welcome to the U.S. Geological Survey Coastal Change Hazards beta site.Coastal change can dramatically alter ecosystems, cause damage to billions of dollars’ worth of coastal development, and even threaten human life. Through projects like the National Assessment of Coastal Change Hazards and regional studies of near shore processes, the U.S. Geological Survey conducts research on coastal change hazards and provides data, tools, and scientific knowledge to help coastal planners as they work to reduce risk along our coastlines.
 If you see changes needed or have ideas for improving use of this USGS data, please email cch\_help@usgs.gov.
 
-
 How it works:
 This beta portal allows users to search for and view USGS coastal change hazards products that provide assessments of storm, coastal erosion, and sea level rise vulnerability.
 Application:
 Use map viewer to explore extreme storms, shoreline change, and sea level rise data.
 
+## Coastal County Snapshots
 
-Close
 * Coastal County Snapshots: Turns complex data into easy-to-understand stories, complete with charts and graphs.
-
-
-
-
-×
-
-
-#### Coastal County Snapshots
-
-
-
-
 
 Sponsor:
 NOAA
@@ -149,21 +101,9 @@ Within the Coastal Flood Exposure Mapper, selected data layers associated any of
 Application:
 The tool provides a preliminary assessment of a community’s vulnerability to flood related hazards. Users can pick and choose the best maps to get the flood exposure conversation started in your community.
 
+## Coastal Flood Exposure Mapper
 
-Close
-* Coastal Flood Exposure Mapper: Provides access to different Flood Exposure Maps showing flood hazards and different aspects of community exposure.
-
-
-
-
-×
-
-
-#### Coastal Flood Exposure Mapper
-
-
-
-
+Coastal Flood Exposure Mapper: Provides access to different Flood Exposure Maps showing flood hazards and different aspects of community exposure.
 
 Sponsor:
 NOAA
@@ -178,21 +118,9 @@ Within the Coastal Flood Exposure Mapper, selected data layers associated any of
 Application:
 The tool provides a preliminary assessment of a community’s vulnerability to flood related hazards. Users can pick and choose the best maps to get the flood exposure conversation started in your community.
 
+## Coastal Resilience
 
-Close
 * Coastal Resilience: Delivers geospatial information on coastal ecosystems, socioeconomics, community vulnerability, and coastal hazards (including sea level rise and storm surge) via an internet mapping application that is a data viewer, data discovery tool, and a future scenario mapper.
-
-
-
-
-×
-
-
-#### Coastal Resilience
-
-
-
-
 
 Sponsor:
 The Nature Conservancy
@@ -207,21 +135,9 @@ The Coastal Resilience project delivers geospatial information on coastal ecosys
 Application:
 Coastal Resilience has been used for data exploration with the New York State Emergency Management Office, and local towns and villages on Long Island and the Connecticut shores interested in including this information as part of their comprehensive plans.
 
+## Digital Coast
 
-Close
 * Digital Coast: Provides relevant data and tools necessary to assess coastal management issues such as coastal inundation, offshore renewable energy planning, coastal wetlands conservation, and sea level rise adaptation.
-
-
-
-
-×
-
-
-#### Digital Coast
-
-
-
-
 
 Sponsor:
 NOAA
@@ -236,21 +152,9 @@ The strength of the Digital Coast lies in its focus on the broad coastal resourc
 Application:
 The Digital Coast provides relevant data and tools necessary to assess coastal management issues, such as coastal inundation, offshore renewable energy planning, coastal wetlands conservation, and sea level rise adaptation.
 
+## Ecosystem-Based Management Tools Network Database
 
-Close
-* Ecosystem-Based Management Tools Network Database: Search or browse to find tools for coastal and marine management and conservation projects, case studies of projects that have used tools, potential collaborators, and other resources.
-
-
-
-
-×
-
-
-#### Ecosystem-Based Management Tools Network Database
-
-
-
-
+Ecosystem-Based Management Tools Network Database: Search or browse to find tools for coastal and marine management and conservation projects, case studies of projects that have used tools, potential collaborators, and other resources.
 
 Sponsor:
 PlaceMatters
@@ -265,21 +169,9 @@ Users can search or browse the database to find tools for their coastal and mari
 Application:
 EBM tools are software or other highly documented methods that can help implement EBM by providing models of ecosystems or key ecosystem processes; generating scenarios illustrating the consequences of different management decisions on natural resources and the economy; and facilitating stakeholder involvement in planning processes.
 
+## Extreme Water Levels
 
-Close
-* Extreme Water Levels: Provides annual and monthly exceedance probability levels for select Center for Operational and Oceanographic Products and Services water level stations with at least 30 years of data.
-
-
-
-
-×
-
-
-#### Extreme Water Levels
-
-
-
-
+Extreme Water Levels: Provides annual and monthly exceedance probability levels for select Center for Operational and Oceanographic Products and Services water level stations with at least 30 years of data.
 
 Sponsor:
 NOAA
@@ -294,21 +186,9 @@ When used in conjunction with real time station data, exceedance probability lev
 Application:
 This information may also be instrumental in planning for the possibility of dangerously high or low water events at a local level. Because these levels are station specific, their use for evaluating surrounding areas may be limited.
 
+## FEMA Geoplatform
 
-Close
-* Federal Emergency Management Agency (FEMA) GeoPlatform: Providing geospatial data and analytics in support of emergency management.
-
-
-
-
-×
-
-
-#### FEMA Geoplatform
-
-
-
-
+Federal Emergency Management Agency (FEMA) GeoPlatform: Providing geospatial data and analytics in support of emergency management.
 
 Sponsor:
 FEMA
@@ -323,21 +203,9 @@ This is FEMA’s instance on the National Geoplatform. Users can choose the haza
 Application:
 Provides access to FEMA geospatial data for specific hazards. Links to web mapping services provided by FEMA that can be used in other mapping applications.
 
+## FEMA Region II Coastal Analysis and Mapping
 
-Close
-* FEMA Region II Coastal Analysis and Mapping: View FEMA Flood Hazard Data for New Jersey and New York.
-
-
-
-
-×
-
-
-#### FEMA Region II Coastal Analysis and Mapping
-
-
-
-
+FEMA Region II Coastal Analysis and Mapping: View FEMA Flood Hazard Data for New Jersey and New York.
 
 Sponsor:
 FEMA
@@ -352,21 +220,9 @@ Provides explanation of the various flood risk products FEMA developed in the wa
 Application:
 Property owners can understand where flood risk exists and decide whether to build to higher standards based on what has been learned from Hurricane Sandy.
 
+## Hawaii Tsunami Hazard Information Service
 
-Close
-* Hawaii Tsunami Hazard Information Service: Online access to Hawaii tsunami evacuation zone maps, as well as information about potential risks, how to prepare, and what to do in the event of a tsunami.
-
-
-
-
-×
-
-
-#### Hawaii Tsunami Hazard Information Service
-
-
-
-
+Hawaii Tsunami Hazard Information Service: Online access to Hawaii tsunami evacuation zone maps, as well as information about potential risks, how to prepare, and what to do in the event of a tsunami.
 
 Sponsor:
 NOAA
@@ -375,27 +231,15 @@ Hawaii Tsunami Hazard Information Service
 URL:
 <https://coast.noaa.gov/regions/pacific/resources/tsunami/>
 Summary:
-The Tsunami Hazard Information Service provides residents and visitors of the State of Hawai`i easy, online access to the State’s tsunami evacuation zone maps as well as information about potential risks, how to prepare, and what to do in the event of a tsunami.
+The Tsunami Hazard Information Service provides residents and visitors of the State of Hawai'i easy, online access to the State’s tsunami evacuation zone maps as well as information about potential risks, how to prepare, and what to do in the event of a tsunami.
 How it works:
 Search by address or Island area to find out if you are in tsunami evacation zone.
 Application:
 Used by emergency managers and the public to locate areas that have risk of being inundated by a tsunami.
 
+## Hurricane SANDY Response Imagery
 
-Close
-* Hurricane SANDY Response Imagery: This rapid response imagery product was generated for use by emergency managers for visual analysis of damage in the Sandy impact area.
-
-
-
-
-×
-
-
-#### Hurricane SANDY Response Imagery
-
-
-
-
+Hurricane SANDY Response Imagery: This rapid response imagery product was generated for use by emergency managers for visual analysis of damage in the Sandy impact area.
 
 Sponsor:
 NOAA
@@ -410,21 +254,9 @@ This viewer provides visual access to a large catalog of aerial imagery collecte
 Application:
 This imagery is used to determine areas impacted by Hurricane Sandy. The imagery is also used to do before and after comparisons to determine areas to concentrate response, recovery operations.
 
+## Inundation Analysis Tool
 
-Close
-* Inundation Analysis Tool: Helps in determining the frequency (or occurrence of high waters for different elevations above a specified threshold) and duration (or the amount of time that the specified location is inundated by water) of observed high waters (tides).
-
-
-
-
-×
-
-
-#### Inundation Analysis Tool
-
-
-
-
+Inundation Analysis Tool: Helps in determining the frequency (or occurrence of high waters for different elevations above a specified threshold) and duration (or the amount of time that the specified location is inundated by water) of observed high waters (tides).
 
 Sponsor:
 NOAA
@@ -439,21 +271,9 @@ The data output of this tool provides summary statistics, which includes the num
 Application:
 Statistical output from these analyses can be useful in planning marsh restoration activities. Additionally, the analyses have broader applications for the coastal engineering and mapping community, such as, ecosystem management and regional climate change. Since these statistical outputs are station specific, use for evaluating surrounding areas may be limited.
 
+## MarineCadastre.gov
 
-Close
-* MarineCadastre.gov: Provides spatial context needed to address issues such as alternative energy and other types of marine planning efforts.
-
-
-
-
-×
-
-
-#### MarineCadastre.gov
-
-
-
-
+MarineCadastre.gov: Provides spatial context needed to address issues such as alternative energy and other types of marine planning efforts.
 
 Sponsors:
 Bureau of Ocean Energy Management (BOEM) and NOAA
@@ -468,21 +288,9 @@ MarineCadastre.gov contains authoritative and regularly updated data, including 
 Application:
 The combination of marine cadastral and regionally specific data provides users with the spatial context needed to address issues such as alternative energy and other types of marine planning efforts.
 
+## National Stormwater Calculator (SWC)
 
-Close
-* National Stormwater Calculator (SWC): Estimates the annual amount of rainwater and frequency of runoff from a specific site anywhere in the United States (including Puerto Rico).
-
-
-
-
-×
-
-
-#### National Stormwater Calculator (SWC)
-
-
-
-
+National Stormwater Calculator (SWC): Estimates the annual amount of rainwater and frequency of runoff from a specific site anywhere in the United States (including Puerto Rico).
 
 Sponsor:
 EPA
@@ -497,21 +305,9 @@ The Calculator accesses several national databases that provide soil, topography
 Application:
 It is designed to be used by anyone interested in reducing runoff from a property, including site developers, landscape architects, urban planners, and homeowners.
 
+## Planning for Changing Sea Levels
 
-Close
-* Planning for Changing Sea Levels: Helps the public understand, in a general way, some potential future vulnerabilities to changing sea levels, waves, tides, and surges in the New York and New Jersey areas.
-
-
-
-
-×
-
-
-#### Planning for Changing Sea Levels
-
-
-
-
+Planning for Changing Sea Levels: Helps the public understand, in a general way, some potential future vulnerabilities to changing sea levels, waves, tides, and surges in the New York and New Jersey areas.
 
 Sponsor:
 USACE
@@ -526,21 +322,9 @@ User identifies what their base flood elevation (BFE) is and enters that into th
 Application:
 There is a simple tool to help understand the effects of changing sea levels over time, and a more detailed tool to help understand the effects of changing sea levels over time
 
+## Sea Level Rise Tool For Sandy Recovery
 
-Close
-* Sea Level Rise Tool For Sandy Recovery: Addresses flood risk based on current conditions and has immediate, short-term benefits to communities, but does not adequately account for increasing flood risk resulting from sea level rise.
-
-
-
-
-×
-
-
-#### Sea Level Rise Tool For Sandy Recovery
-
-
-
-
+Sea Level Rise Tool For Sandy Recovery: Addresses flood risk based on current conditions and has immediate, short-term benefits to communities, but does not adequately account for increasing flood risk resulting from sea level rise.
 
 Sponsors:
 NOAA, FEMA, USACE, USGCRP
@@ -555,21 +339,9 @@ Uses the best available science and data, federal agencies jointly developed a t
 Application:
 Provides guidance for post-Sandy rebuilding. Supported scenario planning to help planners adapt to uncertainties. Showed risk associated with projected scenarios of sea level rise.
 
+## Sea Level Rise Viewer
 
-Close
-* Sea Level Rise Viewer: A slider bar shows how various levels of sea level rise will impact coastal communities.
-
-
-
-
-×
-
-
-#### Sea Level Rise Viewer
-
-
-
-
+Sea Level Rise Viewer: A slider bar shows how various levels of sea level rise will impact coastal communities.
 
 Sponsor:
 NOAA
@@ -584,21 +356,9 @@ Displays potential future sea levels. Provides simulations of sea level rise at 
 Application:
 Many agencies, states, communties using for education and ourtreach. Inundation layers are being used for adaptation planning and vulnerability assessments of potential SLR impacts.
 
+## Sea Level Trends
 
-Close
-* Sea Level Trends: Illustrates regional trends in sea level, with arrows representing the direction and magnitude of change. Click on an arrow to access additional information about that station.
-
-
-
-
-×
-
-
-#### Sea Level Trends
-
-
-
-
+Sea Level Trends: Illustrates regional trends in sea level, with arrows representing the direction and magnitude of change. Click on an arrow to access additional information about that station.
 
 Sponsor:
 NOAA
@@ -613,21 +373,9 @@ Use map viewer to explore individual tide gages. Arrows represent the direction 
 Application:
 The mean sea level (MSL) trends measured by tide gauges that are presented on this web site are local relative MSL trends as opposed to the global sea level trend. Tide gauge measurements are made with restpect to a local fixed reference level on land; therefore, if there is some long-term vertical land motion occurring at that location, the relative MSL trend measured there is a combination of the global sea level rate and the local vertical land motion.
 
+## Surging Seas
 
-Close
-* Surging Seas: Provides local regions and policy makers with the tailored local information they need to understand and respond to the risks of sea level rise and coastal flooding.
-
-
-
-
-×
-
-
-#### Surging Seas
-
-
-
-
+Surging Seas: Provides local regions and policy makers with the tailored local information they need to understand and respond to the risks of sea level rise and coastal flooding.
 
 Sponsors:
 Climate Central
@@ -650,21 +398,9 @@ Compare: Comparisons of exposure across the whole state or selected county
 Application:
 The Risk Finder is designed to provide local regions and policy makers with the tailored local information they need to understand and respond to the risks of sea level rise and coastal flooding.
 
+## United States Interagency Elevation Inventory
 
-Close
-* United States Interagency Elevation Inventory: Displays availability of high-accuracy topographic and bathymetric data for the United States and its territories.
-
-
-
-
-×
-
-
-#### United States Interagency Elevation Inventory
-
-
-
-
+United States Interagency Elevation Inventory: Displays availability of high-accuracy topographic and bathymetric data for the United States and its territories.
 
 Sponsor:
 NOAA
@@ -678,8 +414,3 @@ How it works:
 Provides and index of elevation data. Includes both topographic and bathymetric data and covers the entire nation. Allows users to query by county or zoom to an area of interest and print a report
 Application:
 Used to locate high-accuracy elevation and topographic data resources.
-
-
-Close
-
-
