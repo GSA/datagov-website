@@ -26,9 +26,6 @@ template: ''
 title: counties &#8211; Residents
 type: page
 ---
-[![Residents](https://s3.amazonaws.com/bsp-ocsit-prod-east-appdata/datagov/wordpress/2013/10/attachments/counties-feature-residents.jpg "Residents")](/counties/page/counties-apps)
+[![Residents](https://s3.amazonaws.com/bsp-ocsit-prod-east-appdata/datagov/wordpress/2013/10/attachments/counties-feature-residents.jpg "Residents")](/counties/page/counties-apps.html)
 
-
-Looking for ways to get services and find more about your neighborhood? Connect with the [apps](/counties/page/counties-apps) and sites that give you information you need each day
-
-
+Looking for ways to get services and find more about your neighborhood? Connect with the [apps](/counties/page/counties-apps.html) and sites that give you information you need each day

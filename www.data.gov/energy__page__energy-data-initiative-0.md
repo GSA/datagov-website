@@ -29,12 +29,8 @@ template: ''
 title: Energy Data Initiative
 type: page
 ---
-[![Energy Data Initiative](https://s3.amazonaws.com/bsp-ocsit-prod-east-appdata/datagov/wordpress/2013/10/attachments/energy-feature-datainitiative2.png "Energy Data Initiative")](/energy/page/energy-data-initiative)
-
+[![Energy Data Initiative](https://s3.amazonaws.com/bsp-ocsit-prod-east-appdata/datagov/wordpress/2013/10/attachments/energy-feature-datainitiative2.png "Energy Data Initiative")](/energy/energy-data-initiative)
 
 The [Energy Data Initiative](http://www.whitehouse.gov/blog/2012/05/22/unlocking-power-energy-data) is an Administration-wide effort to liberate government data and voluntarily contributed non-government data as fuel to spur entrepreneurship, create value, and create jobs in the transition to a clean energy economy. Find out more about how you can benefit and participate!
 
-
-[Read More](/energy/page/energy-data-initiative)
-
-
+[Read More](/energy/energy-data-initiative)

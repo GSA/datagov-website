@@ -28,6 +28,6 @@ template: ''
 title: Counties Intro
 type: page
 ---
-Looking for ways to get services and find more about your neighborhood and your county? Connect with the [apps](http://www.data.gov/counties/page/counties-apps) and sites that give you information you need each day.
+Looking for ways to get services and find more about your neighborhood and your county? Connect with the [apps](http://www.data.gov/counties/page/counties-apps.html) and sites that give you information you need each day.
 
 

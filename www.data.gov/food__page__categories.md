@@ -29,17 +29,15 @@ template: ''
 title: Categories
 type: page
 ---
-* [Agriculture Investment and Engineering](https://www.data.gov/food/page/data-food-community?field_categorization_value=Agriculture%20Investment%20and%20Engineering)
-* [Animals and Animal Systems Agriculture](https://www.data.gov/food/page/data-food-community?field_categorization_value=Animals%20and%20Animal%20Systems%20Agriculture)
-* [Food/Non-Food Agricultural Products](https://www.data.gov/food/page/data-food-community?field_categorization_value=Food/Non-Food%20Agricultural%20Products)
-* [Geography and Environment](https://www.data.gov/food/page/data-food-community?field_categorization_value=Geography%20and%20Environment)
-* [Human Health and Nutrition](https://www.data.gov/food/page/data-food-community?field_categorization_value=Human%20Health%20and%20Nutrition)
-* [International Trade](https://www.data.gov/food/page/data-food-community?field_categorization_value=International%20Trade)
-* [Local and Regional Food Systems](https://www.data.gov/food/page/data-food-community?field_categorization_value=Local%20and%20Regional%20Food%20Systems)
-* [Markets, Prices, and Economics](https://www.data.gov/food/page/data-food-community?field_categorization_value=Markets,%20Prices,%20and%20Economics)
-* [Natural Resources and Environment](https://www.data.gov/food/page/data-food-community?field_categorization_value=Natural%20Resources%20and%20Environment)
-* [Plants and Plant Systems Agriculture](https://www.data.gov/food/page/data-food-community?field_categorization_value=Plants%20and%20Plant%20Systems%20Agriculture)
-* [Rural Development](https://www.data.gov/food/page/data-food-community?field_categorization_value=Rural%20Development)
-* [Science and Technology](https://www.data.gov/food/page/data-food-community?field_categorization_value=Science%20and%20Technology)
-
-
+* [Agriculture Investment and Engineering](/food/data-food-community)
+* [Animals and Animal Systems Agriculture](/food/data-food-community)
+* [Food/Non-Food Agricultural Products](/food/data-food-community)
+* [Geography and Environment](/food/data-food-community)
+* [Human Health and Nutrition](/food/data-food-community)
+* [International Trade](/food/data-food-community)
+* [Local and Regional Food Systems](/food/data-food-community)
+* [Markets, Prices, and Economics](/food/data-food-community)
+* [Natural Resources and Environment](/food/data-food-community)
+* [Plants and Plant Systems Agriculture](/food/data-food-community)
+* [Rural Development](/food/data-food-community)
+* [Science and Technology](/food/data-food-community)

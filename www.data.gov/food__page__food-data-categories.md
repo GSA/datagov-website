@@ -30,7 +30,7 @@ template: ''
 title: Food Data &#8211; Categories
 type: page
 ---
-[Geography and Environment](/food/page/data-food-community?keys=&field_categorization_value=Geography+and+Environment&field_dataset_vocabulary_tid=&items_per_page=25)  
+[Geography and Environment](/food/data-food-community)  
 Science and Technology  
 Land Use and Land Cover Data  
 Rural Data  
@@ -42,5 +42,3 @@ Food/Non-food Agricultural Products
 Markets, Prices, and Economics  
 Human Health and Nutrition  
 Local and Regional Food Systems
-
-

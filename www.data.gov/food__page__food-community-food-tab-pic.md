@@ -23,6 +23,4 @@ template: ''
 title: food community &#8211; food tab pic
 type: page
 ---
-![](https://s3.amazonaws.com/bsp-ocsit-prod-east-appdata/datagov/wordpress/2013/10/attachments/stock-photo-16638897-bamako-market.jpg)
-
-
+![stock-photo-16638897-bamako-market](https://s3.amazonaws.com/bsp-ocsit-prod-east-appdata/datagov/wordpress/2013/10/attachments/stock-photo-16638897-bamako-market.jpg)

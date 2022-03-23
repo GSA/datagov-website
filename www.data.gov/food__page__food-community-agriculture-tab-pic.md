@@ -23,6 +23,4 @@ template: ''
 title: food community &#8211; agriculture tab pic
 type: page
 ---
-![](https://s3.amazonaws.com/bsp-ocsit-prod-east-appdata/datagov/wordpress/2013/10/attachments/agriculture.jpg)
-
-
+![agriculture.jpg](https://s3.amazonaws.com/bsp-ocsit-prod-east-appdata/datagov/wordpress/2013/10/attachments/agriculture.jpg)

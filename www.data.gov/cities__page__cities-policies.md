@@ -31,7 +31,6 @@ type: page
 ---
 The data on Cities.Data.gov is brought together from many official government sites. The policies for the release of those data vary from one city to another. Below you can find the detailed policies and developer resources for each catalog in this collection.
 
-
 * [Albuquerque](http://www.cabq.gov/abq-data) provides an open [data policy](http://www.cabq.gov/abq-data/abq-data-disclaimer-1) and [developer resources](https://www.cabq.gov/abq-data/developer-resources).
 * [Arvada](http://arvada.org/opendata) provides an open [data policy](http://arvada.org/about-arvada/city-terms-and-conditions-of-use/) and [developer resources](http://gis-bouldercounty.opendata.arcgis.com/).
 * [Austin](http://Data.austintexas.gov) provides an open [data policy](http://www.austintexas.gov/page/legal-notice).
@@ -49,7 +48,4 @@ The data on Cities.Data.gov is brought together from many official government si
 * [Seattle](http://Data.seattle.gov) provides an open [data policy](https://data.seattle.gov/stories/s/Data-Policy/6ukr-wvup/) and [developer resources](http://dev.socrata.com/).
 * [Somerville](http://Data.somervillema.gov) provides an open [data policy](https://docs.digital.mass.gov/) and [developer resources](http://support.socrata.com/home).
 
-
 **Want to add your city?  Tweet us at @usdatagov or [contact us](https://www.data.gov/contact)**
-
-

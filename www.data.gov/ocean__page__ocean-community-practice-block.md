@@ -26,9 +26,7 @@ template: ''
 title: Ocean &#8211; Community Practice Block
 type: page
 ---
-* [Data Publishing and Exchange](/ocean/page/ocean-data-publishing-and-exchange)
-* [Data Quality and Documentation](/ocean/page/ocean-data-quality-and-documentation)
-* [Communication Forum](/ocean/page/marine-planning-portal-network)
-* [Quick Reference](/ocean/page/ocean-quick-reference)
-
-
+* [Data Publishing and Exchange](/ocean/ocean-data-publishing-and-exchange)
+* [Data Quality and Documentation](/ocean/ocean-data-quality-and-documentation)
+* [Communication Forum](/ocean/marine-planning-portal-network)
+* [Quick Reference](/ocean/ocean-quick-reference)

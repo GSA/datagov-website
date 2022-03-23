@@ -27,15 +27,10 @@ template: ''
 title: Vision &#8211; Food
 type: page
 ---
-![](https://s3.amazonaws.com/bsp-ocsit-prod-east-appdata/datagov/wordpress/2013/10/attachments/image1_0.png)
-
+![image1_0](https://s3.amazonaws.com/bsp-ocsit-prod-east-appdata/datagov/wordpress/2013/10/attachments/image1_0.png)
 
 This website is supported by the Interagency Council on Agricultural and Rural Statistics (ICARS).  ICARS is the effort of the US federal government’s statistical agencies in support of the “Global Strategy to Improve Agriculture and Rural Statistics” which was developed under the United Nations Statistical Commission. The impetus for the Global Strategy was the recognition that agriculture and rural statistics are declining across the globe at the same time as new data requirements are emerging.
 
-
 ICARS brings together experts from economic, demographic, environmental and agricultural statistical agencies and from natural resource agencies to improve the coordination and production of national statistics related to agriculture, food, natural resource and rural data.
 
-
-[Learn More](/food/page/statistics)
-
-
+[Learn More](/food/page/statistics.html)

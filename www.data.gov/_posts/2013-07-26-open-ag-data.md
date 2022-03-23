@@ -29,6 +29,6 @@ template: ''
 title: Open Ag Data
 type: post
 ---
-Miss the [~~#~~**OpenAgData**](/search?q=%23OpenAgData&src=hash) conference this week? Want a recap of announcements? Check out our summary page [http://go.usa.gov/TPUT](http://t.co/sKAPNEgaS1 "http://go.usa.gov/TPUT")
+Miss the ~~#~~**OpenAgData** conference this week? Want a recap of announcements? Check out our summary page [http://go.usa.gov/TPUT](http://t.co/sKAPNEgaS1 "http://go.usa.gov/TPUT")
 
 

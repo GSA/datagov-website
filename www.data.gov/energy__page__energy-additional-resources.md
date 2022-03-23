@@ -27,17 +27,10 @@ template: ''
 title: Energy &#8211; Additional Resources
 type: page
 ---
-The datasets displayed here are part of a growing number brought forth for the Energy.data.gov community. We will continue to integrate more over time. [Additional resources are available](/energy/page/searching-and-subscribing-energy-resources) from other Energy data sites.
-
+The datasets displayed here are part of a growing number brought forth for the Energy.data.gov community. We will continue to integrate more over time. [Additional resources are available](/energy/searching-and-subscribing-energy-resources) from other Energy data sites.
 
 Didn’t find what you’re looking for? [Suggest a dataset](http://explore.data.gov/nominate).
 
-
 <!--?php /*
 
-
-
 <p>Find more high value health datasets at [HealthData.gov](http://healthdata.gov/)
-
-
-

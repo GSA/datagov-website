@@ -30,17 +30,8 @@ type: page
 Data Quality and Documentation
 ------------------------------
 
-
-[![Data Quality and Documentation](https://s3.amazonaws.com/bsp-ocsit-prod-east-appdata/datagov/wordpress/2013/10/images/ocean-communities-center.png "Data Quality and Documentation")](/ocean/page/ocean-data-quality-and-documentation)
-
+[![Data Quality and Documentation](https://s3.amazonaws.com/bsp-ocsit-prod-east-appdata/datagov/wordpress/2013/10/images/ocean-communities-center.png "Data Quality and Documentation")](/ocean/ocean-data-quality-and-documentation)
 
 Suggested metadata standards and requirements as well as community-supported content standards.
 
-
- 
-
-
-[Read More](/ocean/page/ocean-data-quality-and-documentation)
-
-
-
+[Read More](/ocean/ocean-data-quality-and-documentation)

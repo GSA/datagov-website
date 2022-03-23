@@ -50,7 +50,7 @@ type: page
 ![datagov_2014_logo](https://f.cloud.github.com/assets/1445364/1864941/e03ff8de-7800-11e3-9be2-5802c77747e9.jpg)
 
 
-* If you have any questions about linking to Data.gov, the use of the logo, or want more information or promotional materials on Data.gov, please post the question to the [Open Data Stack Exchange](http://opendata.stackexchange.com) and tag it “data-gov”  or [contact us](/contact-engage/).
+* If you have any questions about linking to Data.gov, the use of the logo, or want more information or promotional materials on Data.gov, please post the question to the [Open Data Stack Exchange](http://opendata.stackexchange.com) and tag it “data-gov”  or [contact us](/contact).
 
 
 ### Public Information

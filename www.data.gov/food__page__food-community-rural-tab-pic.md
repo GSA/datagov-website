@@ -23,6 +23,4 @@ template: ''
 title: food community &#8211; rural tab pic
 type: page
 ---
-![](https://s3.amazonaws.com/bsp-ocsit-prod-east-appdata/datagov/wordpress/2013/10/attachments/rural.jpg)
-
-
+![rural.jpg](https://s3.amazonaws.com/bsp-ocsit-prod-east-appdata/datagov/wordpress/2013/10/attachments/rural.jpg)

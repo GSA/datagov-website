@@ -28,14 +28,7 @@ template: Apps.php
 title: Developer-Apps
 type: page
 ---
-Apps and Tools are at the heart of enabling developers to get their projects completed effectively. Below you’ll find work underway or tools available to you in the areas of metadata, APIs, vocabularies, and training. Don’t see what you need or have something to share, [let us know!](/developers/page/developer-forums)
-
+Apps and Tools are at the heart of enabling developers to get their projects completed effectively. Below you’ll find work underway or tools available to you in the areas of metadata, APIs, vocabularies, and training.
 
 * Each of Data.gov’s interactive datasets have a published [API](http://explore.data.gov/catalog/next-gen). APIs are also published by [agencies](http://explore.data.gov/browse?Dataset-Information_Extended-Type=Data+Extraction+Tool&q=api).
-* Ready to try building a mashup or application? To get started, check out the [tutorials](http://logd.tw.rpi.edu/tutorials) and [videos](http://logd.tw.rpi.edu/videos) that will help you. If you would like examples of what other people are doing, check out applications developed by the [government](https://explore.data.gov/catalog/apps) and [public](/developers/showcase).
-* Suggest a new app, map, or visualization on [our forums](/developers/page/developer-forums).
-
-
-* **To learn about Innovations at RPI, click [here](/developers/page/innovations-rpi "Innovations at RPI").**
-
-
+* Ready to try building a mashup or application? To get started, check out the [tutorials](http://logd.tw.rpi.edu/tutorials) and [videos](http://logd.tw.rpi.edu/videos) that will help you. If you would like examples of what other people are doing, check out applications developed by the [government](https://explore.data.gov/catalog/apps).

@@ -251,7 +251,7 @@ Use of Logo
 * The image below is the official Data.gov logo.
 
 
-[![](https://s3.amazonaws.com/bsp-ocsit-prod-east-appdata/datagov/wordpress/2020/07/logo.png)](https://s3.amazonaws.com/bsp-ocsit-prod-east-appdata/datagov/wordpress/2020/07/logo.png)
+[![logo](https://s3.amazonaws.com/bsp-ocsit-prod-east-appdata/datagov/wordpress/2020/07/logo.png)](https://s3.amazonaws.com/bsp-ocsit-prod-east-appdata/datagov/wordpress/2020/07/logo.png)
 
 
 * The Data.gov logo can be used to indicate linkage or federation of the datasets on Data.gov.

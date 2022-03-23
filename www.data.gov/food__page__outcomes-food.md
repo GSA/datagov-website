@@ -31,12 +31,8 @@ type: page
  
 
 
-![](https://s3.amazonaws.com/bsp-ocsit-prod-east-appdata/datagov/wordpress/2013/10/images/about_new.jpg)
+![about_new](https://s3.amazonaws.com/bsp-ocsit-prod-east-appdata/datagov/wordpress/2013/10/images/about_new.jpg)
 
+This site is a centralized federal resource for Food, Agriculture and Rural data. Here you will find hundreds of government [datasets](/food/data-food-community) that can help enable research, tools and decision making to improve food security; [apps](/food/page/food-apps.html) that demonstrate the power of open data for agriculture; tools for app [developers](http://usda.gov/wps/portal/usda/usdahome?navid=USDA_DEVELOPER); and opportunities to [collaborate](/food/collaborate-food-community) to learn more about Food, Agriculture and Rural data and issues.
 
-This site is a centralized federal resource for Food, Agriculture and Rural data. Here you will find hundreds of government [datasets](/food/page/data-food-community) that can help enable research, tools and decision making to improve food security; [apps](/food/page/food-apps) that demonstrate the power of open data for agriculture; tools for app [developers](http://usda.gov/wps/portal/usda/usdahome?navid=USDA_DEVELOPER); and [events](/food/page/events) and opportunities to [collaborate](/food/page/collaborate-food-community) to learn more about Food, Agriculture and Rural data and issues.
-
-
-[Learn more](/food/page/about)
-
-
+[Learn more](/food/about)

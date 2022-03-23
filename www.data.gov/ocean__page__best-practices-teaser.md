@@ -33,18 +33,12 @@ type: page
 Best Practices
 --------------
 
-
 Collection of resources on best practices and recommendations for marine planning data interoperability
 
+* [Metadata Standards](/ocean/best-practices#standards)
+* [Common Mapping Standards](/ocean/best-practices#mapping)
+* [Spatial Data Standards](/ocean/best-practices#spatial)
+* [Marine Metadata Interoperability](/ocean/best-practices#interoperability)
+* [Data Quality Guidelines and Policies](/ocean/best-practices#quality)
 
-* [Metadata Standards](http://www.data.gov/ocean/page/best-practices#standards)
-* [Common Mapping Standards](http://www.data.gov/ocean/page/best-practices#mapping)
-* [Spatial Data Standards](http://www.data.gov/ocean/page/best-practices#spatial)
-* [Marine Metadata Interoperability](http://www.data.gov/ocean/page/best-practices#interoperability)
-* [Data Quality Guidelines and Policies](http://www.data.gov/ocean/page/best-practices#quality)
-
-
-[Read More](/ocean/page/best-practices)
-
-
-
+[Read More](/ocean/best-practices)

@@ -27,18 +27,10 @@ template: ''
 title: counties &#8211; developers
 type: page
 ---
-[![Developers](https://s3.amazonaws.com/bsp-ocsit-prod-east-appdata/datagov/wordpress/2013/10/attachments/counties-feature-developers.jpg "Developers")](/counties/page/counties-policies)
-
+[![Developers](https://s3.amazonaws.com/bsp-ocsit-prod-east-appdata/datagov/wordpress/2013/10/attachments/counties-feature-developers.jpg "Developers")](/counties/page/counties-policies.html)
 
 Got an idea for an app? We’ve got data! Find examples and open challenges here. For additional developer resources, check out [Developer.Data.gov](http://developer.data.gov).
 
+You can view the [policies](/counties/page/counties-policies.html) relating to the release of data from the participating counties and the federal government.
 
-You can view the [policies](/counties/page/counties-policies) relating to the release of data from the participating counties and the federal government.
-
-
-[![](https://s3.amazonaws.com/bsp-ocsit-prod-east-appdata/datagov/wordpress/2013/10/attachments/bigdataweek_challenge.png)](http://bigdataweek.com/ "Bigdata Week")
-
-
- 
-
-
+[![Big Data Week](https://s3.amazonaws.com/bsp-ocsit-prod-east-appdata/datagov/wordpress/2013/10/attachments/bigdataweek_challenge.png)](http://bigdataweek.com/ "Bigdata Week")
