@@ -1,4 +1,31 @@
 ---
+acf: []
+author: admin
+categories: []
+comment_status: open
+date: '2014-05-27T12:10:15'
+date_gmt: '2014-05-27T16:10:15'
+excerpt: '<p>The catalog on Data.gov provides the ability to search and browse datasets,
+  data series, tools, and products. Finding Data Data.gov federates data from hundreds
+  of sources, including federal government, cities, counties, states, and universities.
+  All contributing organizations are listed under &hellip; <a aria-describedby="post-title-180911"
+  href="https://www.data.gov/catalog-help/">Continued</a></p>
+
+  '
+featured_media: 0
+guid: https://www.data.gov/?page_id=180911
+id: 180911
+layout: legacy-page
+link: https://www.data.gov/catalog-help/
+meta: []
+modified: '2020-09-23T18:55:22'
+modified_gmt: '2020-09-23T22:55:22'
+permalink: /catalog-help/
+ping_status: open
+redirect_from: []
+slug: catalog-help
+status: publish
+template: ''
 title: Catalog Help
 layout: legacy-page
 ---
