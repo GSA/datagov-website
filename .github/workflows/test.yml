@@ -13,6 +13,6 @@ jobs:
         with:
           bundler-cache: true
       - name: jekyll
-        run: npm run build:jekyll
+        run: npm run build
       - name: htmlproofer
         run: npm run lint
