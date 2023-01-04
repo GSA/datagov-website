@@ -1,23 +1,25 @@
 {
-  "name": "datagov-website",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/GSA/datagov-website.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/GSA/datagov-website/issues"
-  },
-  "homepage": "https://github.com/GSA/datagov-website#readme",
-  "description": "",
-  "scripts": {
-    "build:jekyll": "bundle exec jekyll build",
-    "federalist": "echo ok",
-    "lint": "bin/lint.sh",
-    "setup": "bundle install",
-    "start": "bundle exec jekyll serve"
-  }
+    "name": "datagov-website",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/GSA/datagov-website.git"
+    },
+    "author": "Data.gov <datagovhelp@gsa.gov>",
+    "license": "CC0-1.0",
+    "bugs": {
+        "url": "https://github.com/GSA/datagov-website/issues"
+    },
+    "homepage": "https://github.com/GSA/datagov-website#readme",
+    "description": "",
+    "scripts": {
+        "build": "bundle exec jekyll build",
+        "pages": "",
+        "lint": "bin/lint.sh",
+        "qa": "bundle exec htmlproofer --check-html _site",
+        "setup": "bundle install",
+        "start": "bundle exec jekyll serve",
+        "test": "bundle exec htmlproofer --check-html --disable-external _site"
+    }
 }

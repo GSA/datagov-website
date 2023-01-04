@@ -22,7 +22,7 @@ Install the dependencies.
 
 Build the Jekyll site.
 
-    $ npm run build:jekyll
+    $ npm run build
 
 Serve the site locally.
 

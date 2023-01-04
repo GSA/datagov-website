@@ -4,3 +4,4 @@ _site/
 .syncthing*
 _test_garbage/
 /todo.txt
+.vscode/
