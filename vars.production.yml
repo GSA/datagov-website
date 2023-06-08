@@ -5,5 +5,4 @@ routes:
   - route: www-redirects-prod-datagov.app.cloud.gov
   - route: climate.data.gov
   - route: dashboard.data.gov
-  - route: dashboard-prod-datagov.app.cloud.gov
   - route: www.data.gov
