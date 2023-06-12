@@ -4,4 +4,5 @@ memory: 64M
 routes:
   - route: www-redirects-prod-datagov.app.cloud.gov
   - route: climate.data.gov
+  - route: dashboard.data.gov
   - route: www.data.gov
